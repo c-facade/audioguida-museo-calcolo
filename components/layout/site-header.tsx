@@ -1,4 +1,3 @@
-import { siteConfig } from '@/config/site';
 import { MainNav } from '@/components/layout/main-nav';
 
 export function SiteHeader() {

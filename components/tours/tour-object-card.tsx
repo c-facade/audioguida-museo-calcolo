@@ -11,15 +11,15 @@ import { AudioButton } from './audio-button';
 
 export function TourObjectCard({ tour, tourObject }) {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
-  const [sound, setSound] = useState(null);
+  const [sound, setSound] = useState<any | null>(null);
   const [dimensions, setDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
   });
 
-  const stageRef = useRef(null);
-  const imageRef = useRef(null);
-  const lastEventRef = useRef(null);
+  const stageRef = useRef<any | null>(null);
+  const imageRef = useRef<any | null>(null);
+  const lastEventRef = useRef<any | null>(null);
 
   const imageUrl = `/tours/${tour.slug}/${tourObject.slug}/object.jpg`;
   const [image] = useImage(imageUrl);
@@ -67,6 +67,8 @@ export function TourObjectCard({ tour, tourObject }) {
       sound.play();
 
       const intervalId = setInterval(() => {
+        if (!image) return;
+        
         const currentTime = sound.seek();
 
         const currentEvent = timeline.find((event, index, array) => {
@@ -118,7 +120,7 @@ export function TourObjectCard({ tour, tourObject }) {
         sound.pause();
       }
     }
-  }, [isAudioPlaying, sound, timeline, createSound]);
+  }, [isAudioPlaying, image, dimensions.height, dimensions.width, sound, timeline, createSound]);
 
   function startAudio() {
     setIsAudioPlaying(true);
