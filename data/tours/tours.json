@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "highlights",
+    "name": "Highlights Tour",
+    "objects": [
+      {
+        "id": 1558,
+        "slug": "storm_in_the_rocky_mountains_mt_rosalie_albert_bierstadt",
+        "title": "A Storm in the Rocky Mountains, Mt. Rosalie",
+        "date": "1866",
+        "artist": "Albert Bierstadt",
+        "artistBio": "American, born Germany, 1830-1902",
+        "museumLocation": "American Art Galleries, 5th Floor, Imagining the New Nation’s Landscape, 1800–1880",
+        "text": "In 1866 Albert Bierstadt debuted this painting to great attendance in New York City. The exhibition was a theatrical experience. There was seating for viewers in front of the painting, dramatic lighting and an accompanying leaflet to guide an east coast resident's eye over this impressive distant rocky mountain landscape. \n\nDescribing the storm, the leaflet read:\n\n\"The character of these masses of clouds, wind tossed and big with thunder is something wonderful. The idea of motion conveyed in them is skillfully represented. They seem to surge and swirl before the site to roll over and over in massive forms and rock to and fro like ships at sea.\"\n\nLow down, they are of a dark lead color running into black. While above they grow lighter and are tinted, tender gray to the left. They become fleecy and white and the blue sky appears amid this clear atmosphere.\n\nThe two snow peaks rise above this storm, peaceful and calm and tinged by the sunlight. \nA rosy hue, a solitary eagle is cleaving his way through the heavens in advance of the approaching storm Bierstadt.\n\nLike other 19th century painters of the American West cultivated a reputation as an adventurer.  He joined scientific expeditions across the continent to inform his paintings. He even invited journalists to join him and report on the 18 63 journey that informed this painting, the write ups and resulting awe inspiring paintings perpetuated an understanding of the American continents as untouched wilderness. They were also often used to advocate for the US government's theft of land and the displacement of native Americans living in these regions.",
+        "artistText": "Albert Bierstadt (January 7, 1830 – February 18, 1902) was a German-American painter best known for his lavish, sweeping landscapes of the American West. He joined several journeys of the Westward Expansion to paint the scenes. He was not the first artist to record the sites, but he was the foremost painter of them for the remainder of the 19th century.",
+        "timeline": [
+          {
+            "description": "describing the storm...",
+            "start": 22,
+            "percentX": 35,
+            "percentY":40,
+            "scale": 1.4
+          },
+          {
+            "description": "low down..",
+            "start": 48,
+            "percentX": 35,
+            "percentY": 40,
+            "scale": 1.8
+          },
+          {
+            "description": "while above ",
+            "start": 53,
+            "percentX": 35,
+            "percentY": 30,
+            "scale": 1.8
+          },
+          {
+            "description": "to the left clouds",
+            "start": 58,
+            "percentX": 25,
+            "percentY": 25,
+            "scale": 2.2
+          },
+          {
+            "description": "mountains",
+            "start": 63,
+            "percentX": 25,
+            "percentY": 25,
+            "scale": 2.4
+          },
+          {
+            "description": "eagle",
+            "start": 74,
+            "percentX": 60,
+            "percentY": 30,
+            "scale": 2.4
+          },
+          {
+            "description": "zoom out",
+            "start": 81,
+            "percentX": 50,
+            "percentY": 50,
+            "scale": 1
+          }
+        ]
+      }
+    ]
+  }
+]
