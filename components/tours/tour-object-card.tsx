@@ -19,7 +19,7 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
       <TourObjectImagePresentation tour={tour} tourObject={tourObject} />
       <h4 className="mt-2 text-xl">{tourObject.title}</h4>
       <h5 className="mt-1 text-base text-neutral-400">{tourObject.date}</h5>
-      <h5 className="mt-2 text-sm text-neutral-400">
+      <h5 className="my-2 text-sm text-neutral-400">
         {tourObject.artist}, {tourObject.artistBio}
       </h5>
 

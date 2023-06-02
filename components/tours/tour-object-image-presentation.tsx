@@ -17,7 +17,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
   });
 
   const stageRef = useRef<any | null>(null);
-  const stageParentRef = useRef(null);
+  const stageParentRef = useRef<HTMLInputElement>(null);
   const imageRef = useRef<any | null>(null);
   const lastEventRef = useRef<any | null>(null);
 
@@ -47,17 +47,19 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
       setDimensions({ width, height });
     }
 
-    // Create a new Resize Observer instance and observe the stageParentRef
-    const resizeObserver = new ResizeObserver(handleResize);
-    resizeObserver.observe(parentElement);
+    if (parentElement) {
+      // Create a new Resize Observer instance and observe the stageParentRef
+      const resizeObserver = new ResizeObserver(handleResize);
+      resizeObserver.observe(parentElement);
 
-    // Initial call to handleResize function to set dimensions
-    handleResize([{ contentRect: parentElement.getBoundingClientRect() }]);
+      // Initial call to handleResize function to set dimensions
+      handleResize([{ contentRect: parentElement.getBoundingClientRect() }]);
 
-    return () => {
-      // Disconnect the observer when the component is unmounted
-      if (parentElement) resizeObserver.unobserve(parentElement);
-    };
+      return () => {
+        // Disconnect the observer when the component is unmounted
+        if (parentElement) resizeObserver.unobserve(parentElement);
+      };
+    }
   }, [image]);
 
   useEffect(() => {
