@@ -1,17 +1,16 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-// import Image from 'next/image';
-import { Howl } from 'howler';
+import { Howl, Howler } from 'howler';
 import Konva from 'konva';
 import { Image, Layer, Stage } from 'react-konva';
 import useImage from 'use-image';
+
 import { Icons } from '@/components/icons';
 import { RoundButton } from './round-button';
 
 export function TourObjectImagePresentation({ tour, tourObject }) {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
-  const [sound, setSound] = useState<any | null>(null);
   const [dimensions, setDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -29,6 +28,8 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
   const alt = '';
 
   const audioUrl = `/tours/${tour.slug}/${tourObject.slug}/audio.mp3`;
+
+  const soundRef = useRef<Howl | null>(null);
 
   useEffect(() => {
     function handleResize() {
@@ -51,19 +52,21 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, [image]); // Rerun effect if image changes
-
-  const createSound = () => {
-    return new Howl({
-      src: [audioUrl],
-    });
-  };
+  }, [image]);
 
   useEffect(() => {
-    if (isAudioPlaying) {
-      if (!sound) setSound(createSound());
-      if (!sound || sound.playing()) return;
+    if (!soundRef.current) {
+      Howler.unload(); // stop any other sounds
+      soundRef.current = new Howl({
+        src: [audioUrl],
+      });
+    }
 
+    const sound = soundRef.current;
+
+    if (!isAudioPlaying) {
+      sound.pause();
+    } else {
       sound.play();
 
       const intervalId = setInterval(() => {
@@ -115,12 +118,15 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
       return () => {
         clearInterval(intervalId);
       };
-    } else {
-      if (sound) {
-        sound.pause();
-      }
     }
-  }, [isAudioPlaying, image, dimensions.height, dimensions.width, sound, timeline, createSound]);
+  }, [
+    isAudioPlaying,
+    image,
+    dimensions.height,
+    dimensions.width,
+    timeline,
+    audioUrl,
+  ]);
 
   function startAudio() {
     setIsAudioPlaying(true);
