@@ -77,50 +77,29 @@
         "artistText": "Beauford Delaney (December 30, 1901 – March 26, 1979) was an American modernist painter. He is remembered for his work with the Harlem Renaissance in the 1930s and 1940s, as well as his later works in abstract expressionism following his move to Paris in the 1950s. Beauford's younger brother, Joseph, was also a noted painter.",
         "timeline": [
           {
-            "description": "describing the storm...",
-            "start": 22,
-            "percentX": 35,
-            "percentY":40,
+            "description": "with this bowl of fruit",
+            "start": 12,
+            "percentX": 45,
+            "percentY": 60,
             "scale": 1.4
           },
           {
-            "description": "low down..",
-            "start": 48,
-            "percentX": 35,
-            "percentY": 40,
-            "scale": 1.8
+            "description": "african figurine",
+            "start": 19,
+            "percentX": 70,
+            "percentY": 50,
+            "scale": 1.2
           },
           {
-            "description": "while above ",
-            "start": 53,
-            "percentX": 35,
-            "percentY": 30,
-            "scale": 1.8
+            "description": "hip hop",
+            "start": 26,
+            "percentX": 50,
+            "percentY": 50,
+            "scale": 1.2
           },
           {
-            "description": "to the left clouds",
-            "start": 58,
-            "percentX": 25,
-            "percentY": 25,
-            "scale": 2.2
-          },
-          {
-            "description": "mountains",
-            "start": 63,
-            "percentX": 25,
-            "percentY": 25,
-            "scale": 2.4
-          },
-          {
-            "description": "eagle",
-            "start": 74,
-            "percentX": 60,
-            "percentY": 30,
-            "scale": 2.4
-          },
-          {
-            "description": "zoom out",
-            "start": 81,
+            "description": "hip hop",
+            "start": 30,
             "percentX": 50,
             "percentY": 50,
             "scale": 1

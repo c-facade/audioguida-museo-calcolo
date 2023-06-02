@@ -16,9 +16,7 @@ import { TourObjectImagePresentation } from './tour-object-image-presentation';
 export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
   return (
     <div className="">
-      <h4 className="mt-2 text-xl">
-        {tourObject.title}
-      </h4>
+      <h4 className="mt-2 text-xl">{tourObject.title}</h4>
       <h5 className="mt-1 text-base text-neutral-400">{tourObject.date}</h5>
       <h5 className="mt-2 text-sm text-neutral-400">
         {tourObject.artist}, {tourObject.artistBio}
@@ -37,15 +35,15 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
               About the Artist
             </div>
             <div className="flex gap-4">
-              <div className="">
+              <div className="w-24 flex-none">
                 <Image
                   alt="Artist"
                   src={`/tours/${tour?.slug}/${tourObject?.slug}/artist.jpg`}
-                  width="300"
-                  height="300"
+                  width="500"
+                  height="500"
                 />
               </div>
-              <div>{tourObject?.artistText}</div>
+              <div className="flex-1">{tourObject?.artistText}</div>
             </div>
             <div className="mt-4 text-right font-semibold text-neutral-400 hover:underline">
               <a href="#">See more works by this artist &gt;</a>
