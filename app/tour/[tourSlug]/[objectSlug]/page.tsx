@@ -1,10 +1,9 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import tours from '@/data/tours/tours.json';
+
 import { BkmLogo } from '@/components/bkm-logo';
+import { TourNav } from '@/components/tours/tour-nav';
 import { TourObjectCard } from '@/components/tours/tour-object-card';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/tours/tour-tabs"
-import { MuseumMap } from '@/components/museum-map/museum-map';
 
 export async function generateMetadata({ params }): Promise<Metadata> {
   const tourSlug = params.tourSlug;
@@ -42,53 +41,37 @@ export default function Page({ params }) {
   const objectSlug = params.objectSlug;
   const tour = tours.find((tour) => tour.slug === tourSlug);
   let tourObject: any = null;
+  let tourObjectIndex = -1;
   if (tour) {
-    tourObject = tour.objects.find(
+    tourObjectIndex = tour.objects.findIndex(
       (tourObject) => tourObject.slug === objectSlug
     );
+    tourObject = tour.objects[tourObjectIndex];
   }
 
   return (
     <section className="container mb-12 mt-6">
-      <BkmLogo className='w-52 fill-neutral-600 hover:fill-neutral-400' />
-      <h1 className="mt-2 text-2xl font-extrabold text-neutral-300 lg:text-3xl">
-        {tour?.name}
-      </h1>
-      <TourObjectCard tour={tour} tourObject={tourObject} />
-
-      <Tabs defaultValue="objectText" className="w-full">
-        <TabsList>
-          <TabsTrigger value="objectText">Text</TabsTrigger>
-          <TabsTrigger value="objectMap">Map</TabsTrigger>
-        </TabsList>
-        <TabsContent value="objectText">
-          <div className="whitespace-pre-line">{tourObject?.text}</div>
-            <div className="mt-8 bg-neutral-900 p-4">
-              <div className="mb-4 font-semibold uppercase text-neutral-400">
-                About the Artist
-              </div>
-              <div className="flex gap-4">
-                <div className="">
-                  <Image
-                    alt="Artist"
-                    src={`/tours/${tour?.slug}/${tourObject?.slug}/artist.jpg`}
-                    width="300"
-                    height="300"
-                  />
-                </div>
-                <div>{tourObject?.artistText}</div>
-              </div>
-              <div className="mt-4 text-right font-semibold text-neutral-400 hover:underline">
-                <a href="#">See more works by this artist &gt;</a>
-              </div>
-            </div>
-        </TabsContent>
-        <TabsContent value="objectMap">
-          <div className="w-full">
-            <MuseumMap item={tourObject} />
+      <div className="flex w-full">
+        <div className="grow">
+          <BkmLogo className="w-48 fill-neutral-600 hover:fill-neutral-400" />
+          <div className="mt-2 flex items-center gap-x-2">
+            <h1 className="text-2xl font-extrabold text-neutral-300">
+              {tour?.name}
+            </h1>
+            <span className="ml-2 rounded-full bg-neutral-800 py-2 px-3 text-sm font-extrabold">
+              {tourObjectIndex + 1} of {tour?.objects.length}
+            </span>
           </div>
-        </TabsContent>
-      </Tabs>
+        </div>
+        <div className="flex gap-x-2">
+          <TourNav tour={tour} tourObjectIndex={tourObjectIndex} />
+        </div>
+      </div>
+      <TourObjectCard
+        tour={tour}
+        tourObject={tourObject}
+        tourObjectIndex={tourObjectIndex}
+      />
     </section>
   );
 }

@@ -13,6 +13,8 @@ const buttonVariants = cva(
       },
       size: {
         default: 'h-16 w-16',
+        md: 'h-12 w-12',
+        sm: 'h-8 w-8',
       },
     },
     defaultVariants: {
@@ -26,7 +28,7 @@ export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonVariants> {}
 
-const AudioButton = React.forwardRef<HTMLButtonElement, ButtonProps>(
+const RoundButton = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, ...props }, ref) => {
     return (
       <button
@@ -37,6 +39,6 @@ const AudioButton = React.forwardRef<HTMLButtonElement, ButtonProps>(
     );
   }
 );
-AudioButton.displayName = 'AudioButton';
+RoundButton.displayName = 'RoundButton';
 
-export { AudioButton, buttonVariants };
+export { RoundButton, buttonVariants };

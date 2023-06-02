@@ -143,5 +143,11 @@
     "imgId": "f5-arts-americas",
     "name": "American Art Galleries, 5th Floor, Imagining the New Nation’s Landscape, 1800–1880",
     "floor": 5
+  },
+  {
+    "id": "americas-colonies",
+    "imgId": "f5-arts-americas",
+    "name": "American Art Galleries, 5th Floor, Beyond Borders and Boundaries, 20th and 21st Centuries",
+    "floor": 5
   }
 ]
