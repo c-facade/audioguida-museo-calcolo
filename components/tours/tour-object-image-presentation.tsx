@@ -17,6 +17,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
   });
 
   const stageRef = useRef<any | null>(null);
+  const stageParentRef = useRef(null);
   const imageRef = useRef<any | null>(null);
   const lastEventRef = useRef<any | null>(null);
 
@@ -32,9 +33,11 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
   const soundRef = useRef<Howl | null>(null);
 
   useEffect(() => {
-    function handleResize() {
-      const width = window.innerWidth;
-      let height = window.innerHeight;
+    const parentElement = stageParentRef.current;
+
+    function handleResize([entry]) {
+      const width = entry.contentRect.width;
+      let height = entry.contentRect.height;
 
       if (image && image.naturalWidth && image.naturalHeight) {
         const aspectRatio = image.naturalWidth / image.naturalHeight;
@@ -44,13 +47,16 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
       setDimensions({ width, height });
     }
 
-    window.addEventListener('resize', handleResize);
+    // Create a new Resize Observer instance and observe the stageParentRef
+    const resizeObserver = new ResizeObserver(handleResize);
+    resizeObserver.observe(parentElement);
 
     // Initial call to handleResize function to set dimensions
-    handleResize();
+    handleResize([{ contentRect: parentElement.getBoundingClientRect() }]);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      // Disconnect the observer when the component is unmounted
+      if (parentElement) resizeObserver.unobserve(parentElement);
     };
   }, [image]);
 
@@ -139,7 +145,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
   return (
     <>
       <div className="relative my-6 w-full">
-        <div className="flex items-center justify-center">
+        <div className="w-full" ref={stageParentRef}>
           <Stage
             width={dimensions.width}
             height={dimensions.height}

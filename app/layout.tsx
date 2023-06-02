@@ -42,7 +42,7 @@ export default async function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-black font-sans text-neutral-50 antialiased">
+      <body className="bg-black font-sans text-neutral-50 antialiased max-w-screen-sm">
         {children}
       </body>
     </html>
