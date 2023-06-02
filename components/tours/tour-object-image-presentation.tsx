@@ -138,26 +138,30 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
 
   return (
     <>
-      <div className="my-6 flex w-full items-center justify-center">
-        <Stage
-          width={dimensions.width}
-          height={dimensions.height}
-          ref={stageRef}
-        >
-          <Layer>
-            <Image
-              ref={imageRef}
-              alt={alt}
-              image={image}
-              width={dimensions.width}
-              height={dimensions.height}
-              x={0}
-              y={0}
-              scaleX={1}
-              scaleY={1}
-            />
-          </Layer>
-        </Stage>
+      <div className="relative my-6 w-full">
+        <div className="flex items-center justify-center">
+          <Stage
+            width={dimensions.width}
+            height={dimensions.height}
+            ref={stageRef}
+          >
+            <Layer>
+              <Image
+                ref={imageRef}
+                alt={alt}
+                image={image}
+                width={dimensions.width}
+                height={dimensions.height}
+                x={0}
+                y={0}
+                scaleX={1}
+                scaleY={1}
+              />
+            </Layer>
+          </Stage>
+        </div>
+        <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center">
+        </div>
       </div>
       <div className="mb-4 flex w-full items-center justify-center">
         {!isAudioPlaying ? (
