@@ -12,7 +12,7 @@ const buttonVariants = cva(
           'bg-neutral-900 text-white hover:bg-neutral-700',
       },
       size: {
-        default: 'h-16 w-16',
+        default: 'h-20 w-20',
         md: 'h-12 w-12',
         sm: 'h-8 w-8',
       },

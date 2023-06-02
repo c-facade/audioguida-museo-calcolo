@@ -16,18 +16,26 @@ import { TourObjectImagePresentation } from './tour-object-image-presentation';
 export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
   return (
     <div className="">
-      <TourObjectImagePresentation tour={tour} tourObject={tourObject} />
-      <h4 className="mt-2 text-xl">{tourObject.title}</h4>
-      <h5 className="mt-1 text-base text-neutral-400">{tourObject.date}</h5>
+      <h4 className="mt-2 text-xl">
+        {tourObject.title}
+        <span className="ml-3 text-neutral-400">{tourObject.date}</span>
+      </h4>
+      
       <h5 className="my-2 text-sm text-neutral-400">
         {tourObject.artist}, {tourObject.artistBio}
       </h5>
+      <TourObjectImagePresentation tour={tour} tourObject={tourObject} />
 
-      <Tabs defaultValue="objectText" className="w-full">
+      <Tabs defaultValue="objectMap" className="w-full">
         <TabsList>
-          <TabsTrigger value="objectText">Text</TabsTrigger>
-          <TabsTrigger value="objectMap">Map</TabsTrigger>
+          <TabsTrigger value="objectMap">Museum Map</TabsTrigger>
+          <TabsTrigger value="objectText">Full Text</TabsTrigger>
         </TabsList>
+        <TabsContent value="objectMap">
+          <div className="w-full">
+            <MuseumMap item={tourObject} />
+          </div>
+        </TabsContent>
         <TabsContent value="objectText">
           <div className="whitespace-pre-line">{tourObject?.text}</div>
           <div className="mt-8 bg-neutral-900 p-4">
@@ -48,11 +56,6 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
             <div className="mt-4 text-right font-semibold text-neutral-400 hover:underline">
               <a href="#">See more works by this artist &gt;</a>
             </div>
-          </div>
-        </TabsContent>
-        <TabsContent value="objectMap">
-          <div className="w-full">
-            <MuseumMap item={tourObject} />
           </div>
         </TabsContent>
       </Tabs>

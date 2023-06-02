@@ -15,7 +15,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
     width: window.innerWidth,
     height: window.innerHeight,
   });
-
+  const [ currentAnnotation, setCurrentAnnotation ] = useState('');
   const stageRef = useRef<any | null>(null);
   const stageParentRef = useRef<HTMLInputElement>(null);
   const imageRef = useRef<any | null>(null);
@@ -24,7 +24,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
   const imageUrl = `/tours/${tour.slug}/${tourObject.slug}/object.jpg`;
   const [image] = useImage(imageUrl);
 
-  const timeline = tourObject.timeline;
+  const annotations = tourObject.annotations;
 
   const alt = '';
 
@@ -82,7 +82,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
 
         const currentTime = sound.seek();
 
-        const currentEvent = timeline.find((event, index, array) => {
+        const currentEvent = annotations.find((event, index, array) => {
           const nextEvent = array[index + 1];
           return (
             currentTime >= event.start &&
@@ -90,8 +90,13 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
           );
         });
 
+        if (currentEvent && currentEvent.text) {
+          setCurrentAnnotation(currentEvent.text);
+        }
+
         if (
           currentEvent &&
+          currentEvent.percentX &&
           (!lastEventRef.current ||
             currentEvent.start !== lastEventRef.current.start)
         ) {
@@ -132,7 +137,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
     image,
     dimensions.height,
     dimensions.width,
-    timeline,
+    annotations,
     audioUrl,
   ]);
 
@@ -146,7 +151,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
 
   return (
     <>
-      <div className="relative my-6 w-full">
+      <div className="relative mt-4 mb-2 w-full">
         <div className="w-full" ref={stageParentRef}>
           <Stage
             width={dimensions.width}
@@ -171,15 +176,18 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
         <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center">
         </div>
       </div>
+      <div className="flex h-[60px] w-full items-start justify-center">
+        {currentAnnotation}&nbsp;
+      </div>
       <div className="mb-4 flex w-full items-center justify-center">
         {!isAudioPlaying ? (
           <RoundButton onClick={() => startAudio()}>
-            <Icons.play className="ml-1 h-8 w-8" />
+            <Icons.play className="ml-1 h-10 w-10" />
             <span className="sr-only">Play audio</span>
           </RoundButton>
         ) : (
           <RoundButton onClick={() => pauseAudio()}>
-            <Icons.pause className="h-8 w-8" />
+            <Icons.pause className="h-10 w-10" />
             <span className="sr-only">Play audio</span>
           </RoundButton>
         )}

@@ -13,55 +13,142 @@
         "museumLocation": "American Art Galleries, 5th Floor, Imagining the New Nation’s Landscape, 1800–1880",
         "text": "In 1866 Albert Bierstadt debuted this painting to great attendance in New York City. The exhibition was a theatrical experience. There was seating for viewers in front of the painting, dramatic lighting and an accompanying leaflet to guide an east coast resident's eye over this impressive distant rocky mountain landscape. \n\nDescribing the storm, the leaflet read:\n\n\"The character of these masses of clouds, wind tossed and big with thunder is something wonderful. The idea of motion conveyed in them is skillfully represented. They seem to surge and swirl before the site to roll over and over in massive forms and rock to and fro like ships at sea.\"\n\nLow down, they are of a dark lead color running into black. While above they grow lighter and are tinted, tender gray to the left. They become fleecy and white and the blue sky appears amid this clear atmosphere.\n\nThe two snow peaks rise above this storm, peaceful and calm and tinged by the sunlight. \nA rosy hue, a solitary eagle is cleaving his way through the heavens in advance of the approaching storm Bierstadt.\n\nLike other 19th century painters of the American West cultivated a reputation as an adventurer.  He joined scientific expeditions across the continent to inform his paintings. He even invited journalists to join him and report on the 18 63 journey that informed this painting, the write ups and resulting awe inspiring paintings perpetuated an understanding of the American continents as untouched wilderness. They were also often used to advocate for the US government's theft of land and the displacement of native Americans living in these regions.",
         "artistText": "Albert Bierstadt (January 7, 1830 – February 18, 1902) was a German-American painter best known for his lavish, sweeping landscapes of the American West. He joined several journeys of the Westward Expansion to paint the scenes. He was not the first artist to record the sites, but he was the foremost painter of them for the remainder of the 19th century.",
-        "timeline": [
+        "annotations": [
           {
-            "description": "describing the storm...",
-            "start": 22,
+            "text": "In 1866 Albert Bierstadt debuted this painting to great attendance in New York City.",
+            "start": 0.0,
+            "end": 5.15
+          },
+          {
+            "text": "The exhibition was a theatrical experience.",
+            "start": 6.01,
+            "end": 8.2
+          },
+          {
+            "text": "There was seating for viewers in front of the painting,",
+            "start": 8.2,
+            "end": 11.16
+          },
+          {
+            "text": "dramatic lighting and an accompanying leaflet to guide an east coast resident's",
+            "start": 11.16,
+            "end": 16.15
+          },
+          {
+            "text": "eye over this impressive distant rocky mountain landscape.",
+            "start": 16.16,
+            "end": 20.14
+          },
+          {
+            "text": "Describing the storm, the leaflet read quote,",
+            "start": 21.06,
+            "end": 24.15,
             "percentX": 35,
-            "percentY":40,
+            "percentY": 40,
             "scale": 1.4
           },
           {
-            "description": "low down..",
-            "start": 48,
+            "text": "\"The character of these masses of clouds,",
+            "start": 24.23,
+            "end": 27.2
+          },
+          {
+            "text": "wind tossed and big with thunder is something wonderful.",
+            "start": 27.21,
+            "end": 31.13
+          },
+          {
+            "text": "The idea of motion conveyed in them is skillfully represented.",
+            "start": 32.04,
+            "end": 36.13
+          },
+          {
+            "text": "They seem to surge and swirl before the site to roll over and",
+            "start": 36.21,
+            "end": 41.14
+          },
+          {
+            "text": "over in massive forms and rock to and fro like ships at sea.",
+            "start": 41.15,
+            "end": 48.00
+          },
+          {
+            "text": "Low down, they are of a dark lead color running into black.",
+            "start": 48.00,
+            "end": 52.18,
             "percentX": 35,
             "percentY": 40,
             "scale": 1.8
           },
           {
-            "description": "while above ",
-            "start": 53,
+            "text": "While above they grow lighter and are tinted, tender gray.",
+            "start": 52.18,
+            "end": 58.00,
             "percentX": 35,
             "percentY": 30,
             "scale": 1.8
           },
           {
-            "description": "to the left clouds",
-            "start": 58,
+            "text": "To the left, they become fleecy and white and the blue sky appears amid this clear atmosphere.",
+            "start": 58.00,
+            "end": 65.17,
             "percentX": 25,
             "percentY": 25,
             "scale": 2.2
           },
           {
-            "description": "mountains",
-            "start": 63,
+            "text": "The two snow peaks rise above this storm, peaceful and calm and tinged by the sunlight, a rosy hue.",
+            "start": 65.18,
+            "end": 74.0,
             "percentX": 25,
             "percentY": 25,
             "scale": 2.4
           },
           {
-            "description": "eagle",
-            "start": 74,
+            "text": "a solitary eagle is cleaving his way through the heavens in advance of the approaching storm.",
+            "start": 74.16,
+            "end": 81.12,
             "percentX": 60,
             "percentY": 30,
             "scale": 2.4
           },
           {
-            "description": "zoom out",
-            "start": 81,
+            "text": "Bierstadt, Like other 19th century painters of the American West cultivated a reputation as an adventurer.",
+            "start": 81.12,
+            "end": 88.23,
             "percentX": 50,
             "percentY": 50,
             "scale": 1
+          },
+          {
+            "text": "He joined scientific expeditions across the continent to inform his paintings.",
+            "start": 89.09,
+            "end": 94.03
+          },
+          {
+            "text": "He even invited journalists to join him and report on the 1863 journey that informed this painting,",
+            "start": 94.09,
+            "end": 100.18
+          },
+          {
+            "text": "the write ups and resulting awe inspiring paintings perpetuated an",
+            "start": 101.09,
+            "end": 106.0
+          },
+          {
+            "text": "understanding of the American continents as untouched wilderness.",
+            "start": 106.0,
+            "end": 110.07
+          },
+          {
+            "text": "They were also often used to advocate for the US government's theft of land",
+            "start": 110.17,
+            "end": 115.13
+          },
+          {
+            "text": "and the displacement of native Americans living in these regions.",
+            "start": 115.13,
+            "end": 119.02
           }
         ]
       },
@@ -75,34 +162,93 @@
         "museumLocation": "American Art Galleries, 5th Floor, Beyond Borders and Boundaries, 20th and 21st Centuries",
         "text": "When I look at this painting from Delaney, one of the few queer black artists to rise to prominence, I think about the way that he reclaimed, kind of like this French modernism with the bowl of fruit and really fucked it up in a way, really queered it up in a way with this African kind of sculpture that actually feels as if it's scaring off the crow in some way like this is my fruit bitch.\n\nThere's something so hip hop about this too and I don't know if it's because I know it's from a black queer artist, but there's something about the ways in which these different cultures and elements and figures and objects are remixed and put together in this way.  You have something that's classic, like a classic beat, right? With the fruit coming with something aggressive but also in nature like the crow.\n\nAnd then you also have the presence of a black body in a sense, right?  Standing in with this figurine, this African figurine, standing watch and maybe calling attention or screaming back at the crow in some way.  So it's like a clash of cultures in a really um beautiful and powerful and distinct way.",
         "artistText": "Beauford Delaney (December 30, 1901 – March 26, 1979) was an American modernist painter. He is remembered for his work with the Harlem Renaissance in the 1930s and 1940s, as well as his later works in abstract expressionism following his move to Paris in the 1950s. Beauford's younger brother, Joseph, was also a noted painter.",
-        "timeline": [
+        "annotations": [
           {
-            "description": "with this bowl of fruit",
-            "start": 12,
+            "text": "When I look at this painting from Delaney,",
+            "start": 0,
+            "end": 2.0
+          },
+          {
+            "text": "one of the few queer black artists to rise to prominence,",
+            "start": 2.14,
+            "end": 6.1
+          },
+          {
+            "text": "I think about the way that he reclaimed,",
+            "start": 6.1,
+            "end": 9.09
+          },
+          {
+            "text": "kind of like this French modernism with the bowl of fruit and really fucked it up in a way,",
+            "start": 9.1,
+            "end": 17.23,
             "percentX": 45,
             "percentY": 60,
             "scale": 1.4
           },
           {
-            "description": "african figurine",
-            "start": 19,
+            "text": "really queered it up in a way with this African kind of sculpture that actually feels as if it's scaring off the crow in some way,",
+            "start": 17.23,
+            "end": 28.09,
             "percentX": 70,
             "percentY": 50,
             "scale": 1.2
           },
           {
-            "description": "hip hop",
-            "start": 26,
+            "text": "like this is my fruit bitch.",
+            "start": 28.17,
+            "end": 31.06
+          },
+          {
+            "text": "There's something so hip hop about this too and I don't know if it's because I know it's from a black queer artist,",
+            "start": 31.15,
+            "end": 36.18,
             "percentX": 50,
             "percentY": 50,
             "scale": 1.2
           },
           {
-            "description": "hip hop",
-            "start": 30,
+            "text": "but there's something about the ways in which these different cultures and",
+            "start": 37.0,
+            "end": 41.05,
             "percentX": 50,
             "percentY": 50,
             "scale": 1
+          },
+          {
+            "text": "elements and figures and objects are remixed and put together in this way.",
+            "start": 41.06,
+            "end": 47.23
+          },
+          {
+            "text": "You have something that's classic, like a classic beat, right?",
+            "start": 47.23,
+            "end": 52.06
+          },
+          {
+            "text": "With the fruit coming with something aggressive but also in nature like the crow.",
+            "start": 52.06,
+            "end": 58.09
+          },
+          {
+            "text": "And then you also have the presence of a black body in a sense, right?",
+            "start": 58.16,
+            "end": 62.19
+          },
+          {
+            "text": "Standing in with this figurine, this African figurine,",
+            "start": 62.19,
+            "end": 66.11
+          },
+          {
+            "text": "standing watch and maybe calling attention or screaming back at the crow in some way.",
+            "start": 66.11,
+            "end": 71.12
+          },
+          {
+            "text": "So it's like a clash of cultures in a really um beautiful and powerful and distinct way.",
+            "start": 71.12,
+            "end": 76.18
           }
         ]
       }
