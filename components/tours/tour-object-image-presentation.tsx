@@ -15,7 +15,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
     width: window.innerWidth,
     height: window.innerHeight,
   });
-  const [ currentAnnotation, setCurrentAnnotation ] = useState('');
+  const [currentAnnotation, setCurrentAnnotation] = useState('');
   const stageRef = useRef<any | null>(null);
   const stageParentRef = useRef<HTMLInputElement>(null);
   const imageRef = useRef<any | null>(null);
@@ -75,7 +75,9 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
     if (!isAudioPlaying) {
       sound.pause();
     } else {
-      sound.play();
+      if (!sound.playing()) {
+        sound.play();
+      }
 
       const intervalId = setInterval(() => {
         if (!image) return;
@@ -90,7 +92,7 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
           );
         });
 
-        if (currentEvent && currentEvent.text) {
+        if (currentEvent && currentEvent.text && sound.playing()) {
           setCurrentAnnotation(currentEvent.text);
         }
 
@@ -141,17 +143,9 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
     audioUrl,
   ]);
 
-  function startAudio() {
-    setIsAudioPlaying(true);
-  }
-
-  function pauseAudio() {
-    setIsAudioPlaying(false);
-  }
-
   return (
     <>
-      <div className="relative mt-4 mb-2 w-full">
+      <div className="relative w-full">
         <div className="w-full" ref={stageParentRef}>
           <Stage
             width={dimensions.width}
@@ -173,20 +167,19 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
             </Layer>
           </Stage>
         </div>
-        <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center">
-        </div>
+        <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center"></div>
       </div>
-      <div className="flex h-[60px] w-full items-start justify-center">
-        {currentAnnotation}&nbsp;
+      <div className="flex h-[70px] w-full items-start justify-center px-4 pt-2">
+        {currentAnnotation}
       </div>
       <div className="mb-4 flex w-full items-center justify-center">
         {!isAudioPlaying ? (
-          <RoundButton onClick={() => startAudio()}>
+          <RoundButton onClick={() => setIsAudioPlaying(true)}>
             <Icons.play className="ml-1 h-10 w-10" />
             <span className="sr-only">Play audio</span>
           </RoundButton>
         ) : (
-          <RoundButton onClick={() => pauseAudio()}>
+          <RoundButton onClick={() => setIsAudioPlaying(false)}>
             <Icons.pause className="h-10 w-10" />
             <span className="sr-only">Play audio</span>
           </RoundButton>

@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import tours from '@/data/tours/tours.json';
 
-import { BkmLogo } from '@/components/bkm-logo';
-import { TourNav } from '@/components/tours/tour-nav';
 import { TourObjectCard } from '@/components/tours/tour-object-card';
 
 export async function generateMetadata({ params }): Promise<Metadata> {
@@ -50,28 +48,10 @@ export default function Page({ params }) {
   }
 
   return (
-    <section className="container mb-12 mt-6">
-      <div className="flex w-full">
-        <div className="grow">
-          <BkmLogo className="w-48 fill-neutral-600 hover:fill-neutral-400" />
-          <div className="mt-2 flex items-center gap-x-2">
-            <h1 className="text-2xl font-extrabold text-neutral-300">
-              {tour?.name}
-            </h1>
-            <span className="ml-2 rounded-full bg-neutral-800 py-2 px-3 text-sm font-extrabold">
-              {tourObjectIndex + 1} of {tour?.objects.length}
-            </span>
-          </div>
-        </div>
-        <div className="flex gap-x-2">
-          <TourNav tour={tour} tourObjectIndex={tourObjectIndex} />
-        </div>
-      </div>
-      <TourObjectCard
-        tour={tour}
-        tourObject={tourObject}
-        tourObjectIndex={tourObjectIndex}
-      />
-    </section>
+    <TourObjectCard
+      tour={tour}
+      tourObject={tourObject}
+      tourObjectIndex={tourObjectIndex}
+    />
   );
 }
