@@ -13,7 +13,7 @@ const buttonVariants = cva(
       },
       size: {
         default: 'h-20 w-20',
-        md: 'h-12 w-12',
+        md: 'h-14 w-14',
         sm: 'h-8 w-8',
       },
     },

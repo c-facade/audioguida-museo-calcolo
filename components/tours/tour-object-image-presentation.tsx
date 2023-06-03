@@ -6,8 +6,8 @@ import Konva from 'konva';
 import { Image, Layer, Stage } from 'react-konva';
 import useImage from 'use-image';
 
-import { Icons } from '@/components/icons';
-import { RoundButton } from './round-button';
+import { Icons } from '@/components/ui/icons';
+import { RoundButton } from '@/components/ui/round-button';
 
 export function TourObjectImagePresentation({ tour, tourObject }) {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
@@ -172,15 +172,15 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
       <div className="flex h-[70px] w-full items-start justify-center px-4 pt-2">
         {currentAnnotation}
       </div>
-      <div className="mb-4 flex w-full items-center justify-center">
+      <div className="mb-8 flex w-full items-center justify-center">
         {!isAudioPlaying ? (
           <RoundButton onClick={() => setIsAudioPlaying(true)}>
-            <Icons.play className="ml-1 h-10 w-10" />
+            <Icons.play className="ml-1 h-12 w-12" />
             <span className="sr-only">Play audio</span>
           </RoundButton>
         ) : (
           <RoundButton onClick={() => setIsAudioPlaying(false)}>
-            <Icons.pause className="h-10 w-10" />
+            <Icons.pause className="h-12 w-12" />
             <span className="sr-only">Play audio</span>
           </RoundButton>
         )}

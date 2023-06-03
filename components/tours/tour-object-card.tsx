@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-import { BkmLogo } from '@/components/bkm-logo';
+import { BkmLogo } from '@/components/ui/bkm-logo';
 import { MuseumMap } from '@/components/museum-map/museum-map';
 import { TourNav } from '@/components/tours/tour-nav';
 import {
@@ -10,7 +10,7 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger,
-} from '@/components/tours/tour-tabs';
+} from '@/components/ui/tabs';
 import { TourObjectImagePresentation } from './tour-object-image-presentation';
 
 export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
