@@ -51,8 +51,8 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
         <Tabs defaultValue="objectMap" className="w-full">
           <TabsList>
             <TabsTrigger value="objectMap">Map</TabsTrigger>
-            <TabsTrigger value="objectText">Text</TabsTrigger>
             <TabsTrigger value="objectArtist">Artist</TabsTrigger>
+            <TabsTrigger value="objectText">Text</TabsTrigger>
           </TabsList>
           <TabsContent value="objectMap">
             <div className="flex w-full items-center justify-center">
@@ -61,12 +61,9 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
               </div>
             </div>
           </TabsContent>
-          <TabsContent value="objectText">
-            <div className="whitespace-pre-line">{tourObject?.text}</div>
-          </TabsContent>
           <TabsContent value="objectArtist">
-            <div className="flex gap-4">
-              <div className="w-24 flex-none">
+            <div className="w-full flex items-center justify-center my-6">
+              <div className="w-48 flex-none">
                 <Image
                   alt="Artist"
                   src={`/tours/${tour?.slug}/${tourObject?.slug}/artist.jpg`}
@@ -74,11 +71,14 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
                   height="500"
                 />
               </div>
-              <div className="flex-1">{tourObject?.artistText}</div>
             </div>
+            <div className="flex-1">{tourObject?.artistText}</div>
             <div className="mt-8 font-semibold text-neutral-400 hover:underline">
               <a href="#">See more works by this artist &gt;</a>
             </div>
+          </TabsContent>          
+          <TabsContent value="objectText">
+            <div className="whitespace-pre-line">{tourObject?.text}</div>
           </TabsContent>
         </Tabs>
       </section>

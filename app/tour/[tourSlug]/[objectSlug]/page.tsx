@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import tours from '@/data/tours/tours.json';
+import tours from '@/public/tours/tours.json';
 
 import { TourObjectCard } from '@/components/tours/tour-object-card';
 

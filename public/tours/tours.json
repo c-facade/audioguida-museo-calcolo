@@ -153,6 +153,140 @@
         ]
       },
       {
+        "id": 1558,
+        "slug": "heat_florine_stettheimer",
+        "title": "Heat",
+        "date": "1919",
+        "artist": "Florine Stettheimer",
+        "artistBio": "American, 1871-1944",
+        "museumLocation": "American Art Galleries, 5th Floor, The City and the Rise of the Modern Woman, 1900–1945",
+        "text": "At the end of the summer of 1918, Florene Stettheimer wrote in her diary quote: \"The only things that amuse me nowadays are my own paintings in the making.\"\n\nShe spent the next two years transferring the events of that summer to canvas. In this painting, she depicted her mother rosetta's birthday which took place on a hot and humid afternoon in July. Stettheimer was an innovative but private artist of the early 20th century art scene in New York City. She rarely exhibited her work publicly during her lifetime, but she and two of her sisters ran in circles of prominent artists. They hung out with the likes of Marcel Duchamp, Charles Demuth and Georgia o'Keeffe. The Stettheimer sisters even hosted salons in the Manhattan home.   \n\nThey shared with their mother in this vivid painting, Rosetta can be seen at the top of the composition dressed in black. She is accompanied by her four daughters, the daughter on the left side of the circle also in black is the eldest Stella. Unlike her sisters, she married and moved away from the family home, find carry in yellow on the right side of the circle she expressed her creativity at home through furnishings, decor and cooking an elaborate dollhouse.\n\nNow on view at the Museum of the City of New York is a lasting representation of her art. Eddie who owned this painting until her death is depicted in flowered pink. She was a writer and philosopher. The artist of this painting, Florene has put herself in the painting too. She's on the far right languishing in a flowy white dress. In addition to being a painter, a set designer and a costume designer, a real New York Renaissance woman.",
+        "artistText": "Florine Stettheimer (August 19, 1871 – May 11, 1944) was an American modernist painter, feminist, theatrical designer, poet, and salonnière.\n\nStettheimer developed a feminine, theatrical painting style depicting her friends, family, and experiences in New York City. She made the first feminist nude self-portrait and paintings depicting controversies of race and sexual preference. She and her sisters hosted a salon that attracted members of the avant-garde.[1] In the mid-1930s, Stettheimer created the stage designs and costumes for Gertrude Stein and Virgil Thomson's avant-garde opera, Four Saints in Three Acts. She is best known for her four monumental works illustrating what she considered New York City's \"Cathedrals\": Broadway, Wall Street, Fifth Avenue, and New York's three major art museums.\n\nDuring her lifetime, Stettheimer exhibited her paintings at more than 40 museum exhibitions and salons in New York and Paris. In 1938, when the Museum of Modern Art sent the first American art exhibition to Europe, Stettheimer and Georgia O'Keeffe were the only women whose work was included.[2] Following her death in 1944, her friend Marcel Duchamp curated a retrospective exhibition of her work at the Museum of Modern Art in 1946. It was the museum's first retrospective exhibition of work by a woman artist. After her death, Stettheimer's paintings were donated to museums throughout the United States. In addition to her many paintings and costume and set designs, Stettheimer designed custom frames for her paintings and matching furniture, and wrote humorous, often biting poetry. A book of her poetry, Crystal Flowers, was published privately and posthumously by her sister Ettie Stettheimer in 1949.",
+        "annotations": [
+          {
+            "text": "At the end of the summer of 1918, Florene Stettheimer wrote in her diary quote:",
+            "start": 0.01,
+            "end": 6.04
+          },
+          {
+            "text": "\"The only things that amuse me nowadays are my own paintings in the making.\"",
+            "start": 6.09,
+            "end": 12.03
+          },
+          {
+            "text": "She spent the next two years transferring the events of that summer to canvas.",
+            "start": 12.20,
+            "end": 17.02
+          },
+          {
+          "text": "In this painting, she depicted her mother Rosetta's birthday which took place on a hot and humid afternoon in July.",
+          "start": 18.09,
+          "end": 25.07
+          },
+          {
+            "text": "Stettheimer was an innovative but private artist of the early 20th century art scene in New York City.",
+            "start": 25.23,
+            "end": 32.11
+          },
+          {
+            "text": "She rarely exhibited her work publicly during her lifetime, but she and two of her sisters ran in circles of prominent artists.",
+            "start": 32.02,
+            "end": 40.13
+          },
+          {
+            "text": "They hung out with the likes of Marcel Duchamp, Charles Demuth and Georgia o'Keeffe.",
+            "start": 41.03,
+            "end": 46.09
+          },
+          {
+            "text": "The Stettheimer sisters even hosted salons in the Manhattan home they shared with their mother.",
+            "start": 46.17,
+            "end": 51.0
+          },
+          {
+            "text": "In this vivid painting, Rosetta can be seen at the top of the composition dressed in black.",
+            "start": 51.0,
+            "end": 57.16,
+            "percentX": 45,
+            "percentY": 30,
+            "scale": 2
+          },
+          {
+            "text": "She is accompanied by her four daughters.",
+            "start": 57.17,
+            "end": 60.0,
+            "percentX": 50,
+            "percentY": 50,
+            "scale": 1.1
+          },
+          {
+            "text": "The daughter on the left side of the circle also in black is the eldest Stella. Unlike her sisters, she married and moved away from the family home,",
+            "start": 60.0,
+            "end": 69.10,
+            "percentX": 20,
+            "percentY": 40,
+            "scale": 2
+          },
+          {
+            "text": "Find Carry in yellow on the right side of the circle she expressed her creativity at home through furnishings,",
+            "start": 69.18,
+            "end": 77.00,
+            "percentX": 70,
+            "percentY": 50,
+            "scale": 2
+          },
+          {
+            "text": "decor and cooking an elaborate dollhouse.",
+            "start": 77.00,
+            "end": 80.18
+          },
+          {
+            "text": "Now on view at the Museum of the City of New York is a lasting representation of her art.",
+            "start": 80.18,
+            "end": 85.10
+          },
+          {
+            "text": "Eddie, who owned this painting until her death, is depicted in flowered pink.",
+            "start": 85.12,
+            "end": 91.18,
+            "percentX": 25,
+            "percentY": 74,
+            "scale": 1.5
+          },
+          {
+            "text": "She was a writer and philosopher.",
+            "start": 91.18,
+            "end": 94.00
+          },
+          {
+            "text": "The artist of this painting,",
+            "start": 94.21,
+            "end": 96.06,
+            "percentX": 75,
+            "percentY": 72,
+            "scale": 1.8
+          },
+          {
+            "text": "Florene has put herself in the painting too.",
+            "start": 96.06,
+            "end": 99.10
+          },
+          {
+            "text": "She's on the far right languishing in a flowy white dress.",
+            "start": 99.17,
+            "end": 104.08
+          },
+          {
+            "text": "In addition to being a painter, a set designer and a costume designer, a real New York Renaissance woman.",
+            "start": 105.03,
+            "end": 112.24,
+            "percentX": 50,
+            "percentY": 50,
+            "scale": 1
+          }
+        ]
+      },
+      {
         "id": 1559,
         "slug": "untitled_fang_sculpture_crow_and_fruit_beauford_delaney",
         "title": "Untitled (Fang Sculpture, Crow and Fruit)",
