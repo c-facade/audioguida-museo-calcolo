@@ -47,11 +47,12 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
       <section className="container mt-4 p-0">
         <TourObjectImagePresentation tour={tour} tourObject={tourObject} />
       </section>
-      <section className="container">
+      <section className="container mb-12">
         <Tabs defaultValue="objectMap" className="w-full">
           <TabsList>
-            <TabsTrigger value="objectMap">Museum Map</TabsTrigger>
-            <TabsTrigger value="objectText">Full Text</TabsTrigger>
+            <TabsTrigger value="objectMap">Map</TabsTrigger>
+            <TabsTrigger value="objectText">Text</TabsTrigger>
+            <TabsTrigger value="objectArtist">Artist</TabsTrigger>
           </TabsList>
           <TabsContent value="objectMap">
             <div className="flex w-full items-center justify-center">
@@ -62,24 +63,21 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
           </TabsContent>
           <TabsContent value="objectText">
             <div className="whitespace-pre-line">{tourObject?.text}</div>
-            <div className="mt-8 bg-neutral-900 p-4">
-              <div className="mb-4 font-semibold uppercase text-neutral-400">
-                About the Artist
+          </TabsContent>
+          <TabsContent value="objectArtist">
+            <div className="flex gap-4">
+              <div className="w-24 flex-none">
+                <Image
+                  alt="Artist"
+                  src={`/tours/${tour?.slug}/${tourObject?.slug}/artist.jpg`}
+                  width="500"
+                  height="500"
+                />
               </div>
-              <div className="flex gap-4">
-                <div className="w-24 flex-none">
-                  <Image
-                    alt="Artist"
-                    src={`/tours/${tour?.slug}/${tourObject?.slug}/artist.jpg`}
-                    width="500"
-                    height="500"
-                  />
-                </div>
-                <div className="flex-1">{tourObject?.artistText}</div>
-              </div>
-              <div className="mt-4 text-right font-semibold text-neutral-400 hover:underline">
-                <a href="#">See more works by this artist &gt;</a>
-              </div>
+              <div className="flex-1">{tourObject?.artistText}</div>
+            </div>
+            <div className="mt-8 font-semibold text-neutral-400 hover:underline">
+              <a href="#">See more works by this artist &gt;</a>
             </div>
           </TabsContent>
         </Tabs>
