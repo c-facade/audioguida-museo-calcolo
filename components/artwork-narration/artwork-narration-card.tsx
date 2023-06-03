@@ -5,9 +5,18 @@ import Image from 'next/image';
 import { MuseumMap } from '@/components/museum-map/museum-map';
 import { BkmLogo } from '@/components/ui/bkm-logo';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { TourObjectImagePresentation } from './tour-object-image-presentation';
+import { ArtworkNarrationPlayer } from './artwork-narration-player';
 
-export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
+import { ArtworkNarration, GalleryTour } from '@/types';
+
+interface ArtworkNarrationCardProps {
+  galleryTour: GalleryTour;
+  artworkNarrationIndex: number;
+}
+
+export function ArtworkNarrationCard({ galleryTour, artworkNarrationIndex }: ArtworkNarrationCardProps) {
+  const artworkNarration: ArtworkNarration = galleryTour.artworks[artworkNarrationIndex];
+
   return (
     <>
       <section className="container mt-6">
@@ -16,27 +25,27 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
             <BkmLogo className="w-48 fill-neutral-600 hover:fill-neutral-400" />
             <div className="mt-2 flex flex-wrap items-center gap-2">
               <h1 className="text-2xl font-extrabold text-neutral-300">
-                {tour?.name}
+                {galleryTour?.name}
               </h1>
               <span className="rounded-full bg-neutral-800 py-2 px-3 text-sm font-extrabold">
-                {tourObjectIndex + 1} of {tour?.objects.length}
+                {artworkNarrationIndex + 1} of {galleryTour?.artworks.length}
               </span>
             </div>
           </div>
         </div>
         <div className="">
           <h4 className="mt-2 text-xl">
-            {tourObject.title}
-            <span className="ml-3 text-neutral-400">{tourObject.date}</span>
+            {artworkNarration.title}
+            <span className="ml-3 text-neutral-400">{artworkNarration.date}</span>
           </h4>
 
           <h5 className="my-2 text-sm text-neutral-400">
-            {tourObject.artist}, {tourObject.artistBio}
+            {artworkNarration.artist}, {artworkNarration.artistBio}
           </h5>
         </div>
       </section>
       <section className="container mt-4 p-0">
-        <TourObjectImagePresentation tour={tour} tourObject={tourObject} tourObjectIndex={tourObjectIndex} />
+        <ArtworkNarrationPlayer galleryTour={galleryTour} artworkNarrationIndex={artworkNarrationIndex} />
       </section>
       <section className="container mb-12">
         <Tabs defaultValue="objectMap" className="w-full">
@@ -48,7 +57,7 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
           <TabsContent value="objectMap">
             <div className="flex w-full items-center justify-center">
               <div className="max-w-sm ">
-                <MuseumMap item={tourObject} />
+                <MuseumMap item={artworkNarration} />
               </div>
             </div>
           </TabsContent>
@@ -58,13 +67,13 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
                 <div className="w-48 flex-none">
                   <Image
                     alt="Artist"
-                    src={`/tours/${tour?.slug}/${tourObject?.slug}/artist.jpg`}
+                    src={`/tours/${galleryTour?.slug}/${artworkNarration?.slug}/artist.jpg`}
                     width="500"
                     height="500"
                   />
                 </div>
               </div>
-              <div className="flex-1">{tourObject?.artistText}</div>
+              <div className="flex-1">{artworkNarration?.artistText}</div>
             </div>
             <div className="mt-8 font-semibold text-neutral-400 hover:underline">
               <a href="#">See more works by this artist &gt;</a>
@@ -76,7 +85,7 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
                 <div className="w-48 flex-none">
                   <Image
                     alt="Artist"
-                    src={`/tours/${tour?.slug}/${tourObject?.slug}/narrator.jpg`}
+                    src={`/tours/${galleryTour?.slug}/${artworkNarration?.slug}/narrator.jpg`}
                     width="500"
                     height="500"
                   />
@@ -86,10 +95,10 @@ export function TourObjectCard({ tour, tourObject, tourObjectIndex }) {
                 About the Narrator
               </div>
               <div className="whitespace-pre-line">
-                {tourObject?.narratorText}
+                {artworkNarration?.narratorText}
               </div>
             </div>
-            <div className="whitespace-pre-line">{tourObject?.text}</div>
+            <div className="whitespace-pre-line">{artworkNarration?.text}</div>
           </TabsContent>
         </Tabs>
       </section>

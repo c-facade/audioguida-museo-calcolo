@@ -10,11 +10,18 @@ import useImage from 'use-image';
 import { Icons } from '@/components/ui/icons';
 import { RoundButton } from '@/components/ui/round-button';
 
-export function TourObjectImagePresentation({
-  tour,
-  tourObject,
-  tourObjectIndex,
-}) {
+import { ArtworkNarration, GalleryTour } from '@/types';
+
+interface ArtworkNarrationPlayerProps {
+  galleryTour: GalleryTour;
+  artworkNarrationIndex: number;
+}
+
+export function ArtworkNarrationPlayer({
+  galleryTour,
+  artworkNarrationIndex,
+}: ArtworkNarrationPlayerProps) {
+  const artworkNarration: ArtworkNarration = galleryTour.artworks[artworkNarrationIndex];
   const router = useRouter();
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [dimensions, setDimensions] = useState({
@@ -27,14 +34,14 @@ export function TourObjectImagePresentation({
   const imageRef = useRef<any | null>(null);
   const lastEventRef = useRef<any | null>(null);
 
-  const imageUrl = `/tours/${tour.slug}/${tourObject.slug}/object.jpg`;
+  const imageUrl = `/tours/${galleryTour.slug}/${artworkNarration.slug}/object.jpg`;
   const [image] = useImage(imageUrl);
 
-  const annotations = tourObject.annotations;
+  const annotations = artworkNarration.annotations;
 
   const alt = '';
 
-  const audioUrl = `/tours/${tour.slug}/${tourObject.slug}/audio.mp3`;
+  const audioUrl = `/tours/${galleryTour.slug}/${artworkNarration.slug}/audio.mp3`;
 
   const soundRef = useRef<Howl | null>(null);
 
@@ -90,7 +97,7 @@ export function TourObjectImagePresentation({
 
         const currentTime = sound.seek();
 
-        const currentEvent = annotations.find((event, index, array) => {
+        const currentAnnotation = annotations.find((event, index, array) => {
           const nextEvent = array[index + 1];
           return (
             currentTime >= event.start &&
@@ -98,40 +105,42 @@ export function TourObjectImagePresentation({
           );
         });
 
-        if (currentEvent && currentEvent.text && sound.playing()) {
-          setCurrentAnnotation(currentEvent.text);
+        if (currentAnnotation && currentAnnotation.text && sound.playing()) {
+          setCurrentAnnotation(currentAnnotation.text);
         }
 
         if (
-          currentEvent &&
-          currentEvent.percentX &&
+          currentAnnotation &&
+          currentAnnotation.percentX &&
+          currentAnnotation.percentY &&
+          currentAnnotation.scale &&
           (!lastEventRef.current ||
-            currentEvent.start !== lastEventRef.current.start)
+            currentAnnotation.start !== lastEventRef.current.start)
         ) {
-          lastEventRef.current = currentEvent;
+          lastEventRef.current = currentAnnotation;
 
           // Calculate stage coordinates that will put (percentX, percentY) coordinates
           // of the image at the center of the stage
           const stageX =
             dimensions.width / 2 -
-            (currentEvent.percentX / 100) *
+            (currentAnnotation.percentX / 100) *
               image.naturalWidth *
               (dimensions.width / image.naturalWidth) *
-              currentEvent.scale;
+              currentAnnotation.scale;
           const stageY =
             dimensions.height / 2 -
-            (currentEvent.percentY / 100) *
+            (currentAnnotation.percentY / 100) *
               image.naturalHeight *
               (dimensions.height / image.naturalHeight) *
-              currentEvent.scale;
+              currentAnnotation.scale;
 
           new Konva.Tween({
             node: imageRef.current,
             duration: 1,
             x: stageX,
             y: stageY,
-            scaleX: currentEvent.scale,
-            scaleY: currentEvent.scale,
+            scaleX: currentAnnotation.scale,
+            scaleY: currentAnnotation.scale,
           }).play();
         }
       }, 100);
@@ -150,8 +159,8 @@ export function TourObjectImagePresentation({
   ]);
 
   function goObject(index) {
-    const tobj = tour.objects[index];
-    const url = `/tour/${tour.slug}/${tobj.slug}`;
+    const tobj = galleryTour.artworks[index];
+    const url = `/tour/${galleryTour.slug}/${tobj.slug}`;
     router.push(url);
   }
 
@@ -186,8 +195,8 @@ export function TourObjectImagePresentation({
       </div>
       <div className="mb-8 flex w-full items-center justify-between px-8">
         <RoundButton
-          onClick={() => goObject(tourObjectIndex - 1)}
-          disabled={tourObjectIndex === 0}
+          onClick={() => goObject(artworkNarrationIndex - 1)}
+          disabled={artworkNarrationIndex === 0}
         >
           <Icons.chevronLeft className="h-10 w-10" />
           <span className="sr-only">Previous</span>
@@ -204,8 +213,8 @@ export function TourObjectImagePresentation({
           </RoundButton>
         )}
         <RoundButton
-          onClick={() => goObject(tourObjectIndex + 1)}
-          disabled={tourObjectIndex >= tour?.objects?.length - 1}
+          onClick={() => goObject(artworkNarrationIndex + 1)}
+          disabled={artworkNarrationIndex >= galleryTour?.artworks?.length - 1}
         >
           <Icons.chevronRight className="h-10 w-10" />
           <span className="sr-only">Next</span>

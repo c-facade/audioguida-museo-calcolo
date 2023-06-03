@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { buttonVariants } from '@/components/ui/round-button';
+import { buttonVariants } from '@/components/ui/button';
 
 export default function Page() {
   return (
@@ -15,8 +15,8 @@ export default function Page() {
       </div>
       <div className="flex gap-4">
         <Link
-          href='/tour/highlights'
-          className={buttonVariants({ size: 'default' })}
+          href='/tour/highlights/storm_in_the_rocky_mountains_mt_rosalie_albert_bierstadt'
+          className={buttonVariants({ size: 'lg' })}
         >
           Highlights Tour
         </Link>
