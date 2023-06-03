@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { Howl, Howler } from 'howler';
 import Konva from 'konva';
 import { Image, Layer, Stage } from 'react-konva';
@@ -9,7 +10,12 @@ import useImage from 'use-image';
 import { Icons } from '@/components/ui/icons';
 import { RoundButton } from '@/components/ui/round-button';
 
-export function TourObjectImagePresentation({ tour, tourObject }) {
+export function TourObjectImagePresentation({
+  tour,
+  tourObject,
+  tourObjectIndex,
+}) {
+  const router = useRouter();
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [dimensions, setDimensions] = useState({
     width: window.innerWidth,
@@ -143,6 +149,12 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
     audioUrl,
   ]);
 
+  function goObject(index) {
+    const tobj = tour.objects[index];
+    const url = `/tour/${tour.slug}/${tobj.slug}`;
+    router.push(url);
+  }
+
   return (
     <>
       <div className="relative w-full">
@@ -172,7 +184,14 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
       <div className="flex h-[70px] w-full items-start justify-center px-4 pt-2">
         {currentAnnotation}
       </div>
-      <div className="mb-8 flex w-full items-center justify-center">
+      <div className="mb-8 flex w-full items-center justify-between px-8">
+        <RoundButton
+          onClick={() => goObject(tourObjectIndex - 1)}
+          disabled={tourObjectIndex === 0}
+        >
+          <Icons.chevronLeft className="h-10 w-10" />
+          <span className="sr-only">Previous</span>
+        </RoundButton>
         {!isAudioPlaying ? (
           <RoundButton onClick={() => setIsAudioPlaying(true)}>
             <Icons.play className="ml-1 h-12 w-12" />
@@ -184,6 +203,13 @@ export function TourObjectImagePresentation({ tour, tourObject }) {
             <span className="sr-only">Play audio</span>
           </RoundButton>
         )}
+        <RoundButton
+          onClick={() => goObject(tourObjectIndex + 1)}
+          disabled={tourObjectIndex >= tour?.objects?.length - 1}
+        >
+          <Icons.chevronRight className="h-10 w-10" />
+          <span className="sr-only">Next</span>
+        </RoundButton>
       </div>
     </>
   );
