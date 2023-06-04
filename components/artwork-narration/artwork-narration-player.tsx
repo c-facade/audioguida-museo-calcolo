@@ -2,15 +2,15 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { ArtworkNarration, GalleryTour } from '@/types';
 import { Howl, Howler } from 'howler';
 import Konva from 'konva';
 import { Image, Layer, Stage } from 'react-konva';
 import useImage from 'use-image';
 
 import { Icons } from '@/components/ui/icons';
+import { Progress } from '@/components/ui/progress';
 import { RoundButton } from '@/components/ui/round-button';
-
-import { ArtworkNarration, GalleryTour } from '@/types';
 
 interface ArtworkNarrationPlayerProps {
   galleryTour: GalleryTour;
@@ -21,13 +21,15 @@ export function ArtworkNarrationPlayer({
   galleryTour,
   artworkNarrationIndex,
 }: ArtworkNarrationPlayerProps) {
-  const artworkNarration: ArtworkNarration = galleryTour.artworks[artworkNarrationIndex];
+  const artworkNarration: ArtworkNarration =
+    galleryTour.artworks[artworkNarrationIndex];
   const router = useRouter();
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [dimensions, setDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
   });
+  const [percentProgress, setPercentProgress] = useState(0);
   const [currentAnnotation, setCurrentAnnotation] = useState('');
   const stageRef = useRef<any | null>(null);
   const stageParentRef = useRef<HTMLInputElement>(null);
@@ -96,6 +98,7 @@ export function ArtworkNarrationPlayer({
         if (!image) return;
 
         const currentTime = sound.seek();
+        setPercentProgress((currentTime / sound.duration()) * 100);
 
         const currentAnnotation = annotations.find((event, index, array) => {
           const nextEvent = array[index + 1];
@@ -190,7 +193,10 @@ export function ArtworkNarrationPlayer({
         </div>
         <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center"></div>
       </div>
-      <div className="flex h-[70px] w-full items-start justify-center px-4 pt-2">
+      <div className="w-full">
+        <Progress value={percentProgress} className="w-full" />
+      </div>
+      <div className="flex h-[90px] w-full items-start justify-center px-4 pt-2">
         {currentAnnotation}
       </div>
       <div className="mb-8 flex w-full items-center justify-between px-8">
