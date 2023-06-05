@@ -15,6 +15,7 @@ export interface ArtworkNarration {
   artist: string; // Name of the artist
   artistBio: string; // Bio of the artist
   artistText: string; // Text of the artist bio
+  artistLink?: string; // Link to the artist's website
   narrator: string; // Name of the narrator
   narratorText: string; // Text of the narrator bio
   museumLocation: string; // Location of the artwork in the museum
@@ -27,6 +28,7 @@ export interface ArtworkNarration {
 export interface GalleryTour {
   slug: string; // Unique URL slug for the tour
   name: string; // Name of the tour
+  description?: string; // Description of the tour
   artworks: ArtworkNarration[]; // the artworks in the tour
 }
 

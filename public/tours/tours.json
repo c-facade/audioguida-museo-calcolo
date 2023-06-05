@@ -2,6 +2,7 @@
   {
     "slug": "highlights",
     "name": "Highlights Tour",
+    "description": "A trip through Brookly Museum's collection highlights, narrated by Janet Mock.",
     "artworks": [
       {
         "id": "1558",
@@ -11,6 +12,7 @@
         "artist": "Albert Bierstadt",
         "artistBio": "American, born Germany, 1830-1902",
         "artistText": "Albert Bierstadt (January 7, 1830 – February 18, 1902) was a German-American painter best known for his lavish, sweeping landscapes of the American West. He joined several journeys of the Westward Expansion to paint the scenes. He was not the first artist to record the sites, but he was the foremost painter of them for the remainder of the 19th century.",
+        "artistLink": "https://bkm-next-search.vercel.app/search/collections?primaryConstituent=Albert%20Bierstadt",
         "narrator": "Janet Mock",
         "narratorText": "Janet Mock (born March 10, 1983) is an American writer, television host, director, producer and transgender rights activist. Her debut book, the memoir Redefining Realness, became a New York Times bestseller. She is a contributing editor for Marie Claire and a former staff editor of People magazine's website.",
         "museumLocation": "American Art Galleries, 5th Floor, Imagining the New Nation’s Landscape, 1800–1880",
@@ -164,6 +166,7 @@
         "artist": "Florine Stettheimer",
         "artistBio": "American, 1871-1944",
         "artistText": "Florine Stettheimer (August 19, 1871 – May 11, 1944) was an American modernist painter, feminist, theatrical designer, poet, and salonnière.\n\nStettheimer developed a feminine, theatrical painting style depicting her friends, family, and experiences in New York City. She made the first feminist nude self-portrait and paintings depicting controversies of race and sexual preference. She and her sisters hosted a salon that attracted members of the avant-garde.[1] In the mid-1930s, Stettheimer created the stage designs and costumes for Gertrude Stein and Virgil Thomson's avant-garde opera, Four Saints in Three Acts. She is best known for her four monumental works illustrating what she considered New York City's \"Cathedrals\": Broadway, Wall Street, Fifth Avenue, and New York's three major art museums.\n\nDuring her lifetime, Stettheimer exhibited her paintings at more than 40 museum exhibitions and salons in New York and Paris. In 1938, when the Museum of Modern Art sent the first American art exhibition to Europe, Stettheimer and Georgia O'Keeffe were the only women whose work was included.[2] Following her death in 1944, her friend Marcel Duchamp curated a retrospective exhibition of her work at the Museum of Modern Art in 1946. It was the museum's first retrospective exhibition of work by a woman artist. After her death, Stettheimer's paintings were donated to museums throughout the United States. In addition to her many paintings and costume and set designs, Stettheimer designed custom frames for her paintings and matching furniture, and wrote humorous, often biting poetry. A book of her poetry, Crystal Flowers, was published privately and posthumously by her sister Ettie Stettheimer in 1949.",
+        "artistLink": "https://bkm-next-search.vercel.app/search/collections?primaryConstituent=Florine%20Stettheimer",
         "narrator": "Janet Mock",
         "narratorText": "Janet Mock (born March 10, 1983) is an American writer, television host, director, producer and transgender rights activist. Her debut book, the memoir Redefining Realness, became a New York Times bestseller. She is a contributing editor for Marie Claire and a former staff editor of People magazine's website.",
         "museumLocation": "American Art Galleries, 5th Floor, The City and the Rise of the Modern Woman, 1900–1945",
@@ -302,6 +305,7 @@
         "artist": "Beauford Delaney",
         "artistBio": "American, 1901-1979",
         "artistText": "Beauford Delaney (December 30, 1901 – March 26, 1979) was an American modernist painter. He is remembered for his work with the Harlem Renaissance in the 1930s and 1940s, as well as his later works in abstract expressionism following his move to Paris in the 1950s. Beauford's younger brother, Joseph, was also a noted painter.",
+        "artistLink": "https://bkm-next-search.vercel.app/search/collections?primaryConstituent=Beauford%20Delaney",
         "narrator": "Janet Mock",
         "narratorText": "Janet Mock (born March 10, 1983) is an American writer, television host, director, producer and transgender rights activist. Her debut book, the memoir Redefining Realness, became a New York Times bestseller. She is a contributing editor for Marie Claire and a former staff editor of People magazine's website.",
         "museumLocation": "American Art Galleries, 5th Floor, Beyond Borders and Boundaries, 20th and 21st Centuries",
@@ -399,5 +403,11 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "test",
+    "name": "Test Tour",
+    "description": "xxx trip through Brookly Museum's collection highlights, narrated by Janet Mock.",
+    "artworks": []    
   }
 ]

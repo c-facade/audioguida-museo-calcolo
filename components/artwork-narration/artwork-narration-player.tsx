@@ -170,7 +170,7 @@ export function ArtworkNarrationPlayer({
   return (
     <>
       <div className="relative w-full">
-        <div className="w-full" ref={stageParentRef}>
+        <div className="max-h-screen" ref={stageParentRef}>
           <Stage
             width={dimensions.width}
             height={dimensions.height}

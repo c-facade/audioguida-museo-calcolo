@@ -1,31 +1,37 @@
 'use client';
 
 import Image from 'next/image';
+import { ArtworkNarration, GalleryTour } from '@/types';
 
 import { MuseumMap } from '@/components/museum-map/museum-map';
 import { BkmLogo } from '@/components/ui/bkm-logo';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ArtworkNarrationPlayer } from './artwork-narration-player';
 
-import { ArtworkNarration, GalleryTour } from '@/types';
-
 interface ArtworkNarrationCardProps {
   galleryTour: GalleryTour;
   artworkNarrationIndex: number;
 }
 
-export function ArtworkNarrationCard({ galleryTour, artworkNarrationIndex }: ArtworkNarrationCardProps) {
-  const artworkNarration: ArtworkNarration = galleryTour.artworks[artworkNarrationIndex];
+export function ArtworkNarrationCard({
+  galleryTour,
+  artworkNarrationIndex,
+}: ArtworkNarrationCardProps) {
+  const artworkNarration: ArtworkNarration =
+    galleryTour.artworks[artworkNarrationIndex];
 
   return (
     <>
       <section className="container mt-6">
         <div className="flex w-full">
           <div className="grow">
-            <BkmLogo className="w-48 fill-neutral-600 hover:fill-neutral-400" />
+            <h2 className="text-xl font-extrabold text-neutral-600">
+              <a href='/'>Brooklyn Museum Audio Tours</a>
+            </h2>
             <div className="mt-2 flex flex-wrap items-center gap-2">
               <h1 className="text-2xl font-extrabold text-neutral-300">
-                {galleryTour?.name}
+                
+                <a href={`/tour/${galleryTour?.slug}`}>{galleryTour?.name}</a>
               </h1>
               <span className="rounded-full bg-neutral-800 py-2 px-3 text-sm font-extrabold">
                 {artworkNarrationIndex + 1} of {galleryTour?.artworks.length}
@@ -36,7 +42,9 @@ export function ArtworkNarrationCard({ galleryTour, artworkNarrationIndex }: Art
         <div className="">
           <h4 className="mt-2 text-xl">
             {artworkNarration.title}
-            <span className="ml-3 text-neutral-400">{artworkNarration.date}</span>
+            <span className="ml-3 text-neutral-400">
+              {artworkNarration.date}
+            </span>
           </h4>
 
           <h5 className="my-2 text-sm text-neutral-400">
@@ -45,7 +53,10 @@ export function ArtworkNarrationCard({ galleryTour, artworkNarrationIndex }: Art
         </div>
       </section>
       <section className="container mt-4 p-0">
-        <ArtworkNarrationPlayer galleryTour={galleryTour} artworkNarrationIndex={artworkNarrationIndex} />
+        <ArtworkNarrationPlayer
+          galleryTour={galleryTour}
+          artworkNarrationIndex={artworkNarrationIndex}
+        />
       </section>
       <section className="container mb-12">
         <Tabs defaultValue="objectMap" className="w-full">
@@ -75,9 +86,11 @@ export function ArtworkNarrationCard({ galleryTour, artworkNarrationIndex }: Art
               </div>
               <div className="flex-1">{artworkNarration?.artistText}</div>
             </div>
-            <div className="mt-8 font-semibold text-neutral-400 hover:underline">
-              <a href="#">See more works by this artist &gt;</a>
-            </div>
+            {artworkNarration?.artistLink && (
+              <div className="mt-8 font-semibold text-neutral-400 hover:underline">
+                <a href={artworkNarration?.artistLink}>See more works by this artist &gt;</a>
+              </div>
+            )}
           </TabsContent>
           <TabsContent value="objectNarration">
             <div className="mb-8 rounded-md bg-neutral-800 p-4">
@@ -101,9 +114,6 @@ export function ArtworkNarrationCard({ galleryTour, artworkNarrationIndex }: Art
             <div className="whitespace-pre-line">{artworkNarration?.text}</div>
           </TabsContent>
         </Tabs>
-      </section>
-      <section className="container mt-6 mb-10">
-        <BkmLogo className="w-48 fill-neutral-600 hover:fill-neutral-400" />
       </section>
     </>
   );

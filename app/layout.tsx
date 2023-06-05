@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google';
-
+import { SiteFooter } from '@/components/layout/site-footer';
 import './globals.css';
 
 // If loading a variable font, you don't need to specify the font weight
@@ -45,6 +45,7 @@ export default async function RootLayout({
         <div className="flex w-full items-center justify-center">
           <div className="w-full max-w-screen-md">
             {children}
+            <SiteFooter />
           </div>
         </div>
       </body>
