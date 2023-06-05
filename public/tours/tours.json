@@ -1,7 +1,7 @@
 [
   {
     "slug": "highlights",
-    "name": "Highlights Tour",
+    "name": "Highlights with Janet Mock",
     "description": "A trip through Brookly Museum's collection highlights, narrated by Janet Mock.",
     "artworks": [
       {
@@ -405,9 +405,15 @@
     ]
   },
   {
-    "slug": "test",
-    "name": "Test Tour",
-    "description": "xxx trip through Brookly Museum's collection highlights, narrated by Janet Mock.",
+    "slug": "dinner_party",
+    "name": "The Dinner Party",
+    "description": "The Dinner Party was created by Judy Chicago.  Join this audio tour to hear about the centerpiece of the Elizabeth A. Sackler Center for Feminist Art.",
+    "artworks": []    
+  },
+  {
+    "slug": "leon_polk_smith",
+    "name": "Leon Polk Smith",
+    "description": "Meet Erika Umali who walks us through Brooklyn Abstraction to share details about this pioneering artist.",
     "artworks": []    
   }
 ]
