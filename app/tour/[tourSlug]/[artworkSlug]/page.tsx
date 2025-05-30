@@ -6,10 +6,7 @@ import { ArtworkNarrationCard } from "@/components/artwork-narration/artwork-nar
 
 export async function generateMetadata({ params }): Promise<Metadata> {
 	const {tourSlug, artworkSlug} = await params;
-	//const slugs = await params;
 	const tours: GalleryTour[] = toursData;
-	//const tourSlug = slugs.tourSlug;
-	// const artworkSlug = slugs.artworkSlug;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug
   );
@@ -43,7 +40,7 @@ export default function Page({
 	const tours: GalleryTour[] = toursData;
 	const galleryTour: GalleryTour | undefined =
 		tours.find( (galleryTour) => galleryTour.slug === tourSlug);
-	let artworkNarration : ArtworkNarration | undefined = undefined;
+	//let artworkNarration : ArtworkNarration | undefined = undefined;
 	let artworkNarrationIndex : number = -1;
 	if(galleryTour){
 		artworkNarrationIndex = galleryTour.artworks.findIndex(

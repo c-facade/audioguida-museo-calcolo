@@ -4,9 +4,6 @@ import Link from 'next/link';
 import toursData from '@/public/tours/tours.json';
 import { GalleryTour } from '@/types';
 
-//import { BkmLogo } from '@/components/ui/bkm-logo';
-
-
 export async function generateMetadata({ params }): Promise<Metadata> {
   return {
     title: 'Museum Audio Tours Prototype',
@@ -24,7 +21,7 @@ export default function Page() {
           Audioguide
         </h1>
         <p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
-				Prototipo di audioguida.
+				Ascolta le audioguide dei seguenti musei e mostre.
 				</p>
       </div>
       <div className="flex flex-col gap-4">
