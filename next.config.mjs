@@ -10,9 +10,9 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    appDir: true,
-  },
+	//experimental: {
+	//  appDir: true,
+	//},
   // https://github.com/kkomelin/isomorphic-dompurify/issues/54#issuecomment-1523500940
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.resolve.alias.canvas = false

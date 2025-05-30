@@ -4,8 +4,8 @@ import Link from 'next/link';
 import toursData from '@/public/tours/tours.json';
 import { GalleryTour } from '@/types';
 
-import { BkmLogo } from '@/components/ui/bkm-logo';
-import { Button } from '@/components/ui/button';
+//import { BkmLogo } from '@/components/ui/bkm-logo';
+
 
 export async function generateMetadata({ params }): Promise<Metadata> {
   return {
@@ -20,19 +20,17 @@ export default function Page() {
   return (
     <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
-        <BkmLogo className="w-48 fill-neutral-600 hover:fill-neutral-400" />
         <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
-          Audio Tours
+          Audioguide
         </h1>
         <p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
-          Prototype museum tours built with Next.js 13, Radix UI, and Tailwind
-          CSS (via https://ui.shadcn.com/).
-        </p>
+				Prototipo di audioguida.
+				</p>
       </div>
       <div className="flex flex-col gap-4">
         {tours.map((tour) => (
           <div
-            className="rounded-lg p-4 hover:bg-neutral-800"
+            className="rounded-lg p-4 hover:bg-neutral-800" key={tour.slug}
           >
             <Link key={tour.slug} href={`/tour/${tour.slug}`}>
               <Image

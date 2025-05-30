@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ArtworkNarration, GalleryTour } from '@/types';
 import { Howl, Howler } from 'howler';
-import Konva from 'konva';
-import { Image, Layer, Stage } from 'react-konva';
+import  Image  from 'next/image';
 import useImage from 'use-image';
+import Konva from 'konva';
 
 import { Icons } from '@/components/ui/icons';
 import { Progress } from '@/components/ui/progress';
@@ -17,11 +17,12 @@ interface ArtworkNarrationPlayerProps {
   artworkNarrationIndex: number;
 }
 
-export function ArtworkNarrationPlayer({
+export default function ArtworkNarrationPlayer({
   galleryTour,
   artworkNarrationIndex,
 }: ArtworkNarrationPlayerProps) {
-  const artworkNarration: ArtworkNarration =
+	
+	const artworkNarration: ArtworkNarration =
     galleryTour.artworks[artworkNarrationIndex];
   const router = useRouter();
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
@@ -36,6 +37,7 @@ export function ArtworkNarrationPlayer({
   const imageRef = useRef<any | null>(null);
   const lastEventRef = useRef<any | null>(null);
 
+	
   const imageUrl = `/tours/${galleryTour.slug}/${artworkNarration.slug}/object.jpg`;
   const [image] = useImage(imageUrl);
 
@@ -47,6 +49,7 @@ export function ArtworkNarrationPlayer({
 
   const soundRef = useRef<Howl | null>(null);
 
+	
   useEffect(() => {
     const parentElement = stageParentRef.current;
 
@@ -85,7 +88,8 @@ export function ArtworkNarrationPlayer({
       });
     }
 
-    const sound = soundRef.current;
+		
+		const sound = soundRef.current;
 
     if (!isAudioPlaying) {
       sound.pause();
@@ -160,13 +164,67 @@ export function ArtworkNarrationPlayer({
     annotations,
     audioUrl,
   ]);
-
+	
   function goObject(index) {
     const tobj = galleryTour.artworks[index];
     const url = `/tour/${galleryTour.slug}/${tobj.slug}`;
     router.push(url);
   }
 
+	return (
+		<>
+			<div className="relative w-full">
+				<div className="max-h-screen" ref={stageParentRef}>
+					<div ref={stageRef} className="stage">
+						<Image
+							src={imageUrl}
+							width={dimensions.width}
+							height={dimensions.height}
+							alt="Picture of the object"
+						/>
+					</div>
+				</div>
+        <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center"></div>
+      </div>
+      <div className="w-full">
+        <Progress value={percentProgress} className="w-full" />
+			</div>
+			{(annotations.length != 0) ?
+      <div className="flex h-[90px] w-full items-start justify-center px-4 pt-2">
+        {currentAnnotation}
+			</div>
+			: <div className="h-[10px]"></div>
+			}
+      <div className="mb-8 flex w-full items-center justify-between px-8">
+        <RoundButton
+          onClick={() => goObject(artworkNarrationIndex - 1)}
+          disabled={artworkNarrationIndex === 0}
+        >
+          <Icons.chevronLeft className="h-10 w-10" />
+          <span className="sr-only">Previous</span>
+        </RoundButton>
+        {!isAudioPlaying ? (
+          <RoundButton onClick={() => setIsAudioPlaying(true)}>
+            <Icons.play className="ml-1 h-12 w-12" />
+            <span className="sr-only">Play audio</span>
+          </RoundButton>
+        ) : (
+          <RoundButton onClick={() => setIsAudioPlaying(false)}>
+            <Icons.pause className="h-12 w-12" />
+            <span className="sr-only">Play audio</span>
+          </RoundButton>
+        )}
+        <RoundButton
+          onClick={() => goObject(artworkNarrationIndex + 1)}
+          disabled={artworkNarrationIndex >= galleryTour?.artworks?.length - 1}
+        >
+          <Icons.chevronRight className="h-10 w-10" />
+          <span className="sr-only">Next</span>
+        </RoundButton>
+      </div>
+		</>
+	);
+	/*
   return (
     <>
       <div className="relative w-full">
@@ -174,7 +232,7 @@ export function ArtworkNarrationPlayer({
           <Stage
             width={dimensions.width}
             height={dimensions.height}
-            ref={stageRef}
+						ref={stageRef}
           >
             <Layer>
               <Image
@@ -227,5 +285,6 @@ export function ArtworkNarrationPlayer({
         </RoundButton>
       </div>
     </>
-  );
+		);
+	*/
 }

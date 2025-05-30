@@ -9,7 +9,7 @@ export function MainNav() {
         href="/"
         className="flex items-center space-x-2 text-2xl font-bold"
       >
-        Museum Audio Tours
+        Audioguide
       </Link>
     </div>
   );

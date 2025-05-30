@@ -11,10 +11,10 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: 'Museum Audio Tours',
+    default: 'Sistema Museale di Ateneo',
     template: '%s | Museum Audio Tours',
   },
-  description: 'Museum Audio Tours Prototype',
+  description: 'Audioguide Sistema Museale di Ateneo',
   icons: {
     icon: [
       {

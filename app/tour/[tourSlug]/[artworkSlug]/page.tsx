@@ -1,13 +1,15 @@
-import type { Metadata } from 'next';
+import type {Metadata } from 'next'
+import { ArtworkNarration, GalleryTour } from "@/types";
 import toursData from '@/public/tours/tours.json';
-import { ArtworkNarration, GalleryTour } from '@/types';
-
-import { ArtworkNarrationCard } from '@/components/artwork-narration/artwork-narration-card';
+import * as React from "react";
+import { ArtworkNarrationCard } from "@/components/artwork-narration/artwork-narration-card";
 
 export async function generateMetadata({ params }): Promise<Metadata> {
-  const tours: GalleryTour[] = toursData;
-  const tourSlug = params.tourSlug;
-  const artworkSlug = params.artworkSlug;
+	const {tourSlug, artworkSlug} = await params;
+	//const slugs = await params;
+	const tours: GalleryTour[] = toursData;
+	//const tourSlug = slugs.tourSlug;
+	// const artworkSlug = slugs.artworkSlug;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug
   );
@@ -31,25 +33,44 @@ export async function generateMetadata({ params }): Promise<Metadata> {
   };
 }
 
-export default function Page({ params }) {
-  const tours: GalleryTour[] = toursData;
-  const tourSlug = params.tourSlug;
-  const artworkSlug = params.artworkSlug;
-  const galleryTour: GalleryTour | undefined = tours.find(
-    (galleryTour) => galleryTour.slug === tourSlug
-  );
-  let artworkNarration: any = null;
-  let artworkNarrationIndex = -1;
-  if (galleryTour) {
-    artworkNarrationIndex = galleryTour.artworks.findIndex(
-      (artworkNarration) => artworkNarration.slug === artworkSlug
-    );
-    return (
-      <ArtworkNarrationCard
-        galleryTour={galleryTour}
-        artworkNarrationIndex={artworkNarrationIndex}
-      />
-    );  
-  }
-  return null;
+export default function Page({
+	params,
+}: {
+	params: Promise<{ tourSlug: string, artworkSlug: string}>
+}) {
+	
+	const {tourSlug, artworkSlug} = React.use(params);
+	const tours: GalleryTour[] = toursData;
+	const galleryTour: GalleryTour | undefined =
+		tours.find( (galleryTour) => galleryTour.slug === tourSlug);
+	let artworkNarration : ArtworkNarration | undefined = undefined;
+	let artworkNarrationIndex : number = -1;
+	if(galleryTour){
+		artworkNarrationIndex = galleryTour.artworks.findIndex(
+			(artworkNarration) => artworkNarration.slug === artworkSlug
+		);
+		return (
+			<div>	
+				<ArtworkNarrationCard galleryTour={galleryTour} artworkNarrationIndex={artworkNarrationIndex}/>
+			</div>
+		)
+	}
+	/*	
+	const galleryTour: GalleryTour | undefined =
+		tours.find( (galleryTour) => galleryTour.slug === tourSlug);
+	let artworkNarration : ArtworkNarration | undefined = undefined;
+	let artworkNarrationIndex = -1;
+	if (galleryTour) {
+		artworkNarrationIndex = galleryTour.artworks.findIndex(
+			(artworkNarration) => artworkNarration.slug === artworkSlug
+		);
+		return (
+			<ArtworkNarrationCard
+				galleryTour={galleryTour}
+				artworkNarrationIndex={artworkNarrationIndex}
+			/>
+		);
+		}*/
+	return null;
 }
+

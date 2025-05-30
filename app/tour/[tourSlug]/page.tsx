@@ -3,13 +3,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import toursData from '@/public/tours/tours.json';
 import { GalleryTour } from '@/types';
+import * as React from "react";
 
-import { BkmLogo } from '@/components/ui/bkm-logo';
 
-export async function generateMetadata({ params }): Promise<Metadata> {
-  const tours: GalleryTour[] = toursData;
-  const tourSlug = params.tourSlug;
-  const artworkSlug = params.artworkSlug;
+export async function generateMetadata({ 
+	params} : {params: Promise<{ tourSlug: string}>
+	}) : Promise<Metadata> {
+	const {tourSlug} = await params;
+	const tours: GalleryTour[] = toursData;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug
   );
@@ -20,9 +21,13 @@ export async function generateMetadata({ params }): Promise<Metadata> {
   };
 }
 
-export default function Page({ params }) {
-  const tours: GalleryTour[] = toursData;
-  const tourSlug = params.tourSlug;
+export default function Page({ 
+	params 
+} : {
+	params : Promise<{tourSlug: string}>
+}) {
+	const {tourSlug} = React.use(params);
+	const tours: GalleryTour[] = toursData;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug
   );
@@ -35,7 +40,7 @@ export default function Page({ params }) {
     <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h2 className="text-xl font-extrabold text-neutral-600">
-          <a href='/'>Brooklyn Museum Audio Tours</a>
+          <a href='/'>Audioguide S.M.A. Pisa</a>
         </h2>
         <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
           {galleryTour.name}
@@ -46,9 +51,9 @@ export default function Page({ params }) {
       </div>
       <div className="flex flex-col gap-4">
         {galleryTour.artworks.map((artwork) => (
-          <div className="rounded-lg p-4 hover:bg-neutral-900">
+					<div className="rounded-lg p-4 hover:bg-neutral-900" id={artwork.id} key={artwork.id}>
             <Link
-              key={artwork.slug}
+              key={artwork.id}
               href={`/tour/${galleryTour.slug}/${artwork.slug}`}
             >
               <Image
