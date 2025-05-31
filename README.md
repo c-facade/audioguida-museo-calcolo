@@ -45,13 +45,3 @@ If you have not yet loaded the Elasticsearch data, you should see an error on th
 
 Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
 
-## Screenshots
-
-![Audio Tour Screenshot](./doc/img/screenshot1.jpg)
-
-### Notes
-
-Annotation regex:
-
-\[(.+)\]\n(.+)\n\[(.+)\]\n
-{\n"start": $1,\n"end": $3,\n"text": "$2"\n},
