@@ -1,14 +1,17 @@
-# museum-audio-tour
+# Audioguide Sistema Museale di Ateneo
+Prototipo di audioguide per il sistema museale d'ateneo dell'Università di Pisa, specificamente per la nuova apertura del Museo degli Strumenti per il Calcolo.
 
-Powerful tools like [Next.js](https://nextjs.org/), [React](https://react.dev/), [Howler.js](https://howlerjs.com/), and [Konva](https://konvajs.org/) make it possible for museums to easily build performant, responsive and accessible audio guides for their collections.
+## TODO list
+- Aggiungere galleria di immagini.
+- Eliminare Esempi di altri musei.
+- Pulire il codice in generale.
+- Continuare a riempire l'audioguida del MSC.
+- Caricarlo da qualche parte.
+- Separare `tours.json` dall'implementazione, così che non ci sia bisogno di compilare di nuovo per aggiornare il file.
 
-## Demo
+## Tecnologie
 
-This project has been deployed on Vercel at [https://museum-audio-tour.vercel.app/](https://museum-audio-tour.vercel.app/)
-
-## Dataset
-
-All data was collected via the [Brooklyn Museum Open API](https://www.brooklynmuseum.org/opencollection/api/docs) and [Brooklyn Museum Audio Guides](https://www.brooklynmuseum.org/visit/bloomberg_connects)
+Il prototipo originale che ho forkato utilizza [Next.js](https://nextjs.org/), [React](https://react.dev/), [Howler.js](https://howlerjs.com/), e [Konva](https://konvajs.org/). Ho aggiornato le versioni di alcuni di questi per risolvere delle vulnerabilità. Konva ha smesso di funzionare quindi l'ho eliminato dal progetto.
 
 ## Next.js template
 
@@ -27,10 +30,6 @@ which is an implementation of [Radix UI](https://www.radix-ui.com/) with [Tailwi
 - [Tailwind CSS](https://tailwindcss.com/)
 - [next-themes](https://github.com/pacocoursey/next-themes) dark/light modes
 - [@next/font](https://nextjs.org/docs/api-reference/next/font) font loading
-
-## Adopt it yourself
-
-This is just a prototype, ideally the `/public/tours/tours.json` file comes from a backend CMS.
 
 ## Installation & Running
 
