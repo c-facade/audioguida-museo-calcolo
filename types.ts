@@ -11,7 +11,8 @@ export interface ArtworkNarration {
   id: string; // Unique ID for the artwork
   slug: string; // Unique URL slug for the artwork
   title: string; // Name of the artwork
-  date: string; // Date of the artwork
+	date: string; // Date of the artwork
+	preview: boolean; // wether to show a preview image
   artist: string; // Name of the artist
   artistBio: string; // Bio of the artist
   artistText: string; // Text of the artist bio
