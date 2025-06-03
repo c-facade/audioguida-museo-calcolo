@@ -1,0 +1,596 @@
+[
+	{
+		"slug": "msc",
+		"name": "Museo degli Strumenti per il Calcolo",
+		"description" : "Non solo calcolo: vita lavorativa e tempo libero prima dell'arrivo di internet.",
+		"artworks" : [
+			{
+				"id": "1",
+				"slug": "storia-museo",
+				"title": "La storia del museo",
+				"date": "1961",
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
+				"duration": 0,
+				"annotations": []
+			},
+			{
+				"id": "2",
+				"slug": "contabilita",
+				"title": "Contabilità",
+				"date": "1961",
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
+				"duration": 0,
+				"annotations": []
+			},
+			{
+				"id": "3",
+				"slug": "grafica-musica",
+				"title": "Grafica e Musica",
+				"date": "1961",
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
+				"duration": 0,
+				"annotations": []
+			},
+			{
+				"id": "4",
+				"slug": "videoscrittura",
+				"title": "Videoscrittura",
+				"date": "1961",
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
+				"duration": 0,
+				"annotations": []
+			},
+			{
+				"id": "5",
+				"slug": "videogiochi",
+				"title": "Videogiochi",
+				"date": "1961",
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
+				"duration": 0,
+				"annotations": []
+			},
+			{
+				"id": "6",
+				"slug": "sala-cep",
+				"title": "La Calcolatrice Elettronica Pisana",
+				"date": "1961",
+				"artist": "Università di Pisa",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Davanti a voi la Calcolatrice Elettronica Pisana, o CEP, computer mainframe costruito dall'Università di Pisa tra il 1954 e il 1961.\n Il suo prototipo, la Macchina Ridotta, ultimata nel 1957, fu il primo computer progettato e costruito interamente in Italia.\n I fondi per la sua costruzione, di 150 milioni di lire, erano destinati originariamente ad un acceleratore di particelle. Questo fu invece costruito a Frascati, e i fondi vennero dirottati sulla CEP, anche grazie al parere di Enrico Fermi, che scrisse una lettera al rettore Avanzi per supportare il progetto.\nAl tempo Fermi aveva già lavorato al Progetto Manhattan negli Stati Uniti, dove aveva visto in prima persona alcuni dei primi calcolatori elettronici e aveva constatato la loro utilità.",
+				"duration": 57,
+				"annotations": []
+			},
+			{
+				"id": "2",
+				"slug": "elea-6001",
+				"title": "ELEA 6001",
+				"date": "1961",
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
+				"duration": 0,
+				"annotations": []
+			},
+			{
+				"id": "8",
+				"slug": "calcolo-meccaniche",
+				"title": "Calcolo personale: le calcolatrici meccaniche.",
+				"date": "1961",
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
+				"duration": 0,
+				"annotations": []
+			},
+			{
+				"id": "9",
+				"slug": "p101",
+				"title": "La programma 101",
+				"date": "1961",
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
+				"duration": 0,
+				"annotations": []
+			},
+			{
+				"id": "10",
+				"slug": "calcolo-elettroniche",
+				"title": "Calcolo personale: i personal computers",
+				"date": "1961",
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
+				"duration": 0,
+				"annotations": []
+			}
+		]
+	},
+  {
+    "slug": "highlights",
+    "name": "Highlights with Janet Mock",
+    "description": "A trip through Brookly Museum's collection highlights, narrated by Janet Mock.",
+    "artworks": [
+      {
+        "id": "1558",
+        "slug": "storm_in_the_rocky_mountains_mt_rosalie_albert_bierstadt",
+        "title": "A Storm in the Rocky Mountains, Mt. Rosalie",
+        "date": "1866",
+        "artist": "Albert Bierstadt",
+        "artistBio": "American, born Germany, 1830-1902",
+        "artistText": "Albert Bierstadt (January 7, 1830 – February 18, 1902) was a German-American painter best known for his lavish, sweeping landscapes of the American West. He joined several journeys of the Westward Expansion to paint the scenes. He was not the first artist to record the sites, but he was the foremost painter of them for the remainder of the 19th century.",
+        "artistLink": "https://bkm-next-search.vercel.app/search/collections?primaryConstituent=Albert%20Bierstadt",
+        "narrator": "Janet Mock",
+        "narratorText": "Janet Mock (born March 10, 1983) is an American writer, television host, director, producer and transgender rights activist. Her debut book, the memoir Redefining Realness, became a New York Times bestseller. She is a contributing editor for Marie Claire and a former staff editor of People magazine's website.",
+        "museumLocation": "American Art Galleries, 5th Floor, Imagining the New Nation’s Landscape, 1800–1880",
+        "description": "Albert Bierstadt was a skilled showman. Here, he reorganized Rocky Mountain landmarks, exaggerated their scale, and introduced dramatic weather to thrill audiences at a moment when the North American continent was under rapid development. Bierstadt’s display for profit of theatrically lit large canvases like this one was a forerunner of today’s movies.\n\nIn 1863 Bierstadt made on-site studies for the work, which he completed in his New York studio. The painting had a personal significance, for “Mt. Rosalie” (now Mount Evans) was named by the artist in honor of his traveling companion’s wife, Rosalie Osborne Ludlow, whom Bierstadt would marry in 1866 following her divorce.",
+        "text": "In 1866 Albert Bierstadt debuted this painting to great attendance in New York City. The exhibition was a theatrical experience. There was seating for viewers in front of the painting, dramatic lighting and an accompanying leaflet to guide an east coast resident's eye over this impressive distant rocky mountain landscape. \n\nDescribing the storm, the leaflet read:\n\n\"The character of these masses of clouds, wind tossed and big with thunder is something wonderful. The idea of motion conveyed in them is skillfully represented. They seem to surge and swirl before the site to roll over and over in massive forms and rock to and fro like ships at sea.\"\n\nLow down, they are of a dark lead color running into black. While above they grow lighter and are tinted, tender gray to the left. They become fleecy and white and the blue sky appears amid this clear atmosphere.\n\nThe two snow peaks rise above this storm, peaceful and calm and tinged by the sunlight. \nA rosy hue, a solitary eagle is cleaving his way through the heavens in advance of the approaching storm Bierstadt.\n\nLike other 19th century painters of the American West cultivated a reputation as an adventurer.  He joined scientific expeditions across the continent to inform his paintings. He even invited journalists to join him and report on the 18 63 journey that informed this painting, the write ups and resulting awe inspiring paintings perpetuated an understanding of the American continents as untouched wilderness. They were also often used to advocate for the US government's theft of land and the displacement of native Americans living in these regions.",
+        "duration": 120,
+        "annotations": [
+          {
+            "text": "In 1866 Albert Bierstadt debuted this painting to great attendance in New York City.",
+            "start": 0.0,
+            "end": 5.15
+          },
+          {
+            "text": "The exhibition was a theatrical experience.",
+            "start": 6.01,
+            "end": 8.2
+          },
+          {
+            "text": "There was seating for viewers in front of the painting,",
+            "start": 8.2,
+            "end": 11.16
+          },
+          {
+            "text": "dramatic lighting and an accompanying leaflet to guide an east coast resident's",
+            "start": 11.16,
+            "end": 16.15
+          },
+          {
+            "text": "eye over this impressive distant rocky mountain landscape.",
+            "start": 16.16,
+            "end": 20.14
+          },
+          {
+            "text": "Describing the storm, the leaflet read quote,",
+            "start": 21.06,
+            "end": 24.15,
+            "percentX": 35,
+            "percentY": 40,
+            "scale": 1.4
+          },
+          {
+            "text": "\"The character of these masses of clouds,",
+            "start": 24.23,
+            "end": 27.2
+          },
+          {
+            "text": "wind tossed and big with thunder is something wonderful.",
+            "start": 27.21,
+            "end": 31.13
+          },
+          {
+            "text": "The idea of motion conveyed in them is skillfully represented.",
+            "start": 32.04,
+            "end": 36.13
+          },
+          {
+            "text": "They seem to surge and swirl before the site to roll over and",
+            "start": 36.21,
+            "end": 41.14
+          },
+          {
+            "text": "over in massive forms and rock to and fro like ships at sea.",
+            "start": 41.15,
+            "end": 48.00
+          },
+          {
+            "text": "Low down, they are of a dark lead color running into black.",
+            "start": 48.00,
+            "end": 52.18,
+            "percentX": 35,
+            "percentY": 40,
+            "scale": 1.8
+          },
+          {
+            "text": "While above they grow lighter and are tinted, tender gray.",
+            "start": 52.18,
+            "end": 58.00,
+            "percentX": 35,
+            "percentY": 30,
+            "scale": 1.8
+          },
+          {
+            "text": "To the left, they become fleecy and white and the blue sky appears amid this clear atmosphere.",
+            "start": 58.00,
+            "end": 65.17,
+            "percentX": 25,
+            "percentY": 25,
+            "scale": 2.2
+          },
+          {
+            "text": "The two snow peaks rise above this storm, peaceful and calm and tinged by the sunlight, a rosy hue.",
+            "start": 65.18,
+            "end": 74.0,
+            "percentX": 25,
+            "percentY": 25,
+            "scale": 2.4
+          },
+          {
+            "text": "A solitary eagle is cleaving his way through the heavens in advance of the approaching storm.",
+            "start": 74.16,
+            "end": 81.12,
+            "percentX": 60,
+            "percentY": 30,
+            "scale": 2.4
+          },
+          {
+            "text": "Bierstadt, Like other 19th century painters of the American West cultivated a reputation as an adventurer.",
+            "start": 81.12,
+            "end": 88.23,
+            "percentX": 50,
+            "percentY": 50,
+            "scale": 1
+          },
+          {
+            "text": "He joined scientific expeditions across the continent to inform his paintings.",
+            "start": 89.09,
+            "end": 94.03
+          },
+          {
+            "text": "He even invited journalists to join him and report on the 1863 journey that informed this painting,",
+            "start": 94.09,
+            "end": 100.18
+          },
+          {
+            "text": "The write ups and resulting awe inspiring paintings perpetuated an",
+            "start": 101.09,
+            "end": 106.0
+          },
+          {
+            "text": "understanding of the American continents as untouched wilderness.",
+            "start": 106.0,
+            "end": 110.07
+          },
+          {
+            "text": "They were also often used to advocate for the US government's theft of land",
+            "start": 110.17,
+            "end": 115.13
+          },
+          {
+            "text": "and the displacement of native Americans living in these regions.",
+            "start": 115.13,
+            "end": 119.02
+          }
+        ]
+      },
+      {
+        "id": "1558",
+        "slug": "heat_florine_stettheimer",
+        "title": "Heat",
+        "date": "1919",
+        "artist": "Florine Stettheimer",
+        "artistBio": "American, 1871-1944",
+        "artistText": "Florine Stettheimer (August 19, 1871 – May 11, 1944) was an American modernist painter, feminist, theatrical designer, poet, and salonnière.\n\nStettheimer developed a feminine, theatrical painting style depicting her friends, family, and experiences in New York City. She made the first feminist nude self-portrait and paintings depicting controversies of race and sexual preference. She and her sisters hosted a salon that attracted members of the avant-garde.[1] In the mid-1930s, Stettheimer created the stage designs and costumes for Gertrude Stein and Virgil Thomson's avant-garde opera, Four Saints in Three Acts. She is best known for her four monumental works illustrating what she considered New York City's \"Cathedrals\": Broadway, Wall Street, Fifth Avenue, and New York's three major art museums.\n\nDuring her lifetime, Stettheimer exhibited her paintings at more than 40 museum exhibitions and salons in New York and Paris. In 1938, when the Museum of Modern Art sent the first American art exhibition to Europe, Stettheimer and Georgia O'Keeffe were the only women whose work was included.[2] Following her death in 1944, her friend Marcel Duchamp curated a retrospective exhibition of her work at the Museum of Modern Art in 1946. It was the museum's first retrospective exhibition of work by a woman artist. After her death, Stettheimer's paintings were donated to museums throughout the United States. In addition to her many paintings and costume and set designs, Stettheimer designed custom frames for her paintings and matching furniture, and wrote humorous, often biting poetry. A book of her poetry, Crystal Flowers, was published privately and posthumously by her sister Ettie Stettheimer in 1949.",
+        "artistLink": "https://bkm-next-search.vercel.app/search/collections?primaryConstituent=Florine%20Stettheimer",
+        "narrator": "Janet Mock",
+        "narratorText": "Janet Mock (born March 10, 1983) is an American writer, television host, director, producer and transgender rights activist. Her debut book, the memoir Redefining Realness, became a New York Times bestseller. She is a contributing editor for Marie Claire and a former staff editor of People magazine's website.",
+        "museumLocation": "American Art Galleries, 5th Floor, The City and the Rise of the Modern Woman, 1900–1945",
+        "description": "Florine Stettheimer captured the dynamic social worlds of her intimate circle of family and friends, many of whom were artists and members of New York’s avant-garde. This whimsical portrait was inspired by a birthday celebration for Stettheimer’s mother at the family’s summer retreat in Bedford Hills, New York. Stettheimer’s interest in theater and set design is apparent through the arrangement of a stagelike space composed of horizontal bands of color. The blazing hues, coupled with the lithe bodies of the women and the wilted tree branches in the background, evoke the summer heat described in the painting’s title.",
+        "text": "At the end of the summer of 1918, Florene Stettheimer wrote in her diary quote: \"The only things that amuse me nowadays are my own paintings in the making.\"\n\nShe spent the next two years transferring the events of that summer to canvas. In this painting, she depicted her mother rosetta's birthday which took place on a hot and humid afternoon in July. Stettheimer was an innovative but private artist of the early 20th century art scene in New York City. She rarely exhibited her work publicly during her lifetime, but she and two of her sisters ran in circles of prominent artists. They hung out with the likes of Marcel Duchamp, Charles Demuth and Georgia o'Keeffe. The Stettheimer sisters even hosted salons in the Manhattan home.   \n\nThey shared with their mother in this vivid painting, Rosetta can be seen at the top of the composition dressed in black. She is accompanied by her four daughters, the daughter on the left side of the circle also in black is the eldest Stella. Unlike her sisters, she married and moved away from the family home, find carry in yellow on the right side of the circle she expressed her creativity at home through furnishings, decor and cooking an elaborate dollhouse.\n\nNow on view at the Museum of the City of New York is a lasting representation of her art. Eddie who owned this painting until her death is depicted in flowered pink. She was a writer and philosopher. The artist of this painting, Florene has put herself in the painting too. She's on the far right languishing in a flowy white dress. In addition to being a painter, a set designer and a costume designer, a real New York Renaissance woman.",
+        "duration": 115,
+        "annotations": [
+          {
+            "text": "At the end of the summer of 1918, Florene Stettheimer wrote in her diary quote:",
+            "start": 0.01,
+            "end": 6.04
+          },
+          {
+            "text": "\"The only things that amuse me nowadays are my own paintings in the making.\"",
+            "start": 6.09,
+            "end": 12.03
+          },
+          {
+            "text": "She spent the next two years transferring the events of that summer to canvas.",
+            "start": 12.20,
+            "end": 17.02
+          },
+          {
+          "text": "In this painting, she depicted her mother Rosetta's birthday which took place on a hot and humid afternoon in July.",
+          "start": 18.09,
+          "end": 25.07
+          },
+          {
+            "text": "Stettheimer was an innovative but private artist of the early 20th century art scene in New York City.",
+            "start": 25.23,
+            "end": 32.11
+          },
+          {
+            "text": "She rarely exhibited her work publicly during her lifetime, but she and two of her sisters ran in circles of prominent artists.",
+            "start": 32.02,
+            "end": 40.13
+          },
+          {
+            "text": "They hung out with the likes of Marcel Duchamp, Charles Demuth and Georgia o'Keeffe.",
+            "start": 41.03,
+            "end": 46.09
+          },
+          {
+            "text": "The Stettheimer sisters even hosted salons in the Manhattan home they shared with their mother.",
+            "start": 46.17,
+            "end": 51.0
+          },
+          {
+            "text": "In this vivid painting, Rosetta can be seen at the top of the composition dressed in black.",
+            "start": 51.0,
+            "end": 57.16,
+            "percentX": 45,
+            "percentY": 30,
+            "scale": 2
+          },
+          {
+            "text": "She is accompanied by her four daughters.",
+            "start": 57.17,
+            "end": 60.0,
+            "percentX": 50,
+            "percentY": 50,
+            "scale": 1.1
+          },
+          {
+            "text": "The daughter on the left side of the circle also in black is the eldest Stella. Unlike her sisters, she married and moved away from the family home,",
+            "start": 60.0,
+            "end": 69.10,
+            "percentX": 20,
+            "percentY": 40,
+            "scale": 2
+          },
+          {
+            "text": "Find Carry in yellow on the right side of the circle she expressed her creativity at home through furnishings,",
+            "start": 69.18,
+            "end": 77.00,
+            "percentX": 70,
+            "percentY": 50,
+            "scale": 2
+          },
+          {
+            "text": "decor and cooking an elaborate dollhouse.",
+            "start": 77.00,
+            "end": 80.18
+          },
+          {
+            "text": "Now on view at the Museum of the City of New York is a lasting representation of her art.",
+            "start": 80.18,
+            "end": 85.10
+          },
+          {
+            "text": "Eddie, who owned this painting until her death, is depicted in flowered pink.",
+            "start": 85.12,
+            "end": 91.18,
+            "percentX": 25,
+            "percentY": 74,
+            "scale": 1.5
+          },
+          {
+            "text": "She was a writer and philosopher.",
+            "start": 91.18,
+            "end": 94.00
+          },
+          {
+            "text": "The artist of this painting,",
+            "start": 94.21,
+            "end": 96.06,
+            "percentX": 75,
+            "percentY": 72,
+            "scale": 1.8
+          },
+          {
+            "text": "Florene has put herself in the painting too.",
+            "start": 96.06,
+            "end": 99.10
+          },
+          {
+            "text": "She's on the far right languishing in a flowy white dress.",
+            "start": 99.17,
+            "end": 104.08
+          },
+          {
+            "text": "In addition to being a painter, a set designer and a costume designer, a real New York Renaissance woman.",
+            "start": 105.03,
+            "end": 112.24,
+            "percentX": 50,
+            "percentY": 50,
+            "scale": 1
+          }
+        ]
+      },
+      {
+        "id": "1559",
+        "slug": "untitled_fang_sculpture_crow_and_fruit_beauford_delaney",
+        "title": "Untitled (Fang Sculpture, Crow and Fruit)",
+        "date": "1945",
+        "artist": "Beauford Delaney",
+        "artistBio": "American, 1901-1979",
+        "artistText": "Beauford Delaney (December 30, 1901 – March 26, 1979) was an American modernist painter. He is remembered for his work with the Harlem Renaissance in the 1930s and 1940s, as well as his later works in abstract expressionism following his move to Paris in the 1950s. Beauford's younger brother, Joseph, was also a noted painter.",
+        "artistLink": "https://bkm-next-search.vercel.app/search/collections?primaryConstituent=Beauford%20Delaney",
+        "narrator": "Janet Mock",
+        "narratorText": "Janet Mock (born March 10, 1983) is an American writer, television host, director, producer and transgender rights activist. Her debut book, the memoir Redefining Realness, became a New York Times bestseller. She is a contributing editor for Marie Claire and a former staff editor of People magazine's website.",
+        "museumLocation": "American Art Galleries, 5th Floor, Beyond Borders and Boundaries, 20th and 21st Centuries",
+        "description": "Beauford Delaney arranged this still-life composition as if it were an offering to the Fang reliquary figure (a ritual object used by Fang peoples from central West Africa) seen on the right. The artist’s vivid colors and energetic brushwork create a sense of vibration—the bowl almost appears to spin, and the figure to rock. Delaney may have seen traditional African art at the Primitive African Art Center in Manhattan or at the Brooklyn Museum.",
+        "text": "When I look at this painting from Delaney, one of the few queer black artists to rise to prominence, I think about the way that he reclaimed, kind of like this French modernism with the bowl of fruit and really fucked it up in a way, really queered it up in a way with this African kind of sculpture that actually feels as if it's scaring off the crow in some way like this is my fruit bitch.\n\nThere's something so hip hop about this too and I don't know if it's because I know it's from a black queer artist, but there's something about the ways in which these different cultures and elements and figures and objects are remixed and put together in this way.  You have something that's classic, like a classic beat, right? With the fruit coming with something aggressive but also in nature like the crow.\n\nAnd then you also have the presence of a black body in a sense, right?  Standing in with this figurine, this African figurine, standing watch and maybe calling attention or screaming back at the crow in some way.  So it's like a clash of cultures in a really beautiful and powerful and distinct way.",
+        "duration": 77,
+        "annotations": [
+          {
+            "text": "When I look at this painting from Delaney,",
+            "start": 0,
+            "end": 2.0
+          },
+          {
+            "text": "one of the few queer black artists to rise to prominence,",
+            "start": 2.14,
+            "end": 6.1
+          },
+          {
+            "text": "I think about the way that he reclaimed,",
+            "start": 6.1,
+            "end": 9.09
+          },
+          {
+            "text": "kind of like this French modernism with the bowl of fruit and really fucked it up in a way,",
+            "start": 9.1,
+            "end": 17.23,
+            "percentX": 45,
+            "percentY": 60,
+            "scale": 1.4
+          },
+          {
+            "text": "really queered it up in a way with this African kind of sculpture that actually feels as if it's scaring off the crow in some way,",
+            "start": 17.23,
+            "end": 28.09,
+            "percentX": 70,
+            "percentY": 50,
+            "scale": 1.2
+          },
+          {
+            "text": "like this is my fruit bitch.",
+            "start": 28.17,
+            "end": 31.06
+          },
+          {
+            "text": "There's something so hip hop about this too and I don't know if it's because I know it's from a black queer artist,",
+            "start": 31.15,
+            "end": 36.18,
+            "percentX": 50,
+            "percentY": 50,
+            "scale": 1.2
+          },
+          {
+            "text": "but there's something about the ways in which these different cultures and",
+            "start": 37.0,
+            "end": 41.05,
+            "percentX": 50,
+            "percentY": 50,
+            "scale": 1
+          },
+          {
+            "text": "elements and figures and objects are remixed and put together in this way.",
+            "start": 41.06,
+            "end": 47.23
+          },
+          {
+            "text": "You have something that's classic, like a classic beat, right?",
+            "start": 47.23,
+            "end": 52.06
+          },
+          {
+            "text": "With the fruit coming with something aggressive but also in nature like the crow.",
+            "start": 52.06,
+            "end": 58.09
+          },
+          {
+            "text": "And then you also have the presence of a black body in a sense, right?",
+            "start": 58.16,
+            "end": 62.19
+          },
+          {
+            "text": "standing in with this figurine, this African figurine,",
+            "start": 62.19,
+            "end": 66.11
+          },
+          {
+            "text": "standing watch and maybe calling attention or screaming back at the crow in some way.",
+            "start": 66.11,
+            "end": 71.12
+          },
+          {
+            "text": "So it's like a clash of cultures in a really beautiful and powerful and distinct way.",
+            "start": 71.12,
+            "end": 76.18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "dinner_party",
+    "name": "The Dinner Party",
+    "description": "The Dinner Party was created by Judy Chicago.  Join this audio tour to hear about the centerpiece of the Elizabeth A. Sackler Center for Feminist Art.",
+    "artworks": []    
+  },
+  {
+    "slug": "leon_polk_smith",
+    "name": "Leon Polk Smith",
+    "description": "Meet Erika Umali who walks us through Brooklyn Abstraction to share details about this pioneering artist.",
+    "artworks": []    
+  }
+]

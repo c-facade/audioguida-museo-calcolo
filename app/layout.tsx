@@ -42,11 +42,13 @@ export default async function RootLayout({
       */}
       <head />
       <body className="bg-black font-sans text-neutral-50 antialiased">
-        <div className="flex w-full items-center justify-center">
-          <div className="w-full max-w-screen-md">
-            {children}
-            <SiteFooter />
-          </div>
+				<div className="flex min-h-screen w-full flex-col items-center "> {/*justify center*/}
+          <main className="w-full max-w-screen-md flex-1">
+						{children}
+					</main>
+					<footer className="w-full max-w-screen-md">
+						<SiteFooter />
+					</footer>
         </div>
       </body>
     </html>
