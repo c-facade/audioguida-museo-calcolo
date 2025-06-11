@@ -53,12 +53,12 @@ export default function Page({
         {galleryTour.artworks.map((artwork) => (
 					<div className="rounded-lg p-4 hover:bg-neutral-900" id={artwork.id} key={artwork.id}>
             <Link
-              key={artwork.id}
+              key={artwork.title}
               href={`/tour/${galleryTour.slug}/${artwork.slug}`}
 						>
               <Image
                 className="h-48 w-full object-cover"
-                alt="Artist"
+                alt={artwork.artist}
 								src={
 									artwork.preview ?
 								`/tours/${galleryTour?.slug}/${artwork.slug}/preview.jpg` :
