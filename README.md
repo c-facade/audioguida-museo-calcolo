@@ -3,7 +3,6 @@ Prototipo di audioguide per il sistema museale d'ateneo dell'Università di Pisa
 
 ## TODO list
 - Aggiungere galleria di immagini.
-- Eliminare Esempi di altri musei.
 - Pulire il codice in generale.
 - Continuare a riempire l'audioguida del MSC.
 - Caricarlo da qualche parte.
