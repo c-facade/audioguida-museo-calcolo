@@ -6,7 +6,7 @@
 		"artworks" : [
 			{
 				"id": "1",
-				"slug": "storia-museo",
+				"slug": "intro",
 				"title": "La storia del museo",
 				"date": "1961",
 				"preview": true,
@@ -18,7 +18,7 @@
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "Descrizione temporanea",
-				"text": "Ho messo l'ELEA solo per bellezza.",
+				"text": "L'informatica italiana nasce grazie all'opera pioneristica di un gruppo di scienziati, politici e industriali, consapevoli che la formazione e la ricerca nel campo delle tecnologie dell'informazione avrebbero contribuito al cambiamento sociale, economico e culturale del paese.\n Centrale in questa avventura è stato il ruolo di Pisa: è qui che, nella seconda metà degli anni Cinquanta, è costruita la prima calcolatrice scientifica italiana, la Calcolatrice Elettronica Pisana(CEP), in sinergia con il Laboratorio di Ricerche Elettroniche Olivetti.\n Il Museo degli Strumenti per il calcolo si trova dal 1993 nell'area dei \"Vecchi Macelli\", l’ex mattatoio ottocentesco dalla struttura ancora intatta. \nLa collezione del museo va dalla seconda metà dell'Ottocento alla fine degli anni Novanta, passando per oggetti iconici come il compasso proporzionale di Galileo, la Programma 101, considerato il primo \"personal computer\", e il Commodore 64, il computer più venduto di sempre.\n Attualmente il museo è costituito da cinque sale aperte al pubblico in cui sono esposti i pezzi più importanti della collezione.\n",
 				"duration": 0,
 				"annotations": []
 			},
