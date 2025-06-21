@@ -40,7 +40,6 @@ export default function Page({
 	const tours: GalleryTour[] = toursData;
 	const galleryTour: GalleryTour | undefined =
 		tours.find( (galleryTour) => galleryTour.slug === tourSlug);
-	//let artworkNarration : ArtworkNarration | undefined = undefined;
 	let artworkNarrationIndex : number = -1;
 	if(galleryTour){
 		artworkNarrationIndex = galleryTour.artworks.findIndex(
@@ -52,22 +51,6 @@ export default function Page({
 			</div>
 		)
 	}
-	/*	
-	const galleryTour: GalleryTour | undefined =
-		tours.find( (galleryTour) => galleryTour.slug === tourSlug);
-	let artworkNarration : ArtworkNarration | undefined = undefined;
-	let artworkNarrationIndex = -1;
-	if (galleryTour) {
-		artworkNarrationIndex = galleryTour.artworks.findIndex(
-			(artworkNarration) => artworkNarration.slug === artworkSlug
-		);
-		return (
-			<ArtworkNarrationCard
-				galleryTour={galleryTour}
-				artworkNarrationIndex={artworkNarrationIndex}
-			/>
-		);
-		}*/
 	return null;
 }
 

@@ -24,7 +24,6 @@ export default function Page() {
 				Ascolta le audioguide dei seguenti musei e mostre.
 				</p>
 			</div>
-			<button>Cliccami</button>
 			
       <div className="flex flex-col gap-4">
         {tours.map((tour) => (

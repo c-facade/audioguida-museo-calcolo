@@ -9,19 +9,17 @@ export interface Annotation {
 
 export interface ArtworkNarration {
   id: string; // Unique ID for the artwork
-	slug: string; // Unique URL slug for the artwork
-	isRoom: boolean;
-	room: string;
+  slug: string; // Unique URL slug for the artwork
   title: string; // Name of the artwork
 	date: string; // Date of the artwork
-	preview: boolean; // Whether to show a preview image
+	preview: boolean; // wether to show a preview image
   artist: string; // Name of the artist
-  artistBio?: string; // Bio of the artist
-  artistText?: string; // Text of the artist bio
+  artistBio: string; // Bio of the artist
+  artistText: string; // Text of the artist bio
   artistLink?: string; // Link to the artist's website
-  narrator?: string; // Name of the narrator
-  narratorText?: string; // Text of the narrator bio
-  museumLocation?: string; // Location of the artwork in the museum
+  narrator: string; // Name of the narrator
+  narratorText: string; // Text of the narrator bio
+  museumLocation: string; // Location of the artwork in the museum
   description: string; // Description of the artwork
   text: string; // Full text of the narration
   duration: number; // total length of audio in seconds

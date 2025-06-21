@@ -9,6 +9,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 //import { ArtworkNarrationPlayer } from './artwork-narration-player';
 
 import dynamic from 'next/dynamic'
+import { Button } from '../ui/button';
+import Link from 'next/link';
 
 const ArtworkNarrationPlayer = dynamic(() => import('./artwork-narration-player'), {
   ssr: false
@@ -16,7 +18,7 @@ const ArtworkNarrationPlayer = dynamic(() => import('./artwork-narration-player'
 
 interface ArtworkNarrationCardProps {
   galleryTour: GalleryTour;
-  artworkNarrationIndex: number;
+	artworkNarrationIndex: number;
 }
 
 export function ArtworkNarrationCard({
@@ -25,7 +27,7 @@ export function ArtworkNarrationCard({
 }: ArtworkNarrationCardProps) {
   const artworkNarration: ArtworkNarration =
     galleryTour.artworks[artworkNarrationIndex];
-	
+	const intro = artworkNarration.slug === "intro";
 	return (
 		<>
 			<section className="container mt-6">
@@ -36,7 +38,8 @@ export function ArtworkNarrationCard({
 						</h2>
             <div className="mt-2 flex flex-wrap items-center gap-2">
               <h1 className="text-2xl font-extrabold text-neutral-300">
-                
+								<p>{intro ? "intro" : "not intro"}
+								</p>
                 <a href={`/tour/${galleryTour?.slug}`}>{galleryTour?.name}</a>
               </h1>
               <span className="rounded-full bg-neutral-800 py-2 px-3 text-sm font-extrabold">
@@ -50,12 +53,19 @@ export function ArtworkNarrationCard({
             {artworkNarration.title}
             <span className="ml-3 text-neutral-400">
               {artworkNarration.date}
-            </span>
+						</span>
+						{intro ?
+								<Link className="text-lg" href={`/tour/${galleryTour.slug}/`}>
+									<Button size="default">&#129034;</Button>
+								</Link>
+							: ""
+						}
           </h4>
-
+					{ artworkNarration.artist != "" ?
           <h5 className="my-2 text-sm text-neutral-400">
             {artworkNarration.artist}, {artworkNarration.artistBio}
-          </h5>
+					</h5> : <></>
+					}
         </div>
 			</section>
       <section className="container mt-4 p-0">
@@ -65,9 +75,17 @@ export function ArtworkNarrationCard({
           artworkNarrationIndex={artworkNarrationIndex}
         />
       </section>	
-			<section className="container mb-12">
+			<section className={"container"+intro ? "" : "mb-12"}>
          <div className="whitespace-pre-line">{artworkNarration?.text}</div>
 			</section>
+			{intro ?
+				<h4 className="mt-5 text-xl">
+					<Link href={`/tour/${galleryTour.slug}/`}>
+						<Button size="lg">Visita il Museo &#129034;</Button>
+					</Link>
+				</h4>
+				: ""
+			}
 		</>
 	);
 	/*

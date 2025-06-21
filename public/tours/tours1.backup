@@ -5,31 +5,27 @@
 		"description" : "La mostra permanente del museo degli strumenti per il calcolo.",
 		"artworks" : [
 			{
-				"id": "intro-msc",
-				"slug": "intro",
-				"isRoom": true,
-				"room": "0",
+				"id": "1",
+				"slug": "storia-museo",
 				"title": "La storia del museo",
-				"date": "",
+				"date": "1961",
 				"preview": true,
-				"artist": "",
+				"artist": "Olivetti",
 				"artistBio": "",
 				"artistText": "",
 				"artistLink": "",
 				"narrator": "",
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
-				"description" : "La storia del museo degli strumenti per il calcolo.",
-				"text": "L'informatica italiana nasce grazie all'opera pioneristica di un gruppo di scienziati, politici e industriali, consapevoli che la formazione e la ricerca nel campo delle tecnologie dell'informazione avrebbero contribuito al cambiamento sociale, economico e culturale del paese.\n Centrale in questa avventura è stato il ruolo di Pisa: è qui che, nella seconda metà degli anni Cinquanta, è costruita la prima calcolatrice scientifica italiana, la Calcolatrice Elettronica Pisana(CEP), in sinergia con il Laboratorio di Ricerche Elettroniche Olivetti.\n Il Museo degli Strumenti per il calcolo si trova dal 1993 nell'area dei \"Vecchi Macelli\", l’ex mattatoio ottocentesco dalla struttura ancora intatta. \nLa collezione del museo va dalla seconda metà dell'Ottocento alla fine degli anni Novanta, passando per oggetti iconici come il compasso proporzionale di Galileo, la Programma 101, considerato il primo \"personal computer\", e il Commodore 64, il computer più venduto di sempre.\n Attualmente il museo è costituito da cinque sale aperte al pubblico in cui sono esposti i pezzi più importanti della collezione.\n",
+				"description" : "Descrizione temporanea",
+				"text": "Ho messo l'ELEA solo per bellezza.",
 				"duration": 0,
 				"annotations": []
 			},
 			{
 				"id": "6",
 				"slug": "sala-cep",
-				"isRoom": true,
-				"room": "5",
-				"title": "Calcolatrice Elettronica Pisana",
+				"title": "La Calcolatrice Elettronica Pisana",
 				"date": "1961",
 				"artist": "Università di Pisa",
 				"preview": false,
@@ -47,8 +43,6 @@
 			{
 				"id": "7",
 				"slug": "elea-6001",
-				"isRoom": false,
-				"room": "3",
 				"title": "ELEA 6001",
 				"date": "1961",
 				"artist": "Olivetti",
@@ -67,8 +61,6 @@
 			{
 				"id": "8",
 				"slug": "calcolo-meccaniche",
-				"isRoom": false,
-				"room": "5",
 				"title": "Calcolo personale: le calcolatrici meccaniche.",
 				"date": "1961",
 				"artist": "Olivetti",
@@ -87,9 +79,6 @@
 			{
 				"id": "9",
 				"slug": "p101",
-				"isRoom": false,
-				"room": "1",
-			"room": "1"
 				"title": "La programma 101",
 				"date": "1961",
 				"artist": "Olivetti",
@@ -108,8 +97,6 @@
 			{
 				"id": "10",
 				"slug": "calcolo-elettroniche",
-				"isRoom": false,
-				"room": "1",
 				"title": "Calcolo personale: i personal computers",
 				"date": "1961",
 				"artist": "Olivetti",
@@ -124,12 +111,17 @@
 				"text": "Ho messo l'ELEA solo per bellezza.",
 				"duration": 0,
 				"annotations": []
-			},
+			}
+		]
+	},	
+	{
+		"slug": "nonsolo",
+		"name": "Mostra Non Solo Calcolo",
+		"description" : "Vita lavorativa e tempo libero prima dell'arrivo di internet.",
+		"artworks" : [	
 			{
 				"id": "2",
 				"slug": "contabilita",
-				"isRoom": false,
-				"room": "1",
 				"title": "Contabilità",
 				"date": "1961",
 				"artist": "Olivetti",
@@ -148,8 +140,6 @@
 			{
 				"id": "3",
 				"slug": "grafica-musica",
-				"isRoom": false,
-				"room": "1",
 				"title": "Grafica e Musica",
 				"date": "1961",
 				"artist": "Olivetti",
@@ -168,8 +158,6 @@
 			{
 				"id": "4",
 				"slug": "videoscrittura",
-				"isRoom": false,
-				"room": "1",
 				"title": "Videoscrittura",
 				"date": "1961",
 				"artist": "Olivetti",
@@ -188,8 +176,6 @@
 			{
 				"id": "5",
 				"slug": "videogiochi",
-				"isRoom": false,
-				"room": "1",
 				"title": "Videogiochi",
 				"date": "1961",
 				"artist": "Olivetti",
