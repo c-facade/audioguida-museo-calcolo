@@ -54,7 +54,7 @@ export function ArtworkNarrationCard({
 						</span>
 						{intro ?
 								<Link className="text-lg" href={`/tour/${galleryTour.slug}/`}>
-									<Button size="default">&#129034;</Button>
+									<Button size="default">&#10132;</Button>
 								</Link>
 							: ""
 						}
@@ -74,12 +74,12 @@ export function ArtworkNarrationCard({
         />
       </section>	
 			<section className={"container"+intro ? "" : "mb-12"}>
-         <div className="whitespace-pre-line">{artworkNarration?.text}</div>
+         <div className="m-1 whitespace-pre-line">{artworkNarration?.text}</div>
 			</section>
 			{intro ?
 				<h4 className="mt-5 text-xl">
 					<Link href={`/tour/${galleryTour.slug}/`}>
-						<Button size="lg">Visita il Museo &#129034;</Button>
+						<Button size="lg">Visita il Museo &#10132;</Button>
 					</Link>
 				</h4>
 				: ""
