@@ -38,8 +38,6 @@ export function ArtworkNarrationCard({
 						</h2>
             <div className="mt-2 flex flex-wrap items-center gap-2">
               <h1 className="text-2xl font-extrabold text-neutral-300">
-								<p>{intro ? "intro" : "not intro"}
-								</p>
                 <a href={`/tour/${galleryTour?.slug}`}>{galleryTour?.name}</a>
               </h1>
               <span className="rounded-full bg-neutral-800 py-2 px-3 text-sm font-extrabold">
