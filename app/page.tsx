@@ -6,8 +6,8 @@ import { GalleryTour } from '@/types';
 
 export async function generateMetadata({ params }): Promise<Metadata> {
   return {
-    title: 'Museum Audio Tours Prototype',
-    description: 'Museum Audio Tours Prototype',
+		title: 'Audioguida MSC',
+    description: "Prototipo dell'audioguida ufficiale del Museo degli Strumenti per il Calcolo",
   };
 }
 
