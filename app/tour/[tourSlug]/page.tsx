@@ -48,9 +48,10 @@ export default function Page({
         <p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
           {galleryTour.description}
         </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {galleryTour.artworks.map((artwork) => (
+			</div>
+			
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+        {galleryTour.artworks.map((artwork) => artwork.isRoom ? (
 					<div className="rounded-lg p-4 hover:bg-neutral-900" id={artwork.id} key={artwork.id}>
             <Link
               key={artwork.title}
@@ -58,7 +59,7 @@ export default function Page({
 						>
               <Image
                 className="h-48 w-full object-cover"
-                alt={artwork.artist}
+                alt={artwork.description}
 								src={
 									artwork.preview ?
 								`/tours/${galleryTour?.slug}/${artwork.slug}/preview.jpg` :
@@ -69,7 +70,9 @@ export default function Page({
               <h2 className="mt-2 text-xl font-extrabold">{artwork.title}</h2>
             </Link>
           </div>
-        ))}
+				)
+				: <div></div>
+																 )}
       </div>
     </section>
   );

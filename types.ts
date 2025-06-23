@@ -11,11 +11,11 @@ export interface ArtworkNarration {
   id: string; // Unique ID for the artwork
 	slug: string; // Unique URL slug for the artwork
 	isRoom: boolean;
-	room: string;
+	room: number;
   title: string; // Name of the artwork
-	date: string; // Date of the artwork
+	date?: string; // Date of the artwork
 	preview: boolean; // Whether to show a preview image
-  artist: string; // Name of the artist
+  artist?: string; // Name of the artist
   artistBio?: string; // Bio of the artist
   artistText?: string; // Text of the artist bio
   artistLink?: string; // Link to the artist's website
@@ -24,8 +24,8 @@ export interface ArtworkNarration {
   museumLocation?: string; // Location of the artwork in the museum
   description: string; // Description of the artwork
   text: string; // Full text of the narration
-  duration: number; // total length of audio in seconds
-  annotations: Annotation[]; // the annotations that should appear during the narration
+  duration?: number; // total length of audio in seconds
+  annotations?: Annotation[]; // the annotations that should appear during the narration
 }
 
 export interface GalleryTour {
