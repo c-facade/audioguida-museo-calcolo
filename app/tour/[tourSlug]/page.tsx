@@ -4,6 +4,7 @@ import Link from 'next/link';
 import toursData from '@/public/tours/tours.json';
 import { GalleryTour } from '@/types';
 import * as React from "react";
+import { ArtworkList } from '@/components/lists/artwork-list';
 
 
 export async function generateMetadata({ 
@@ -48,32 +49,10 @@ export default function Page({
         <p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
           {galleryTour.description}
         </p>
-			</div>
-			
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-        {galleryTour.artworks.map((artwork) => artwork.isRoom ? (
-					<div className="rounded-lg p-4 hover:bg-neutral-900" id={artwork.id} key={artwork.id}>
-            <Link
-              key={artwork.title}
-              href={`/tour/${galleryTour.slug}/${artwork.slug}`}
-						>
-              <Image
-                className="h-48 w-full object-cover"
-                alt={artwork.description}
-								src={
-									artwork.preview ?
-								`/tours/${galleryTour?.slug}/${artwork.slug}/preview.jpg` :
-								`/tours/${galleryTour?.slug}/${artwork.slug}/object.jpg`}
-                width="500"
-                height="500"
-              />
-              <h2 className="mt-2 text-xl font-extrabold">{artwork.title}</h2>
-            </Link>
-          </div>
-				)
-				: <div></div>
-																 )}
-      </div>
+			</div>	
+			<ArtworkList 
+				galleryTour={galleryTour}
+				roomOnly={true}/>
     </section>
   );
 }

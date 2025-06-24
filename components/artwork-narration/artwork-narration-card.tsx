@@ -1,11 +1,11 @@
 'use client';
 
-import Image from 'next/image';
+//import Image from 'next/image';
 import { ArtworkNarration, GalleryTour } from '@/types';
 
 import { MuseumMap } from '@/components/museum-map/museum-map';
 import { BkmLogo } from '@/components/ui/bkm-logo';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+//import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 //import { ArtworkNarrationPlayer } from './artwork-narration-player';
 
 import dynamic from 'next/dynamic'

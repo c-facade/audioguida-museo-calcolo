@@ -3,6 +3,7 @@ import { ArtworkNarration, GalleryTour } from "@/types";
 import toursData from '@/public/tours/tours.json';
 import * as React from "react";
 import { ArtworkNarrationCard } from "@/components/artwork-narration/artwork-narration-card";
+import { ArtworkList } from '@/components/lists/artwork-list';
 
 export async function generateMetadata({ params }): Promise<Metadata> {
 	const {tourSlug, artworkSlug} = await params;
@@ -45,9 +46,17 @@ export default function Page({
 		artworkNarrationIndex = galleryTour.artworks.findIndex(
 			(artworkNarration) => artworkNarration.slug === artworkSlug
 		);
+		let artwork = galleryTour.artworks[artworkNarrationIndex];
 		return (
 			<div>	
 				<ArtworkNarrationCard galleryTour={galleryTour} artworkNarrationIndex={artworkNarrationIndex}/>
+				{artwork.isRoom ? (
+				<ArtworkList
+					galleryTour={galleryTour}
+					roomOnly={false}
+					room={artwork.room}
+					/>
+				): <></>}
 			</div>
 		)
 	}
