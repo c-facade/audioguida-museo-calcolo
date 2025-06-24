@@ -14,7 +14,8 @@ export function ArtworkList({galleryTour, roomOnly, room=-1}) {
 						key={artwork.id}
 							href={`/tour/${galleryTour.slug}/${artwork.slug}`}
 						>
-							<Image
+						<Image
+						key={artwork.id}
 								className="h-48 w-full object-cover"
 								alt={artwork.description}
 								src={
