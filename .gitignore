@@ -50,3 +50,4 @@ data/ULAN/json/ulanCorporateBodies.jsonl
 data/ULAN/raw/*
 
 *.swp
+*.swo
