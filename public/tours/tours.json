@@ -152,6 +152,7 @@
 				"room": 3,
 				"title": "I cubi di memoria",
 				"preview": false,
+				"description": "",
 				"text": "",
 				"annotations": []
 			},
@@ -162,6 +163,7 @@
 				"room": 3,
 				"title": "La memoria permanente",
 				"preview": false,
+				"description": "",
 				"text": "",
 				"annotations": []
 			},
@@ -192,7 +194,7 @@
 				"slug": "elea-9104",
 				"isRoom": false,
 				"room": 4,
-				"title": "ELEA 9104",
+				"title": "ELEA 9104 o CINAC",
 				"preview": false,
 				"description": "",
 				"text": "",
@@ -225,7 +227,7 @@
 				"room": 5,
 				"title": "La sala del calcolo personale",
 				"preview": false,
-				"description": "",
+				"description": "Calcolatori o calcolatrici?",
 				"text": "",
 				"annotations": []
 			},	
@@ -318,7 +320,7 @@
 				"slug": "calc-elettroniche",
 				"isRoom": false,
 				"room": 5,
-				"title": "Le calcolatrici elettroniche moderne",
+				"title": "Le calcolatrici portatili",
 				"date": "1961",
 				"artist": "Olivetti",
 				"preview": false,
