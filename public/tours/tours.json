@@ -48,8 +48,8 @@
 				"annotations": []
 			},
 			{
-				"id": "teca-1",
-				"slug": "teca-1",
+				"id": "contabilita",
+				"slug": "contabilita",
 				"isRoom": false,
 				"room": 1,
 				"title": "Contabilità",
@@ -59,33 +59,33 @@
 				"annotations": []
 			},
 			{
-				"id": "teca-2",
-				"slug": "teca-2",
+				"id": "graficamusica",
+				"slug": "graficamusica",
 				"isRoom": false,
 				"room": 1,
-				"title": "Grafica",
+				"title": "Grafica e Musica",
 				"preview": false,
 				"description": "",
 				"text": "",
 				"annotations": []
 			},
 			{
-				"id": "teca-3",
-				"slug": "teca-3",
+				"id": "videogiochi",
+				"slug": "videogiochi",
 				"isRoom": false,
 				"room": 1,
-				"title": "Giochi",
+				"title": "Videogiochi",
 				"preview": false,
 				"description": "",
 				"text": "",
 				"annotations": []
 			},
 			{
-				"id": "teca-4",
-				"slug": "teca-4",
+				"id": "videoscrittura",
+				"slug": "videoscrittura",
 				"isRoom": false,
 				"room": 1,
-				"title": "Contabilità",
+				"title": "Videoscrittura",
 				"preview": false,
 				"description": "",
 				"text": "",
@@ -146,11 +146,53 @@
 				"annotations": []
 			},
 			{
+				"id": "cep-memoria-ram",
+				"slug": "cep-memoria",
+				"isRoom": false,
+				"room": 3,
+				"title": "I cubi di memoria",
+				"preview": false,
+				"text": "",
+				"annotations": []
+			},
+			{
+				"id": "cep-memoria-permanente",
+				"slug": "cep-tamburo",
+				"isRoom": false,
+				"room": 3,
+				"title": "La memoria permanente",
+				"preview": false,
+				"text": "",
+				"annotations": []
+			},
+			{
 				"id": "sala-4-olivetti",
 				"slug": "sala-4-olivetti",
 				"isRoom": true,
 				"room": 4,
 				"title": "Sala Olivetti",
+				"preview": false,
+				"description": "",
+				"text": "",
+				"annotations": []
+			},
+			{
+				"id": "bull-gamma-3",
+				"slug": "gamma-3",
+				"isRoom": false,
+				"room": 4,
+				"title": "Bull Gamma 3",
+				"preview": false,
+				"description": "",
+				"text": "",
+				"annotations": []
+			},
+			{
+				"id": "elea-9104",
+				"slug": "elea-9104",
+				"isRoom": false,
+				"room": 4,
+				"title": "ELEA 9104",
 				"preview": false,
 				"description": "",
 				"text": "",
@@ -186,13 +228,35 @@
 				"description": "",
 				"text": "",
 				"annotations": []
+			},	
+			{
+				"id": "analog-digital",
+				"slug": "analog-digital",
+				"isRoom": false,
+				"room": 5,
+				"title": "Strumenti analogici e digitali",
+				"preview": false,
+				"description": "",
+				"text": "",
+				"annotations": []
+			},
+			{
+				"id": "aritmometri",
+				"slug": "aritmometri",
+				"isRoom": false,
+				"room": 5,
+				"title": "Aritmometri",
+				"preview": false,
+				"description": "",
+				"text": "",
+				"annotations": []
 			},
 			{
 				"id": "meccaniche",
-				"slug": "calcolo-meccaniche",
+				"slug": "calc-meccaniche",
 				"isRoom": false,
 				"room": 5,
-				"title": "Calcolo personale: le calcolatrici meccaniche.",
+				"title": "Le calcolatrici meccaniche.",
 				"date": "1961",
 				"preview": false,
 				"artist": "Olivetti",
@@ -208,7 +272,18 @@
 				"annotations": []
 			},
 			{
-				"id": "9",
+				"id": "curta",
+				"slug": "curta",
+				"isRoom": false,
+				"room": 5,
+				"title": "Curta",
+				"preview": false,
+				"description": "",
+				"text": "",
+				"annotations": []
+			},
+			{
+				"id": "p101",
 				"slug": "p101",
 				"isRoom": false,
 				"room": 5,
@@ -228,11 +303,22 @@
 				"annotations": []
 			},
 			{
-				"id": "10",
-				"slug": "calcolo-elettroniche",
+				"id": "personal-computer",
+				"slug": "personal-computer",
 				"isRoom": false,
 				"room": 5,
-				"title": "Calcolo personale: i personal computers",
+				"title": "I personal computer",
+				"preview": false,
+				"description": "",
+				"text": "",
+				"annotations": []
+			},
+			{
+				"id": "calc-elettroniche",
+				"slug": "calc-elettroniche",
+				"isRoom": false,
+				"room": 5,
+				"title": "Le calcolatrici elettroniche moderne",
 				"date": "1961",
 				"artist": "Olivetti",
 				"preview": false,
