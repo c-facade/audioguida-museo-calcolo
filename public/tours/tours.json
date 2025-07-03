@@ -33,18 +33,7 @@
 				"preview": false,
 				"artist": "Vecchi Macelli",
 				"description": "Sala Pacinotti: la prima sala della mostra, contiene le esposizioni temporanee",
-				"text": "Descrizione della sala 1.\n Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura ché la diritta via era smarrita.\nAhi quanto a dir qual era è cosa dura, esta selva selvaggia e aspra e forte, che nel pensier rinova la paura. Tant'è amara che poco è più morte, ma per parlar del ben ch'i'vi trovai, dirò d'altre cose che v'ho scorte.\n",
-				"annotations": []
-			},
-			{
-				"id": "msc-mercedes",
-				"slug": "mercedes",
-				"isRoom": false,
-				"room": 1,
-				"title": "Mercedes",
-				"preview" : false,
-				"description": "",
-				"text":"",
+				"text": "Abbiamo deciso di dedicare questa prima sala alla mostra temporanea \"Non solo calcolo\".\nAl giorno d'oggi, il computer non è solo uno strumento per il calcolo: permette di giocare, creare e lavorare. Qui mostriamo in che modo gli utilizzi di contabilità, grafica, musica, videogiochi e videoscrittura sono confluiti da macchine specializzate fino al computer multiuso contemporaneo.\n",
 				"annotations": []
 			},
 			{
@@ -55,7 +44,18 @@
 				"title": "Contabilità",
 				"preview": false,
 				"description": "",
-				"text": "",
+				"text": "Quando lo statunitense James Ritty inventò il primo registratore di cassa, \"Il Cassiere Incorruttibile\", il suo obbiettivo era di tracciare ogni transazione della giornata per controllare i suoi dipendenti.\n Pochi anni dopo, nel 1881, vendette il brevetto a quella che diventò la National Cash Register, azienda di successo globale che ha prodotto milioni di registratori di cassa, tra cui tutti quelli in esposizione.\n Con l'invenzione del Personal Computer, si torna ad un metodo di contabilità che risale a più di 4000 anni fa: i fogli di calcolo.\n Nel 1979 è rilasciato VisiCalc per l'Apple II, il primo foglio di calcolo interattivo.\n Nel 1981 VisiCalc è superato da Lotus, ottimizzato per macchine come il PC IBM e ben più efficiente.\n Microsoft Excel nasce nel 1985, sbarca sul PC nel 1987 e da allora ha dominato il mercato dei fogli di calcolo.",
+				"annotations": []
+			},
+			{
+				"id": "msc-mercedes",
+				"slug": "mercedes",
+				"isRoom": false,
+				"room": 1,
+				"title": "Mercedes Addelektra",
+				"preview" : false,
+				"description": "Macchina da scrivere e calcolatrice: la Mercedes Addelektra.",
+				"text":"",
 				"annotations": []
 			},
 			{
