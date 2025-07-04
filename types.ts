@@ -25,13 +25,14 @@ export interface ArtworkNarration {
   description: string; // Description of the artwork
   text: string; // Full text of the narration
   duration?: number; // total length of audio in seconds
-  annotations: Annotation[]; // the annotations that should appear during the narration
+	annotations: Annotation[]; // the annotations that should appear during the narration
+	images?: number;
 }
 
 export interface GalleryTour {
   slug: string; // Unique URL slug for the tour
   name: string; // Name of the tour
-  description: string; // Description of the tour
+  description?: string; // Description of the tour
   artworks: ArtworkNarration[]; // the artworks in the tour
 }
 

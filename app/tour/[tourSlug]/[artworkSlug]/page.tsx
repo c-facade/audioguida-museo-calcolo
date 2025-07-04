@@ -4,6 +4,7 @@ import toursData from '@/public/tours/tours.json';
 import * as React from "react";
 import { ArtworkNarrationCard } from "@/components/artwork-narration/artwork-narration-card";
 import { ArtworkList } from '@/components/lists/artwork-list';
+import ImageGallery from '@/components/ui/imageGallery';
 
 export async function generateMetadata({ params }): Promise<Metadata> {
 	const {tourSlug, artworkSlug} = await params;
@@ -57,6 +58,7 @@ export default function Page({
 					room={artwork.room}
 					/>
 				): <></>}
+				<ImageGallery artwork={artwork} galleryTour={galleryTour}/>
 			</div>
 		)
 	}
