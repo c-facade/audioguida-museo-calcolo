@@ -1,6 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
 import toursData from '@/public/tours/tours.json';
 import { GalleryTour } from '@/types';
 import * as React from "react";

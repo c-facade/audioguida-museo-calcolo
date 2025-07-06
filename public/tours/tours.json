@@ -45,8 +45,7 @@
 				"preview": false,
 				"description": "",
 				"text": "Nel 1878, quando lo statunitense James Ritty inventò il primo registratore di cassa, \"Il Cassiere Incorruttibile\", il suo obbiettivo era di tracciare ogni transazione della giornata per controllare i suoi dipendenti.\n Pochi anni dopo, vendette il brevetto a quella che diventò la National Cash Register, azienda di successo globale che ha prodotto milioni di registratori di cassa, tra cui tutti quelli in esposizione.\n Con l'invenzione del Personal Computer, si torna ad un metodo di contabilità che risale a più di 4000 anni fa: i fogli di calcolo.\n Nel 1979 è rilasciato VisiCalc per l'Apple II, il primo foglio di calcolo interattivo.\nDue anni dopo, VisiCalc è superato da Lotus, ottimizzato per il PC IBM, che a sua volta cede il passo a Microsoft Excel, il quale ha dominato il mercato dei fogli di calcolo elettronici dal 1987 ad oggi.",
-				"annotations": [],
-				"images": 2
+				"annotations": []
 			},
 			{
 				"id": "msc-mercedes",
@@ -66,9 +65,23 @@
 				"room": 1,
 				"title": "Grafica e Musica",
 				"preview": false,
-				"description": "",
-				"text": "",
-				"annotations": []
+				"text": "La grafica computerizzata nasce negli anni Sessanta con i primi esperimenti su tubi a raggi catodici e terminali grafici, utilizzati per visualizzare forme semplici.\nNegli anni Settanta, Evans & Sutherland rivoluzionano la grafica 3D con simulatori militari e software di modellazione. Il sistema in mostra era usato negli anni Ottanta al CNR di Pisa, per la visualizzazione delle strutture tridimensionali delle molecole.\nGli anni Ottanta segnano una svolta: James Clark fonda la Silicon Graphics, sviluppando workstation per la modellazione 3D e pipeline grafiche avanzate, mentre il Commodore Amiga democratizza la grafica con chip dedicati, diventando un cult per designer e creativi.\nNegli anni Novanta, la grafica 3D esplode nel cinema e nei videogiochi.\nToy Story della Pixar diventa, nel 1995, il primo lungometraggio interamente digitale. Allo stesso tempo, le schede grafiche con accelerazione 3D diventano una componente comune nei PC.",
+				"description": "Evans & Sutherland P300",
+				"annotations": [],
+				"images": [
+					{
+						"name": "crt.jpg",
+						"alt": "Cathodic Ray Tube Amusement Device: un esperimento coi tubi catodici del 1947",
+						"width": 640,
+						"height": 480
+					},
+					{
+						"name": "molecole.jpg",
+						"alt": "Visualizzazione 3D di molecole nell'Evans & Sutherland",
+						"width": 888,
+						"height": 633
+					}
+				]
 			},
 			{
 				"id": "videogiochi",
@@ -79,7 +92,13 @@
 				"preview": false,
 				"description": "",
 				"text": "",
-				"annotations": []
+				"annotations": [],
+				"images": [
+					{
+						"name": "spacewar.jpeg",
+						"alt": "Spacewar!"
+					}
+				]
 			},
 			{
 				"id": "videoscrittura",

@@ -7,6 +7,13 @@ export interface Annotation {
   scale?: number;  // zoom scale.  2 = 200% zoom, 0.5 = 50% zoom
 }
 
+export interface Picture{
+	name: string;
+	alt: string;
+	height?: number;
+	width?: number;
+}
+
 export interface ArtworkNarration {
   id: string; // Unique ID for the artwork
 	slug: string; // Unique URL slug for the artwork
@@ -26,7 +33,7 @@ export interface ArtworkNarration {
   text: string; // Full text of the narration
   duration?: number; // total length of audio in seconds
 	annotations: Annotation[]; // the annotations that should appear during the narration
-	images?: number;
+	images?: Picture[];
 }
 
 export interface GalleryTour {

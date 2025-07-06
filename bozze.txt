@@ -4,3 +4,10 @@ Con l'invenzione del Personal Computer, si torna ad un metodo di contabilità ch
 Nel 1979 è rilasciato VisiCalc per l'Apple II, il primo foglio di calcolo interattivo.
 Nel 1981 VisiCalc è superato da Lotus, ottimizzato per macchine come il PC IBM e ben più efficiente.
 Microsoft Excel nasce nel 1985, sbarca sul PC 1987 e da allora ha dominato il mercato dei fogli di calcolo.
+
+
+La grafica computerizzata nasce negli anni Sessanta con i primi esperimenti su tubi a raggi catodici e terminali grafici, utilizzati per visualizzare forme semplici.
+Negli anni Settanta, Evans & Sutherland rivoluzionano la grafica 3D con simulatori militari e software di modellazione. Il sistema in mostra era usato negli anni Ottanta al CNR di Pisa, per la visualizzazione delle strutture tridimensionali delle molecole.
+Gli anni Ottanta segnano una svolta: James Clark fonda la Silicon Graphics, sviluppando workstation per la modellazione 3D e pipeline grafiche avanzate, mentre il Commodore Amiga democratizza la grafica con chip dedicati, diventando un cult per designer e creativi.
+Negli anni Novanta, la grafica 3D esplode nel cinema e nei videogiochi.
+Toy Story della Pixar diventa, nel 1995 il primo lungometraggio interamente digitale. Allo stesso tempo, le schede grafiche con accelerazione 3D diventano una componente comune nei PC.
