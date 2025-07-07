@@ -14,7 +14,7 @@ interface Slide{
 	height: number;
 	caption?: string;
 	alt: string;
-	title: string;
+	description?: string;
 }
 
 
@@ -34,7 +34,7 @@ export default function ImageGallery( {galleryTour, artwork}) {
 			width: image.width ?? 200,
 			height: image.height ?? 200,
 			alt: image.alt,
-			title: image.alt
+			description: image.description ?? ""
 		}
 		);
 	}
