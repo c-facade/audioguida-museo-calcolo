@@ -124,7 +124,7 @@
 				"room": 1,
 				"title": "Videoscrittura",
 				"preview": false,
-				"description": "",
+				"description": "La teca contiene diverse macchine da scrivere delle macchine Olivetti e Underwood, e computer delle marche Olivetti, Apple e NeXT.",
 				"text": "In Italia, la storia delle macchine per scrivere inizia nel sedicesimo secolo a Venezia, ma la protagonista principale è l'azienda Olivetti, che nasce nel 1908 ad Ivrea. Icona di questa epoca fu la Lettera 32, del 1963, amata da giornalisti e scrittori per il design di Marcello Nizzoli. Dagli anni Sessanta, l'elettronica rivoluziona il settore: esemplare la Underwood 650, prodotta quando il marchio americano era già entrato nel gruppo Olivetti.\n\nL'avvento dei personal computer negli anni Settanta segna il declino delle macchine per scrivere, ma porta nelle case strumenti di correzione del testo, copia-incolla, ricerca e sostituzione, e controllo ortografico, già esistenti nei mainframe.\n Nel 1983, mentre Microsoft lanciava Word, l'Olivetti M24, offriva un esempio della crescente diffusione di questa tecnologia. Nel 1990, la NeXT Station di Steve Jobs, workstation su cui Tim Berners-Lee sviluppò il World Wide Web, trasformò la scrittura in un atto collettivo, anticipando l'era dei testi interconnessi.",
 				"annotations": [],
 				"duration": 74
@@ -136,8 +136,8 @@
 				"room": 2,
 				"title": "TAU2",
 				"preview": false,
-				"description": "TAU 2",
-				"text": "La TAU2 è stato il primo sintetizzatore audio polifonico italiano. Nata grazie al lavoro di Pietro Grossi...",
+				"description": "Il sintetizzatore audio polifonico italiano TAU2",
+				"text": "Uscendo dalla prima sala, vi troverete in una stanza più piccola, con a sinistra un grande armadio rosso: l'unità di controllo della TAU 2.\nTAU2 fu un sistema di sintesi del suono creato a Pisa nel 1975 presso l'istituto di Elaborazione dell'Informazione del CNR.\nLa sua paternità appartiene a Pietro Grossi, violoncellista, compositore e programmatore italiano, pioniere della musica elettronica e della computer music. Fu un visionario che, dagli inizi degli anni Sessanta, ha immaginato come gli elaboratori elettronici potessero creare musica se opportunamente programmati.\nIl TAU2 era un'apparecchiatura di sintesi audio polifonico e politimbrico in grado di produrre simultaneamente 12 suoni, era uno speciale terminale collegato come qualsiasi altra periferica all'IBM 370.\nIl sistema permetteva di memorizzare, comporre, rielaborare ed eseguire brani musicali in tempo reale. Il simulatore con monitor IBM che si trova davanti all'unità di controllo permette di ascoltare esempi di riproduzione musicale, elaborazione con filtri, modificatori di frequenza e velocità.",
 				"annotations": []
 			},
 			{
