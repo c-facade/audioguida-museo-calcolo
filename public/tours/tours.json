@@ -138,7 +138,8 @@
 				"preview": false,
 				"description": "Il sintetizzatore audio polifonico italiano TAU2",
 				"text": "Uscendo dalla prima sala, vi troverete in una stanza più piccola, con a sinistra un grande armadio rosso: l'unità di controllo della TAU 2.\nTAU2 fu un sistema di sintesi del suono creato a Pisa nel 1975 presso l'istituto di Elaborazione dell'Informazione del CNR.\nLa sua paternità appartiene a Pietro Grossi, violoncellista, compositore e programmatore italiano, pioniere della musica elettronica e della computer music. Fu un visionario che, dagli inizi degli anni Sessanta, ha immaginato come gli elaboratori elettronici potessero creare musica se opportunamente programmati.\nIl TAU2 era un'apparecchiatura di sintesi audio polifonico e politimbrico in grado di produrre simultaneamente 12 suoni, era uno speciale terminale collegato come qualsiasi altra periferica all'IBM 370.\nIl sistema permetteva di memorizzare, comporre, rielaborare ed eseguire brani musicali in tempo reale. Il simulatore con monitor IBM che si trova davanti all'unità di controllo permette di ascoltare esempi di riproduzione musicale, elaborazione con filtri, modificatori di frequenza e velocità.",
-				"annotations": []
+				"annotations": [],
+				"duration": 73
 			},
 			{
 				"id": "6",
