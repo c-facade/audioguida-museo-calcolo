@@ -157,7 +157,7 @@
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "Descrizione temporanea",
-				"text": "Davanti a voi la Calcolatrice Elettronica Pisana, o CEP, computer mainframe costruito dall'Università di Pisa tra il 1954 e il 1961.\nIl suo prototipo, la Macchina Ridotta, ultimata nel 1957, fu il primo computer progettato e costruito interamente in Italia.\nI fondi per la sua costruzione, di 150 milioni di lire, erano destinati originariamente ad un acceleratore di particelle. Questo fu invece costruito a Frascati, e i fondi vennero dirottati sulla CEP, anche grazie al parere di Enrico Fermi, che scrisse una lettera al rettore Avanzi per supportare il progetto.\nL'azienda Olivetti, che aveva anch'essa un centro di ricerca a Barbaricina, collaborò con l'università e il CNR per la costruzione della macchina.",
+				"text": "Davanti a voi la Calcolatrice Elettronica Pisana, o CEP, computer mainframe costruito dall'Università di Pisa tra il 1954 e il 1961.\nIl suo prototipo, la Macchina Ridotta, ultimata nel 1957, fu il primo computer progettato e costruito interamente in Italia.\nI fondi per la sua costruzione, di 150 milioni di lire, erano destinati originariamente ad un acceleratore di particelle. Questo fu invece costruito a Frascati, e i fondi vennero dirottati sulla CEP, anche grazie al parere di Enrico Fermi, che scrisse una lettera al rettore Avanzi per supportare il progetto.\nL'azienda Olivetti, che aveva anch'essa un centro di ricerca a Barbaricina, collaborò con l'università e il CNR per la costruzione della macchina.\nLa Calcolatrice è stata in funzione dal 1961 al 1969, permettendo di svolgere calcoli di interesse scientifico per Università e centri di ricerca.",
 				"duration": 57,
 				"annotations": []
 			},
@@ -167,7 +167,7 @@
 				"isRoom": false,
 				"room": 3,
 				"title": "Architettura",
-				"date": 1961,
+				"date": "1961",
 				"preview":false,
 				"artist": "Università di Pisa",
 				"description": "Architettura della Calcolatrice Elettronica Pisana",
@@ -176,27 +176,16 @@
 				"annotations": []
 				},
 				{
-					"id": "cep-consolle",
-					"slug": "cep-consolle",
+					"id": "cep-console",
+					"slug": "cep-console",
 					"isRoom": false,
 					"room": 3,
 					"title": "La consolle della CEP",
 					"preview": false,
 					"artist": "Università di Pisa",
 					"description": "consolle della CEP",
-					"text": "Qui descriviamo i meccanismi di interazione uomo-macchina della CEP",
+					"text": "Entrando nella sala, vedete davanti a voi una scrivania, si tratta della console della CEP, l'interfaccia tra l'operatore umano e il computer.\nNella parte destra, c'� la telescrivente di marca Olivetti, tramite la quale era possibile mandare brevi comandi e scrivere programmi sul nastro perforato che vedete, arrotolato, alla vostra sinistra, sopra la stampante di linea. I risultati dei calcoli erano stampati su fogli di carta.\nAl centro, un pannello con pulsanti e luci permetteva di ottenere informazioni immediate sul funzionamento della macchina\nLa gestione e manutenzione della CEP era affidata a dei tecnici specializzati che scrivevano ed eseguivano i programmi per conto degli utenti, e restituivano i risultati stampati.\n",
 					"annotations": []
-			},
-			{
-				"id": "cep-funzionamento",
-				"slug": "cep-funzionamento",
-				"isRoom":false,
-				"room": 3,
-				"title": "Come funzionava la CEP",
-				"preview": false,
-				"description": "",
-				"text": "",
-				"annotations": []
 			},
 			{
 				"id": "cep-memoria-ram",
@@ -206,7 +195,7 @@
 				"title": "I cubi di memoria",
 				"preview": false,
 				"description": "",
-				"text": "",
+				"text": "La Calcolatrice Elettronica Pisana ha tutte le componenti di un computer moderno: un'unità di controllo, una memoria RAM, una memoria permanente, alimentazione e interfaccia utente.\nCiascuna di queste componenti è collegata da bus, cavi fisici che si trovano sopra gli armadi.\nI due cubi di memoria a nuclei di ferrite, intrecciati a mano, formano una Random Access Memory, la memoria temporanea, di 18 KB ciascuno. Per quanto fosse sufficiente al tempo, è un milione di volte più piccola di quella di un cellulare moderno.\n",
 				"annotations": []
 			},
 			{
