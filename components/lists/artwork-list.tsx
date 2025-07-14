@@ -6,9 +6,13 @@ export function ArtworkList({galleryTour, roomOnly, room=-1}) {
 	return (
 		<>
 		<div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-			{galleryTour.artworks.map((artwork: ArtworkNarration) =>
-				((artwork.isRoom && roomOnly) || (!roomOnly && room<0) || (artwork.room == room && !artwork.isRoom)) ?
-				(
+			{galleryTour.artworks
+				.filter((artwork : ArtworkNarration) =>
+								(artwork.isRoom && roomOnly) ||
+								(!roomOnly && room < 0) ||
+								(artwork.room == room && !artwork.isRoom)
+							 )
+				.map((artwork: ArtworkNarration) =>
 					<div className="rounded-lg p-4 hover:bg-neutral-900" id={artwork.id} key={artwork.id}>
 					<Link
 						key={artwork.id}
@@ -29,9 +33,7 @@ export function ArtworkList({galleryTour, roomOnly, room=-1}) {
 						</Link>
 				</div>
 				)
-				:
-					<></>
-			)}
+			}
 		</div>
 		</>
 	);
