@@ -134,6 +134,7 @@
 				"slug": "sala-2",
 				"isRoom": true,
 				"room": 2,
+				"artist": "Pietro Grossi",
 				"title": "TAU2",
 				"preview": false,
 				"description": "Il sintetizzatore audio polifonico italiano TAU2",
@@ -156,8 +157,8 @@
 				"narrator": "",
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
-				"description" : "Descrizione temporanea",
-				"text": "Davanti a voi la Calcolatrice Elettronica Pisana, o CEP, computer mainframe costruito dall'Universit� di Pisa tra il 1954 e il 1961.\nIl suo prototipo, la Macchina Ridotta, ultimata nel 1957, fu il primo computer progettato e costruito interamente in Italia.\nI fondi per la sua costruzione, di 150 milioni di lire, erano destinati originariamente ad un acceleratore di particelle. Questo fu invece costruito a Frascati, e i fondi vennero dirottati sulla CEP, anche grazie al parere di Enrico Fermi, che scrisse una lettera al rettore Avanzi per supportare il progetto.\nIl 13 Novembre 1961, il Paese scrive: \"Inaugurato da Gronchi a Pisa il calcolatore elettronico pi� potente d'Europa. Pu� misurare la traiettoria di un satellite - Sei anni di lavoro - Tremila valvole termoioniche\".\nLa Calcolatrice � stata in funzione da allora al 1969, permettendo di svolgere migliaia di ore di calcoli di interesse scientifico.",
+				"description" : "Storia della calcolatrice elettronica pisana.",
+				"text": "Davanti a voi la Calcolatrice Elettronica Pisana, o CEP, computer mainframe costruito dall'Università di Pisa tra il 1954 e il 1961.\nIl suo prototipo, la Macchina Ridotta, ultimata nel 1957, fu il primo computer progettato e costruito interamente in Italia.\nI fondi per la sua costruzione, di 150 milioni di lire, erano destinati originariamente ad un acceleratore di particelle. Questo fu invece costruito a Frascati, e i fondi vennero dirottati sulla CEP, anche grazie al parere di Enrico Fermi, che scrisse una lettera al rettore Avanzi per supportare il progetto.\nIl 13 Novembre 1961, il Paese scrive: \"Inaugurato da Gronchi a Pisa il calcolatore elettronico più potente d'Europa. Può misurare la traiettoria di un satellite - Sei anni di lavoro - Tremila valvole termoioniche\".\nLa Calcolatrice è stata in funzione da allora al 1969, permettendo di svolgere migliaia di ore di calcoli di interesse scientifico.",
 				"duration": 57,
 				"annotations": []
 			},
@@ -166,11 +167,11 @@
 					"slug": "cep-console",
 					"isRoom": false,
 					"room": 3,
-					"title": "La consolle della CEP",
+					"title": "La console della CEP",
 					"preview": false,
-					"artist": "Università di Pisa",
-					"description": "consolle della CEP",
-					"text": "Entrando nella sala, vedete davanti a voi una scrivania, si tratta della console della CEP, l'interfaccia tra l'operatore umano e il computer.\nNella parte destra, c'� la telescrivente di marca Olivetti, azienda che collabor� per la costruzione della CEP, mentre progettava il prototipo della serie ELEA. Tramite la telescrivente, era possibile mandare brevi comandi alla macchina e scrivere programmi sul nastro perforato che vedete, arrotolato, alla vostra sinistra, sopra la stampante di linea.\nAl centro, un pannello con pulsanti e luci permetteva di ottenere informazioni immediate sul funzionamento della macchina\nLa gestione e manutenzione della CEP era affidata a dei tecnici specializzati che scrivevano ed eseguivano i programmi per conto degli utenti, e restituivano i risultati stampati su fogli di carta.\n",
+					"artist": "Università  di Pisa",
+					"description": "console della CEP",
+					"text": "Entrando nella sala, vedete davanti a voi una scrivania, si tratta della console della CEP, l'interfaccia tra l'operatore umano e il computer.\nNella parte destra, c'è la telescrivente di marca Olivetti, azienda che collaborò per la costruzione della CEP, mentre progettava il prototipo della serie ELEA. Tramite la telescrivente, era possibile mandare brevi comandi alla macchina e scrivere programmi sul nastro perforato che vedete, arrotolato, alla vostra sinistra, sopra la stampante di linea.\nAl centro, un pannello con pulsanti e luci permetteva di ottenere informazioni immediate sul funzionamento della macchina\nLa gestione e manutenzione della CEP era affidata a dei tecnici specializzati che scrivevano ed eseguivano i programmi per conto degli utenti, e restituivano i risultati stampati su fogli di carta.\n",
 					"annotations": []
 			},
 			{
@@ -181,7 +182,7 @@
 				"title": "I cubi di memoria",
 				"preview": false,
 				"description": "",
-				"text": "La Calcolatrice Elettronica Pisana ha tutte le componenti di un computer moderno: un'unità di controllo, una di alimentazione, una memoria RAM, una memoria permanente, e dispositivi di input-output.\nCiascuna di queste componenti è collegata da bus, i cavi blu che si trovano sopra gli armadi.\nI due cubi di memoria a nuclei di ferrite, intrecciati a mano, formano una Random Access Memory, la memoria temporanea, di 18 KB ciascuno. Per quanto fosse sufficiente al tempo, è un milione di volte più piccola di quella di un cellulare moderno.\n",
+				"text": "La Calcolatrice Elettronica Pisana ha tutte le componenti di un computer moderno: un'unità  di controllo, una di alimentazione, una memoria RAM, una memoria permanente, e dispositivi di input-output.\nCiascuna di queste componenti è collegata da bus, i cavi blu che si trovano sopra gli armadi.\nI due cubi di memoria a nuclei di ferrite, intrecciati a mano, formano una Random Access Memory, la memoria temporanea, di 18 KB ciascuno. Per quanto fosse sufficiente al tempo, è un milione di volte più piccola di quella di un cellulare moderno.\n",
 				"annotations": []
 			},
 			{
@@ -191,24 +192,10 @@
 				"room": 3,
 				"title": "La memoria permanente",
 				"preview": false,
-				"text": "Passando a destra della memoria RAM e entrando dentro il computer, vi trovate davanti l'unit� di controllo, che ha il ruolo di leggere ed eseguire le istruzioni macchina. Proseguendo a sinistra, per terra vedete l'unit� di memoria a tamburo magnetico. Si tratta di una memoria permanente, il cui contenuto persiste tra un'accensione e l'altra, e pu� contenere 72 kB, il doppio della memoria temporanea del computer. I cavi che ne escono erano originariamente collegati alla calcolatrice tramite bus.",
-				"description": "Unit� di memoria a tamburo magnetico della Calcolatrice Elettronica Pisana",
+				"text": "Passando a destra della memoria RAM e entrando dentro il computer, vi trovate davanti l'unità di controllo, che ha il ruolo di leggere ed eseguire le istruzioni macchina. Proseguendo a sinistra, per terra vedete l'unità di memoria a tamburo magnetico. Si tratta di una memoria permanente, il cui contenuto persiste tra un'accensione e l'altra, e può contenere 72 kB, il doppio della memoria temporanea del computer. I cavi che ne escono erano originariamente collegati alla calcolatrice tramite bus.",
+				"description": "Unità di memoria a tamburo magnetico della Calcolatrice Elettronica Pisana",
 				"annotations": []
 			},
-			{
-				"id": "cep-tecnologie",
-				"slug": "cep-tecnologie",
-				"isRoom": false,
-				"room": 3,
-				"title": "Tecnologie",
-				"date": "1961",
-				"preview":false,
-				"artist": "Università di Pisa",
-				"description": "Tecnologie della Calcolatrice Elettronica Pisana",
-				"text": "Lo strumento principale della CEP erano le valvole termoioniche, simili a delle lampade a incandescenza, componenti elettroniche in grado di amplificare e indirizzare la corrente. Erano abbastanza fragili e scaldavano molto: era utilizzato un raffreddamento ad aria.\nCome linguaggio di programmazione la CEP utilizzava il Fortran, in aggiunta al proprio linguaggio macchina. Era in grado di effettuare 60.000 addizioni al secondo, e 6.000 moltiplicazioni al secondo.\nDal punto di vista dell'architettura, era una macchina di Von Neumann: istruzioni e dati condividevano lo stesso spazio di memoria.\nVicino all'ingresso della sala si trova la ricostruzione di un circuito con pezzi originali della CEP: si tratta di un addizionatore completo a sei bit, che pu� essere utilizzato in presenza delle guide.\n",
-				"duration": 0,
-				"annotations": []
-				},
 			{
 				"id": "sala-4-olivetti",
 				"slug": "sala-4-olivetti",
