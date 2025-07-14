@@ -157,24 +157,10 @@
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "Descrizione temporanea",
-				"text": "Davanti a voi la Calcolatrice Elettronica Pisana, o CEP, computer mainframe costruito dall'Università di Pisa tra il 1954 e il 1961.\nIl suo prototipo, la Macchina Ridotta, ultimata nel 1957, fu il primo computer progettato e costruito interamente in Italia.\nI fondi per la sua costruzione, di 150 milioni di lire, erano destinati originariamente ad un acceleratore di particelle. Questo fu invece costruito a Frascati, e i fondi vennero dirottati sulla CEP, anche grazie al parere di Enrico Fermi, che scrisse una lettera al rettore Avanzi per supportare il progetto.\nIl (inserire data) 1961, il giornale (nome giornale) scrive: \"Inaugurato da Gronchi a Pisa il calcolatore elettronico più potente d'Europa. Può misurare la traiettoria di un satellite - Sei anni di lavoro - Tremila valvole termoioniche\".\nLa Calcolatrice è stata in funzione da allora al 1969, permettendo di svolgere migliaia di ore di calcoli di interesse scientifico.",
+				"text": "Davanti a voi la Calcolatrice Elettronica Pisana, o CEP, computer mainframe costruito dall'Università di Pisa tra il 1954 e il 1961.\nIl suo prototipo, la Macchina Ridotta, ultimata nel 1957, fu il primo computer progettato e costruito interamente in Italia.\nI fondi per la sua costruzione, di 150 milioni di lire, erano destinati originariamente ad un acceleratore di particelle. Questo fu invece costruito a Frascati, e i fondi vennero dirottati sulla CEP, anche grazie al parere di Enrico Fermi, che scrisse una lettera al rettore Avanzi per supportare il progetto.\nIl 13 Novembre 1961, il Paese scrive: \"Inaugurato da Gronchi a Pisa il calcolatore elettronico più potente d'Europa. Può misurare la traiettoria di un satellite - Sei anni di lavoro - Tremila valvole termoioniche\".\nLa Calcolatrice è stata in funzione da allora al 1969, permettendo di svolgere migliaia di ore di calcoli di interesse scientifico.",
 				"duration": 57,
 				"annotations": []
 			},
-			{
-				"id": "cep-architettura",
-				"slug": "cep-architettura",
-				"isRoom": false,
-				"room": 3,
-				"title": "Architettura",
-				"date": "1961",
-				"preview":false,
-				"artist": "UniversitÃ  di Pisa",
-				"description": "Architettura della Calcolatrice Elettronica Pisana",
-				"text": "da scrivere",
-				"duration": 0,
-				"annotations": []
-				},
 				{
 					"id": "cep-console",
 					"slug": "cep-console",
@@ -205,10 +191,24 @@
 				"room": 3,
 				"title": "La memoria permanente",
 				"preview": false,
-				"description": "",
-				"text": "",
+				"text": "Passando a destra della memoria RAM e entrando dentro il computer, vi trovate davanti l'unità di controllo, che ha il ruolo di leggere ed eseguire le istruzioni macchina. Proseguendo a sinistra, per terra vedete l'unità di memoria a tamburo magnetico. Si tratta di una memoria permanente, il cui contenuto persiste tra un'accensione e l'altra, e può contenere 72 kB, il doppio della memoria temporanea del computer. I cavi che ne escono erano originariamente collegati alla calcolatrice tramite bus.",
+				"description": "Unità di memoria a tamburo magnetico della Calcolatrice Elettronica Pisana",
 				"annotations": []
 			},
+			{
+				"id": "cep-tecnologie",
+				"slug": "cep-tecnologie",
+				"isRoom": false,
+				"room": 3,
+				"title": "Tecnologie",
+				"date": "1961",
+				"preview":false,
+				"artist": "UniversitÃ  di Pisa",
+				"description": "Tecnologie della Calcolatrice Elettronica Pisana",
+				"text": "Lo strumento principale della CEP erano le valvole termoioniche, simili a delle lampade a incandescenza, componenti elettroniche in grado di amplificare e indirizzare la corrente. Erano abbastanza fragili e scaldavano molto: era utilizzato un raffreddamento ad aria.\nCome linguaggio di programmazione la CEP utilizzava il Fortran, in aggiunta al proprio linguaggio macchina. Era in grado di effettuare 60.000 addizioni al secondo, e 6.000 moltiplicazioni al secondo.\nDal punto di vista dell'architettura, era una macchina di Von Neumann: istruzioni e dati condividevano lo stesso spazio di memoria.\nVicino all'ingresso della sala si trova la ricostruzione di un circuito con pezzi originali della CEP: si tratta di un addizionatore completo a sei bit, che può essere utilizzato in presenza delle guide.\n",
+				"duration": 0,
+				"annotations": []
+				},
 			{
 				"id": "sala-4-olivetti",
 				"slug": "sala-4-olivetti",
