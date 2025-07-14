@@ -61,7 +61,7 @@ export function ArtworkNarrationCard({
           </h4>
 					{ artworkNarration.artist ?
           <h5 className="my-2 text-sm text-neutral-400">
-            {artworkNarration.artist}, {artworkNarration.artistBio}
+            {artworkNarration.artist}
 					</h5> : <></>
 					}
         </div>
