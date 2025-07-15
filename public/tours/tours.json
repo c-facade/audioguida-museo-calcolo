@@ -2,7 +2,7 @@
 	{
 		"slug": "msc",
 		"name": "Museo degli Strumenti per il Calcolo",
-		"description" : "La mostra permanente del museo degli strumenti per il calcolo.",
+		"description" : "Una collezione di strumenti per il calcolo che va dal 1700 ad oggi, con un riferimento speciale alla storia dell'informatica Italiana.",
 		"artworks" : [
 			{
 				"id": "intro-msc",
@@ -257,8 +257,17 @@
 				"title": "La sala del calcolo personale",
 				"preview": false,
 				"description": "Calcolatori o calcolatrici?",
-				"text": "",
-				"annotations": []
+				"text": "Calcolatori o calcolatrici?\nOriginariamente, il calcolatore era una professione: prima dell'era del computer elettronico, se era necessario effettuare calcoli lunghi e complessi, erano impiegati gruppi di uomini e donne che facevano i conti per poi confrontare i risultati.\nDal 1800 agli anni Settanta, uno strumento è affiancato a carta e penna: la calcolatrice meccanica, di cui vedete moltissimi esempi nella teca a sinistra. La macchina calcolatrice velocizza il lavoro, ma il calcolatore umano doveva conoscere il procedimento corretto e svolgere i passi senza sbagliare.\nTra gli anni Quaranta e gli anni Settanta, il calcolatore elettronico va a sostituire il calcolatore umano, ma il suo ruolo non cambia: la calcolatrice esegue operazioni, e il calcolatore esegue programmi. Il calcolatore è responsabile del procedimento di calcolo.\nIn fondo alla sala, la Programma 101 è il punto di giunzione tra i due concetti: calcolatore e calcolatrice. Utilizzata dalle donne calcolatrici della NASA per effettuare calcoli sull'allunaggio, ma anche capace di eseguire programmi nelle case e nelle scuole, segna l'inizio dell'epoca del Personal Computer.\n",
+				"annotations": [],
+				"images": [
+					{
+						"name": "donne_calcolatrici.png",
+						"alt": "Fotografia in bianco e nero, probabilmente degli anni 50, di un ufficio con otto scrivanie, a cui sono sedute delle donne intente a fare calcoli utilizzando delle macchine calcolatrici meccaniche.",
+						"description": "Donne calcolatrici che lavorano al Jet Propulsion Laboratory della NASA, utilizzando le calcolatrici Friden.",
+						"width": 800,
+						"height": 463
+					}
+				]
 			},	
 			{
 				"id": "analog-digital",
@@ -267,7 +276,7 @@
 				"room": 5,
 				"title": "Strumenti analogici e digitali",
 				"preview": false,
-				"description": "",
+				"description": "È analogico uno strumento che tratta valori numerici rappresentandoli per \"analogia\", con la misura di una grandezza fisica continua. È invece digitale uno strumento che tratta tali valori in modo discreto, rappresentandoli con numeri interi espressi tramite cifre, o digit. Un sistema digitale non è necessariamente binario: le macchine calcolatrici che vediamo usano il sistema decimale.\nTra gli strumenti analogici abbiamo il Compasso Geometrico et Militare di Galileo, strumento versatilissimo diffuso dall'inizio del diciassettesimo secolo, il planimetro di Gonnella, utilizzato per risolvere le operazioni più elementari del calcolo integrale, e il regolo, che permette di allineare le scale per visualizzare il risultato su una terza.\nNella teca gialla all'entrata ci sono dei semplici strumenti digitali: tavole pitagoriche, diversi tipi di addizionatrici a cremagliere, ad esempio l'Addiator con il suo riporto semi-automatico.\nQuesti strumenti molto portatili furono prodotti dagli inizi del ventesimo secolo fino agli anni Ottanta.",
 				"text": "",
 				"annotations": []
 			},
@@ -278,7 +287,7 @@
 				"room": 5,
 				"title": "Aritmometri",
 				"preview": false,
-				"description": "",
+				"description": "Realizzato come prototipo nel 1822, si dice , l'aritmometro di Colmar è stato prodotto in serie a partire dal 1850, iniziando l'era degli strumenti di calcolo commerciali. L'attività fu continuata dal figlio di Colmar e poi da Louis Payen, fino al 1915 in cui questo tipo di calcolatrice fu superato.\nSui cursori si impostano le cifre degli addendi, i cursori spostano delle ruote dentate che ingranando altrettanti cilindri di Leibniz trasmettono il valore all'accumulatore posto sul carrello scorrevole.",
 				"text": "",
 				"annotations": []
 			},
@@ -298,7 +307,7 @@
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "Descrizione temporanea",
-				"text": "Qui è dve scriveremo la descrizione di ciascun pezzo dell'esposizione/stanza/elemento",
+				"text": "Nel 1873 Odner sostituì i cilindri di Leibniz con le ruote a denti mobili, rendendo le macchine più compatte e più veloci da usare. Questo dà inizio alla serie Brunsviga. Il funzionamento è affine a quello dell'aritmometro: la leva a destra è girata in senso orario per sommare, in senso antiorario per sottrarre. Sono inoltre aggiunte le leve di azzeramento.\nUtilizzando queste calcolatrici e un po' di ingegno, era possibile non solo eseguire le quattro operazioni, ma anche velocizzare calcoli molto più complessi, utilizzando algoritmi appropriati.\nLa Brunsviga nell'immagine è un modello degli anni Cinquanta funzionante, ed è possibile provarla in presenza del personale.",
 				"duration": 0,
 				"annotations": []
 			},
@@ -309,8 +318,28 @@
 				"room": 5,
 				"title": "Curta",
 				"preview": false,
-				"description": "",
-				"text": "",
+				"text": "La Curta, piccola calcolatrice meccanica che si assomiglia ad un macinino da pepe, fu il lavoro di un ingegnere austriaco, Curt Herzstark. Di origine ebraica, dopo l'invasione nazista fu internato nel campo di concentramento di Buchenwald. I nazisti lo misero a lavorare allo sviluppo di una macchina calcolatrice miniaturizzata. Fortunatamente, Herzstark riuscì a sopravvivere e completò la sua macchina dopo la sua liberazione, nel 1947, vendendola come libero cittadino.",
+				"description": "La Curta, calcolatrice meccanica in miniatura.",
+				"annotations": []
+			},
+			{
+				"id": "elettro-meccaniche",
+				"slug": "calc-elettromeccaniche",
+				"isRoom": false,
+				"room": 5,
+				"title": "Le elettromeccaniche",
+				"date": "1961",
+				"preview": false,
+				"artist": "Olivetti",
+				"artistBio": "",
+				"artistText": "",
+				"artistLink": "",
+				"narrator": "",
+				"narratorText" : "",
+				"museumLocation": "Via dei Macelli 2B, Pisa",
+				"description" : "La collezione di calcolatrici elettromeccaniche",
+				"text": "Le calcolatrici elettriche sono in grado di fare operazioni e scrivere risultati solamente con la pressione di un tasto, grazie alla presenza di circuiti elettrici al loro interno. Nella nostra collezione ci sono diverse calcolatrici Olivetti, distinguibili istantaneamente dai loro colori (grigio, azzurro) e dal loro design levigato, firmato Marcello Nizzoli.\n Erano molto più veloci delle loro alternative meccaniche, più comode perchè toglievano la necessità di girare una manovella, avevano una tastiera ridotta e stampavano su fogli di carta. Prodotte dall'inizio degli anni Quaranta alla fine degli anni Settanta, non soppiantarono le calcolatrici meccaniche, ma vissero insieme fino alla diffusione della calcolatrice elettronica.\n",
+				"duration": 0,
 				"annotations": []
 			},
 			{
@@ -320,7 +349,7 @@
 				"room": 5,
 				"title": "La programma 101",
 				"date": "1961",
-				"artist": "Olivetti",
+				"artist": "Olivetti, Pier Giorgio Perotto",
 				"preview": false,
 				"artistBio": "",
 				"artistText": "",
@@ -328,8 +357,8 @@
 				"narrator": "",
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
-				"description" : "Descrizione temporanea",
-				"text": "Qui è dve scriveremo la descrizione di ciascun pezzo dell'esposizione/stanza/elemento",
+				"description" : "La Olivetti Programma 101",
+				"text": "La Programma 101 dell'Olivetti è uno dei gioielli della nostra collezione. Pubblicizzata al suo tempo come il primo computer desktop della storia, è il punto di incontro tra la calcolatrice elettronica scientifica e il Personal Computer: si contende insieme a molti altri il titolo di primo PC della storia.\nL'interazione avveniva tramite la tastiera e la stampante, e i suoi programmi erano scritti su delle cartoline magnetiche che potevano essere inserite e scambiate.\nQuando fu presentata a ottobre 1965 al BEMA show di New York, stupì gli spettatori per la sua dimensione: pensavano si trattasse di un terminale collegato ad un computer più grande.\nNonostante sia una macchina di Turing, teoricamente equivalente a qualsiasi altro computer, aveva una memoria limitata ed era indirizzata certamente al calcolo più che alla gestione di dati.\nNei filmati pubblicitari era dichiarata \"portatile\", mostrata usata da un bambino e da una ragazza sia a bordo di una piscina sia in una vasca da bagno, in barba alle nozioni di sicurezza elettrica.\nFurono vendute 40.000 copie solo negli USA, per 3000 dollari ciascuna: equivalenti a 30.000 euro di oggi. Furono acquistate dalla NASA e dalla Difesa Americana, usate sia per il viaggio spaziale che per i bombardamenti aerei.\nCostruita dal gruppo guidato da Pier Giorgio Perotto, la cosiddetta Perottina è un'icona di design, un punto di svolta nella storia dei computer e un orgoglio Italiano.",
 				"duration": 0,
 				"annotations": []
 			},
@@ -340,7 +369,8 @@
 				"room": 5,
 				"title": "I personal computer",
 				"preview": false,
-				"description": "",
+				"description": "È difficile riassumere qui la storia del Personal Computer: ogni pezzo in mostra ha la sua storia, le sue innovazioni, i suoi punti di forza e di debolezza. 
+				Negli anni Settanta nascono gli schermi, Hewlett Packard, IBM, Apple e Commodore si competono il mercato: l'IBM privilegia la compatibilità con i grandi sistemi, Apple e Commodore si rivolgono agli utenti privati, includendo il Microsoft BASIC.\nNegli anni Ottanta, ",
 				"text": "",
 				"annotations": []
 			},
