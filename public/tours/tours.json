@@ -43,6 +43,7 @@
 				"isRoom": false,
 				"room": 1,
 				"title": "Contabilità",
+				"date": "1884-1985",
 				"preview": false,
 				"description": "",
 				"text": "Nel 1878, quando lo statunitense James Ritty inventò il primo registratore di cassa, \"Il Cassiere Incorruttibile\", il suo obbiettivo era di tracciare ogni transazione della giornata per controllare i suoi dipendenti.\nPochi anni dopo, vendette il brevetto a quella che diventò la National Cash Register, azienda di successo globale che ha prodotto milioni di registratori di cassa, tra cui tutti quelli in esposizione.\nCon l'invenzione del Personal Computer, si torna ad un metodo di contabilità che risale a più di 4000 anni fa: i fogli di calcolo.\nNel 1979 è rilasciato VisiCalc per l'Apple II, il primo foglio di calcolo interattivo.\nDue anni dopo, VisiCalc è superato da Lotus, ottimizzato per il PC IBM, che a sua volta cede il passo a Microsoft Excel, il quale ha dominato il mercato dei fogli di calcolo elettronici dal 1987 ad oggi.",
@@ -56,6 +57,8 @@
 				"room": 1,
 				"title": "Mercedes Addelektra",
 				"preview" : false,
+				"artist": "Mercedes",
+				"date": "1928",
 				"description": "Macchina da scrivere e calcolatrice: la Mercedes Addelektra.",
 				"text":"Dietro al pannello di ingresso del museo, sullo sfondo giallo, trovate la Mercedes Addelektra, modello risalente al 1928.\nSi tratta di una macchina per la contabilità multiuso che permetteva di effettuare conti, scrivere e stampare i risultati su moduli specifici alla banca o all'ufficio amministrativo in cui era utilizzata.\nEra stabilito in anticipo in quali colonne calcolare i valori e in quali inserire le voci di testo: le colonne di calcolo dei rispettivi moduli definiscono la posizione delle calcolatrici verticali sull'Addelektra.\nLa macchina era azionata da un motore elettrico, e offriva funzionalità per riconoscere e correggere gli errori di inserimento.",
 				"annotations": [],
@@ -68,6 +71,8 @@
 				"room": 1,
 				"title": "Grafica e Musica",
 				"preview": false,
+				"artist": "Atari, Sportron, Mattel, Nintendo, Sega, Commodore",
+				"date": "1967-1985",
 				"text": "La grafica computerizzata nasce negli anni Sessanta con i primi esperimenti su tubi a raggi catodici e terminali grafici, utilizzati per visualizzare forme semplici.\nNegli anni Settanta, Evans & Sutherland rivoluzionano la grafica 3D con simulatori militari e software di modellazione. Il sistema in mostra era usato negli anni Ottanta al CNR di Pisa, per la visualizzazione delle strutture tridimensionali delle molecole.\nGli anni Ottanta segnano una svolta: James Clark fonda la Silicon Graphics, sviluppando workstation per la modellazione 3D e pipeline grafiche avanzate, mentre il Commodore Amiga democratizza la grafica con chip dedicati, diventando un cult per designer e creativi.\nNegli anni Novanta, la grafica 3D esplode nel cinema e nei videogiochi.\nToy Story della Pixar diventa, nel 1995, il primo lungometraggio interamente digitale. Allo stesso tempo, le schede grafiche con accelerazione 3D diventano una componente comune nei PC.\n\nI primi esperimenti di musica generata al computer risalgono agli anni Cinquanta: l'australiano CSIRAC e il britannico Ferrant Mark I furono pionieri nel produrre melodie elettroniche.\nNel 1961, i Bell Labs rivoluzionarono il campo con il primo computer in grado di \"cantare\" Daisy Bell, reso celebre nel film 2001: Odissea nello Spazio.\nIn Italia, tra gli anni Sessanta e Settanta, Pietro Grossi guidò ricerche all'avanguardia a Pisa, gettando le basi per la musica elettronica con progetti come la Tau 2, in mostra nella seconda sala.\nNegli anni Ottanta, si diffondono i software per la creazione musicale, come ProTracker per l'Amiga, e SoundBlaster per il PC.\nNel 1991 fu introdotto lo standard MP3, che facilitò la condivisione online, alimentando la pirateria su piattaforme come Napster.\nGli anni 2000 vedono l'avvento di piattaforme di streaming quali Spotify e Apple Music, che offrono riproduzioni illimitate da una scelta amplissima di brani musicali.",
 				"description": "Evans & Sutherland P300",
 				"annotations": [],
@@ -140,7 +145,7 @@
 				"description": "Il sintetizzatore audio polifonico italiano TAU2",
 				"text": "Uscendo dalla prima sala, vi troverete in una stanza più piccola, con a sinistra un grande armadio rosso: l'unità di controllo della TAU 2.\nTAU2 fu un sistema di sintesi del suono creato a Pisa nel 1975 presso l'istituto di Elaborazione dell'Informazione del CNR.\nLa sua paternità appartiene a Pietro Grossi, violoncellista, compositore e programmatore italiano, pioniere della musica elettronica e della computer music. Fu un visionario che, dagli inizi degli anni Sessanta, ha immaginato come gli elaboratori elettronici potessero creare musica se opportunamente programmati.\nIl TAU2 era un'apparecchiatura di sintesi audio polifonico e politimbrico in grado di produrre simultaneamente 12 suoni, era uno speciale terminale collegato come qualsiasi altra periferica all'IBM 370.\nIl sistema permetteva di memorizzare, comporre, rielaborare ed eseguire brani musicali in tempo reale. Il simulatore con monitor IBM che si trova davanti all'unità di controllo permette di ascoltare esempi di riproduzione musicale, elaborazione con filtri, modificatori di frequenza e velocità.",
 				"annotations": [],
-				"duration": 73
+				"duration": 68
 			},
 			{
 				"id": "6",
@@ -172,6 +177,7 @@
 					"artist": "Università  di Pisa",
 					"description": "console della CEP",
 					"text": "Entrando nella sala, vedete davanti a voi una scrivania, si tratta della console della CEP, l'interfaccia tra l'operatore umano e il computer.\nNella parte destra, c'è la telescrivente di marca Olivetti, azienda che collaborò per la costruzione della CEP, mentre progettava il prototipo della serie ELEA. Tramite la telescrivente, era possibile mandare brevi comandi alla macchina e scrivere programmi sul nastro perforato che vedete, arrotolato, alla vostra sinistra, sopra la stampante di linea.\nAl centro, un pannello con pulsanti e luci permetteva di ottenere informazioni immediate sul funzionamento della macchina\nLa gestione e manutenzione della CEP era affidata a dei tecnici specializzati che scrivevano ed eseguivano i programmi per conto degli utenti, e restituivano i risultati stampati su fogli di carta.\n",
+					"duration": 51,
 					"annotations": []
 			},
 			{
@@ -183,7 +189,8 @@
 				"preview": false,
 				"description": "",
 				"text": "La Calcolatrice Elettronica Pisana ha tutte le componenti di un computer moderno: un'unità  di controllo, una di alimentazione, una memoria RAM, una memoria permanente, e dispositivi di input-output.\nCiascuna di queste componenti è collegata da bus, i cavi blu che si trovano sopra gli armadi.\nI due cubi di memoria a nuclei di ferrite, intrecciati a mano, formano una Random Access Memory, la memoria temporanea, di 18 KB ciascuno. Per quanto fosse sufficiente al tempo, è un milione di volte più piccola di quella di un cellulare moderno.\n",
-				"annotations": []
+				"annotations": [],
+				"duration": 37
 			},
 			{
 				"id": "cep-memoria-permanente",
@@ -194,7 +201,8 @@
 				"preview": false,
 				"text": "Passando a destra della memoria RAM e entrando dentro il computer, vi trovate davanti l'unità di controllo, che ha il ruolo di leggere ed eseguire le istruzioni macchina. Proseguendo a sinistra, per terra vedete l'unità di memoria a tamburo magnetico. Si tratta di una memoria permanente, il cui contenuto persiste tra un'accensione e l'altra, e può contenere 72 kB, il doppio della memoria temporanea del computer. I cavi che ne escono erano originariamente collegati alla calcolatrice tramite bus.",
 				"description": "Unità di memoria a tamburo magnetico della Calcolatrice Elettronica Pisana",
-				"annotations": []
+				"annotations": [],
+				"duration": 33
 			},  
 			{
 			 "id": "cep-tecnologie",
@@ -206,8 +214,8 @@
 			 "preview":false,
 			 "artist": "Università di Pisa",
 			 "description": "Tecnologie della Calcolatrice Elettronica Pisana",
-			 "text": "Lo strumento principale della CEP erano le valvole termoioniche, simili a delle lampade a incandescenza, componenti elettroniche in grado di amplificare e indirizzare la corrente. Erano abbastanza fragili e scaldavano molto: era utilizzato un raffreddamento ad aria.\nCome linguaggio di programmazione la CEP utilizzava il Fortran, in aggiunta al proprio linguaggio macchina. Era in grado di effettuare 60.000 addizioni al secondo, e 6.000 moltiplicazioni al secondo.\nDal punto di vista dell'architettura, era una macchina di Von Neumann: istruzioni e dati condividevano lo stesso spazio di memoria.\nVicino all'ingresso della sala si trova la ricostruzione di un circuito con pezzi originali della CEP: si tratta di un addizionatore completo a sei bit, che può essere utilizzato in presenza delle guide.\n",
-			 "duration": 0,
+			 "text": "Lo strumento principale della CEP erano le valvole termoioniche, simili a delle lampade a incandescenza, componenti elettroniche in grado di amplificare e indirizzare la corrente. Erano relativamente fragili e scaldavano molto: era utilizzato un raffreddamento ad aria.\nCome linguaggio di programmazione la CEP utilizzava il Fortran, in aggiunta al proprio linguaggio macchina. Era in grado di effettuare 60.000 addizioni al secondo, e 6.000 moltiplicazioni al secondo.\nDal punto di vista dell'architettura, era una macchina di Von Neumann: istruzioni e dati condividevano lo stesso spazio di memoria.\nVicino all'ingresso della sala si trova la ricostruzione di un circuito con pezzi originali della CEP: si tratta di un addizionatore completo a sei bit, che può essere utilizzato in presenza delle guide.\n",
+			 "duration": 51,
 			 "annotations": []
 			 },
 
