@@ -405,5 +405,17 @@
 				"annotations": []
 			}
 		]
+	},
+	{
+		"slug": "msc1",
+		"name": "Museo degli Strumenti per il Calcolo",
+		"description" : "Una collezione di strumenti per il calcolo che va dal 1700 ad oggi, con un riferimento speciale alla storia dell'informatica Italiana.",
+		"artworks" : []
+	},
+	{
+		"slug": "msc2",
+		"name": "Museo degli Strumenti per il Calcolo",
+		"description" : "Una collezione di strumenti per il calcolo che va dal 1700 ad oggi, con un riferimento speciale alla storia dell'informatica Italiana.",
+		"artworks" : []
 	}
 ]

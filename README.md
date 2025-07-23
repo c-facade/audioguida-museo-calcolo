@@ -2,11 +2,9 @@
 Prototipo di audioguide per il sistema museale d'ateneo dell'Università di Pisa, specificamente per la nuova apertura del Museo degli Strumenti per il Calcolo.
 
 ## TODO list
-- Aggiungere galleria di immagini.
-- Pulire il codice in generale.
-- Continuare a riempire l'audioguida del MSC.
-- Caricarlo da qualche parte.
 - Separare `tours.json` dall'implementazione, così che non ci sia bisogno di compilare di nuovo per aggiornare il file.
+- versione in inglese
+- rimpicciolire l'anteprima del museo
 
 ## Tecnologie
 
