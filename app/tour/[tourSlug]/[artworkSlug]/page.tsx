@@ -23,7 +23,7 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 
   return {
     title: tourSlug,
-    description: 'Museum Audio Tours Prototype',
+    description: 'Audioguida Museo degli Strumenti per il Calcolo',
     openGraph: {
       title: `${galleryTour?.name} | ${artworkNarration?.title}` || '',
       description: artworkNarration?.description,
