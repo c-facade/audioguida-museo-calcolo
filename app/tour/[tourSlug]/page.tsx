@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import toursData from '@/public/tours/tours.json';
-import { GalleryTour } from '@/types';
+import { ArtworkNarration, GalleryTour } from '@/types';
 import * as React from "react";
 import { ArtworkList } from '@/components/lists/artwork-list';
 
@@ -33,7 +33,13 @@ export default function Page({
 
   if (!galleryTour) {
     return null;
-  }
+	}
+
+	const duration : number = galleryTour.artworks.reduce((sum: number, artwork: ArtworkNarration) => 
+		sum + (artwork.duration ?? 0), 0
+	);
+
+	console.log("Durata totale: " + Math.floor(duration/60) + "." +duration%60);
 
   return (
     <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">

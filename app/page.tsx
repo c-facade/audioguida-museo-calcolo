@@ -38,7 +38,7 @@ export default function Page() {
                 width="500"
                 height="500"
               />
-              <h2 className="text-xl font-extrabold mt-2">{tour.name}</h2>
+              <h2 className="mt-2 text-xl font-extrabold">{tour.name}</h2>
               <p className="text-neutral-300">{tour.description}</p>
 						</Link>
           </div>
