@@ -30,7 +30,7 @@ export default function Page() {
 								className="fs-slider"
 								id="content-score"
 								max="5"
-								min="0"
+								min="1"
 								name="Valutazione contenuto"
 								required
 								step="1"
@@ -53,7 +53,7 @@ export default function Page() {
 								className="fs-slider"
 								id="func-score"
 								max="5"
-								min="0"
+								min="1"
 								name="Valutazione funzionamento"
 								required
 								step="1"
@@ -102,7 +102,7 @@ export default function Page() {
 					</fieldset>
 					<div className="flex flex-row-reverse gap-x-6">
 						<button
-							className="cursor-pointer rounded-md bg-[--color-primary] px-8 py-4 text-sm font-medium leading-4 text-white transition-colors duration-200 hover:bg-[--color-primary-active] focus-visible:bg-[--color-primary-active] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-[--color-highlight]"
+							className="cursor-pointer rounded-md bg-neutral-800 px-8 py-4 text-sm font-medium leading-4 text-white transition-colors duration-200 hover:bg-[--color-primary-active] focus-visible:bg-[--color-primary-active] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-[--color-highlight]"
 
 							type="submit"
 						>
