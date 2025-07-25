@@ -2,6 +2,8 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import '../style.css';
 
+//TODO rendere il bottone più bello
+//TODO redirection quando hai finito.
 
 export default function Page() {
 	// Make sure to run npm install @formspree/react
