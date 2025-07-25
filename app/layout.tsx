@@ -1,5 +1,4 @@
 import { Inter } from 'next/font/google';
-import { SiteFooter } from '@/components/layout/site-footer';
 import './globals.css';
 
 // If loading a variable font, you don't need to specify the font weight
@@ -9,10 +8,11 @@ const inter = Inter({
   display: 'swap',
 });
 
+
 export const metadata = {
   title: {
     default: 'MSC',
-    template: '%s | Audioguide',
+    template: '%s | Museum Audio Tours',
   },
   description: 'Audioguide',
   icons: {
@@ -34,23 +34,10 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <html lang="en" className={inter.className} suppressHydrationWarning>
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+	return (
+    <html lang='it' className={inter.className} suppressHydrationWarning>
       <head />
-      <body className="bg-black font-sans text-neutral-50 antialiased">
-				<div className="flex min-h-screen w-full flex-col items-center "> {/*justify center*/}
-          <main className="w-full max-w-screen-md flex-1">
-						{children}
-					</main>
-					<footer className="w-full max-w-screen-md">
-						<SiteFooter />
-					</footer>
-        </div>
-      </body>
+			{children}
     </html>
   );
 }
