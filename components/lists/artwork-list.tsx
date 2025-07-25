@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArtworkNarration, GalleryTour } from '@/types';
 
-export function ArtworkList({galleryTour, roomOnly, room=-1}) {
+export function ArtworkList({lang, galleryTour, roomOnly, room=-1}) {
 	return (
 		<>
 		<div className="grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -16,7 +16,7 @@ export function ArtworkList({galleryTour, roomOnly, room=-1}) {
 					<div className="rounded-lg p-4 hover:bg-neutral-900" id={artwork.id} key={artwork.id}>
 					<Link
 						key={artwork.id}
-							href={`/tour/${galleryTour.slug}/${artwork.slug}`}
+						href={`/${lang}/tour/${galleryTour.slug}/${artwork.slug}`}
 						>
 						<Image
 						key={artwork.id}

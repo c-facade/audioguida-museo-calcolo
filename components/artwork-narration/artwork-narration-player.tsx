@@ -13,12 +13,14 @@ import { Progress } from '@/components/ui/progress';
 import { RoundButton } from '@/components/ui/round-button';
 
 interface ArtworkNarrationPlayerProps {
-  galleryTour: GalleryTour;
+	lang: string;
+	galleryTour: GalleryTour;
   artworkNarrationIndex: number;
 }
 
 export default function ArtworkNarrationPlayer({
-  galleryTour,
+	lang,
+	galleryTour,
   artworkNarrationIndex,
 }: ArtworkNarrationPlayerProps) {
 	
@@ -167,7 +169,7 @@ export default function ArtworkNarrationPlayer({
 	
   function goObject(index) {
     const tobj = galleryTour.artworks[index];
-    const url = `/tour/${galleryTour.slug}/${tobj.slug}`;
+		const url = `/${lang}/tour/${galleryTour.slug}/${tobj.slug}`;
     router.push(url);
   }
 

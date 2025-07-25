@@ -6,26 +6,21 @@ import toursData from '@/public/tours/tours.json';
 import { GalleryTour } from '@/types';
 import { getDictionary } from './dictionaries';
 
-export async function generateMetadata({ params }): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   return {
 		title: 'Audioguida MSC',
 		description: "Audioguida del Museo degli Strumenti per il Calcolo di Pisa",
   };
 }
 
-// super ugly hack, hope it works until react gets better
-const dicten = await getDictionary('en');
-const dictit = await getDictionary('it');
-
-export default function Page({ 
+export default async function Page({ 
 	params 
 } : {
 	params : Promise<{lang: string}>
 }) {
-	const {lang} = React.use(params);
+	const {lang} = await params;
+	const dict = await getDictionary(lang);
   const tours: GalleryTour[] = toursData;
-	console.log("page lang", lang);
-	const dict = (lang == 'it' ? dictit : dicten);
   return (
     <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -41,7 +36,7 @@ export default function Page({
           <div
             className="rounded-lg p-4 hover:bg-neutral-800" key={tour.slug}
           >
-						<Link key={tour.slug} href={`/tour/${tour.slug}/intro`}>
+						<Link key={tour.slug} href={`/${lang}/tour/${tour.slug}/intro`}>
               <Image
                 className="h-48 w-full object-cover"
                 alt="Artist"

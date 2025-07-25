@@ -23,9 +23,9 @@ export async function generateMetadata({
 export default function Page({ 
 	params 
 } : {
-	params : Promise<{tourSlug: string}>
+	params : Promise<{lang: string, tourSlug: string}>
 }) {
-	const {tourSlug} = React.use(params);
+	const {lang, tourSlug} = React.use(params);
 	const tours: GalleryTour[] = toursData;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug
@@ -45,7 +45,7 @@ export default function Page({
     <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h2 className="text-xl font-extrabold text-neutral-600">
-          <a href='/'>Audioguide S.M.A. Pisa</a>
+          <a href='/'>Audioguide</a>
         </h2>
         <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
           {galleryTour.name}
@@ -55,6 +55,7 @@ export default function Page({
         </p>
 			</div>	
 			<ArtworkList 
+				lang={lang}
 				galleryTour={galleryTour}
 				roomOnly={true}/>
     </section>

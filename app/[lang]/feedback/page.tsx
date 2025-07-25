@@ -1,30 +1,24 @@
-import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
+//import { useForm, ValidationError } from "@formspree/react";
 import '../style.css';
 import { getDictionary } from '../dictionaries';
 
 //TODO rendere il bottone più bello
 //TODO redirection quando hai finito.
 
-// super ugly hack, hope it works until react gets better
-const dicten = await getDictionary('en');
-const dictit = await getDictionary('it');
-
-export default function FeedbackForm({
+export default async function FeedbackForm({
 	params 
 } : {
 	params : Promise<{lang: string}>
 }) {
-	const {lang} = React.use(params);
+	const {lang} = await params;
 	console.log(lang);
-	const dict = dictit;
+	const dict = await getDictionary(lang);
 
 	return(
     <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
 				<h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
 					{dict.feedback.titolo}
-					Valuta l&apos;audioguida o segnala errori
 				</h1>
 				<form className="grid gap-y-6"
 					action="https://formspree.io/f/xovleowz"
@@ -34,7 +28,7 @@ export default function FeedbackForm({
 						<div className="fs-field">
 							<label className="block text-sm font-medium"
 								htmlFor="content-score">
-								Come valuti i contenuti dell&apos;audioguida? (1 = pessimi, 5 = ottimi)
+								{dict.feedback.contenuti}	
 							</label>
 							<input
 								className="fs-slider"
@@ -57,7 +51,7 @@ export default function FeedbackForm({
 						<div className="fs-field">
 							<label className="block text-sm font-medium"
 								htmlFor="func-score">
-								Come valuti il funzionamento dell&apos;audioguida? (1 = pessimo, 5 = ottimo)
+								{dict.feedback.funzionamento}
 							</label>
 							<input
 								className="fs-slider"
@@ -83,13 +77,13 @@ export default function FeedbackForm({
 								className="block text-sm font-medium"
 								htmlFor="detailed-feedback"
 							>
-								Spiegaci perchè
+								{dict.feedback.spiegare}
 							</label>
 							<textarea
 								className="resize-y appearance-none rounded-md border-0 px-3 py-2 text-black outline-none ring-1 ring-inset ring-[--color-border-default] placeholder:text-[--color-text-muted] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-0 focus-visible:outline-[--color-highlight] focus-visible:ring-[1.5px] focus-visible:ring-inset focus-visible:ring-[--color-border-active]"
 								id="detailed-feedback"
 								name="Feedback dettagliato"
-								placeholder="Facci sapere cosa ha funzionato, cosa non ha funzionato, e come possiamo migliorare."
+								placeholder={dict.feedback.faccisapere}
 								required
 							/>
 						</div>
@@ -98,7 +92,7 @@ export default function FeedbackForm({
 								className="block font-[family-name:--font-family-display] text-sm font-medium text-[--color-text-default]"
 								htmlFor="email-address"
 							>
-								Indirizzo email (opzionale)
+								{dict.feedback.email}
 							</label>
 							<input
 								className="h-10 appearance-none rounded-md border-0 px-3 text-black outline-none ring-1 ring-inset ring-[--color-border-default] placeholder:text-[--color-text-muted] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-0 focus-visible:outline-[--color-highlight] focus-visible:ring-[1.5px] focus-visible:ring-inset focus-visible:ring-[--color-border-active]"
@@ -106,7 +100,7 @@ export default function FeedbackForm({
 								name="Indirizzo email"
 							/>
 							<p className="block text-sm text-[--color-text-muted]">
-								Se vuoi che ti contattiamo per discutere, lasciaci la tua email.
+								{dict.feedback.emailspiega}
 							</p>
 						</div>
 					</fieldset>
@@ -116,7 +110,7 @@ export default function FeedbackForm({
 
 							type="submit"
 						>
-							Invia
+							{dict.feedback.invia}
 						</button>
 					</div>
 				</form>

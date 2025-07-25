@@ -35,10 +35,11 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 export default function Page({
 	params,
 }: {
-	params: Promise<{ tourSlug: string, artworkSlug: string}>
+	params: Promise<{ lang: string, tourSlug: string, artworkSlug: string}>
 }) {
-	
-	const {tourSlug, artworkSlug} = React.use(params);
+
+	const {lang, tourSlug, artworkSlug} = React.use(params);
+	console.log(lang, tourSlug, artworkSlug);
 	const tours: GalleryTour[] = toursData;
 	const galleryTour: GalleryTour | undefined =
 		tours.find( (galleryTour) => galleryTour.slug === tourSlug);
@@ -50,10 +51,11 @@ export default function Page({
 		let artwork = galleryTour.artworks[artworkNarrationIndex];
 		return (
 			<div>	
-				<ArtworkNarrationCard galleryTour={galleryTour} artworkNarrationIndex={artworkNarrationIndex}/>
+				<ArtworkNarrationCard lang={lang} galleryTour={galleryTour} artworkNarrationIndex={artworkNarrationIndex}/>
 				{artwork.isRoom ? (
 				<ArtworkList
-					galleryTour={galleryTour}
+				lang={lang}
+				galleryTour={galleryTour}
 					roomOnly={false}
 					room={artwork.room}
 					/>

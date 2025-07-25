@@ -3,8 +3,6 @@
 //import Image from 'next/image';
 import { ArtworkNarration, GalleryTour } from '@/types';
 
-import { MuseumMap } from '@/components/museum-map/museum-map';
-import { BkmLogo } from '@/components/ui/bkm-logo';
 //import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 //import { ArtworkNarrationPlayer } from './artwork-narration-player';
 
@@ -19,9 +17,11 @@ const ArtworkNarrationPlayer = dynamic(() => import('./artwork-narration-player'
 interface ArtworkNarrationCardProps {
   galleryTour: GalleryTour;
 	artworkNarrationIndex: number;
+	lang: string;
 }
 
 export function ArtworkNarrationCard({
+	lang,
   galleryTour,
   artworkNarrationIndex,
 }: ArtworkNarrationCardProps) {
@@ -34,11 +34,11 @@ export function ArtworkNarrationCard({
 				<div className="flex w-full">
 					<div className="grow">
 						<h2 className="text-xl font-extrabold text-neutral-600">
-							<a href='/'>Audioguide S.M.A.</a>
+							<a href='/'>Audioguide</a>
 						</h2>
             <div className="mt-2 flex flex-wrap items-center gap-2">
               <h1 className="text-2xl font-extrabold text-neutral-300">
-                <a href={`/tour/${galleryTour?.slug}`}>{galleryTour?.name}</a>
+								<a href={`/${lang}/tour/${galleryTour?.slug}`}>{galleryTour?.name}</a>
               </h1>
               <span className="rounded-full bg-neutral-800 py-2 px-3 text-sm font-extrabold">
                 {artworkNarrationIndex + 1} of {galleryTour?.artworks.length}
@@ -53,7 +53,7 @@ export function ArtworkNarrationCard({
               {artworkNarration.date}
 						</span>
 						{intro ?
-								<Link className="text-lg" href={`/tour/${galleryTour.slug}/`}>
+							<Link className="text-lg" href={`/${lang}/tour/${galleryTour.slug}/`}>
 									<Button size="default">&#10132;</Button>
 								</Link>
 							: ""
@@ -69,7 +69,8 @@ export function ArtworkNarrationCard({
       <section className="container mt-4 p-0">
 				
 				<ArtworkNarrationPlayer
-          galleryTour={galleryTour}
+					lang={lang}
+					galleryTour={galleryTour}
           artworkNarrationIndex={artworkNarrationIndex}
         />
       </section>	
@@ -78,7 +79,7 @@ export function ArtworkNarrationCard({
 			</section>
 			{intro ?
 				<h4 className="mt-5 text-xl">
-					<Link href={`/tour/${galleryTour.slug}/`}>
+					<Link href={`/${lang}/tour/${galleryTour.slug}/`}>
 						<Button size="lg">Visita il Museo &#10132;</Button>
 					</Link>
 				</h4>

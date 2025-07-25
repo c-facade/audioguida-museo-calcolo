@@ -1,19 +1,17 @@
 import { SiteFooter } from '@/components/layout/site-footer';
 import * as React from "react";
 
-// TODO: Image with src "/tours/msc/image.jpg" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
-//Read more: https://nextjs.org/docs/api-reference/next/image#priority
 // TODO: dynamically set html lang with metadata
+// SiteFooter cannot be used as a JSX component
 
-
-export default function Layout({
+export default async function Layout({
 	children,
 	params,
 }: {
 	children: React.ReactNode;
 	params: Promise<{ lang: string }>
 }) {
-	const {lang} = React.use(params);
+	const {lang} = await params;
 	console.log("layout language:", lang)
   return (
 		<body className="bg-black font-sans text-neutral-50 antialiased">
