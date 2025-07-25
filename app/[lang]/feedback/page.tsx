@@ -1,19 +1,29 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import '../style.css';
+import { getDictionary } from '../dictionaries';
 
 //TODO rendere il bottone più bello
 //TODO redirection quando hai finito.
 
-export default function Page() {
-	// Make sure to run npm install @formspree/react
-	// For more help visit https://formspr.ee/react-help
+// super ugly hack, hope it works until react gets better
+const dicten = await getDictionary('en');
+const dictit = await getDictionary('it');
 
+export default function FeedbackForm({
+	params 
+} : {
+	params : Promise<{lang: string}>
+}) {
+	const {lang} = React.use(params);
+	console.log(lang);
+	const dict = dictit;
 
 	return(
     <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
-        <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
+				<h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
+					{dict.feedback.titolo}
 					Valuta l&apos;audioguida o segnala errori
 				</h1>
 				<form className="grid gap-y-6"
@@ -73,7 +83,7 @@ export default function Page() {
 								className="block text-sm font-medium"
 								htmlFor="detailed-feedback"
 							>
-								Dacci il tuo feedback
+								Spiegaci perchè
 							</label>
 							<textarea
 								className="resize-y appearance-none rounded-md border-0 px-3 py-2 text-black outline-none ring-1 ring-inset ring-[--color-border-default] placeholder:text-[--color-text-muted] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-0 focus-visible:outline-[--color-highlight] focus-visible:ring-[1.5px] focus-visible:ring-inset focus-visible:ring-[--color-border-active]"

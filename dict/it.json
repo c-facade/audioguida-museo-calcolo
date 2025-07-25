@@ -1,0 +1,24 @@
+{
+	"products": {
+		"cart": "Aggiungi al carrello."
+	},
+	"main": {
+		"titolo": "Audioguida",
+		"descrizione": "Scopri il Museo degli Strumenti per il Calcolo di Pisa"
+	},
+	"footer": {
+		"ilmuseo": "Il museo",
+		"audioguide": "Audioguide",
+		"feedback": "Valuta l'audioguida"
+	},
+	"feedback": {
+		"titolo": "Valuta l'audioguida o segnala errori",
+		"contenuti": "Come valuti i contenuti dell'audioguida? (1 = pessimi, 5 = ottimi)",
+		"funzionamento": "Come valuti il funzionamento dell'audioguida?",
+		"spiegare": "Spiegaci perchè",
+		"faccisapere": "Facci sapere cosa ha funzionato, cosa non ha funzionato e come possiamo migliorare",
+		"email": "Indirizzo email (facoltativo)",
+		"email-spiega": "Se vuoi che ti contattiamo per discutere, lasciaci la tua email.",
+		"invia": "Invia"
+	}
+}

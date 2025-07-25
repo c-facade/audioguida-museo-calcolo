@@ -6,14 +6,14 @@ import * as React from "react";
 // TODO: dynamically set html lang with metadata
 
 
-export default async function Layout({
+export default function Layout({
 	children,
 	params,
 }: {
 	children: React.ReactNode;
 	params: Promise<{ lang: string }>
 }) {
-	const {lang} = await params;
+	const {lang} = React.use(params);
 	console.log("layout language:", lang)
   return (
 		<body className="bg-black font-sans text-neutral-50 antialiased">

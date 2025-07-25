@@ -35,7 +35,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
 	return (
-    <html lang='it' className={inter.className} suppressHydrationWarning>
+    <html className={inter.className} suppressHydrationWarning>
       <head />
 			{children}
     </html>

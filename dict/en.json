@@ -1,0 +1,25 @@
+{
+	"products": {
+		"add-cart": "Add to Cart"
+	},
+	"main" : {
+		"titolo": "Audioguide",
+		"descrizione": "Explore the Museum of Computing Machinery in Pisa"
+	},
+	"footer": {
+		"ilmuseo": "Museum",
+		"audioguide": "Audioguides",
+		"feedback": "Give us feedback"
+	},
+		"feedback": {
+		"titolo": "Rate this audioguide or report issues",
+		"contenuti": "Content quality (1 = Very bad, 5 = Excellent)",
+		"funzionamento": "Web page experience (1 = Very bad, 5 = Excellent)",
+		"spiegare": "Your feedback",
+		"faccisapere": "Tell us what worked, what didn't work and how we can do better.",
+		"email": "E-mail address (optional)",
+		"email-spiega": "If you are open for us to contact you for further discussion, please leave your email.",
+		"invia": "Submit"
+	}
+}
+
