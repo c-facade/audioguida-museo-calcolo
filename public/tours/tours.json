@@ -5,7 +5,7 @@
 		"description" : "Una collezione di strumenti per il calcolo che va dal 1700 ad oggi, con un riferimento speciale alla storia dell'informatica Italiana.",
 		"artworks" : [
 			{
-				"id": "intro-msc",
+				"key": "intro-msc",
 				"slug": "intro",
 				"isRoom": true,
 				"room": 0,
@@ -25,7 +25,7 @@
 				"annotations": []
 			},
 			{
-				"id": "sala-pacinotti",
+				"key": "sala-pacinotti",
 				"slug": "sala-1",
 				"isRoom":true,
 				"room": 1,
@@ -38,7 +38,7 @@
 				"duration": 26
 			},
 			{
-				"id": "contabilita",
+				"key": "contabilita",
 				"slug": "contabilita",
 				"isRoom": false,
 				"room": 1,
@@ -51,7 +51,7 @@
 				"duration": 57
 			},
 			{
-				"id": "msc-mercedes",
+				"key": "msc-mercedes",
 				"slug": "mercedes",
 				"isRoom": false,
 				"room": 1,
@@ -65,7 +65,7 @@
 				"duration": 43
 			},
 			{
-				"id": "graficamusica",
+				"key": "graficamusica",
 				"slug": "graficamusica",
 				"isRoom": false,
 				"room": 1,
@@ -95,7 +95,7 @@
 				]
 			},
 			{
-				"id": "videogiochi",
+				"key": "videogiochi",
 				"slug": "videogiochi",
 				"isRoom": false,
 				"room": 1,
@@ -123,7 +123,7 @@
 				"duration": 101
 			},
 			{
-				"id": "videoscrittura",
+				"key": "videoscrittura",
 				"slug": "videoscrittura",
 				"isRoom": false,
 				"room": 1,
@@ -135,7 +135,7 @@
 				"duration": 74
 			},
 			{
-				"id": "sala-2-tau",
+				"key": "sala-2-tau",
 				"slug": "sala-2",
 				"isRoom": true,
 				"room": 2,
@@ -148,7 +148,7 @@
 				"duration": 68
 			},
 			{
-				"id": "6",
+				"key": "6",
 				"slug": "sala-cep",
 				"isRoom": true,
 				"room": 3,
@@ -168,7 +168,7 @@
 				"annotations": []
 			},
 				{
-					"id": "cep-console",
+					"key": "cep-console",
 					"slug": "cep-console",
 					"isRoom": false,
 					"room": 3,
@@ -181,7 +181,7 @@
 					"annotations": []
 			},
 			{
-				"id": "cep-memoria-ram",
+				"key": "cep-memoria-ram",
 				"slug": "cep-memoria",
 				"isRoom": false,
 				"room": 3,
@@ -193,7 +193,7 @@
 				"duration": 37
 			},
 			{
-				"id": "cep-memoria-permanente",
+				"key": "cep-memoria-permanente",
 				"slug": "cep-tamburo",
 				"isRoom": false,
 				"room": 3,
@@ -205,7 +205,7 @@
 				"duration": 33
 			},  
 			{
-			 "id": "cep-tecnologie",
+			 "key": "cep-tecnologie",
 			 "slug": "cep-tecnologie",
 			 "isRoom": false,
 			 "room": 3,
@@ -220,7 +220,7 @@
 			 },
 
 			{
-				"id": "sala-4-olivetti",
+				"key": "sala-4-olivetti",
 				"slug": "sala-4-olivetti",
 				"isRoom": true,
 				"room": 4,
@@ -232,7 +232,7 @@
 				"duration": 99
 			},
 			{
-				"id": "bull-gamma-3",
+				"key": "bull-gamma-3",
 				"slug": "gamma-3",
 				"isRoom": false,
 				"room": 4,
@@ -244,7 +244,7 @@
 				"duration": 37
 			},
 			{
-				"id": "elea-9104",
+				"key": "elea-9104",
 				"slug": "elea-9104",
 				"isRoom": false,
 				"room": 4,
@@ -256,7 +256,7 @@
 				"duration": 21
 			},
 			{
-				"id": "sala-5",
+				"key": "sala-5",
 				"slug": "sala-5",
 				"isRoom": true,
 				"room": 5,
@@ -277,7 +277,7 @@
 				]
 			},	
 			{
-				"id": "analog-digital",
+				"key": "analog-digital",
 				"slug": "analog-digital",
 				"isRoom": false,
 				"room": 5,
@@ -289,7 +289,7 @@
 				"duration": 66
 			},
 			{
-				"id": "aritmometri",
+				"key": "aritmometri",
 				"slug": "aritmometri",
 				"isRoom": false,
 				"room": 5,
@@ -301,7 +301,7 @@
 				"duration": 34
 			},
 			{
-				"id": "meccaniche",
+				"key": "meccaniche",
 				"slug": "calc-meccaniche",
 				"isRoom": false,
 				"room": 5,
@@ -321,7 +321,7 @@
 				"annotations": []
 			},
 			{
-				"id": "curta",
+				"key": "curta",
 				"slug": "curta",
 				"isRoom": false,
 				"room": 5,
@@ -335,7 +335,7 @@
 				"duration": 33
 			},
 			{
-				"id": "elettro-meccaniche",
+				"key": "elettro-meccaniche",
 				"slug": "calc-elettromeccaniche",
 				"isRoom": false,
 				"room": 5,
@@ -355,7 +355,7 @@
 				"annotations": []
 			},
 			{
-				"id": "p101",
+				"key": "p101",
 				"slug": "p101",
 				"isRoom": false,
 				"room": 5,
@@ -375,7 +375,7 @@
 				"annotations": []
 			},
 			{
-				"id": "personal-computer",
+				"key": "personal-computer",
 				"slug": "personal-computer",
 				"isRoom": false,
 				"room": 5,
@@ -387,7 +387,7 @@
 				"duration": 168
 			},
 			{
-				"id": "calc-elettroniche",
+				"key": "calc-elettroniche",
 				"slug": "calc-elettroniche",
 				"isRoom": false,
 				"room": 5,

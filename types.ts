@@ -15,7 +15,7 @@ export interface Picture{
 }
 
 export interface ArtworkNarration {
-  id: string; // Unique ID for the artwork
+  key: string; // Unique ID for the artwork
 	slug: string; // Unique URL slug for the artwork
 	isRoom: boolean;
 	room: number;

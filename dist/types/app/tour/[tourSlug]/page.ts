@@ -1,8 +1,8 @@
 // File: /home/misaele/Documents/INFORMATICA/MuseoCalcolo/videoguida-museo-calcolo/app/tour/[tourSlug]/page.tsx
-import * as entry from '../../../../../app/tour/[tourSlug]/page.js'
+import * as entry from '../../../../../app/[lang]/tour/[tourSlug]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/tour/[tourSlug]/page.js')
+type TEntry = typeof import('../../../../../app/[lang]/tour/[tourSlug]/page.js')
 
 type SegmentParams<T extends Object = any> = T extends Record<string, any>
   ? { [K in keyof T]: T[K] extends string ? string | string[] | undefined : never }

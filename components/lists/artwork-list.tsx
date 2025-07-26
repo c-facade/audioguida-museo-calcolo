@@ -13,13 +13,13 @@ export function ArtworkList({lang, galleryTour, roomOnly, room=-1}) {
 								(artwork.room == room && !artwork.isRoom)
 							 )
 				.map((artwork: ArtworkNarration) =>
-					<div className="rounded-lg p-4 hover:bg-neutral-900" id={artwork.id} key={artwork.id}>
+					<div className="rounded-lg p-4 hover:bg-neutral-900" id={artwork.key} key={artwork.key}>
 					<Link
-						key={artwork.id}
+						key={artwork.key}
 						href={`/${lang}/tour/${galleryTour.slug}/${artwork.slug}`}
 						>
 						<Image
-						key={artwork.id}
+						key={artwork.key}
 								className="h-48 w-full object-cover"
 								alt={artwork.description}
 								src={
