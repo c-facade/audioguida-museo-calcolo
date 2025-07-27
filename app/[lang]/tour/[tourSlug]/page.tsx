@@ -51,9 +51,7 @@ export default function Page({
         <h2 className="text-xl font-extrabold text-neutral-600">
           <a href='/'>Audioguide</a>
 				</h2>
-				<span className="text-white">Ciao! Come va?</span>
 			</div>
-				Hello?
         <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
           {galleryTour.name}
         </h1>
