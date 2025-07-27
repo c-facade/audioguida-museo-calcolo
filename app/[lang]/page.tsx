@@ -2,9 +2,12 @@ import type { Metadata } from 'next';
 import * as React from "react";
 import Image from 'next/image';
 import Link from 'next/link';
-import toursData from '@/public/tours/tours.json';
+import toursDataIt from '@/public/tours/tours_it.json';
+import toursDataEn from '@/public/tours/tours_en.json';
 import { GalleryTour } from '@/types';
 import { getDictionary } from './dictionaries';
+
+//TODO consider dynamic import of tours
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -20,9 +23,11 @@ export default async function Page({
 }) {
 	const {lang} = await params;
 	const dict = await getDictionary(lang);
+	// Temporaneo, da modificare se si aggiungono altre lingue
+	const toursData = lang == 'it' ? toursDataIt : toursDataEn;
   const tours: GalleryTour[] = toursData;
   return (
-    <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
+    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl"> {dict.main.titolo}
         </h1>

@@ -21,7 +21,7 @@
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "The history of the museum of computing instruments.",
 				"text": "Italian computer science was born thanks to the pioneering work of a group of scientists, politicians, and industrialists, aware that training and research in the field of information technologies would contribute to the social, economic, and cultural change of the country.\nCentral to this adventure was the role of Pisa: it was here that, in the second half of the 1950s, the first Italian scientific calculator, the Calcolatrice Elettronica Pisana (CEP), was built, in synergy with the Olivetti Electronic Research Laboratory.\nThe Museum of Computing Instruments has been located since 1993 in the \"Vecchi Macelli\" area, the former nineteenth-century slaughterhouse with its structure still intact. \nThe museum's collection ranges from the second half of the nineteenth century to the late 1990s, passing through iconic objects such as Galileo's proportional compass, the Programma 101, considered the first \"personal computer,\" and the Commodore 64, the best-selling computer ever.\nCurrently, the museum consists of five rooms open to the public where the most important pieces of the collection are exhibited.\n",
-				"duration": 75,
+				"duration": 70,
 				"annotations": []
 			},
 			{
@@ -35,7 +35,7 @@
 				"description": "Pacinotti Room: the first room of the exhibition, contains temporary exhibitions",
 				"text": "We decided to dedicate this first room to the temporary exhibition \"Non solo calcolo\".\nNowadays, the computer is not just a tool for calculation: it allows you to play, create, and work. Here we show how the uses of accounting, graphics, music, video games, and word processing have merged from specialized machines into the contemporary multipurpose computer.\n",
 				"annotations": [],
-				"duration": 26
+				"duration": 0
 			},
 			{
 				"key": "contabilita",
@@ -48,7 +48,7 @@
 				"description": "",
 				"text": "In 1878, when the American James Ritty invented the first cash register, \"The Incorruptible Cashier,\" his goal was to track every transaction of the day to control his employees.\nA few years later, he sold the patent to what became the National Cash Register, a globally successful company that produced millions of cash registers, including all those on display.\nWith the invention of the Personal Computer, we return to an accounting method that dates back more than 4000 years: spreadsheets.\nIn 1979, VisiCalc for the Apple II was released, the first interactive spreadsheet.\nTwo years later, VisiCalc was surpassed by Lotus, optimized for the IBM PC, which in turn gave way to Microsoft Excel, which has dominated the electronic spreadsheet market from 1987 to today.",
 				"annotations": [],
-				"duration": 57
+				"duration": 0
 			},
 			{
 				"key": "msc-mercedes",
@@ -62,7 +62,7 @@
 				"description": "Typewriter and calculator: the Mercedes Addelektra.",
 				"text":"Behind the museum's entrance panel, on the yellow background, you will find the Mercedes Addelektra, a model dating back to 1928.\nIt is a multipurpose accounting machine that allowed for calculations, writing, and printing results on specific forms for the bank or administrative office where it was used.\nIt was established in advance in which columns to calculate the values and in which to insert text entries: the calculation columns of the respective forms define the position of the vertical calculators on the Addelektra.\nThe machine was powered by an electric motor, and offered functionalities for recognizing and correcting entry errors.",
 				"annotations": [],
-				"duration": 43
+				"duration": 0
 			},
 			{
 				"key": "graficamusica",
@@ -76,7 +76,7 @@
 				"text": "Computer graphics was born in the 1960s with the first experiments on cathode ray tubes and graphical terminals, used to display simple shapes.\nIn the 1970s, Evans & Sutherland revolutionized 3D graphics with military simulators and modeling software. The system on display was used in the 1980s at the CNR in Pisa, for the visualization of the three-dimensional structures of molecules.\nThe 1980s marked a turning point: James Clark founded Silicon Graphics, developing workstations for 3D modeling and advanced graphics pipelines, while the Commodore Amiga democratized graphics with dedicated chips, becoming a cult for designers and creatives.\nIn the 1990s, 3D graphics exploded in cinema and video games.\nPixar's Toy Story became, in 1995, the first entirely digital feature film. At the same time, graphics cards with 3D acceleration became a common component in PCs.\n\nThe first experiments with computer-generated music date back to the 1950s: the Australian CSIRAC and the British Ferrant Mark I were pioneers in producing electronic melodies.\nIn 1961, Bell Labs revolutionized the field with the first computer capable of \"singing\" Daisy Bell, made famous in the film 2001: A Space Odyssey.\nIn Italy, between the 1960s and 1970s, Pietro Grossi led cutting-edge research in Pisa, laying the foundations for electronic music with projects such as the Tau 2, on display in the second room.\nIn the 1980s, software for music creation spread, such as ProTracker for the Amiga, and SoundBlaster for the PC.\nIn 1991, the MP3 standard was introduced, which facilitated online sharing, fueling piracy on platforms like Napster.\nThe 2000s saw the advent of streaming platforms such as Spotify and Apple Music, which offer unlimited playback from a vast selection of songs.",
 				"description": "Evans & Sutherland P300",
 				"annotations": [],
-				"duration": 130,
+				"duration": 0,
 				"images": [
 					{
 						"name": "crt.jpg",
@@ -120,7 +120,7 @@
 						"height": 375
 					}
 				],
-				"duration": 101
+				"duration": 0
 			},
 			{
 				"key": "videoscrittura",
@@ -132,7 +132,7 @@
 				"description": "The display case contains several typewriters from Olivetti and Underwood, and computers from Olivetti, Apple, and NeXT.",
 				"text": "In Italy, the history of typewriters began in the sixteenth century in Venice, but the main protagonist is the Olivetti company, which was founded in 1908 in Ivrea. An icon of this era was the Lettera 32, from 1963, loved by journalists and writers for its design by Marcello Nizzoli. From the 1960s, electronics revolutionized the sector: an example is the Underwood 650, produced when the American brand had already joined the Olivetti group.\n\nThe advent of personal computers in the 1970s marked the decline of typewriters, but brought text correction, copy-paste, search and replace, and spell check tools, already existing in mainframes, into homes.\nIn 1983, while Microsoft launched Word, the Olivetti M24 offered an example of the growing spread of this technology. In 1990, Steve Jobs' NeXT Station, a workstation on which Tim Berners-Lee developed the World Wide Web, transformed writing into a collective act, anticipating the era of interconnected texts.",
 				"annotations": [],
-				"duration": 74
+				"duration": 0
 			},
 			{
 				"key": "sala-2-tau",
@@ -145,7 +145,7 @@
 				"description": "The Italian polyphonic audio synthesizer TAU2",
 				"text": "Exiting the first room, you will find yourself in a smaller room, with a large red cabinet to your left: the control unit of TAU 2.\nTAU2 was a sound synthesis system created in Pisa in 1975 at the CNR's Institute of Information Processing.\nIts authorship belongs to Pietro Grossi, an Italian cellist, composer, and programmer, a pioneer of electronic music and computer music. He was a visionary who, from the early 1960s, imagined how electronic processors could create music if properly programmed.\nTAU2 was a polyphonic and polytimbral audio synthesis equipment capable of simultaneously producing 12 sounds, it was a special terminal connected like any other peripheral to the IBM 370.\nThe system allowed for storing, composing, re-elaborating, and performing musical pieces in real time. The simulator with IBM monitor in front of the control unit allows you to listen to examples of music playback, processing with filters, frequency, and speed modifiers.",
 				"annotations": [],
-				"duration": 68
+				"duration": 0
 			},
 			{
 				"key": "6",
@@ -164,7 +164,7 @@
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "History of the Pisa electronic calculator.",
 				"text": "Before you is the Calcolatrice Elettronica Pisana(Pisan Electronic Computer), also known as CEP, a mainframe computer built by the University of Pisa between 1954 and 1961.\nIts prototype, the Macchina Ridotta(MR), completed in 1957, was the first computer designed and built entirely in Italy.\nThe funds for its construction, 150 million lire, were originally intended for a particle accelerator. This was instead built in Frascati, and the funds were diverted to the CEP, also thanks to the opinion of Enrico Fermi, who wrote a letter to Rector Avanzi to support the project.\nOn November 13, 1961, Il Paese wrote: \"Gronchi inaugurates Europe's most powerful electronic calculator in Pisa. It can measure the trajectory of a satellite - Six years of work - Three thousand thermionic valves\".\nThe Calculator was in operation from then until 1969, allowing thousands of hours of scientific calculations to be carried out.",
-				"duration": 57,
+				"duration": 0,
 				"annotations": []
 			},
 				{
@@ -177,7 +177,7 @@
 					"artist": "University of Pisa",
 					"description": "CEP console",
 					"text": "Entering the room, you see a desk in front of you, this is the CEP console, the interface between the human operator and the computer.\nOn the right side, there is the Olivetti teleprinter, The Olivetti company collaborated in the construction of the CEP, while designing the prototype of the ELEA series. Through the teleprinter, it was possible to send short commands to the machine and write programs on the perforated tape you see, rolled up, to your left, above the line printer.\nIn the center, a panel with buttons and lights allowed the user to receive immediate information on the machine's operation.\nThe management and maintenance of the CEP was entrusted to specialized technicians who wrote and executed programs on behalf of users, and returned the results printed on paper sheets.\n",
-					"duration": 51,
+					"duration": 0,
 					"annotations": []
 			},
 			{
@@ -190,7 +190,7 @@
 				"description": "",
 				"text": "The CEP has all the components of a modern computer: a control unit, a power supply unit, RAM memory, permanent memory, and input-output devices.\nEach of these components is connected by buses, the blue cables located above the cabinets.\nThe two ferrite core memory cubes, hand-woven, form a Random Access Memory, the temporary memory, of 18 KB each. Although it was sufficient at the time, it is a million times smaller than that of a modern cell phone.\n",
 				"annotations": [],
-				"duration": 37
+				"duration": 0
 			},
 			{
 				"key": "cep-memoria-permanente",
@@ -202,7 +202,7 @@
 				"text": "Passing to the right of the RAM memory and entering inside the computer, you will find the control unit, which has the role of reading and executing machine instructions. Continuing to the left, on the floor you see the magnetic drum memory unit. This is a permanent memory, whose content persists between one power-on and another, and can hold 72 kB, double the computer's temporary memory. The cables coming out of it were originally connected to the calculator via bus.",
 				"description": "Magnetic drum memory unit of the Pisa Electronic Calculator",
 				"annotations": [],
-				"duration": 33
+				"duration": 0
 			},
 			{
 			 "key": "cep-tecnologie",
@@ -215,7 +215,7 @@
 			 "artist": "University of Pisa",
 			 "description": "Technologies of the Pisa Electronic Calculator",
 			 "text": "The main instrument of the CEP were vacuum tubes, similar to lightbulbs, electronic components capable of amplifying and directing current. They were relatively fragile and heated up a lot: the computer used an air cooling system.\nAs a programming language, the CEP used Fortran, in addition to its own machine language. It was capable of performing 67,000 additions per second.\nFrom an architectural point of view, it was a Von Neumann machine: instructions and data shared the same memory space.\nNear the entrance to the room there is a reconstruction of a circuit with original pieces of the CEP: it is a six-bit full-adder, which can be used in the presence of guides.\n",
-			 "duration": 51,
+			 "duration": 0,
 			 "annotations": []
 			 },
 
@@ -229,7 +229,7 @@
 				"description": "The room of Olivetti's large calculators",
 				"text": "The history of Italian computer science is closely linked to the history of Olivetti, of which we have an extensive collection. In this room, we wanted to exhibit two of the large calculators produced by this company: two pieces from the ELEA series. ELEA stands for \"Elaboratore Elettronico Aritmetico\" (Arithmetic Electronic Processor), but the name was chosen as a reference to the ancient Greek colony.\nResearch for the construction of these mainframe computers began in the mid-1950s with a small group of researchers led by Mario Tchou, who in 1957 created the Macchina Zero, the prototype of the series, completed simultaneously with the Macchina Ridotta of the University of Pisa.\nIn 1959, Olivetti began leasing copies of the ELEA 9003, the third model in the series and the first to be commercialized, a completely transistorized machine. The ELEA 6001 was designed to be a smaller version, aimed at commercial or scientific applications, in its two versions.\nIn collaboration with the Institute for Calculation Applications in Rome, the company began working on the 9004 model in 1964. It was never completed: due to a series of unfortunate events, including the premature deaths of Adriano Olivetti and Mario Tchou, the Olivetti electronics division was sold to General Electric, an international company competing with IBM.\nThis was not the end for Olivetti, which continued to produce its typewriters, calculators, and finally Personal Computers.",
 				"annotations": [],
-				"duration": 99
+				"duration": 0
 			},
 			{
 				"key": "bull-gamma-3",
@@ -241,7 +241,7 @@
 				"text": "The Bull Gamma 3 was one of the early mainframe computers, created by a French company. It was programmed via a switchboard, was based on vacuum tubes, both visible when opened, and had a real engine to provide the clock cycle and move the cards. This type of machine was mainly used for statistical calculations: from the first half of the 1900s, Bull produced electric machines that read punched cards and tabulated the results; for them, the computer was just an accessory that allowed for more sophisticated calculations.",
 				"description": "",
 				"annotations": [],
-				"duration": 37
+				"duration": 0
 			},
 			{
 				"key": "elea-9104",
@@ -253,7 +253,7 @@
 				"description": "",
 				"text": "The ELEA 9104, or CINAC, is a unique piece of the ELEA series, designed for the National Institute for Calculation Applications (INAC). Only one prototype was built, and the compiler toolchain needed to use it best was never completed, so it was only used in emulation mode of other machines.",
 				"annotations": [],
-				"duration": 21
+				"duration": 0
 			},
 			{
 				"key": "sala-5",
@@ -265,7 +265,7 @@
 				"description": "What's the difference between calculators and computers?",
 				"text": "Calculators or computers?\nOriginally, \"computer\" was a profession: before the era of the electronic computer, if long and complex calculations were necessary, groups of men and women were employed to perform the calculations and then compare the results.\nFrom the 1800s to the 1970s, a tool accompanied pen and paper: the mechanical calculator, of which you see many examples in the display case on the left. The calculating machine speeds up the work, but the human computer had to know the correct procedure and perform the steps without errors.\nBetween the 1940s and 1970s, the electronic computer replaced the human computer, but its role did not change: the calculator performs operations, and the computer executes programs. The computer is responsible for the calculation process.\nAt the back of the room, the Programma 101 is the junction point between the two concepts: calculator and computer. Used by NASA's women computers to perform calculations for the moon landing, but also capable of running programs in homes and schools, it marks the beginning of the Personal Computer era.\n",
 				"annotations": [],
-				"duration": 76,
+				"duration": 0,
 				"images": [
 					{
 						"name": "donne_calcolatrici.png",
@@ -286,7 +286,7 @@
 				"text": "An analog instrument is one that processes numerical values by representing them by \"analogy,\" with the measurement of a continuous physical quantity. A digital instrument, on the other hand, processes such values discretely, representing them with integers expressed by digits. A digital system is not necessarily binary: the calculating machines we see use the decimal system.\nAmong the analog instruments we have Galileo's Geometric and Military Compass, a very versatile instrument widespread from the beginning of the seventeenth century, Gonnella's planimeter, used to solve the most elementary operations of integral calculus, and the slide rule, which allows scales to be aligned to display the result on a third one.\nIn the yellow display case at the entrance there are simple digital instruments: multiplication tables, different types of rack adders, for example the Addiator with its semi-automatic carry.\nThese very portable instruments were produced from the early twentieth century until the 1980s.",
 				"description": "",
 				"annotations": [],
-				"duration": 66
+				"duration": 0
 			},
 			{
 				"key": "aritmometri",
@@ -298,7 +298,7 @@
 				"text": "Created as a prototype in 1822, Colmar's arithmometer was mass-produced starting in 1850, ushering in the era of commercial computing instruments. The activity was continued by Colmar's son and then by Louis Payen, until 1915 when this type of calculator was surpassed.\nThe digits of the addends are set on the sliders, the sliders move toothed wheels which, by engaging as many Leibniz cylinders, transmit the value to the accumulator located on the sliding carriage.",
 				"description": "",
 				"annotations": [],
-				"duration": 34
+				"duration": 0
 			},
 			{
 				"key": "meccaniche",
@@ -317,7 +317,7 @@
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "Temporary description",
 				"text": "In 1873 Odner replaced Leibniz cylinders with movable toothed wheels, making the machines more compact and faster to use. This marked the beginning of the Brunsviga series. The operation is similar to that of the arithmometer: the lever on the right is turned clockwise to add, counter-clockwise to subtract. Resetting levers are also added.\nUsing these calculators and a bit of ingenuity, it was possible not only to perform the four operations, but also to speed up much more complex calculations, using appropriate algorithms.\nThe Brunsviga in the image is a working model from the 1950s, and it can be tried in the presence of staff.",
-				"duration": 46,
+				"duration": 0,
 				"annotations": []
 			},
 			{
@@ -332,7 +332,7 @@
 				"text": "The Curta, a small mechanical calculator resembling a pepper grinder, was the work of an Austrian engineer, Curt Herzstark. Of Jewish origin, after the Nazi invasion he was interned in the Buchenwald concentration camp. The Nazis put him to work on the development of a miniaturized calculating machine. Fortunately, Herzstark managed to survive and completed his machine after his liberation in 1947, selling it as a free citizen.",
 				"description": "The Curta, a miniature mechanical calculator.",
 				"annotations": [],
-				"duration": 33
+				"duration": 0
 			},
 			{
 				"key": "elettro-meccaniche",
@@ -351,7 +351,7 @@
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "The collection of electromechanical calculators",
 				"text": "Electric calculators are able to perform operations and write results simply by pressing a button, thanks to the presence of electrical circuits inside them. In our collection there are several Olivetti calculators, instantly distinguishable by their colors (gray, light blue) and their sleek design, signed by Marcello Nizzoli.\nThey were much faster than their mechanical alternatives, more comfortable because they eliminated the need to turn a crank, had a reduced keyboard, and printed on paper sheets. Produced from the early 1940s to the late 1970s, they did not supplant mechanical calculators, but coexisted until the widespread adoption of electronic calculators.\n",
-				"duration": 46,
+				"duration": 0,
 				"annotations": []
 			},
 			{
@@ -371,7 +371,7 @@
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "The Olivetti Programma 101",
 				"text": "The Olivetti Programma 101 is one of the jewels of our collection. Advertised at the time as the first desktop computer in history, it is the meeting point between the electronic scientific calculator and the Personal Computer: it competes with many others for the title of the first PC in history.\nInteraction occurred via the keyboard and printer, and its programs were written on magnetic cards that could be inserted and exchanged.\nWhen it was presented in October 1965 at the BEMA show in New York, it amazed spectators with its size: they thought it was a terminal connected to a larger computer.\nAlthough it is a Turing machine, theoretically equivalent to any other computer, it had limited memory and was certainly aimed at calculation rather than data management.\nIn promotional films it was declared \"portable\", shown used by a child and a girl both by a swimming pool and in a bathtub, in defiance of electrical safety notions.\n40,000 copies were sold in the USA alone, for 3000 dollars each: equivalent to 30,000 euros today. They were purchased by NASA and the American Defense, used for both space travel and aerial bombings.\nBuilt by the group led by Pier Giorgio Perotto, the so-called Perottina is an icon of design, a turning point in the history of computers and an Italian pride.",
-				"duration": 93,
+				"duration": 0,
 				"annotations": []
 			},
 			{
@@ -384,7 +384,7 @@
 				"text": "It is difficult to summarize the history of the Personal Computer here: each piece on display has its own evolution, its innovations, its strengths and weaknesses. We have decided to display the most significant pieces of our collection, in chronological order, highlighting trends in computer design, such as the progressive enlargement and improvement of screens, more compact designs, and attempts to make the computer increasingly portable.\nAmong the first in the progression, between the 1960s and 1970s, Hewlett Packard and IBM targeted the market of professional computer scientists by producing personal calculators, but for work.\nIn the 1970s, a new market emerged: that of hobbyists, which Apple targeted with its Apple I and Apple II from 1976 and 1977. The latter was a ready-to-use calculator and also conquered schools, universities, and research laboratories, earning the title of the longest-lived computer in history, lasting until the early 1990s. The same year, Commodore released its first computer, the Commodore PET, which found success in the educational field. In 1975, Microsoft BASIC was born, a programming language that would spread to all PCs until the 1980s.\nIn 1981, IBM registered Personal Computer as its trademark, with the famous IBM PC, but left the hardware specifications completely open, beginning the era of compatibles, a trend to which HP and Olivetti also had to yield, the latter with its M24 and its \"luggable\" version, i.e., foldable and portable like a briefcase, the M21.\nIn the early 1980s, the phenomenon of \"home computers\" also spread, machines that, in addition to entertainment, offered personal productivity programs (word processing, spreadsheets, drawing, music), and also provided the opportunity to learn programming (BASIC always, but not only). The Texas Instrument TI-99/4A, the Commodore Vic 20, and the ZX81 are examples of the beginning of this era that culminated with the Commodore 64 and the Sinclair ZX Spectrum. The season concluded in the 1990s with a clash between Sinclair QL and Commodore Amiga.\nSpecial mentions in this display case go to the Apple Lisa, the first commercial computer to offer an integrated graphical interface, the Macintosh Plus, which demonstrates the power of advertising and design, and finally the Macintosh Portable, from which the first extra-planetary email was sent in 1991.",
 				"description": "The Personal Computer display case at the museum of computing instruments.",
 				"annotations": [],
-				"duration": 168
+				"duration": 0
 			},
 			{
 				"key": "calc-elettroniche",
@@ -403,7 +403,7 @@
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "A display case containing several examples of portable electronic calculators.",
 				"text": "In 1972, the HP 35 was produced, the first pocket calculator capable of calculating logarithms and trigonometric function values, which you see on the left side above the striking Olivetti Divisumma 18. While almost all calculator manufacturers were focused on price reduction, HP maintained high costs, increased functionality, and introduced the first programmable pocket calculator to the market in 1974, the HP 65, programmable via a magnetic card.\nTexas Instruments, a manufacturer of integrated circuits, was a leading company in the field of pocket calculators, with products such as the TI-35, or the famous TI-58 which achieved great success due to its ease of programming.\nItalian products from Lagomarsino and Olivetti are also on display.",
-				"duration": 57,
+				"duration": 0,
 				"annotations": []
 			}
 		]

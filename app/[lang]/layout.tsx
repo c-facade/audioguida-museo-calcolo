@@ -13,7 +13,7 @@ export default async function Layout({
 	params: Promise<{ lang: string }>
 }) {
 	const {lang} = await params;
-	const dict = getDictionary(lang);
+	const dict = await getDictionary(lang);
 	console.log("layout language:", lang)
   return (
 		<body className="bg-black font-sans text-neutral-50 antialiased">

@@ -1,13 +1,15 @@
 import type {Metadata } from 'next'
 import { ArtworkNarration, GalleryTour } from "@/types";
-import toursData from '@/public/tours/tours.json';
+import toursDataIt from '@/public/tours/tours_it.json';
+import toursDataEn from '@/public/tours/tours_en.json';
 import * as React from "react";
 import { ArtworkNarrationCard } from "@/components/artwork-narration/artwork-narration-card";
 import { ArtworkList } from '@/components/lists/artwork-list';
 import ImageGallery from '@/components/ui/imageGallery';
 
 export async function generateMetadata({ params }): Promise<Metadata> {
-	const {tourSlug, artworkSlug} = await params;
+	const {lang, tourSlug, artworkSlug} = await params;
+	const toursData = lang == 'it' ? toursDataIt : toursDataEn; 
 	const tours: GalleryTour[] = toursData;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug
@@ -39,7 +41,8 @@ export default function Page({
 }) {
 
 	const {lang, tourSlug, artworkSlug} = React.use(params);
-	console.log(lang, tourSlug, artworkSlug);
+	//console.log(lang, tourSlug, artworkSlug);
+	const toursData = lang == 'it' ? toursDataIt : toursDataEn; 
 	const tours: GalleryTour[] = toursData;
 	const galleryTour: GalleryTour | undefined =
 		tours.find( (galleryTour) => galleryTour.slug === tourSlug);

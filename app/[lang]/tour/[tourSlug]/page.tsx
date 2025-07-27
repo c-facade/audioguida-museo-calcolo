@@ -1,17 +1,19 @@
 import type { Metadata } from 'next';
-import toursData from '@/public/tours/tours.json';
+import toursDataIt from '@/public/tours/tours_it.json';
+import toursDataEn from '@/public/tours/tours_en.json';
 import { ArtworkNarration, GalleryTour } from '@/types';
 import * as React from "react";
 import { ArtworkList } from '@/components/lists/artwork-list';
 
 
 export async function generateMetadata({ 
-	params} : {params: Promise<{ tourSlug: string}>
+	params} : {params: Promise<{ lang: string, tourSlug: string}>
 	}) : Promise<Metadata> {
-	const {tourSlug} = await params;
-	const tours: GalleryTour[] = toursData;
-  const galleryTour: GalleryTour | undefined = tours.find(
-    (galleryTour) => galleryTour.slug === tourSlug
+		const {lang, tourSlug} = await params;
+		const toursData = lang == 'it' ? toursDataIt : toursDataEn; 
+		const tours: GalleryTour[] = toursData;
+  	const galleryTour: GalleryTour | undefined = tours.find(
+    	(galleryTour) => galleryTour.slug === tourSlug
   );
 
   return {
@@ -26,6 +28,7 @@ export default function Page({
 	params : Promise<{lang: string, tourSlug: string}>
 }) {
 	const {lang, tourSlug} = React.use(params);
+	const toursData = lang == 'it' ? toursDataIt : toursDataEn; 
 	const tours: GalleryTour[] = toursData;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug
@@ -42,7 +45,7 @@ export default function Page({
 	console.log("Durata totale: " + Math.floor(duration/60) + "." +duration%60);
 
   return (
-    <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
+    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h2 className="text-xl font-extrabold text-neutral-600">
           <a href='/'>Audioguide</a>

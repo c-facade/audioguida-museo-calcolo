@@ -40,7 +40,7 @@ export function ArtworkNarrationCard({
               <h1 className="text-2xl font-extrabold text-neutral-300">
 								<a href={`/${lang}/tour/${galleryTour?.slug}`}>{galleryTour?.name}</a>
               </h1>
-              <span className="rounded-full bg-neutral-800 py-2 px-3 text-sm font-extrabold">
+              <span className="rounded-full bg-neutral-800 px-3 py-2 text-sm font-extrabold">
                 {artworkNarrationIndex + 1} of {galleryTour?.artworks.length}
               </span>
             </div>

@@ -47,7 +47,7 @@ export default function ArtworkNarrationPlayer({
 
   const alt = '';
 
-  const audioUrl = `/tours/${galleryTour.slug}/${artworkNarration.slug}/audio.mp3`;
+  const audioUrl = `/tours/${galleryTour.slug}/${artworkNarration.slug}/audio_${lang}.mp3`;
 
   const soundRef = useRef<Howl | null>(null);
 
@@ -186,7 +186,7 @@ export default function ArtworkNarrationPlayer({
 						/>
 					</div>
 				</div>
-        <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center"></div>
+        <div className="absolute top-0 left-0 flex h-full w-full size-full items-center justify-center"></div>
       </div>
       <div className="w-full">
         <Progress value={percentProgress} className="w-full" />
