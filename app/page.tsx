@@ -1,8 +1,52 @@
 // app/page.tsx
-// temporary, we can make a "choose language" thing here
+
+import Image from 'next/image';
+import Link from 'next/link';
 
 import {redirect} from 'next/navigation';
 
 export default function RootPage() {
-	redirect('it');
+	const languages=["it", "en"];
+	return(
+    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+			<div className="max-w-[980px] flex-col items-start gap-2">
+				<h1 className="mb-2 text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl"> Audioguide
+				</h1>
+        <p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
+					Choose your language
+				</p>
+			</div>
+      <div className="flex flex-col gap-4">
+        {languages.map((lang) => (
+          <div
+            className="rounded-lg p-4 hover:bg-neutral-800" key={lang}
+          >
+						<Link href={`/${lang}`}>
+              <Image
+                className="h-48 w-full object-cover"
+                alt="Artist"
+                src={`${lang}_squared.png`}
+                width="500"
+								height="500"
+								priority={true}
+              />
+							<h2 className="mt-2 text-xl font-extrabold">
+								{
+								lang == 'it'?
+								"Italiano" :
+									"English"
+								}
+							</h2>
+							<p className="text-neutral-300">{
+								lang == 'it' ?
+									"Museo degli Strumenti per il Calcolo" :
+									"Museum of Computing machinery"
+								}
+								</p>
+						</Link>
+          </div>
+        ))}
+      </div>
+		</section>
+	);
 }

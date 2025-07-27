@@ -29,12 +29,12 @@ export default async function Page({
   const tours: GalleryTour[] = toursData;
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-			<div className="flex max-w-[980px] flex-col items-start gap-2">
+			<div className="max-w-[980px] flex-col items-start gap-2">
 				<div className="flex flex-row justify-between">
-					<h1 className="block text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl"> {dict.main.titolo}
+					<h1 className="mb-2 text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl"> {dict.main.titolo}
 					</h1>
-					<LanguageSwitcher/>
-			</div>
+					<LanguageSwitcher lang={lang} url=""/>
+				</div>
         <p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
 					{dict.main.descrizione}
 				</p>

@@ -9,6 +9,7 @@ import { ArtworkNarration, GalleryTour } from '@/types';
 import dynamic from 'next/dynamic'
 import { Button } from '../ui/button';
 import Link from 'next/link';
+import { LanguageSwitcher } from '../ui/languageSwitcher';
 
 const ArtworkNarrationPlayer = dynamic(() => import('./artwork-narration-player'), {
   ssr: false
@@ -33,9 +34,12 @@ export function ArtworkNarrationCard({
 			<section className="container mt-6">
 				<div className="flex w-full">
 					<div className="grow">
-						<h2 className="text-xl font-extrabold text-neutral-600">
-							<a href='/'>Audioguide</a>
-						</h2>
+						<div className="flex justify-between">
+							<h2 className="text-xl font-extrabold text-neutral-600">
+								<a href='/'>Audioguide</a>
+							</h2>
+							<LanguageSwitcher lang={lang} url={`/tour/${galleryTour.slug}/${artworkNarration.slug}`}/>
+						</div>
             <div className="mt-2 flex flex-wrap items-center gap-2">
               <h1 className="text-2xl font-extrabold text-neutral-300">
 								<a href={`/${lang}/tour/${galleryTour?.slug}`}>{galleryTour?.name}</a>

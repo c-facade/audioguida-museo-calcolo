@@ -15,16 +15,14 @@ export default async function Layout({
 	const {lang} = await params;
 	const dict = await getDictionary(lang);
 	console.log("layout language:", lang)
-  return (
-		<body className="bg-black font-sans text-neutral-50 antialiased">
-			<div className="flex min-h-screen w-full flex-col items-center "> {/*justify center*/}
+	return (
+		<>
 				<main className="w-full max-w-screen-md flex-1">
 					{children}
 				</main>
 				<footer className="w-full max-w-screen-md">
 					<SiteFooter lang={lang} dict={dict} />
 				</footer>
-			</div>
-		</body>
+		</>
   );
 }
