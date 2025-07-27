@@ -89,7 +89,7 @@ export default async function FeedbackForm({
 						</div>
 						<div className="m-3 flex flex-col gap-y-1.5">
 							<label
-								className="block font-[family-name:--font-family-display] text-sm font-medium text-[--color-text-default]"
+								className="block font-[family-name:--font-family-display] text-sm font-medium"
 								htmlFor="email-address"
 							>
 								{dict.feedback.email}

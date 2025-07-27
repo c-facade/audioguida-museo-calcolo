@@ -2,15 +2,15 @@
 Prototipo di audioguide per il sistema museale d'ateneo dell'Università di Pisa, specificamente per la nuova apertura del Museo degli Strumenti per il Calcolo.
 
 ## TODO list
-- Separare `tours.json` dall'implementazione, così che non ci sia bisogno di compilare di nuovo per aggiornare il file.
-- versione in inglese
-- rimpicciolire l'anteprima del museo
-
+- [] Separare `tours.json` dall'implementazione, così che non ci sia bisogno di compilare di nuovo per aggiornare il file.
+- [] audio in inglese
+- [] Fallback pages
+- [] Responsive feedback pages
+- [] Real-time import of tours.json according to language.
+ 
 ## Tecnologie
 
 Il prototipo originale che ho forkato utilizza [Next.js](https://nextjs.org/), [React](https://react.dev/), [Howler.js](https://howlerjs.com/), e [Konva](https://konvajs.org/). Ho aggiornato le versioni di alcuni di questi per risolvere delle vulnerabilità. Konva ha smesso di funzionare quindi l'ho eliminato dal progetto.
-
-## Next.js template
 
 Based on https://github.com/shadcn/next-template ([Website](https://template.shadcn.com/), [UI Components](https://ui.shadcn.com/)),
 which is an implementation of [Radix UI](https://www.radix-ui.com/) with [Tailwind](https://tailwindcss.com/) and other helpful utilities.
@@ -18,10 +18,7 @@ which is an implementation of [Radix UI](https://www.radix-ui.com/) with [Tailwi
 ## Features
 
 - Audio narration
-- Synced annotations
-- Synced pan and zoom of images
 - Audio handling with [Howler.js](https://howlerjs.com/)
-- Image pan & zoom with [Konva](https://konvajs.org/)
 - Meta & OG meta tags
 - [lucide-react icons](https://github.com/lucide-icons/lucide)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -40,5 +37,5 @@ If you have not yet loaded the Elasticsearch data, you should see an error on th
 
 ## License
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+Licensed under the MIT License.
 
