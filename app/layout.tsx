@@ -38,7 +38,7 @@ export default async function RootLayout({
     <html className={inter.className} suppressHydrationWarning>
       <head />
 		<body className="bg-black font-sans text-neutral-50 antialiased">
-			<div className="flex min-h-screen w-full flex-col items-center "> {/*justify center*/}
+			<div className="flex min-h-dvh w-full flex-col items-center "> {/*justify center*/}
 				{children}
 			</div>
 		</body>

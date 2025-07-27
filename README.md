@@ -7,6 +7,7 @@ Prototipo di audioguide per il sistema museale d'ateneo dell'Università di Pisa
 - [] Fallback pages
 - [] Responsive feedback pages
 - [] Real-time import of tours.json according to language.
+- [X] Aggiustare l'altezza del footer all'altezza del telefono...
  
 ## Tecnologie
 
