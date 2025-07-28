@@ -107,7 +107,8 @@ export function ArtworkNarrationCard({
 					<Button
 						onClick={() => goObject(artworkNarrationIndex - 1)}
 						disabled={artworkNarrationIndex === 0}
-					>&#129144; 
+					>&#8678;
+						&#129144; 
 								{ lang == 'it' ?
 									" Precedente" :
 									" Previous"
@@ -121,7 +122,8 @@ export function ArtworkNarrationCard({
 								lang == 'it' ?
 									"Successivo " :
 									"Next "
-							}
+						}
+						&#8680;
 							 &#10132;</Button>
 				</div>
 		</>
