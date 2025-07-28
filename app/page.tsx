@@ -16,35 +16,42 @@ export default function RootPage() {
 					Choose your language
 				</p>
 			</div>
-      <div className="flex flex-col gap-4">
+			<div className="flex flex-col gap-4">
+				<Image
+					className="h-48 w-full object-cover"
+					alt="Vista museo"
+					src={`/testata-interna.jpg`}
+					width="500"
+					height="500"
+					priority={true}
+				/>
         {languages.map((lang) => (
-          <div
-            className="rounded-lg p-4 hover:bg-neutral-800" key={lang}
-          >
-						<Link href={`/${lang}`}>
-              <Image
-                className="h-48 w-full object-cover"
-                alt="Artist"
-                src={`${lang}_squared.png`}
-                width="500"
-								height="500"
-								priority={true}
-              />
+						<Link href={`/${lang}`} key={lang}>
+							<div
+								className="rounded-lg p-3 hover:bg-neutral-800"
+							>
 							<h2 className="mt-2 text-xl font-extrabold">
 								{
 								lang == 'it'?
-								"Italiano" :
-									"English"
+								"Italiano " :
+									"English "
 								}
+								<Image
+									className="inline size-[20px]"
+									alt={`${lang}`}
+									src={`${lang}_squared.png`}
+									width="20"
+									height="20"
+								/>
 							</h2>
 							<p className="text-neutral-300">{
 								lang == 'it' ?
 									"Museo degli Strumenti per il Calcolo" :
 									"Museum of Computing machinery"
 								}
-								</p>
-						</Link>
-          </div>
+							</p>
+							</div>
+					</Link>
         ))}
       </div>
 		</section>
