@@ -19,14 +19,14 @@ export default function RootPage() {
 			<div className="flex flex-col gap-4">
 				<Image
 					className="h-48 w-full object-cover"
-					alt="Vista museo"
-					src={`/testata-interna.jpg`}
+					alt="Interno museo"
+					src={`/tours/msc/image.jpg`}
 					width="500"
 					height="500"
 					priority={true}
 				/>
         {languages.map((lang) => (
-						<Link href={`/${lang}`} key={lang}>
+					<Link href={`/${lang}/tour/msc/intro`} key={lang}>
 							<div
 								className="rounded-lg p-3 hover:bg-neutral-800"
 							>

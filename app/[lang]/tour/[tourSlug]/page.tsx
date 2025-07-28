@@ -50,7 +50,7 @@ export default function Page({
 			<div className="max-w-[980px] gap-2">
 			<div className="flex justify-between">
         <h2 className="text-xl font-extrabold text-neutral-600">
-          <a href='/'>Audioguide</a>
+					<a href={`/${lang}`}>Audioguide</a>
 				</h2>
 				<LanguageSwitcher lang={lang} url={`/tour/${tourSlug}`}/>
 			</div>

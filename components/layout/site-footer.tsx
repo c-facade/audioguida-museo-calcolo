@@ -14,7 +14,7 @@ export function SiteFooter({lang, dict}){
 						>{dict.footer.ilmuseo}</a>
 					</li>
 						<li>
-							<a href="/"
+							<a href={`/${lang}`}
 							className=" block rounded-sm hover:text-white"
 							>{dict.footer.audioguide}</a>
 						</li>
