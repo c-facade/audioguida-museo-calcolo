@@ -35,7 +35,7 @@
 				"description": "Pacinotti Room: the first room of the exhibition, contains temporary exhibitions",
 				"text": "We decided to dedicate this first room to the temporary exhibition \"Non solo calcolo\".\nNowadays, the computer is not just a tool for calculation: it allows you to play, create, and work. Here we show how the uses of accounting, graphics, music, video games, and word processing have merged from specialized machines into the contemporary multipurpose computer.\n",
 				"annotations": [],
-				"duration": 0
+				"duration": 23
 			},
 			{
 				"key": "contabilita",
@@ -48,7 +48,7 @@
 				"description": "",
 				"text": "In 1878, when the American James Ritty invented the first cash register, \"The Incorruptible Cashier,\" his goal was to track every transaction of the day to control his employees.\nA few years later, he sold the patent to what became the National Cash Register, a globally successful company that produced millions of cash registers, including all those on display.\nWith the invention of the Personal Computer, we return to an accounting method that dates back more than 4000 years: spreadsheets.\nIn 1979, VisiCalc for the Apple II was released, the first interactive spreadsheet.\nTwo years later, VisiCalc was surpassed by Lotus, optimized for the IBM PC, which in turn gave way to Microsoft Excel, which has dominated the electronic spreadsheet market from 1987 to today.",
 				"annotations": [],
-				"duration": 0
+				"duration": 51
 			},
 			{
 				"key": "msc-mercedes",
@@ -62,7 +62,7 @@
 				"description": "Typewriter and calculator: the Mercedes Addelektra.",
 				"text":"Behind the museum's entrance panel, on the yellow background, you will find the Mercedes Addelektra, a model dating back to 1928.\nIt is a multipurpose accounting machine that allowed for calculations, writing, and printing results on specific forms for the bank or administrative office where it was used.\nIt was established in advance in which columns to calculate the values and in which to insert text entries: the calculation columns of the respective forms define the position of the vertical calculators on the Addelektra.\nThe machine was powered by an electric motor, and offered functionalities for recognizing and correcting entry errors.",
 				"annotations": [],
-				"duration": 0
+				"duration": 39
 			},
 			{
 				"key": "graficamusica",
@@ -71,12 +71,12 @@
 				"room": 1,
 				"title": "Graphics and Music",
 				"preview": false,
-				"artist": "Atari, Sportron, Mattel, Nintendo, Sega, Commodore",
-				"date": "1967-1985",
+				"artist": "Evans & Sutherland, Commodore, Silicon Graphics, Amstrad",
+				"date": "1970-1990",
 				"text": "Computer graphics was born in the 1960s with the first experiments on cathode ray tubes and graphical terminals, used to display simple shapes.\nIn the 1970s, Evans & Sutherland revolutionized 3D graphics with military simulators and modeling software. The system on display was used in the 1980s at the CNR in Pisa, for the visualization of the three-dimensional structures of molecules.\nThe 1980s marked a turning point: James Clark founded Silicon Graphics, developing workstations for 3D modeling and advanced graphics pipelines, while the Commodore Amiga democratized graphics with dedicated chips, becoming a cult for designers and creatives.\nIn the 1990s, 3D graphics exploded in cinema and video games.\nPixar's Toy Story became, in 1995, the first entirely digital feature film. At the same time, graphics cards with 3D acceleration became a common component in PCs.\n\nThe first experiments with computer-generated music date back to the 1950s: the Australian CSIRAC and the British Ferrant Mark I were pioneers in producing electronic melodies.\nIn 1961, Bell Labs revolutionized the field with the first computer capable of \"singing\" Daisy Bell, made famous in the film 2001: A Space Odyssey.\nIn Italy, between the 1960s and 1970s, Pietro Grossi led cutting-edge research in Pisa, laying the foundations for electronic music with projects such as the Tau 2, on display in the second room.\nIn the 1980s, software for music creation spread, such as ProTracker for the Amiga, and SoundBlaster for the PC.\nIn 1991, the MP3 standard was introduced, which facilitated online sharing, fueling piracy on platforms like Napster.\nThe 2000s saw the advent of streaming platforms such as Spotify and Apple Music, which offer unlimited playback from a vast selection of songs.",
 				"description": "Evans & Sutherland P300",
 				"annotations": [],
-				"duration": 0,
+				"duration": 124,
 				"images": [
 					{
 						"name": "crt.jpg",
@@ -101,7 +101,7 @@
 				"room": 1,
 				"title": "Video Games",
 				"preview": false,
-				"text": "'Spacewar!' is often considered the first video game: developed at MIT on a PDP-1, it represents two spaceships of different shapes that move by accelerating and rotating.\nThis game inspired Nolan Bushnell, the founder of Atari. Thanks to this company, arcades, which until then had only hosted electromechanical games, began to spread Pong, a ping-pong simulator.\nIts stylized graphics required such simple hardware that it was born as a home console, the Magnavox Odyssey in 1972, and, after the success of the Atari version, generated a flood of clones, including Inno-Hit's Sportron.\nThe birth of new microprocessors led to games like the electronic chess Chess Challenger and especially the Atari 2600, from 1977: this programmable console transformed video games into reproducible software, opening the global market for cartridge titles.\n1985 marked the arrival of Japanese consoles in the United States: the Nintendo Entertainment System and the Sega Master System.\nIn Europe, the digital revolution traveled on home computers, ignoring the console's trajectory. Even essential machines like RadioShack's TRS-80, from 1977, became platforms for video games. The 1980s were dominated by bestsellers like the Commodore 64 and Sinclair's ZX Spectrum, symbols of an era where creativity surpassed hardware limitations.",
+				"text": "'Spacewar!' is often considered the first video game: developed at MIT on a PDP-1, it represents two spaceships of different shapes that move by accelerating and rotating.\nThis game inspired Nolan Bushnell, the founder of Atari. Thanks to this company, arcades, which until then had only hosted electromechanical games, began to spread Pong, a ping-pong simulator.\nIts stylized graphics required such simple hardware that it was born as a home console, the Magnavox Odyssey in 1972, and, after the success of the Atari version, generated a flood of clones, including Inno-Hit's Sportron.\nThe birth of new microprocessors led to games like the electronic chess Chess Challenger and especially the Atari 2600, from 1977: this programmable console transformed video games into reproducible software, opening the global market for cartridge titles.\n1985 marked the arrival of Japanese consoles in the United States: the Nintendo Entertainment System and the Sega Master System.\nIn Europe, the digital revolution traveled on home computers. Even essential machines like RadioShack's TRS-80, from 1977, became platforms for video games. The 1980s were dominated by bestsellers like the Commodore 64 and Sinclair's ZX Spectrum, symbols of an era where creativity surpassed hardware limitations.",
 				"description": "the video game display case of the \"Non solo calcolo\" exhibition, which among other things contains a Commodore 64 and an Atari 2600.",
 				"annotations": [],
 				"images": [
@@ -120,7 +120,7 @@
 						"height": 375
 					}
 				],
-				"duration": 0
+				"duration": 88
 			},
 			{
 				"key": "videoscrittura",
@@ -130,9 +130,9 @@
 				"title": "Word Processing",
 				"preview": false,
 				"description": "The display case contains several typewriters from Olivetti and Underwood, and computers from Olivetti, Apple, and NeXT.",
-				"text": "In Italy, the history of typewriters began in the sixteenth century in Venice, but the main protagonist is the Olivetti company, which was founded in 1908 in Ivrea. An icon of this era was the Lettera 32, from 1963, loved by journalists and writers for its design by Marcello Nizzoli. From the 1960s, electronics revolutionized the sector: an example is the Underwood 650, produced when the American brand had already joined the Olivetti group.\n\nThe advent of personal computers in the 1970s marked the decline of typewriters, but brought text correction, copy-paste, search and replace, and spell check tools, already existing in mainframes, into homes.\nIn 1983, while Microsoft launched Word, the Olivetti M24 offered an example of the growing spread of this technology. In 1990, Steve Jobs' NeXT Station, a workstation on which Tim Berners-Lee developed the World Wide Web, transformed writing into a collective act, anticipating the era of interconnected texts.",
+				"text": "In Italy, the history of typewriters began in the sixteenth century in Venice, but the main protagonist is the Olivetti company, which was founded in 1908 in Ivrea. An icon of this era was the Lettera 32, from 1963, loved by journalists and writers for its design by Marcello Nizzoli. From the 1960s, electronics revolutionized the sector: an example is the Underwood 650, produced when the American brand had already joined the Olivetti group.\n\nThe advent of personal computers in the 1970s marked the decline of typewriters, but brought text correction, copy-paste, search and replace, and spell check tools, already existing in mainframes, into homes.\nIn 1983, while Microsoft launched Word, the Olivetti M24 offered an example of the growing spread of this technology. In 1990, Steve Jobs' NeXT Station, the workstation on which Tim Berners-Lee developed the World Wide Web, transformed writing into a collective act, anticipating the era of interconnected texts.",
 				"annotations": [],
-				"duration": 0
+				"duration": 66
 			},
 			{
 				"key": "sala-2-tau",
@@ -145,7 +145,7 @@
 				"description": "The Italian polyphonic audio synthesizer TAU2",
 				"text": "Exiting the first room, you will find yourself in a smaller room, with a large red cabinet to your left: the control unit of TAU 2.\nTAU2 was a sound synthesis system created in Pisa in 1975 at the CNR's Institute of Information Processing.\nIts authorship belongs to Pietro Grossi, an Italian cellist, composer, and programmer, a pioneer of electronic music and computer music. He was a visionary who, from the early 1960s, imagined how electronic processors could create music if properly programmed.\nTAU2 was a polyphonic and polytimbral audio synthesis equipment capable of simultaneously producing 12 sounds, it was a special terminal connected like any other peripheral to the IBM 370.\nThe system allowed for storing, composing, re-elaborating, and performing musical pieces in real time. The simulator with IBM monitor in front of the control unit allows you to listen to examples of music playback, processing with filters, frequency, and speed modifiers.",
 				"annotations": [],
-				"duration": 0
+				"duration": 65
 			},
 			{
 				"key": "6",
@@ -163,8 +163,8 @@
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "History of the Pisa electronic calculator.",
-				"text": "Before you is the Calcolatrice Elettronica Pisana(Pisan Electronic Computer), also known as CEP, a mainframe computer built by the University of Pisa between 1954 and 1961.\nIts prototype, the Macchina Ridotta(MR), completed in 1957, was the first computer designed and built entirely in Italy.\nThe funds for its construction, 150 million lire, were originally intended for a particle accelerator. This was instead built in Frascati, and the funds were diverted to the CEP, also thanks to the opinion of Enrico Fermi, who wrote a letter to Rector Avanzi to support the project.\nOn November 13, 1961, Il Paese wrote: \"Gronchi inaugurates Europe's most powerful electronic calculator in Pisa. It can measure the trajectory of a satellite - Six years of work - Three thousand thermionic valves\".\nThe Calculator was in operation from then until 1969, allowing thousands of hours of scientific calculations to be carried out.",
-				"duration": 0,
+				"text": "Before you is the Calcolatrice Elettronica Pisana(Pisan Electronic Computer), also known as CEP, a mainframe computer built by the University of Pisa between 1954 and 1961.\nIts prototype, the Macchina Ridotta(MR), completed in 1957, was the first computer designed and built entirely in Italy.\nThe funds for its construction, 150 million lire, were originally intended for a particle accelerator. This was built in Frascati instead, and the funds were diverted to the CEP. This is partially due to the opinion of Enrico Fermi, who wrote a letter to Rector Avanzi to support the project.\nOn November 13, 1961, Il Paese wrote: \"Gronchi inaugurates Europe's most powerful electronic computer in Pisa. It can measure the trajectory of a satellite - Six years of work - Three thousand vacuum tubes\".\nThe CEP was in operation from then until 1969, allowing thousands of hours of scientific calculations to be carried out.",
+				"duration": 65,
 				"annotations": []
 			},
 				{
@@ -176,7 +176,7 @@
 					"preview": false,
 					"artist": "University of Pisa",
 					"description": "CEP console",
-					"text": "Entering the room, you see a desk in front of you, this is the CEP console, the interface between the human operator and the computer.\nOn the right side, there is the Olivetti teleprinter, The Olivetti company collaborated in the construction of the CEP, while designing the prototype of the ELEA series. Through the teleprinter, it was possible to send short commands to the machine and write programs on the perforated tape you see, rolled up, to your left, above the line printer.\nIn the center, a panel with buttons and lights allowed the user to receive immediate information on the machine's operation.\nThe management and maintenance of the CEP was entrusted to specialized technicians who wrote and executed programs on behalf of users, and returned the results printed on paper sheets.\n",
+					"text": "Entering the room, you'll see a desk in front of you, this is the CEP console, the interface between the human operator and the computer.\nOn the right side, there is the Olivetti teleprinter, The Olivetti company collaborated for the construction of the CEP, while designing the prototype of the ELEA series. Through the teleprinter, it was possible to send short commands to the machine and write programs on the perforated tape you see, rolled up, to your left, above the line printer.\nIn the center, a panel with buttons and lights allowed the user to receive immediate information on the machine's operation.\nThe management and maintenance of the CEP was entrusted to specialized technicians who wrote and executed programs on behalf of users, and returned the results printed on paper sheets.\n",
 					"duration": 0,
 					"annotations": []
 			},

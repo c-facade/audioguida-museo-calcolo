@@ -8,8 +8,8 @@ import {redirect} from 'next/navigation';
 export default function RootPage() {
 	const languages=["it", "en"];
 	return(
-    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-			<div className="max-w-[980px] flex-col items-start gap-2">
+    <section className="container grid max-w-[700px]  items-center gap-6 pb-8 pt-6 md:py-10">
+			<div className="max-w-[800px] flex-col items-start gap-2">
 				<h1 className="mb-2 text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl"> Audioguide
 				</h1>
         <p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
