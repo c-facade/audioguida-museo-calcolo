@@ -2,6 +2,7 @@
 
 //import Image from 'next/image';
 import { ArtworkNarration, GalleryTour } from '@/types';
+import { useRouter } from 'next/navigation';
 
 //import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 //import { ArtworkNarrationPlayer } from './artwork-narration-player';
@@ -29,6 +30,14 @@ export function ArtworkNarrationCard({
   const artworkNarration: ArtworkNarration =
     galleryTour.artworks[artworkNarrationIndex];
 	const intro = artworkNarration.slug === "intro";
+  const router = useRouter();
+
+  function goObject(index) {
+    const tobj = galleryTour.artworks[index];
+		const url = `/${lang}/tour/${galleryTour.slug}/${tobj.slug}`;
+    router.push(url);
+  }
+
 	return (
 		<>
 			<section className="container mt-6">
@@ -84,11 +93,37 @@ export function ArtworkNarrationCard({
 			{intro ?
 				<h4 className="mt-5 text-xl">
 					<Link href={`/${lang}/tour/${galleryTour.slug}/`}>
-						<Button size="lg">Visita il Museo &#10132;</Button>
+						<Button size="lg">
+							{lang == 'it' ?
+								"Visita il museo " :
+								"Explore the museum "
+						}
+						 &#10132;</Button>
 					</Link>
 				</h4>
 				: ""
 			}
+				<div className="text-l mt-5 flex justify-between">
+					<Button
+						onClick={() => goObject(artworkNarrationIndex - 1)}
+						disabled={artworkNarrationIndex === 0}
+					>&#129144; 
+								{ lang == 'it' ?
+									" Precedente" :
+									" Previous"
+								}
+						</Button>
+					<Button 
+						onClick={() => goObject(artworkNarrationIndex + 1)}	
+						disabled={artworkNarrationIndex >= galleryTour?.artworks?.length - 1}
+						>
+							{
+								lang == 'it' ?
+									"Successivo " :
+									"Next "
+							}
+							 &#10132;</Button>
+				</div>
 		</>
 	);
 	/*
