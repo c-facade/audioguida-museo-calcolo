@@ -107,8 +107,10 @@ export function ArtworkNarrationCard({
 					<Button
 						onClick={() => goObject(artworkNarrationIndex - 1)}
 						disabled={artworkNarrationIndex === 0}
-					>&#8678;
-						&#129144; 
+					>
+					<span className="hidden">
+						&#8678;
+						&#129144;</span>
 								{ lang == 'it' ?
 									" Precedente" :
 									" Previous"
@@ -123,8 +125,8 @@ export function ArtworkNarrationCard({
 									"Successivo " :
 									"Next "
 						}
-						&#8680;
-							 &#10132;</Button>
+						<span className="text-xl hidden">&#8680;</span>
+					</Button>
 				</div>
 		</>
 	);
