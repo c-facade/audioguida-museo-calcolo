@@ -163,7 +163,7 @@
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
 				"description" : "History of the Pisa electronic calculator.",
-				"text": "Before you is the Calcolatrice Elettronica Pisana(Pisan Electronic Computer), also known as CEP, a mainframe computer built by the University of Pisa between 1954 and 1961.\nIts prototype, the Macchina Ridotta(MR), completed in 1957, was the first computer designed and built entirely in Italy.\nThe funds for its construction, 150 million lire, were originally intended for a particle accelerator. This was built in Frascati instead, and the funds were diverted to the CEP. This is partially due to the opinion of Enrico Fermi, who wrote a letter to Rector Avanzi to support the project.\nOn November 13, 1961, Il Paese wrote: \"Gronchi inaugurates Europe's most powerful electronic computer in Pisa. It can measure the trajectory of a satellite - Six years of work - Three thousand vacuum tubes\".\nThe CEP was in operation from then until 1969, allowing thousands of hours of scientific calculations to be carried out.",
+				"text": "Before you is the Calcolatrice Elettronica Pisana(Pisan Electronic Computer), also known as CEP, a mainframe computer built by the University of Pisa between 1954 and 1961.\nIts prototype, the Smaller Machine(MR), completed in 1957, was the first computer designed and built entirely in Italy.\nThe funds for its construction, 150 million lire, were originally intended for a particle accelerator. This was built in Frascati instead, and the funds were diverted to the CEP. This is partially due to the opinion of Enrico Fermi, who wrote a letter to Rector Avanzi to support the project.\nOn November 13, 1961, Il Paese wrote: \"Gronchi inaugurates Europe's most powerful electronic computer in Pisa. It can measure the trajectory of a satellite - Six years of work - Three thousand vacuum tubes\".\nThe CEP was in operation from then until 1969, allowing thousands of hours of scientific calculations to be carried out.",
 				"duration": 65,
 				"annotations": []
 			},
@@ -177,7 +177,7 @@
 					"artist": "University of Pisa",
 					"description": "CEP console",
 					"text": "Entering the room, you'll see a desk in front of you, this is the CEP console, the interface between the human operator and the computer.\nOn the right side, there is the Olivetti teleprinter, The Olivetti company collaborated for the construction of the CEP, while designing the prototype of the ELEA series. Through the teleprinter, it was possible to send short commands to the machine and write programs on the perforated tape you see, rolled up, to your left, above the line printer.\nIn the center, a panel with buttons and lights allowed the user to receive immediate information on the machine's operation.\nThe management and maintenance of the CEP was entrusted to specialized technicians who wrote and executed programs on behalf of users, and returned the results printed on paper sheets.\n",
-					"duration": 0,
+					"duration": 47,
 					"annotations": []
 			},
 			{
