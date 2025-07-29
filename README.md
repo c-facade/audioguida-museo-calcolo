@@ -3,13 +3,14 @@ Prototipo di audioguide per il sistema museale d'ateneo dell'Università di Pisa
 
 ## TODO list
 - [] Separare `tours.json` dall'implementazione, così che non ci sia bisogno di compilare di nuovo per aggiornare il file.
-- [] audio in inglese
-- [] Fallback pages
+- [X] audio in inglese
+- [X] Fallback pages
 - [] Responsive feedback pages
 - [] Real-time import of tours.json according to language.
 - [X] Aggiustare l'altezza del footer all'altezza del telefono...
 - [] Testare su SAFARI
- 
+- [] Rivedere l'altezza del footing
+
 ## Tecnologie
 
 Il prototipo originale che ho forkato utilizza [Next.js](https://nextjs.org/), [React](https://react.dev/), [Howler.js](https://howlerjs.com/), e [Konva](https://konvajs.org/). Ho aggiornato le versioni di alcuni di questi per risolvere delle vulnerabilità. Konva ha smesso di funzionare quindi l'ho eliminato dal progetto.

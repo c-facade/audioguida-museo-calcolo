@@ -17,7 +17,7 @@ export default async function Layout({
 	console.log("layout language:", lang)
 	return (
 		<>
-				<main className="w-full max-w-screen-md flex-1">
+				<main className="h-dvh w-full max-w-screen-md flex-1">
 					{children}
 				</main>
 				<footer className="w-full max-w-screen-md">
