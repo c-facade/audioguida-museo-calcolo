@@ -12,6 +12,7 @@ export interface Picture{
 	alt: string;
 	height?: number;
 	width?: number;
+	description?: string;
 }
 
 export interface ArtworkNarration {
