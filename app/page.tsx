@@ -19,8 +19,8 @@ export default function RootPage() {
 			<div className="flex flex-col gap-4">
 				<Image
 					className="h-48 w-full object-cover"
-					alt="Interno museo"
-					src={`/tours/msc/image.jpg`}
+					alt="esterno museo"
+					src={`testata-interna.jpg`}
 					width="500"
 					height="500"
 					priority={true}
