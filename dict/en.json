@@ -20,6 +20,10 @@
 		"email": "E-mail address (optional)",
 		"email-spiega": "If you are open for us to contact you for further discussion, please leave your email.",
 		"invia": "Submit"
+	},
+	"about": {
+		"titolo": "About the audioguide",
+		"testo": "The official audioguide of the Museum of Computing Machinery.\n\nFrom an idea of Antonio Viti\nMade by Francesca Pinna\n\nLicensed under the MIT license."
 	}
 }
 

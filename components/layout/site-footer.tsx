@@ -18,6 +18,11 @@ export function SiteFooter({lang, dict}){
 							className=" block rounded-sm hover:text-white"
 							>{dict.footer.audioguide}</a>
 						</li>
+						<li>
+							<a href={`/${lang}/about`}
+							className=" block rounded-sm hover:text-white"
+							>About</a>
+						</li>
 					</ul>
 				</div>
 				<div className="font-extrabold text-neutral-500">
