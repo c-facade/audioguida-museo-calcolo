@@ -1,3 +1,4 @@
+import { connectToDatabase } from '@/lib/mongo';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
@@ -34,6 +35,11 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+	
+	const { client } = await connectToDatabase();
+	const isConnected = await client.isConnected();
+	console.log("IsConnected? ", isConnected);
+
 	return (
     <html className={inter.className} suppressHydrationWarning>
 			<head>

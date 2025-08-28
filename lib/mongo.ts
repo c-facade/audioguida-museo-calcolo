@@ -1,25 +1,39 @@
 // lib/mongo.ts
 
-import { MongoClient } from 'mongodb'
+import { MongoClient } from 'mongodb';
 
-const uri = process.env.MONGODB_URI
+const { MONGODB_URI, MONGODB_DB } = process.env;
 
-let client;
-let clientPromise;
-
-if (uri === undefined) {
-	throw new Error('Add Mongo URI to .env.local');
+if (!MONGODB_URI || !MONGODB_DB) {
+	throw new Error(
+		'Please define the MONGODB_URI and MONGODB_DB environment variable'
+	);
 }
 
-if (process.env.NODE_ENV === 'development') {
-	if (!global._mongoClientPromise) {
-    client = new MongoClient(uri)
-    global._mongoClientPromise = client.connect()
-  }
-  clientPromise = global._mongoClientPromise
-} else {
-  client = new MongoClient(uri)
-  clientPromise = client.connect()
+let cached = global.mongo;
+if (!cached) cached = global.mongo = {}
+
+export async function connectToDatabase() {
+	if (cached.conn) return cached.conn;
+	if (!cached.promise) {
+		const conn = {}
+    const opts = {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+		}
+    cached.promise = MongoClient.connect(MONGODB_URI!, opts)
+      .then((client) => {
+        conn.client = client
+        return client.db(MONGODB_DB)
+      })
+      .then((db) => {
+        conn.db = db
+        cached.conn = conn
+      })
+	}
+
+	await cached.promise
+	return cached.conn
 }
 
-export default clientPromise
+
