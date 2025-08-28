@@ -8,6 +8,7 @@ import { GalleryTour } from '@/types';
 import { getDictionary } from './dictionaries';
 import { LanguageSwitcher } from '@/components/ui/languageSwitcher';
 
+
 //TODO consider dynamic import of tours
 
 export async function generateMetadata(): Promise<Metadata> {

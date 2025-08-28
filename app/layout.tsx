@@ -36,9 +36,6 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
 	
-	const { client } = await connectToDatabase();
-	console.log(client.db);
-
 	return (
     <html className={inter.className} suppressHydrationWarning>
 			<head>
@@ -52,3 +49,4 @@ export default async function RootLayout({
     </html>
   );
 }
+

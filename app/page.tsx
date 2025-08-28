@@ -1,11 +1,39 @@
 // app/page.tsx
 
+import { connectToDatabase } from '@/lib/mongo';
 import Image from 'next/image';
 import Link from 'next/link';
-
+import { headers } from 'next/headers';
 import {redirect} from 'next/navigation';
 
-export default function RootPage() {
+export default async function RootPage() {	
+	// per avere il numero di visite.
+	const { client } = await connectToDatabase();
+	const visitors = client.db("analytics").collection("visitors");
+	const d = new Date();
+	const headersList = await headers();
+	const locale = headersList.get('accept-language');
+	const userAgent = headersList.get('user-agent');
+	const referrer = headersList.get('referer') || null;
+	const adminqualities = userAgent + locale;
+	let admin = false;
+	console.log(adminqualities);
+	if(userAgent + locale == "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0en-US,en;q=0.5"){
+		admin = true;
+	}
+	visitors.insertOne(
+		{
+			"time": d.toString(),
+			"locale": locale,
+			"device": userAgent,
+			"referrer": referrer,
+			"admin": admin
+		}
+	);
+	console.log("inserted yeah");
+	let risultato = await visitors.find().toArray();
+	console.log(risultato);
+
 	const languages=["it", "en"];
 	return(
     <section className="container grid max-w-[700px]  items-center gap-6 pb-8 pt-6 md:py-10">
@@ -16,7 +44,9 @@ export default function RootPage() {
 					Choose your language
 				</p>
 			</div>
-			<div className="flex flex-col gap-4">
+			<div className="flex flex-col gap-4"
+
+			>
 				<Image
 					className="h-48 w-full object-cover"
 					alt="esterno museo"
@@ -26,12 +56,12 @@ export default function RootPage() {
 					priority={true}
 				/>
         {languages.map((lang) => (
-					<Link href={`/${lang}/tour/msc/intro`} key={lang}>
-							<div
+					<Link href={`/${lang}/tour/msc/intro`} key={lang} >
+						<div
 								className="rounded-lg p-3 hover:bg-neutral-800"
-							>
-							<h2 className="mt-2 text-xl font-extrabold">
-								{
+								>
+								<h2 className="mt-2 text-xl font-extrabold">
+									{
 								lang == 'it'?
 								"Italiano " :
 									"English "
