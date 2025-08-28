@@ -15,11 +15,13 @@ export default async function RootPage() {
 	const locale = headersList.get('accept-language');
 	const userAgent = headersList.get('user-agent');
 	const referrer = headersList.get('referer') || null;
-	const adminqualities = userAgent + locale;
 	let admin = false;
-	console.log(adminqualities);
-	if(userAgent + locale == "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0en-US,en;q=0.5"){
-		admin = true;
+	if(userAgent != null && locale != null) {
+		const adminqualities = userAgent?? "" + locale?? "";
+		console.log(adminqualities);
+		if((userAgent ?? "" + locale)== "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0en-US,en;q=0.5"){
+			admin = true;
+		}
 	}
 	visitors.insertOne(
 		{
