@@ -37,8 +37,7 @@ export default async function RootLayout({
 }) {
 	
 	const { client } = await connectToDatabase();
-	const isConnected = await client.isConnected();
-	console.log("IsConnected? ", isConnected);
+	console.log(client.db);
 
 	return (
     <html className={inter.className} suppressHydrationWarning>

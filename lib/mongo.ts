@@ -18,7 +18,6 @@ export async function connectToDatabase() {
 	if (!cached.promise) {
 		const conn = {}
     const opts = {
-      useNewUrlParser: true,
       useUnifiedTopology: true,
 		}
     cached.promise = MongoClient.connect(MONGODB_URI!, opts)
