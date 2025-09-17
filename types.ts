@@ -18,8 +18,9 @@ export interface Picture{
 export interface ArtworkNarration {
   key: string; // Unique ID for the artwork
 	slug: string; // Unique URL slug for the artwork
-	isRoom: boolean;
-	room: number;
+	isRoom: boolean; 
+	room: number; // what room it is/it belongs to
+	number?: string; // number of the artwork
   title: string; // Name of the artwork
 	date?: string; // Date of the artwork
 	preview: boolean; // Whether to show a preview image

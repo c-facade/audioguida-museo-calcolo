@@ -61,7 +61,8 @@ export function ArtworkNarrationCard({
 				</div>	
         <div className="">
           <h4 className="mt-2 text-xl">
-            {artworkNarration.title}
+						<span><b>{artworkNarration.number}</b>&nbsp;&nbsp;</span>
+						<span>{artworkNarration.title}</span>
             <span className="ml-3 text-neutral-400">
               {artworkNarration.date}
 						</span>
