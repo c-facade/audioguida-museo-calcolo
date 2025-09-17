@@ -29,7 +29,7 @@ export function ArtworkList({lang, galleryTour, roomOnly, room=-1}) {
 								width="500"
 								height="500"
 							/>
-							<h2 className="mt-2 text-xl font-extrabold">{artwork.title}</h2>
+						<h2 className="mt-2 text-xl font-extrabold" style={{"display": "flex", "alignItems": "flex-start", "justifyContent": "space-between"}}><span className="russo-one-regular">{artwork.number}&nbsp;</span><span style={{"textAlign": "end"}}>{artwork.title}</span></h2>
 						</Link>
 				</div>
 				)

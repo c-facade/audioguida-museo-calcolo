@@ -8,34 +8,36 @@ import {redirect} from 'next/navigation';
 
 export default async function RootPage() {	
 	// per avere il numero di visite.
-	const { client } = await connectToDatabase();
-	const visitors = client.db("analytics").collection("visitors");
-	const d = new Date();
-	const headersList = await headers();
-	const locale = headersList.get('accept-language');
-	const userAgent = headersList.get('user-agent');
-	const referrer = headersList.get('referer') || null;
-	let admin = false;
-	if(userAgent != null && locale != null) {
-		const adminqualities = userAgent?? "" + locale?? "";
-		console.log(adminqualities);
-		if((userAgent ?? "" + locale)== "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0en-US,en;q=0.5"){
-			admin = true;
+	const result = await connectToDatabase();
+	if (result != null) {
+		const { client } = await connectToDatabase();
+		const visitors = client.db("analytics").collection("visitors");
+		const d = new Date();
+		const headersList = await headers();
+		const locale = headersList.get('accept-language');
+		const userAgent = headersList.get('user-agent');
+		const referrer = headersList.get('referer') || null;
+		let admin = false;
+		if(userAgent != null && locale != null) {
+			const adminqualities = userAgent?? "" + locale?? "";
+			console.log(adminqualities);
+			if((userAgent ?? "" + locale)== "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0en-US,en;q=0.5"){
+				admin = true;
+			}
 		}
+		visitors.insertOne(
+			{
+				"time": d.toString(),
+				"locale": locale,
+				"device": userAgent,
+				"referrer": referrer,
+				"admin": admin
+			}
+		);
+		console.log("inserted yeah");
+		let risultato = await visitors.find().toArray();
+		console.log(risultato);
 	}
-	visitors.insertOne(
-		{
-			"time": d.toString(),
-			"locale": locale,
-			"device": userAgent,
-			"referrer": referrer,
-			"admin": admin
-		}
-	);
-	console.log("inserted yeah");
-	let risultato = await visitors.find().toArray();
-	console.log(risultato);
-
 	const languages=["it", "en"];
 	return(
     <section className="container grid max-w-[700px]  items-center gap-6 pb-8 pt-6 md:py-10">

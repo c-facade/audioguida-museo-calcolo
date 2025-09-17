@@ -31,6 +31,10 @@
   padding: 0;
 }
 
+.rosso {
+	color: red
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-family-body);
@@ -371,4 +375,10 @@ fieldset {
   color: var(--color-text-muted);
   text-align: center;
   white-space: nowrap;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
