@@ -17,9 +17,9 @@ export default async function RootPage() {
 	const referrer = headersList.get('referer') || null;
 	let admin = false;
 	if(userAgent != null && locale != null) {
-		const adminqualities = userAgent?? "" + locale?? "";
+		const adminqualities = userAgent + locale;
 		console.log(adminqualities);
-		if((userAgent ?? "" + locale)== "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0en-US,en;q=0.5"){
+		if((userAgent + locale)== "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0en-US,en;q=0.5"){
 			admin = true;
 		}
 	}
