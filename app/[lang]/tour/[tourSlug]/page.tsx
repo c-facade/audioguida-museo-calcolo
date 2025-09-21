@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import toursDataIt from '@/public/tours/tours_it.json';
 import toursDataEn from '@/public/tours/tours_en.json';
+import toursDataFr from '@/public/tours/tours_fr.json';
 import { ArtworkNarration, GalleryTour } from '@/types';
 import * as React from "react";
 import { ArtworkList } from '@/components/lists/artwork-list';
@@ -28,8 +29,11 @@ export default function Page({
 } : {
 	params : Promise<{lang: string, tourSlug: string}>
 }) {
-	const {lang, tourSlug} = React.use(params);
-	const toursData = lang == 'it' ? toursDataIt : toursDataEn; 
+	const {lang, tourSlug} = React.use(params);	
+	var toursData = lang == 'it' ? toursDataIt : toursDataEn; 
+	if(lang == 'fr'){
+		toursData = toursDataFr;
+	}
 	const tours: GalleryTour[] = toursData;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug

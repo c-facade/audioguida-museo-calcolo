@@ -38,7 +38,13 @@ export default async function RootPage() {
 		let risultato = await visitors.find().toArray();
 		console.log(risultato);
 	}
-	const languages=["it", "en"];
+	//const languages=["it", "en", "fr"];
+	const languages= {
+		"it": ["Italiano", "Museo degli Strumenti per il Calcolo"],
+		"en": ["English", "Museum of Computing Machinery"],
+		"fr": ["Français", "Musée des machines de calcul"]
+	}
+
 	return(
     <section className="container grid max-w-[700px]  items-center gap-6 pb-8 pt-6 md:py-10">
 			<div className="max-w-[800px] flex-col items-start gap-2">
@@ -59,29 +65,25 @@ export default async function RootPage() {
 					height="500"
 					priority={true}
 				/>
-        {languages.map((lang) => (
-					<Link href={`/${lang}/tour/msc/intro`} key={lang} >
+        {Object.keys(languages).map((locale) => (
+					<Link href={`/${locale}/tour/msc/intro`} key={locale} >
 						<div
 								className="rounded-lg p-3 hover:bg-neutral-800"
 								>
 								<h2 className="mt-2 text-xl font-extrabold">
 									{
-								lang == 'it'?
-								"Italiano " :
-									"English "
+										languages[locale][0]
 								}
 								<Image
 									className="inline size-[20px]"
-									alt={`${lang}`}
-									src={`${lang}_squared.png`}
+									alt={`${locale}`}
+									src={`${locale}_squared.png`}
 									width="20"
 									height="20"
 								/>
 							</h2>
 							<p className="text-neutral-300">{
-								lang == 'it' ?
-									"Museo degli Strumenti per il Calcolo" :
-									"Museum of Computing machinery"
+									languages[locale][1]
 								}
 							</p>
 							</div>
