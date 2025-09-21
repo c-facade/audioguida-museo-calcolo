@@ -42,3 +42,5 @@ If you have not yet loaded the Elasticsearch data, you should see an error on th
 
 Licensed under the MIT License.
 
+## Icons credits
+<a href="https://www.flaticon.com/free-icons/flag" title="flag icons">Flag icons created by Freepik - Flaticon</a>

@@ -1,0 +1,29 @@
+{
+  "products": {
+    "cart": "Ajouter au panier."
+  },
+  "main": {
+    "titolo": "Audioguide",
+    "descrizione": "Découvrez le Musée des Instruments de Calcul de Pise"
+  },
+  "footer": {
+    "ilmuseo": "Le musée",
+    "audioguide": "Audioguides",
+    "feedback": "Évaluez l'audioguide"
+  },
+  "feedback": {
+    "titolo": "Évaluez l'audioguide ou signalez des erreurs",
+    "contenuti": "Comment évaluez-vous le contenu de l'audioguide ? (1 = très mauvais, 5 = excellent)",
+    "funzionamento": "Comment évaluez-vous le fonctionnement de l'audioguide ?",
+    "spiegare": "Expliquez-nous pourquoi",
+    "faccisapere": "Faites-nous savoir ce qui a fonctionné, ce qui n’a pas fonctionné et comment nous pouvons nous améliorer",
+    "email": "Adresse e-mail (facultatif)",
+    "emailspiega": "Si vous souhaitez être contacté pour en discuter, laissez-nous votre e-mail.",
+    "invia": "Envoyer"
+  },
+  "about": {
+    "titolo": "À propos de l'audioguide",
+    "testo": "L'audioguide officiel du Musée des Instruments de Calcul.\n\nUne idée d'Antonio Viti.\nRéalisé par Francesca Pinna.\n\nLicence MIT.\n"
+  }
+}
+
