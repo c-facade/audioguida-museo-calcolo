@@ -2,29 +2,27 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export function LanguageSwitcher({lang, url}) {
-	return (	
-					<div>
-						{lang == 'it' ?
-							<Link href={`/en${url}`}>
+	const languages = ['it', 'en', 'fr'];
+	console.log("current", lang);
+	return (
+		<div className="flex items-center">
+			{
+				languages.map((loc) => 
+					<Link 
+						key={loc}
+						href={`/${loc}${url}`}
+						className="m-1"	
+					>
 						<Image 
-							alt="Switch to English"
-							src="/en.png"
+							alt={`Switch to ${loc}`}
+							src={`/${loc}.png`}
 							width="30"
 							height="30"
-							className="size-[30px] "
+							className={lang == loc ? "size-[28px] border-[3px] rounded-xl" : "size-[25px]"}
+
 						/>
-							</Link>
-							:
-							<Link href={`/it${url}`}>
-						<Image 
-							alt="Switch to Italian"
-							src="/it.png"
-							width="30"
-							height="30"
-							className="size-[30px] "
-						/>
-							</Link>
-					}
-						</div>
+					</Link>
+			)}
+		</div>
 	);
 }

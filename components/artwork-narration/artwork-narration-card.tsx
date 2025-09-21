@@ -36,7 +36,26 @@ export function ArtworkNarrationCard({
     const tobj = galleryTour.artworks[index];
 		const url = `/${lang}/tour/${galleryTour.slug}/${tobj.slug}`;
     router.push(url);
-  }
+	}
+
+	const minidict = {
+		'it':
+			{'esplora': 'Esplora il Museo ',
+				'successivo': 'Successivo ',
+				'precedente': 'Precedente '
+			},
+		'en':
+			{'esplora': 'Explore the Museum ',
+				'successivo': 'Next ',
+				'precedente': 'Previous '
+			},
+		'fr':
+			{
+				'esplora': 'Explorer le musée ',
+				'successivo': 'Suivant ',
+				'precedente': 'Précédent '
+			}
+}
 
 	return (
 		<>
@@ -95,10 +114,7 @@ export function ArtworkNarrationCard({
 				<h4 className="mt-5 text-xl">
 					<Link href={`/${lang}/tour/${galleryTour.slug}/`}>
 						<Button size="lg">
-							{lang == 'it' ?
-								"Visita il museo " :
-								"Explore the museum "
-						}
+							{minidict[lang]['esplora']}
 						 &#10132;</Button>
 					</Link>
 				</h4>
@@ -112,21 +128,14 @@ export function ArtworkNarrationCard({
 					<span className="hidden">
 						&#8678;
 						&#129144;</span>
-								{ lang == 'it' ?
-									" Precedente" :
-									" Previous"
-								}
+							{minidict[lang]['precedente']}
 						</Button>
 					<Button 
 						onClick={() => goObject(artworkNarrationIndex + 1)}	
 						disabled={artworkNarrationIndex >= galleryTour?.artworks?.length - 1}
-						>
-							{
-								lang == 'it' ?
-									"Successivo " :
-									"Next "
-						}
-						<span className="text-xl hidden">&#8680;</span>
+					>
+						{minidict[lang]['successivo']}
+						<span className="text-xl" hidden>&#8680;</span>
 					</Button>
 				</div>
 		</>

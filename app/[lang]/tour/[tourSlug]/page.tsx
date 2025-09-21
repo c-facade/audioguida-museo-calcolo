@@ -6,6 +6,7 @@ import { ArtworkNarration, GalleryTour } from '@/types';
 import * as React from "react";
 import { ArtworkList } from '@/components/lists/artwork-list';
 import { LanguageSwitcher } from '@/components/ui/languageSwitcher';
+import { getToursData } from '../../dictionaries';
 
 
 export async function generateMetadata({ 
@@ -29,11 +30,17 @@ export default function Page({
 } : {
 	params : Promise<{lang: string, tourSlug: string}>
 }) {
-	const {lang, tourSlug} = React.use(params);	
-	var toursData = lang == 'it' ? toursDataIt : toursDataEn; 
-	if(lang == 'fr'){
-		toursData = toursDataFr;
+	// I'm using a bit of a long thing to get
+	// the language switch to work, because react is acting weird
+	// when I mark the function as async
+	// TODO investigate?
+	const languages = {
+		'it': toursDataIt,
+		'en': toursDataEn,
+		'fr': toursDataFr,
 	}
+	const {lang, tourSlug} = React.use(params);
+	const toursData = languages[lang];
 	const tours: GalleryTour[] = toursData;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug

@@ -44,3 +44,4 @@ Licensed under the MIT License.
 
 ## Icons credits
 <a href="https://www.flaticon.com/free-icons/flag" title="flag icons">Flag icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/france" title="france icons">France icons created by Roundicons - Flaticon</a>
