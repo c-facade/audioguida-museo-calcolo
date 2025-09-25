@@ -1,6 +1,7 @@
 {
-	"products": {
-		"cart": "Aggiungi al carrello."
+	"landing": {
+		"lingua": "Italiano",
+		"nome": "Museo degli Strumenti per il Calcolo"
 	},
 	"main": {
 		"titolo": "Audioguida",
@@ -24,5 +25,10 @@
 	"about": {
 		"titolo": "Sull'audioguida",
 		"testo": "L'audioguida ufficiale del Museo degli Strumenti per il Calcolo.\n\nDa un'idea di Antonio Viti.\nFatta da Francesca Pinna.\n\nLicenza MIT.\n"
+	},
+	"navigation": {
+			"esplora": "Esplora il Museo ",
+			"successivo": "Successivo ",
+			"precedente": "Precedente "
 	}
 }

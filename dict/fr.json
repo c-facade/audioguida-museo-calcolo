@@ -1,7 +1,8 @@
 {
-  "products": {
-    "cart": "Ajouter au panier."
-  },
+	"landing": {
+		"lingua": "Français",
+		"nome": "Musée des machines de calcul"
+	},
   "main": {
     "titolo": "Audioguide",
     "descrizione": "Découvrez le Musée des Instruments de Calcul de Pise"

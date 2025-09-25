@@ -1,6 +1,7 @@
 {
-	"products": {
-		"add-cart": "Add to Cart"
+	"landing": {
+		"lingua": "English",
+		"nome": "Museum of Computing Machinery"
 	},
 	"main" : {
 		"titolo": "Audioguide",
@@ -24,6 +25,11 @@
 	"about": {
 		"titolo": "About the audioguide",
 		"testo": "The official audioguide of the Museum of Computing Machinery.\n\nFrom an idea of Antonio Viti\nMade by Francesca Pinna\n\nLicensed under the MIT license."
+	},
+	"navigation": {
+			"esplora": "Explore the Museum ",
+			"successivo": "Next ",
+			"precedente": "Previous "
 	}
 }
 

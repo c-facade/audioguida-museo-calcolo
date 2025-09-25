@@ -1,5 +1,7 @@
 import 'server-only'
 
+// da aggiungere esperanto(eo)
+
 const dictionaries = {
 	en: () => import('../../dict/en.json').then((module) => module.default),
 	it: () => import('../../dict/it.json').then((module) => module.default),

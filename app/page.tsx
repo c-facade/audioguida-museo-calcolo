@@ -4,7 +4,6 @@ import { connectToDatabase } from '@/lib/mongo';
 import Image from 'next/image';
 import Link from 'next/link';
 import { headers } from 'next/headers';
-import {redirect} from 'next/navigation';
 
 export default async function RootPage() {	
 	// per avere il numero di visite.
