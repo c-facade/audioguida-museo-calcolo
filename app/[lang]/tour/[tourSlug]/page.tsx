@@ -6,14 +6,18 @@ import { ArtworkNarration, GalleryTour } from '@/types';
 import * as React from "react";
 import { ArtworkList } from '@/components/lists/artwork-list';
 import { LanguageSwitcher } from '@/components/ui/languageSwitcher';
-import { getToursData } from '../../dictionaries';
 import Link from 'next/link';
 
 export async function generateMetadata({ 
 	params} : {params: Promise<{ lang: string, tourSlug: string}>
 	}) : Promise<Metadata> {
 		const {lang, tourSlug} = await params;
-		const toursData = lang == 'it' ? toursDataIt : toursDataEn; 
+		const languages = {
+			'it': toursDataIt,
+			'en': toursDataEn,
+			'fr': toursDataFr,
+		}
+		const toursData = languages[lang];
 		const tours: GalleryTour[] = toursData;
   	const galleryTour: GalleryTour | undefined = tours.find(
     	(galleryTour) => galleryTour.slug === tourSlug

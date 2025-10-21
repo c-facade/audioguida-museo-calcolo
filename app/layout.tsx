@@ -1,12 +1,13 @@
+import { Metadata } from 'next';
 import { inter } from '../components/ui/fonts';
 import './globals.css';
 
-export const metadata = {
+export const metadata : Metadata = {
   title: {
-    default: 'MSC',
-    template: '%s | Museum Audio Tours',
+    default: 'Museo degli Strumenti per il Calcolo',
+    template: '%s | Audioguida MSC',
   },
-  description: 'Audioguide',
+  description: 'La guida elettronica del Museo degli Strumenti per il calcolo dell\'Università di Pisa',
   icons: {
     icon: [
       {

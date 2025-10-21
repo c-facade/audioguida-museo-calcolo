@@ -10,7 +10,12 @@ import ImageGallery from '@/components/ui/imageGallery';
 
 export async function generateMetadata({ params }): Promise<Metadata> {
 	const {lang, tourSlug, artworkSlug} = await params;
-	const toursData = lang == 'it' ? toursDataIt : toursDataEn; 
+	const languageMap = {
+		'it': toursDataIt,
+		'en': toursDataEn,
+		'fr': toursDataFr,
+	}
+	const toursData = languageMap[lang];
 	const tours: GalleryTour[] = toursData;
   const galleryTour: GalleryTour | undefined = tours.find(
     (galleryTour) => galleryTour.slug === tourSlug
@@ -25,7 +30,7 @@ export async function generateMetadata({ params }): Promise<Metadata> {
   const imageUrl = `/tours/${galleryTour?.slug}/${artworkNarration?.slug}/object.jpg`;
 
   return {
-    title: tourSlug,
+    title: artworkNarration?.title || tourSlug,
     description: 'Audioguida Museo degli Strumenti per il Calcolo',
     openGraph: {
       title: `${galleryTour?.name} | ${artworkNarration?.title}` || '',
