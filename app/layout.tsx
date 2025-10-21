@@ -1,14 +1,5 @@
-import { connectToDatabase } from '@/lib/mongo';
-import { Inter } from 'next/font/google';
+import { inter } from '../components/ui/fonts';
 import './globals.css';
-
-// If loading a variable font, you don't need to specify the font weight
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-sans',
-  display: 'swap',
-});
-
 
 export const metadata = {
   title: {
@@ -37,7 +28,7 @@ export default async function RootLayout({
 }) {
 	
 	return (
-    <html className={inter.className} suppressHydrationWarning>
+		<html className={`${inter.className} antialiased`} suppressHydrationWarning>
 			<head>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			</head>

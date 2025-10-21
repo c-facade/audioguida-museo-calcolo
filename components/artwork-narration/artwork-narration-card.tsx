@@ -11,6 +11,7 @@ import dynamic from 'next/dynamic'
 import { Button } from '../ui/button';
 import Link from 'next/link';
 import { LanguageSwitcher } from '../ui/languageSwitcher';
+import { russo } from '../ui/fonts';
 
 const ArtworkNarrationPlayer = dynamic(() => import('./artwork-narration-player'), {
   ssr: false
@@ -80,7 +81,7 @@ export function ArtworkNarrationCard({
 				</div>	
         <div className="">
           <h4 className="mt-2 text-xl">
-						<span><b>{artworkNarration.number}</b>&nbsp;&nbsp;</span>
+						<span className={russo.className}><b>{artworkNarration.number}</b>&nbsp;&nbsp;</span>
 						<span>{artworkNarration.title}</span>
             <span className="ml-3 text-neutral-400">
               {artworkNarration.date}

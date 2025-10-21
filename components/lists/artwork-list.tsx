@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArtworkNarration, GalleryTour } from '@/types';
+import { russo } from '../ui/fonts';
 
 export function ArtworkList({lang, galleryTour, roomOnly, room=-1}) {
 	return (
@@ -29,7 +30,7 @@ export function ArtworkList({lang, galleryTour, roomOnly, room=-1}) {
 								width="500"
 								height="500"
 							/>
-						<h2 className="mt-2 text-xl font-extrabold" style={{"display": "flex", "alignItems": "flex-start", "justifyContent": "space-between"}}><span className="russo-one-regular">{artwork.number}&nbsp;</span><span style={{"textAlign": "end"}}>{artwork.title}</span></h2>
+						<h2 className="mt-2 text-xl font-extrabold" style={{"display": "flex", "alignItems": "flex-start", "justifyContent": "space-between"}}><span className={`${russo.className} antialiased`}>{artwork.number}&nbsp;</span><span style={{"textAlign": "end"}}>{artwork.title}</span></h2>
 						</Link>
 				</div>
 				)

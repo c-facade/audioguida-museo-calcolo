@@ -7,7 +7,7 @@ import * as React from "react";
 import { ArtworkList } from '@/components/lists/artwork-list';
 import { LanguageSwitcher } from '@/components/ui/languageSwitcher';
 import { getToursData } from '../../dictionaries';
-
+import Link from 'next/link';
 
 export async function generateMetadata({ 
 	params} : {params: Promise<{ lang: string, tourSlug: string}>
@@ -60,8 +60,8 @@ export default function Page({
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
 			<div className="max-w-[980px] gap-2">
 			<div className="flex justify-between">
-        <h2 className="text-xl font-extrabold text-neutral-600">
-					<a href={`/${lang}`}>Audioguide</a>
+				<h2 className="text-xl font-extrabold text-neutral-600">
+					<Link href={`/${lang}`}>Audioguide</Link>	
 				</h2>
 				<LanguageSwitcher lang={lang} url={`/tour/${tourSlug}`}/>
 			</div>
