@@ -5,7 +5,7 @@ import './globals.css';
 export const metadata : Metadata = {
   title: {
     default: 'Museo degli Strumenti per il Calcolo',
-    template: '%s | Audioguida MSC',
+    template: '%s | Audioguide MSC',
   },
   description: 'La guida elettronica del Museo degli Strumenti per il calcolo dell\'Università di Pisa',
   icons: {
@@ -19,7 +19,18 @@ export const metadata : Metadata = {
         media: '(prefers-color-scheme: dark)',
       },
     ],
-  },
+	},
+	metadataBase: new URL("http://audioguide.sma.unipi.it/"),
+	alternates: {
+		canonical: '/it',
+		languages: {
+			'en': '/en',
+			'fr': '/fr',
+		},
+	},
+	openGraph: {
+		images: '/tours/msc/image.jpg',
+	},
 };
 
 export default async function RootLayout({

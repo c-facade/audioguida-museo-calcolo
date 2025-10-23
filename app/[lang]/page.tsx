@@ -6,6 +6,7 @@ import { GalleryTour } from '@/types';
 import { getDictionary, getToursData } from './dictionaries';
 import { LanguageSwitcher } from '@/components/ui/languageSwitcher';
 
+// TODO modificare metadati per lingua
 export async function generateMetadata(): Promise<Metadata> {
   return {
 		title: 'Audioguida MSC',
