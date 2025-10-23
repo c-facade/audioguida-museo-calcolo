@@ -186,7 +186,7 @@ export default function ArtworkNarrationPlayer({
 						/>
 					</div>
 				</div>
-        <div className="absolute top-0 left-0 flex h-full w-full size-full items-center justify-center"></div>
+        <div className="absolute top-0 left-0 flex size-full items-center justify-center"></div>
       </div>
       <div className="w-full">
         <Progress value={percentProgress} className="w-full" />
