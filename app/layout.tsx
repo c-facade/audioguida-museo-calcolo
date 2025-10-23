@@ -20,7 +20,7 @@ export const metadata : Metadata = {
       },
     ],
 	},
-	metadataBase: new URL("http://audioguide.sma.unipi.it/"),
+	metadataBase: new URL("https://audioguide.sma.unipi.it/"),
 	alternates: {
 		canonical: '/it',
 		languages: {
