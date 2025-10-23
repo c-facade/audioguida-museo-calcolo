@@ -7,7 +7,7 @@ export const metadata : Metadata = {
     default: 'Museo degli Strumenti per il Calcolo',
     template: '%s | Audioguide MSC',
   },
-  description: 'La guida elettronica del Museo degli Strumenti per il calcolo dell\'Università di Pisa',
+  description: 'La guida elettronica del Museo degli Strumenti per il Calcolo dell\'Università di Pisa',
   icons: {
     icon: [
       {
