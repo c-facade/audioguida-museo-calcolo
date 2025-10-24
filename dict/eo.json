@@ -1,0 +1,34 @@
+{
+	"landing": {
+		"lingua": "Esperanto",
+		"nome": "Muzeo de Kalkulaj Iloj"
+	},
+	"main": {
+		"titolo": "Aŭd-gvidilo",
+		"descrizione": "Malkovru la Muzeon de Kalkulaj Iloj en Pisa"
+	},
+	"footer": {
+		"ilmuseo": "La muzeo",
+		"audioguide": "Aŭd-gvidiloj",
+		"feedback": "Taksu la aŭd-gvidilon"
+	},
+	"feedback": {
+		"titolo": "Taksu la aŭd-gvidilon aŭ raportu erarojn",
+		"contenuti": "Kiel vi taksas la enhavon? (1 = tre malbona, 5 = bonega)",
+		"funzionamento": "Kiel vi taksas la funkciadon de la retpaĝo? (1 = tre malbona, 5 = bonega)",
+		"spiegare": "Klarigu kial",
+		"faccisapere": "Diru al ni kio bone funkciis, kio ne funkciis, kaj kiel ni povus plibonigi",
+		"email": "Retpoŝta adreso (nedeviga)",
+		"emailspiega": "Se vi volas, ke ni kontaktu vin por plia diskuto, bonvolu lasi vian retpoŝton.",
+		"invia": "Sendu"
+	},
+	"about": {
+		"titolo": "Pri la aŭd-gvidilo",
+		"testo": "La oficiala aŭd-gvidilo de la Muzeo de Kalkulaj Iloj.\n\nEl ideo de Antonio Viti.\nRealigita de Francesca Pinna.\n\nPermesilo MIT."
+	},
+	"navigation": {
+		"esplora": "Esploru la Muzeon ",
+		"successivo": "Sekva ",
+		"precedente": "Antaŭa "
+	}
+}
