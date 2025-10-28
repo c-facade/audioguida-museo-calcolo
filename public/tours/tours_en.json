@@ -304,7 +304,7 @@
 				"title": "Analog and digital instruments",
 				"preview": false,
 				"text": "An analog instrument is one that processes numerical values by representing them by \"analogy,\" with the measurement of a continuous physical quantity. A digital instrument, on the other hand, processes such values discretely, representing them with integers expressed by digits. A digital system is not necessarily binary: the calculating machines we see use the decimal system.\nAmong the analog instruments we have Galileo's Geometric and Military Compass, a very versatile instrument widespread from the beginning of the seventeenth century, Gonnella's planimeter, used to solve the most elementary operations of integral calculus, and the slide rule, which allows scales to be aligned to display the result on a third one.\nIn the white display case at the entrance there are simple digital instruments: multiplication tables, different types of rack adders, for example the Addiator with its semi-automatic carry.\nThese very portable instruments were produced from the early twentieth century until the 1980s.",
-				"description": "",
+				"description": "An analog instrument is one that processed numerical values by representing them by \"analogy,\", with the measurement of a continuous physical quantity.",
 				"annotations": [],
 				"duration": 61
 			},
