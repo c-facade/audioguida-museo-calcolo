@@ -41,7 +41,7 @@ export default async function Page({
           <div
             className="rounded-lg p-4 hover:bg-neutral-800" key={tour.slug}
           >
-						<Link key={tour.slug} href={`/${lang}/tour/${tour.slug}/intro`}>
+						<Link key={tour.slug} href={`/${lang}/tour/${tour.slug}/storia-informatica`}>
               <Image
                 className="h-48 w-full object-cover"
                 alt="Artist"

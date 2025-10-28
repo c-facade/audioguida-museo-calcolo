@@ -5,8 +5,8 @@
 		"description" : "A collection of computing instruments ranging from 1700 to today, with a special reference to the history of Italian computer science.",
 		"artworks" : [
 			{
-				"key": "intro-msc",
-				"slug": "intro",
+				"key": "storia-informatica",
+				"slug": "storia-informatica",
 				"isRoom": true,
 				"room": 0,
 				"number": "",
@@ -20,21 +20,21 @@
 				"narrator": "",
 				"narratorText" : "",
 				"museumLocation": "Via dei Macelli 2B, Pisa",
-				"description" : "The history of the museum of computing instruments.",
+				"description" : "The history of Italian computer science at the Museum of Computing Instruments of Pisa",
 				"text": "Italian computer science was born thanks to the pioneering work of a group of scientists, politicians, and industrialists, aware that training and research in the field of information technologies would contribute to the social, economic, and cultural change of the country.\nCentral to this adventure was the role of Pisa: it was here that, in the second half of the 1950s, the first Italian scientific calculator, the Calcolatrice Elettronica Pisana (CEP), was built, in synergy with the Olivetti Electronic Research Laboratory.\nThe Museum of Computing Instruments has been located since 1993 in the \"Vecchi Macelli\" area, the former nineteenth-century slaughterhouse with its structure still intact. \nThe museum's collection ranges from the second half of the nineteenth century to the late 1990s, passing through iconic objects such as Galileo's proportional compass, the Programma 101, considered the first \"personal computer,\" and the Commodore 64, the best-selling computer ever.\nCurrently, the museum consists of five rooms open to the public where the most important pieces of the collection are exhibited.\n",
 				"duration": 70,
 				"annotations": []
 			},
 			{
-				"key": "sala-pacinotti",
-				"slug": "sala-1",
+				"key": "non-solo-calcolo",
+				"slug": "non-solo-calcolo",
 				"isRoom":true,
 				"room": 1,
 				"number": "1",
-				"title": "Pacinotti Room",
+				"title": "Pacinotti room",
 				"preview": false,
 				"artist": "Vecchi Macelli",
-				"description": "Pacinotti Room: the first room of the exhibition, contains temporary exhibitions",
+				"description": "The Pacinotti Room contains the temporary expedition \"Non solo calcolo\", exploring accounting, graphics, music, videogames and word processing.",
 				"text": "We decided to dedicate this first room to the temporary exhibition \"Non solo calcolo\".\nNowadays, the computer is not just a tool for calculation: it allows you to play, create, and work. Here we show how the uses of accounting, graphics, music, video games, and word processing have merged from specialized machines into the contemporary multipurpose computer.\n",
 				"annotations": [],
 				"duration": 23
@@ -51,11 +51,12 @@
 				"description": "",
 				"text": "In 1878, when the American James Ritty invented the first cash register, \"The Incorruptible Cashier,\" his goal was to track every transaction of the day to control his employees.\nA few years later, he sold the patent to what became the National Cash Register, a globally successful company that produced millions of cash registers, including all those on display.\nWith the invention of the Personal Computer, we return to an accounting method that dates back more than 4000 years: spreadsheets.\nIn 1979, VisiCalc for the Apple II was released, the first interactive spreadsheet.\nTwo years later, VisiCalc was surpassed by Lotus, optimized for the IBM PC, which in turn gave way to Microsoft Excel, which has dominated the electronic spreadsheet market from 1987 to today.",
 				"annotations": [],
-				"duration": 51
+				"duration": 51,
+				"artist": "James Ritty, National Cash Register, IBM, Microsoft, Commodore"
 			},
 			{
-				"key": "msc-mercedes",
-				"slug": "mercedes",
+				"key": "mercedes-addelektra",
+				"slug": "mercedes-addelektra",
 				"isRoom": false,
 				"room": 1,
 				"number": "1.2",
@@ -63,14 +64,14 @@
 				"preview" : false,
 				"artist": "Mercedes",
 				"date": "1928",
-				"description": "Typewriter and calculator: the Mercedes Addelektra.",
+				"description": "Typewriter and calculator of the 1920s: the Mercedes Addelektra.",
 				"text":"Behind the museum's entrance panel, on the yellow background, you will find the Mercedes Addelektra, a model dating back to 1928.\nIt is a multipurpose accounting machine that allowed for calculations, writing, and printing results on specific forms for the bank or administrative office where it was used.\nIt was established in advance in which columns to calculate the values and in which to insert text entries: the calculation columns of the respective forms define the position of the vertical calculators on the Addelektra.\nThe machine was powered by an electric motor, and offered functionalities for recognizing and correcting entry errors.",
 				"annotations": [],
 				"duration": 39
 			},
 			{
-				"key": "graficamusica",
-				"slug": "graficamusica",
+				"key": "grafica-musica",
+				"slug": "grafica-musica",
 				"isRoom": false,
 				"room": 1,
 				"number": "1.3",
@@ -79,7 +80,7 @@
 				"artist": "Evans & Sutherland, Commodore, Silicon Graphics, Amstrad",
 				"date": "1970-1990",
 				"text": "Computer graphics was born in the 1960s with the first experiments on cathode ray tubes and graphical terminals, used to display simple shapes.\nIn the 1970s, Evans & Sutherland revolutionized 3D graphics with military simulators and modeling software. The system on display was used in the 1980s at the CNR in Pisa, for the visualization of the three-dimensional structures of molecules.\nThe 1980s marked a turning point: James Clark founded Silicon Graphics, developing workstations for 3D modeling and advanced graphics pipelines, while the Commodore Amiga democratized graphics with dedicated chips, becoming a cult for designers and creatives.\nIn the 1990s, 3D graphics exploded in cinema and video games.\nPixar's Toy Story became, in 1995, the first entirely digital feature film. At the same time, graphics cards with 3D acceleration became a common component in PCs.\n\nThe first experiments with computer-generated music date back to the 1950s: the Australian CSIRAC and the British Ferrant Mark I were pioneers in producing electronic melodies.\nIn 1961, Bell Labs revolutionized the field with the first computer capable of \"singing\" Daisy Bell, made famous in the film 2001: A Space Odyssey.\nIn Italy, between the 1960s and 1970s, Pietro Grossi led cutting-edge research in Pisa, laying the foundations for electronic music with projects such as the Tau 2, on display in the second room.\nIn the 1980s, software for music creation spread, such as ProTracker for the Amiga, and SoundBlaster for the PC.\nIn 1991, the MP3 standard was introduced, which facilitated online sharing, fueling piracy on platforms like Napster.\nThe 2000s saw the advent of streaming platforms such as Spotify and Apple Music, which offer unlimited playback from a vast selection of songs.",
-				"description": "Evans & Sutherland P300",
+				"description": "The birth and evolution of computer graphics and music. Commodore Amiga.",
 				"annotations": [],
 				"duration": 124,
 				"images": [
@@ -107,8 +108,8 @@
 				"number": "1.4",
 				"title": "Video Games",
 				"preview": false,
-				"text": "'Spacewar!' is often considered the first video game: developed at MIT on a PDP-1, it represents two spaceships of different shapes that move by accelerating and rotating.\nThis game inspired Nolan Bushnell, the founder of Atari. Thanks to this company, arcades, which until then had only hosted electromechanical games, began to spread Pong, a ping-pong simulator.\nIts stylized graphics required such simple hardware that it was born as a home console, the Magnavox Odyssey in 1972, and, after the success of the Atari version, generated a flood of clones, including Inno-Hit's Sportron.\nThe birth of new microprocessors led to games like the electronic chess Chess Challenger and especially the Atari 2600, from 1977: this programmable console transformed video games into reproducible software, opening the global market for cartridge titles.\n1985 marked the arrival of Japanese consoles in the United States: the Nintendo Entertainment System and the Sega Master System.\nIn Europe, the digital revolution traveled on home computers. Even essential machines like RadioShack's TRS-80, from 1977, became platforms for video games. The 1980s were dominated by bestsellers like the Commodore 64 and Sinclair's ZX Spectrum, symbols of an era where creativity surpassed hardware limitations.",
-				"description": "the video game display case of the \"Non solo calcolo\" exhibition, which among other things contains a Commodore 64 and an Atari 2600.",
+				"text": "'Spacewar!' is often considered the first video game: developed at MIT on a PDP-1, it represents two spaceships of different shapes that move by accelerating and rotating.\nThis game inspired Nolan Bushnell, the founder of Atari. Thanks to this company, arcades, which until then had only hosted electromechanical games, began to spread Pong, a ping-pong simulator.\nIts stylized graphics required such simple hardware that it was born as a home console, the Magnavox Odyssey in 1972, and, after the success of the Atari version, generated a flood of clones, including Inno-Hit's Sportron.\nThe birth of new microprocessors led to games like the electronic chess Chess Challenger and especially the Atari 2600, from 1977: this programmable console transformed video games into reproducible software, opening the global market for cartridge titles.\n1985 marked the arrival of Japanese consoles in the United States: the Nintendo Entertainment System and the Sega Master System.\nIn Europe, the digital revolution traveled on home computers. Even essential machines like RadioShack's TRS-80, from 1977, became platforms for video games. The 1980s were dominated by bestsellers like the Commodore 64 and Sinclair's ZX Spectrum, symbols of an era where creativity surpassed hardware limitations.\nFeel free to take some time to write \"Hello World\" with the Commodore 64, and play with the arcade box. Consultation of the handbooks is allowed.",
+				"description": "Video game consoles and computers at the exhibition, Commodore 64, Atari 2600, NES, Sega Master System, Chess Challenger, Arcade Box.",
 				"annotations": [],
 				"images": [
 					{

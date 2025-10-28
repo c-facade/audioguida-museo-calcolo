@@ -5,8 +5,8 @@
 		"description": "Une collection d'instruments de calcul datant de 1700 à nos jours, avec une référence spéciale à l'histoire de l'informatique italienne.",
 		"artworks": [
 			{
-				"key": "intro-msc",
-				"slug": "intro",
+				"key": "storia-informatica",
+				"slug": "storia-informatica",
 				"isRoom": true,
 				"room": 0,
 				"number": "",
@@ -26,8 +26,8 @@
 				"annotations": []
 			},
 			{
-				"key": "sala-pacinotti",
-				"slug": "sala-1",
+				"key": "non-solo-calcolo",
+				"slug": "non-solo-calcolo",
 				"isRoom": true,
 				"room": 1,
 				"number": "1",
@@ -50,12 +50,13 @@
 				"preview": false,
 				"description": "",
 				"text": "En 1878, lorsque l'Américain James Ritty inventa la première caisse enregistreuse, « The Incorruptible Cashier », son objectif était de suivre chaque transaction de la journée pour contrôler ses employés.\nQuelques années plus tard, il vendit le brevet à ce qui devint la National Cash Register, une entreprise au succès mondial qui a produit des millions de caisses enregistreuses, y compris toutes celles qui sont exposées.\nAvec l'invention de l'ordinateur personnel, on revient à une méthode de comptabilité qui remonte à plus de 4000 ans : les feuilles de calcul.\nEn 1979, VisiCalc est publié pour l'Apple II, la première feuille de calcul interactive.\nDeux ans plus tard, VisiCalc est dépassé par Lotus, optimisé pour le PC IBM, qui à son tour cède la place à Microsoft Excel, qui domine le marché des feuilles de calcul électroniques depuis 1987 jusqu'à aujourd'hui.",
+				"artist": "James Ritty, National Cash Register, IBM, Microsoft, Commodore",
 				"annotations": [],
 				"duration": 57
 			},
 			{
-				"key": "msc-mercedes",
-				"slug": "mercedes",
+				"key": "mercedes-addelektra",
+				"slug": "mercedes-addelektra",
 				"isRoom": false,
 				"room": 1,
 				"number": "1.2",
@@ -69,8 +70,8 @@
 				"duration": 43
 			},
 			{
-				"key": "graficamusica",
-				"slug": "graficamusica",
+				"key": "grafica-musica",
+				"slug": "grafica-musica",
 				"isRoom": false,
 				"room": 1,
 				"number": "1.3",

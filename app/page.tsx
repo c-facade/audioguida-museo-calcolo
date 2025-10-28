@@ -65,7 +65,7 @@ export default async function RootPage() {
 					priority={true}
 				/>
         {Object.keys(languages).map((locale) => (
-					<Link href={`/${locale}/tour/msc/intro`} key={locale} >
+					<Link href={`/${locale}/tour/msc/storia-informatica`} key={locale} >
 						<div
 								className="rounded-lg p-3 hover:bg-neutral-800"
 								>
