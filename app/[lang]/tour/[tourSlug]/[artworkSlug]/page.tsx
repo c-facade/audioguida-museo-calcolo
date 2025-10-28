@@ -28,10 +28,11 @@ export async function generateMetadata({ params }): Promise<Metadata> {
   }
 
   const imageUrl = `/tours/${galleryTour?.slug}/${artworkNarration?.slug}/object.jpg`;
-
+	
+	// pensare a mettere gli url canonical ed alternate.
   return {
     title: artworkNarration?.title || tourSlug,
-    description: 'Audioguida Museo degli Strumenti per il Calcolo',
+    description: artworkNarration?.description || "L'audioguida del Museo degli Strumenti per il Calcolo",
     openGraph: {
       title: `${galleryTour?.name} | ${artworkNarration?.title}` || '',
       description: artworkNarration?.description,
