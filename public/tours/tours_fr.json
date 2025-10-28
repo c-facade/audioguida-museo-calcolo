@@ -108,6 +108,7 @@
 				"number": "1.4",
 				"title": "Jeux vidéo",
 				"preview": false,
+				"artist": "Commodore, Nintendo, SEGA, TRS, Mattel",
 				"text": "'Spacewar!' est souvent considéré comme le premier jeu vidéo : développé au MIT sur un PDP-1, il représente deux vaisseaux spatiaux de formes différentes qui se déplacent en accélérant et en tournant.\nCe jeu a inspiré Nolan Bushnell, le fondateur d'Atari. Grâce à cette entreprise, les arcades, qui jusqu'alors n'accueillaient que des jeux électromécaniques, ont commencé à se répandre avec Pong, un simulateur de ping-pong.\nSon graphisme stylisé nécessitait un matériel tellement simple qu'il est né comme console domestique, la Magnavox Odyssey en 1972, et, après le succès de la version Atari, a généré une vague de clones, dont le Sportron d'Inno-Hit.\nLa naissance de nouveaux microprocesseurs a conduit à des jeux comme les échecs électroniques Chess Challenger et surtout l'Atari 2600, de 1977 : cette console programmable a transformé les jeux vidéo en logiciels reproductibles, ouvrant le marché mondial des titres sur cartouche.\nL'année 1985 marque l'arrivée aux États-Unis des consoles japonaises : la Nintendo Entertainment System et la Sega Master System.\nEn Europe, la révolution numérique s'est faite sur les ordinateurs domestiques, en ignorant la parabole de la console. Même des machines essentielles comme le TRS-80 de RadioShack, de 1977, sont devenues des plateformes pour les jeux vidéo. Les années 1980 ont été dominées par des best-sellers comme le Commodore 64 et le ZX Spectrum de Sinclair, symboles d'une époque où la créativité dépassait les limites du matériel.",
 				"description": "La vitrine des jeux vidéo de l'exposition « non solo calcolo », qui contient entre autres un Commodore 64 et un Atari 2600.",
 				"annotations": [],
@@ -143,8 +144,8 @@
 				"duration": 74
 			},
 			{
-				"key": "sala-2-tau",
-				"slug": "sala-2",
+				"key": "tau-2",
+				"slug": "tau-2",
 				"isRoom": true,
 				"room": 2,
 				"number": "2",
@@ -158,7 +159,7 @@
 			},
 			{
 				"key": "6",
-				"slug": "sala-cep",
+				"slug": "calcolatrice-elettronica-pisana",
 				"isRoom": true,
 				"room": 4,
 				"number": "4",
