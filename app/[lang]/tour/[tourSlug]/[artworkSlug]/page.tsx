@@ -38,6 +38,13 @@ export async function generateMetadata({ params }): Promise<Metadata> {
       description: artworkNarration?.description,
       images: [imageUrl],
     },
+		alternates: {
+			canonical: '/it',
+			languages: {
+				'en': '/en',
+				'fr': '/fr',
+			},
+		},
   };
 }
 

@@ -6,12 +6,34 @@ import { GalleryTour } from '@/types';
 import { getDictionary, getToursData } from './dictionaries';
 import { LanguageSwitcher } from '@/components/ui/languageSwitcher';
 
-// TODO modificare metadati per lingua
-export async function generateMetadata(): Promise<Metadata> {
-  return {
-		title: 'Audioguida MSC',
-		description: "Audioguida del Museo degli Strumenti per il Calcolo di Pisa",
-  };
+export async function generateMetadata({ 
+	params} : {params: Promise<{ lang: string}>
+	}) : Promise<Metadata> {
+		const {lang} = await params;
+		let title : string, description : string;
+		if(lang == 'it'){
+			title = 'Audioguida MSC';
+			description = "Audioguida del Museo degli Strumenti per il Calcolo di Pisa";
+		}
+		else if(lang == 'en'){
+			title = "MSC Audioguide";
+			description = "The audioguide of the Museum of Computing Machinery of Pisa.";
+		}
+		else{
+			title = "MSC Audioguide";
+			description = "L'audioguide de le musée des machines de calcul de Pise";
+		}
+		return {
+			title: title,
+			description: description,
+			alternates: {
+				canonical: '/it',
+				languages: {
+					'en': '/en',
+					'fr': '/fr',
+				},
+			},
+		};
 }
 
 export default async function Page({ 

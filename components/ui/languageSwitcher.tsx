@@ -11,15 +11,15 @@ export function LanguageSwitcher({lang, url}) {
 					<Link 
 						key={loc}
 						href={`/${loc}${url}`}
-						className="m-1"	
+						className="m-1"
+						hrefLang={loc}
 					>
 						<Image 
 							alt={`Switch to ${loc}`}
 							src={`/${loc}.png`}
 							width="30"
 							height="30"
-							className={lang == loc ? "size-[28px] border-[3px] rounded-xl" : "size-[25px]"}
-
+							className={lang == loc ? "size-[28px] rounded-xl border-[3px] " : "size-[25px]"}
 						/>
 					</Link>
 			)}

@@ -1,14 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
+	i18n: {
+		locales: ['it', 'en', 'fr'],
+		defaultLocale: 'it',
+	},
   images: {
     unoptimized: true,
-		/*remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'd1lfxha3ugu3d4.cloudfront.net',
-			},
-		],*/
 	},
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.resolve.alias.canvas = false

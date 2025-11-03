@@ -21,13 +21,6 @@ export const metadata : Metadata = {
     ],
 	},
 	metadataBase: new URL("https://audioguide.sma.unipi.it/"),
-	alternates: {
-		canonical: '/it',
-		languages: {
-			'en': '/en',
-			'fr': '/fr',
-		},
-	},
 	openGraph: {
 		images: '/tours/msc/image.jpg',
 	},

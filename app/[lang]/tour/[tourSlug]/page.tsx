@@ -26,6 +26,13 @@ export async function generateMetadata({
   return {
     title: galleryTour?.name,
     description: galleryTour?.description,
+		alternates: {
+			canonical: '/it',
+			languages: {
+				'en': '/en',
+				'fr': '/fr',
+			},
+		},
   };
 }
 
