@@ -55,7 +55,12 @@ export function ArtworkNarrationCard({
 				'esplora': 'Explorer le musée ',
 				'successivo': 'Suivant ',
 				'precedente': 'Précédent '
-			}
+			},
+		'eo': {
+				'esplora': 'Esploru la Muzeon ',
+				'successivo': 'Sekva ',
+				'precedente': 'Antaŭa '
+		},
 }
 
 	return (

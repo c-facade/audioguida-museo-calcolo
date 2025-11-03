@@ -19,6 +19,10 @@ export async function generateMetadata({
 			title = "MSC Audioguide";
 			description = "The audioguide of the Museum of Computing Machinery of Pisa.";
 		}
+		else if(lang == 'eo'){
+			description = "La aŭd-gvidilo de la Muzeo de Kalkulaj Iloj.";
+			title = "aŭd-gvidilo MSC";
+		}
 		else{
 			title = "MSC Audioguide";
 			description = "L'audioguide de le musée des machines de calcul de Pise";
@@ -31,6 +35,7 @@ export async function generateMetadata({
 				languages: {
 					'en': '/en',
 					'fr': '/fr',
+					'eo': '/eo',
 				},
 			},
 		};

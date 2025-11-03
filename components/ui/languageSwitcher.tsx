@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export function LanguageSwitcher({lang, url}) {
-	const languages = ['it', 'en', 'fr'];
+	const languages = ['it', 'en', 'fr', 'eo'];
 	console.log("current", lang);
 	return (
 		<div className="flex items-center">

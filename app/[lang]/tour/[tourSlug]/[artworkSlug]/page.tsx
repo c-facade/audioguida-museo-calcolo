@@ -3,6 +3,7 @@ import { ArtworkNarration, GalleryTour } from "@/types";
 import toursDataIt from '@/public/tours/tours_it.json';
 import toursDataEn from '@/public/tours/tours_en.json';
 import toursDataFr from '@/public/tours/tours_fr.json';
+import toursDataEo from '@/public/tours/tours_eo.json';
 import * as React from "react";
 import { ArtworkNarrationCard } from "@/components/artwork-narration/artwork-narration-card";
 import { ArtworkList } from '@/components/lists/artwork-list';
@@ -14,6 +15,7 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 		'it': toursDataIt,
 		'en': toursDataEn,
 		'fr': toursDataFr,
+		'eo': toursDataEo
 	}
 	const toursData = languageMap[lang];
 	const tours: GalleryTour[] = toursData;
@@ -43,6 +45,7 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 			languages: {
 				'en': '/en',
 				'fr': '/fr',
+				'eo': '/eo'
 			},
 		},
   };
@@ -57,6 +60,7 @@ export default function Page({
 		'it': toursDataIt,
 		'en': toursDataEn,
 		'fr': toursDataFr,
+		'eo': toursDataEo
 	}
 	const {lang, tourSlug, artworkSlug} = React.use(params);
 	const toursData = languageMap[lang];

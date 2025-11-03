@@ -41,7 +41,8 @@ export default async function RootPage() {
 	const languages= {
 		"it": ["Italiano", "Museo degli Strumenti per il Calcolo"],
 		"en": ["English", "Museum of Computing Machinery"],
-		"fr": ["Français", "Musée des machines de calcul"]
+		"fr": ["Français", "Musée des machines de calcul"],
+		"eo": ["Esperanto", "Muzeo de Kalkulaj Iloj"], 
 	}
 
 	return(
@@ -63,6 +64,7 @@ export default async function RootPage() {
 					width="500"
 					height="500"
 					priority={true}
+					fetchPriority="high"
 				/>
         {Object.keys(languages).map((locale) => (
 					<Link href={`/${locale}/tour/msc/storia-informatica`} key={locale} hrefLang={locale}>
@@ -72,7 +74,7 @@ export default async function RootPage() {
 								<h2 className="mt-2 text-xl font-extrabold">
 									{
 										languages[locale][0]
-								}
+								}&nbsp;
 								<Image
 									className="inline size-[20px]"
 									alt={`${locale}`}

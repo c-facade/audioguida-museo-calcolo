@@ -5,8 +5,8 @@
   "description": "Kolekto de kalkulaj iloj de la jaro 1700 ĝis hodiaŭ, kun speciala atento al la historio de itala informatiko.",
   "artworks": [
     {
-      "key": "intro-msc",
-      "slug": "intro",
+      "key": "storia-informatica",
+      "slug": "storia-informatica",
       "isRoom": true,
       "room": 0,
       "number": "",
@@ -26,8 +26,8 @@
       "annotations": []
     },
 {
-  "key": "sala-pacinotti",
-  "slug": "sala-1",
+  "key": "non-solo-calcolo",
+  "slug": "non-solo-calcolo",
   "isRoom": true,
   "room": 1,
   "number": "1",
@@ -54,8 +54,8 @@
   "duration": 57
 },
 {
-  "key": "msc-mercedes",
-  "slug": "mercedes",
+  "key": "mercedes-addelektra",
+  "slug": "mercedes-addelektra",
   "isRoom": false,
   "room": 1,
   "number": "1.2",
@@ -69,8 +69,8 @@
   "duration": 43
 },
 {
-  "key": "graficamusica",
-  "slug": "graficamusica",
+  "key": "grafica-musica",
+  "slug": "grafica-musica",
   "isRoom": false,
   "room": 1,
   "number": "1.3",
@@ -142,8 +142,8 @@
   "duration": 74
 },
 {
-  "key": "sala-2-tau",
-  "slug": "sala-2",
+  "key": "tau-2",
+  "slug": "tau-2",
   "isRoom": true,
   "room": 2,
   "number": "2",
@@ -156,8 +156,8 @@
   "duration": 68
 },
 {
-  "key": "6",
-  "slug": "sala-cep",
+  "key": "cep",
+  "slug": "calcolatrice-elettronica-pisana",
   "isRoom": true,
   "room": 4,
   "number": "4",
