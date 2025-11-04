@@ -12,9 +12,9 @@ export default async function Layout({
 	children: React.ReactNode;
 	params: Promise<{ lang: string }>
 }) {
-	const {lang} = await params;
-	const dict = await getDictionary(lang);
+	let {lang} = await params;
 	console.log("layout language:", lang)
+	const dict = await getDictionary(lang);
 	return (
 		<>
 				<main className="h-dvh w-full max-w-screen-md flex-1">

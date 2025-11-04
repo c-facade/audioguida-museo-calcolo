@@ -62,13 +62,12 @@ export default function Page({
   );
 
   if (!galleryTour) {
-    return null;
+    throw new Error("Il tour scelto non esiste.");
 	}
 
 	const duration : number = galleryTour.artworks.reduce((sum: number, artwork: ArtworkNarration) => 
 		sum + (artwork.duration ?? 0), 0
 	);
-
 	console.log("Durata totale: " + Math.floor(duration/60) + "." +duration%60);
 
   return (

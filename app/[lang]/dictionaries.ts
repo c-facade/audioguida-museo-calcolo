@@ -1,6 +1,7 @@
 import 'server-only'
 
 // da aggiungere esperanto(eo)
+const supportedLangs=['it', 'en', 'fr', 'eo'];
 
 const dictionaries = {
 	en: () => import('../../dict/en.json').then((module) => module.default),
@@ -16,6 +17,21 @@ const toursData = {
 	eo: () => import('../../public/tours/tours_eo.json').then((module) => module.default),
 }
 
-export const getDictionary = async (locale : string) => dictionaries[locale]()
-export const getToursData = async (locale: string) => toursData[locale]()
+export const getDictionary = async (locale : string) => {
+	if (!(locale in supportedLangs)){
+		return dictionaries[locale]()
+	}
+	else {
+		console.warn("Unsupported language! Falling back to English.");
+		return dictionaries['en']();
+	}
+}
+export const getToursData = async (locale: string) => {
+	if (!(locale in supportedLangs)){
+		return toursData[locale]()
+	}
+	else {
+		throw new Error("Unsupported tour language!");
+	}
+}
 
