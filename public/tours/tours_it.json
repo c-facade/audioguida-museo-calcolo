@@ -249,7 +249,7 @@
 			},
 			{
 				"key": "bull-gamma-3",
-				"slug": "gamma-3",
+				"slug": "bull-gamma-3",
 				"isRoom": false,
 				"room": 5,
 				"number": "5.1",
@@ -274,8 +274,8 @@
 				"duration": 21
 			},
 			{
-				"key": "sala-5",
-				"slug": "sala-5",
+				"key": "sala-calcolo-personale",
+				"slug": "sala-calcolo-personale",
 				"isRoom": true,
 				"room": 6,
 				"number": "6",
