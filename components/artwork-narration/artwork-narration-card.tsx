@@ -30,7 +30,7 @@ export function ArtworkNarrationCard({
 }: ArtworkNarrationCardProps) {
   const artworkNarration: ArtworkNarration =
     galleryTour.artworks[artworkNarrationIndex];
-	const intro = artworkNarration.slug === "intro";
+	const intro = artworkNarration.slug === "storia-informatica";
   const router = useRouter();
 
   function goObject(index) {
