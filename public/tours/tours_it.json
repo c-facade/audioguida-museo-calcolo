@@ -70,6 +70,19 @@
 				"duration": 43
 			},
 			{
+				"key": "bull-gamma-3",
+				"slug": "bull-gamma-3",
+				"isRoom": false,
+				"room": 1,
+				"number": "1.3",
+				"title": "Bull Gamma 3",
+				"preview": false,
+				"text": "La calcolatrice elettronica Bull Gamma 3 entrò sul mercato nel 1953 in Francia, costruita dalla Compagnie des Machines Bull. Veniva programmata tramite un pannello di collegamenti che permetteva al massimo 64 istruzioni. I circuiti erano costruiti con valvole termoioniche. Entrambi gli elementi sono visibili aprendo i pannelli.\nIl ciclo di clock della macchina era sincronizzato con la frequenza del motore di equipaggiamento elettromeccanico, che in questo caso era un tabulatore.\nQuesto tipo di macchina era utilizzata prevalentemente per calcoli statistici: fin dalla prima metà del 1900, la Bull produceva macchine elettriche che leggevano schede perforate e tabulavano i risultati; per loro il calcolatore era solo un accessorio che permetteva di effettuare calcoli più sofisticati.",
+				"description": "La Bull Gamma 3 è un calcolatore del 1953 composto da due unità di elaborazione, una tabulatrice di schede perforate, una perforatrice con tastiera e stampante, unità di memoria e di alimentazione.",
+				"annotations": [],
+				"duration": 37
+			},
+			{
 				"key": "grafica-musica",
 				"slug": "grafica-musica",
 				"isRoom": false,
@@ -243,35 +256,35 @@
 				"title": "Sala Olivetti",
 				"preview": false,
 				"description": "La sala dei grandi calcolatori dell'Olivetti",
-				"text": "La storia dell'informatica Italiana è strettamente legata alla storia dell'Olivetti, della quale abbiamo un'ampia collezione. In questa sala, abbiamo voluto esporre due dei grandi calcolatori prodotti da questa azienda: due pezzi della serie ELEA. ELEA sta per \"Elaboratore Elettronico Aritmetico\", ma il nome è stato scelto come riferimento all'antica colonia greca.\nLa ricerca per la costruzione di questi computer mainframe inizia a metà degli anni Cinquanta con un piccolo gruppo di ricercatori guidati da Mario Tchou, che nel 1957 realizza la Macchina Zero, il prototipo della serie, terminata in contemporanea con la Macchina Ridotta dell'Università di Pisa.\nNel 1959 l'Olivetti inizia ad affittare esemplari dell'ELEA 9003, il terzo modello della serie e il primo ad essere commercializzato, una macchina completamente a transistori. L'ELEA 6001 fu pensata per essere una versione più piccola, indirizzata ad applicazioni commerciali o scientifiche, nelle sue due versioni.\n In collaborazione con l'Istituto delle Applicazioni del Calcolo di Roma, l'azienda iniziò a lavorare al modello 9104 nel 1964.Non terminarono mai: per una serie di eventi sfortunati, tra cui rientrano le morti premature di Adriano Olivetti e di Mario Tchou, la divisione elettronica Olivetti fu venduta alla General Electric, azienda internazionale in competizione con IBM.\nQuesta non fu la fine per l'Olivetti, che continuò a produrre le sue macchine per scrivere, calcolatrici e infine Personal Computers.",
+				"text": "La storia dell'informatica Italiana è strettamente legata alla storia dell'azienda Olivetti. In questa sala, abbiamo voluto esporre due dei suoi grandi calcolatori: due pezzi della serie ELEA. ELEA sta per \"Elaboratore Elettronico Aritmetico\", ma il nome è stato scelto come riferimento all'antica colonia greca.\nLa ricerca per la costruzione di questi computer mainframe inizia a metà degli anni Cinquanta con un piccolo gruppo di ricercatori guidati da Mario Tchou, che nel 1957 realizza la Macchina Zero, il prototipo della serie, definita al tempo un ammasso piuttosto inguardabile.\nNel 1959 l'Olivetti inizia ad affittare esemplari dell'ELEA 9003, il terzo modello della serie e il primo ad essere commercializzato, una macchina completamente a transistori. L'ELEA 6001 fu pensata per essere una versione più piccola, indirizzata ad applicazioni commerciali o scientifiche, come banche, grandi aziende e università.\n In collaborazione con l'Istituto delle Applicazioni del Calcolo di Roma, Olivetti iniziò a lavorare al modello 9104 nel 1964. Nonostante gli eventi sfortunati, tra cui rientrano le morti premature di Adriano Olivetti e di Mario Tchou, la costruzione dell'ELEA 9104 continuò anche quando la divisione elettronica Olivetti fu venduta alla multinazionale americana General Electric.\nQuesto evento non fu la fine per l'Olivetti, che continuò a produrre le sue macchine per scrivere, calcolatrici e infine Personal Computers.",
 				"annotations": [],
 				"duration": 99
-			},
-			{
-				"key": "bull-gamma-3",
-				"slug": "bull-gamma-3",
-				"isRoom": false,
-				"room": 5,
-				"number": "5.1",
-				"title": "Bull Gamma 3",
-				"preview": false,
-				"text": "La Bull Gamma 3 fu uno dei \"mainframe\" della prima era, creato da una ditta francese. Veniva programmato tramite una switchboard, era basato su valvole termoioniche, entrambe visibili quando è aperto, e aveva un vero e proprio motore per dare il ciclo di clock e muovere le schede. Questo tipo di macchina era utilizzata prevalentemente per calcoli statistici: fin dalla prima metà del 1900, la Bull produceva macchine elettriche che leggevano schede perforate e tabulavano i risultati; per loro il computer era solo un accessorio che permetteva di effettuare calcoli più sofisticati.",
-				"description": "",
-				"annotations": [],
-				"duration": 37
 			},
 			{
 				"key": "elea-9104",
 				"slug": "elea-9104",
 				"isRoom": false,
 				"room": 5,
-				"number": "5.2",
+				"number": "5.1",
 				"title": "ELEA 9104 o CINAC",
 				"preview": false,
 				"description": "",
-				"text": "L'ELEA 9104, o CINAC, è un pezzo unico della serie ELEA, progettata per l'Istituto Nazionale delle Applicazioni del Calcolo (INAC). Fu costruito un solo prototipo, e la toolchain di compilatori necessaria per usarla al meglio non fu mai completata, quindi fu usata solo in modalità emulazione di altre macchine.",
+				"text": "L'Istituto Nazionale per le Applicazioni del Calcolo fu tra i primi enti d'Italia a dotarsi di un calcolatore elettronico nel 1954. Mentre l'Olivetti e l'Università di Pisa costruirono il loro, l'INAC comprò un Ferranti Mark I dal Regno Unito, l'esemplare noto come FINAC. Nel 1962, Olivetti intraprese una collaborazione per la costruzione di un nuovo computer, il Calcolatore dell'Istituto Nazionale per le Applicazioni del Calcolo(CINAC) o ELEA 9104, che avete di fronte.\nIl design della macchina, opera dello studio Sottsass, rispecchia l'estetica dell'Olivetti: le telescriventi di marca, il colore turchese, le unità centrali organizzate intorno a colonne con bracci a 120 gradi.\nIl CINAC è un pezzo unico costruito specialmente per fini di ricerca, e non ha alcun seguito industriale. Dal punto di vista tecnico si distingue per la sua architettura a stack che lo rende specificamente efficiente per ospitare programmi compilatori e interpreti, come l'interprete del linguaggio LISP implementato nel 1967.\nQuando soppiantò il FINAC nel 1966, era impensabile buttare via tutto il software per il modello precedente. Di conseguenza, fu costruito un simulatore del FINAC, che vedete sopra alla scrivania, insieme con la sua console a levette.\nIl CINAC fu dismesso ufficialmente il 30 giugno 1970.\n",
 				"annotations": [],
 				"duration": 21
+			},
+			{
+				"key": "elea-6001",
+				"slug": "elea-6001",
+				"isRoom": false,
+				"room": 5,
+				"number": "5.2",
+				"title": "ELEA 6001",
+				"preview": false,
+				"description": "ELEA 6001",
+				"text": "Il modello 6001 della serie ELEA fu terminato nel 1961, lo stesso anno della Calcolatrice Elettronica Pisana. Gli armadi, a misura d'uomo, si aprono a ventaglio. La loro dimensione compatta è data dall'utilizzo dei transistori piuttosto che delle valvole termoioniche: Olivetti non aveva le stesse limitazioni economiche dell'Università di Pisa, quindi poteva permettersi di adattarsi alle nuove tecnologie.\nIl pannello di controllo colorato con spie luminose dava un'interfaccia utente accessibile. All'unità centrale erano collegate diverse periferiche, tra cui lettori e perforatori di nastro cartaceo, e le numerose unità di lettura del nastro magnetico azzurre. Sopra di esse, potete vedere i nastri contenenti programmi e dati, che venivano inseriti dentro i lettori per il caricamento nella memoria principale.\nQuesto tipo di calcolatore era affittato alle aziende e ai laboratori di ricerca, insieme con il team di tecnici specializzati che lo riparava e programmava.",
+				"annotations" : [],
+				"duration": 0
 			},
 			{
 				"key": "sala-calcolo-personale",

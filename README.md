@@ -5,13 +5,14 @@ L'audioguida è visitabile online a https://audioguide.sma.unipi.it/ .
 
 ## TODO list
 - [X] audio in inglese
-- [ ] Responsive feedback pages
+- [X] Responsive feedback pages
 - [ ] Real-time import of tours.json according to language.
 - [X] Aggiustare l'altezza del footer all'altezza del telefono...
 - [X] Testare su SAFARI
-- [ ] Aggiungere audio in francese.
-- [ ] Aggiungere file Esperanto.
-- [ ] Error file.
+- [X] Aggiungere audio in francese.
+- [X] Aggiungere file Esperanto.
+- [X] Error file.
+- [ ] Aggiungere informazioni Bull
 
 ## Tecnologie
 
