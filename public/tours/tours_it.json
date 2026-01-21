@@ -77,7 +77,7 @@
 				"number": "1.3",
 				"title": "Bull Gamma 3",
 				"preview": false,
-				"text": "La calcolatrice elettronica Bull Gamma 3 entrò sul mercato nel 1953 in Francia. Era costruita dalla Compagnie des Machines Bull. I programmi che eseguiva erano sotto forma di collegamenti fisici su pannelli chiamati \"plugboard\", che permettevano al massimo 64 istruzioni. I circuiti erano costruiti con valvole termoioniche. Entrambi gli elementi sono visibili quando gli armadi sono aperti.\nIl ciclo di clock della macchina era sincronizzato con la frequenza del motore di equipaggiamento elettromeccanico, che in questo caso era un tabulatore.\nQuesto tipo di macchina era utilizzata prevalentemente per calcoli statistici: fin dalla prima metà del 1900, la Bull produceva macchine elettriche che leggevano schede perforate e tabulavano i risultati; per loro il calcolatore era solo un accessorio che permetteva di effettuare calcoli più sofisticati.",
+				"text": "La calcolatrice elettronica Bull Gamma 3 entrò sul mercato nel 1953 in Francia. Era costruita dalla Compagnie des Machines Bull. I programmi che eseguiva erano sotto forma di collegamenti fisici su pannelli chiamati \"plugboard\", che permettevano al massimo 64 istruzioni. I circuiti di elaborazione erano costruiti con valvole termoioniche. Questi elementi elettronici sono visibili quando gli armadi sono aperti.\nIl ciclo di clock della macchina era sincronizzato con la frequenza del motore di equipaggiamento elettromeccanico, che in questo caso era un tabulatore.\nQuesto tipo di macchina era utilizzata prevalentemente per calcoli statistici: fin dalla prima metà del 1900, la Bull produceva macchine elettriche che leggevano schede perforate e tabulavano i risultati; per loro il calcolatore era solo un accessorio che permetteva di effettuare calcoli più sofisticati.",
 				"description": "La Bull Gamma 3 è un calcolatore del 1953 composto da due unità di elaborazione, una tabulatrice di schede perforate, una perforatrice con tastiera e stampante, unità di memoria e di alimentazione.",
 				"annotations": [],
 				"duration": 37
@@ -124,6 +124,7 @@
 				"artist": "Commodore, Nintendo, SEGA, TRS, Mattel",
 				"text": "'Spacewar!' è spesso considerato il primo videogioco: sviluppato al MIT su un PDP-1, rappresenta due astronavi di forme diverse che si muovono accelerando e ruotando.\nQuesto gioco ha ispirato Nolan Bushnell, il fondatore di Atari. Grazie a questa azienda, gli arcade, che fino ad allora avevano ospitato solo giochi elettromeccanici, inizia a diffondersi Pong, un simulatore di ping-pong.\nLa sua grafica stilizzata richiedeva un hardware talmente semplice che nacque come console domestica, la Magnavox Odissey nel 1972, e, dopo il successo della versione Atari, generò una marea di cloni, tra cui lo Sportron di Inno-Hit.\nLa nascita di nuovi microprocessori portò a giochi come gli scacchi elettronici Chess Challenger e soprattutto l'Atari 2600, del 1977: questa console programmabile trasformò i videogiochi in software riproducibile, aprendo il mercato globale dei titoli a cartuccia.\n Il 1985 segna l'arrivo negli Stati Uniti delle console giapponesi: il Nintendo Entertainment System e il Sega Master System.\n In Europa, la rivoluzione digitale viaggiava sugli home computer, ignorando la parabola della console. Anche macchine essenziali come il TRS-80 di RadioShack, del 1977, divennero piattaforme per i videogiochi. A dominare gli anni Ottanta furono i bestseller come il Commodore 64 e lo ZX Spectrum della Sinclair, simboli di un'epoca in cui la creatività superava i limiti dell'hardware.\nPrendete una pausa per scrivere un hello world sul Commodore 64 e giocare con l'arcade box. Vi invitiamo a sfogliare i manuali delle macchine in esposizione.",
 				"description": "I videogiochi in esposizione, con il Commodore 64, Atari 2600, Nintendo NES, Chess Challenger, Sega Master system, Arcade Box.",
+				"duration": 110,
 				"annotations": [],
 				"images": [
 					{
@@ -140,8 +141,7 @@
 						"width": 500,
 						"height": 375
 					}
-				],
-				"duration": 101
+				]
 			},
 			{
 				"key": "videoscrittura",
