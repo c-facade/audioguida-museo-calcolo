@@ -8,7 +8,8 @@ export function LanguageSwitcher({lang, url}) {
 		<div className="flex items-center">
 			{
 				languages.map((loc) => 
-					<Link 
+					<Link
+						rel="alternate"
 						key={loc}
 						href={`/${loc}${url}`}
 						className="m-1"
