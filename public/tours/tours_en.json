@@ -70,11 +70,24 @@
 				"duration": 39
 			},
 			{
+				"key": "bull-gamma-3",
+				"slug": "bull-gamma-3",
+				"isRoom": false,
+				"room": 1,
+				"number": "1.3",
+				"title": "Bull Gamma 3",
+				"preview": false,
+				"text": "The Bull Gamma 3 electronic calculator, produced by the French company Compagnie des Machines Bull, entered the market in 1953. It is a true computer, the oldest in our museum, and it represents one of the earliest commercial uses of electronic computing.\nBy the end of the nineteenth century, the growing need to process large quantities of data had led to the invention of tabulating machines. Large organizations such as banks and government institutions used punched cards to record information, for example about population statistics or banking operations. During the first half of the twentieth century, this technology spread widely among private companies that needed efficient ways to manage large volumes of data.\nThe machine with the transparent cover, located behind the desk on the right, is a tabulator. It could sort, count, and sum the data stored on punched cards at high speed, and it could also produce new punched cards as output.\nThe calculator itself — whose computing unit is the second object from the left — was considered a peripheral device. It allowed more complex operations to be performed, including short algorithms, in addition to the tabulator’s standard functions.\nPrograms were created through physical connections on panels known as plugboards. These allowed a maximum of sixty-four instructions.\nThe processing circuits were built using thermionic valves. When the cabinets are open, you can see them inside: they look similar to small incandescent light bulbs.",
+				"description": "The Bull Gamma 3 is a 1953 computer consisting of two processing units, a punched-card tabulator, a keyboard punch with printer, as well as memory and power supply units.",
+				"annotations": [],
+				"duration": 94
+			},
+			{
 				"key": "grafica-musica",
 				"slug": "grafica-musica",
 				"isRoom": false,
 				"room": 1,
-				"number": "1.3",
+				"number": "1.4",
 				"title": "Graphics and Music",
 				"preview": false,
 				"artist": "Evans & Sutherland, Commodore, Silicon Graphics, Amstrad",
@@ -105,7 +118,7 @@
 				"slug": "videogiochi",
 				"isRoom": false,
 				"room": 1,
-				"number": "1.4",
+				"number": "1.5",
 				"title": "Video Games",
 				"preview": false,
 				"artist": "Commodore, Nintendo, SEGA, TRS, Mattel",
@@ -135,7 +148,7 @@
 				"slug": "videoscrittura",
 				"isRoom": false,
 				"room": 1,
-				"number": "1.5",
+				"number": "1.6",
 				"title": "Word Processing",
 				"preview": false,
 				"description": "The display case contains several typewriters from Olivetti and Underwood, and computers from Olivetti, Apple, and NeXT.",
@@ -233,7 +246,6 @@
 			 "duration": 44,
 			 "annotations": []
 			 },
-
 			{
 				"key": "sala-4-olivetti",
 				"slug": "sala-4-olivetti",
@@ -242,36 +254,36 @@
 				"number": "5",
 				"title": "Olivetti Room",
 				"preview": false,
-				"description": "The room of Olivetti's mainframe computers.",
-				"text": "The history of Italian computer science is closely linked to the history of Olivetti, of which we have an extensive collection. In this room, we wanted to exhibit two of the large calculators produced by this company: two pieces from the ELEA series. ELEA stands for \"Elaboratore Elettronico Aritmetico\" (Arithmetic Electronic Processor), but the name was chosen as a reference to the ancient Greek colony.\nResearch for the construction of these mainframe computers began in the mid-1950s with a small group of researchers led by Mario Tchou, who in 1957 created the Zero Machine, the prototype of the series, completed simultaneously with the Smaller Machine of the University of Pisa.\nIn 1959, Olivetti began leasing copies of the ELEA 9003, the third model in the series and the first to be commercialized, a completely transistorized machine. The ELEA 6001 was designed to be a smaller version, aimed at commercial or scientific applications, in its two versions.\nIn collaboration with the Institute for Calculation Applications in Rome, the company began working on the 9104 model in 1964. It was never completed: due to a series of unfortunate events, including the premature deaths of Adriano Olivetti and Mario Tchou, the Olivetti electronics division was sold to General Electric, an international company competing with IBM.\nThis was not the end for Olivetti, which continued to produce its typewriters, calculators, and finally Personal Computers.",
+				"description": "The room dedicated to Olivetti’s large computers.",
+				"text": "The history of Italian computing is closely linked to the story of Olivetti. In this room we present two of its large computers, both from the ELEA series, and some examples of Olivetti desktop computers. The acronym ELEA stands for “Electronic Arithmetic Computer”, but the name was also chosen as a reference to the ancient Greek colony of Elea.\nResearch on these mainframe computers began in the mid-1950s with a small team of researchers led by Mario Tchou. In 1957 they built the so-called Macchina Zero, the prototype of the series, which was once humorously described as “a rather unsightly heap”.\nIn 1959 Olivetti began renting out the ELEA 9003, the third model in the series and the first to be commercially available. It was also the first fully transistor-based computer produced by the company. The Elea 6001 was later designed as a smaller version, intended for commercial and scientific applications such as banks, large companies, and universities.\nIn collaboration with the Institute for Applications of Computing in Rome, Olivetti began work on the 9104 model in 1964. Despite the premature deaths of Adriano Olivetti and Mario Tchou, the project continued even after Olivetti’s electronics division was sold to the American multinational General Electric.\nThis was not the end of Olivetti’s story. The company continued producing its famous typewriters and calculators, and later entered the world of personal computers.",
 				"annotations": [],
-				"duration": 75
-			},
-			{
-				"key": "bull-gamma-3",
-				"slug": "bull-gamma-3",
-				"isRoom": false,
-				"room": 5,
-				"number": "5.1",
-				"title": "Bull Gamma 3",
-				"preview": false,
-				"text": "The Bull Gamma 3 was one of the early mainframe computers, created by a French company. It was programmed via a switchboard, was based on vacuum tubes, both visible when opened, and had a real engine to provide the clock cycle and move the cards. This type of machine was mainly used for statistical calculations: from the first half of the 1900s, Bull produced electric machines that read punched cards and tabulated the results; for them, the computer was just an accessory that allowed for more sophisticated calculations.",
-				"description": "",
-				"annotations": [],
-				"duration": 33
+				"duration": 96
 			},
 			{
 				"key": "elea-9104",
 				"slug": "elea-9104",
 				"isRoom": false,
 				"room": 5,
-				"number": "5.2",
-				"title": "ELEA 9104 or CINAC",
+				"number": "5.1",
+				"title": "Elea 9104, or CINAC",
 				"preview": false,
-				"description": "",
-				"text": "The ELEA 9104, or CINAC, is a unique piece of the ELEA series, designed for the National Institute for Calculation Applications (INAC). Only one prototype was built, and the compiler toolchain needed to use it best was never completed, so it was only used in emulation mode of other machines.",
+				"description": "CINAC, the computer built for the National Institute for Applications of Computing, is a large research computer from the 1960s. It includes metal central processing units, magnetic-tape readers, punched-tape readers, a user console, and the simulator of the earlier FINAC computer.",
+				"text": "The National Institute for Applications of Computing was among the first institutions in Italy to acquire an electronic computer. In 1954, while Olivetti and the University of Pisa were developing their own machines, the institute purchased a Ferranti Mark I from the United Kingdom. This computer became known as FINAC.\nIn 1962 Olivetti began collaborating with the institute to build a new computer: the Calcolatore dell’Istituto Nazionale per le Applicazioni del Calcolo, or CINAC, also known as the Elea 9104, which you can see in front of you.\nThe machine was designed by the Sottsass studio and reflects Olivetti’s distinctive aesthetic: branded teleprinters, the characteristic turquoise color, and central units arranged around columns with arms set at 120-degree angles.\nCINAC is a unique machine, built specifically for research and never produced industrially. From a technical standpoint, it is notable for its stack-based architecture, which made it particularly efficient for running compiler and interpreter programs, including a LISP language interpreter implemented in 1967.\nWhen CINAC replaced FINAC in 1966, it was unthinkable to abandon the existing software. For this reason, a simulator of the FINAC computer was built. You can see it above the desk, together with its console equipped with lever switches.\nCINAC was officially decommissioned on June 30, 1970.",
 				"annotations": [],
-				"duration": 21
+				"duration": 94
+			},
+			{
+				"key": "elea-6001",
+				"slug": "elea-6001",
+				"isRoom": false,
+				"room": 5,
+				"number": "5.2",
+				"title": "Elea 6001",
+				"preview": false,
+				"description": "The Elea 6001 computer includes a central processing unit with fan-opening cabinets, punched-tape and magnetic-tape readers, and a colorful control console.",
+				"text": "The Elea 6001 model was completed in 1961, the same year as the Pisa Electronic Calculator(CEP). The human-sized cabinets open like a fan around the central unit.\nTheir relatively compact size was made possible by the use of transistors instead of thermionic valves. Unlike the University of Pisa, Olivetti did not face the same financial constraints and was therefore able to adopt the most modern technologies available at the time.\nThe colorful control panel, equipped with indicator lights, provided a user-friendly interface. It allowed operators to observe the contents of memory registers and detect possible errors.\nSeveral peripherals were connected to the central unit, including paper-tape readers and punches, as well as the distinctive blue magnetic-tape drives. Above them you can see the magnetic tapes that stored programs and data. These tapes were inserted into the drives to load their contents into the computer’s main memory.\nComputers of this type were typically rented to companies and research laboratories, together with a team of specialized technicians responsible for maintenance and programming.",
+				"annotations": [],
+				"duration": 71
 			},
 			{
 				"key": "sala-calcolo-personale",

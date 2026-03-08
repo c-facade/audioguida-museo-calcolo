@@ -69,11 +69,24 @@
         "duration": 43
       },
       {
+        "key": "bull-gamma-3",
+        "slug": "bull-gamma-3",
+        "isRoom": false,
+        "room": 1,
+        "number": "1.3",
+        "title": "Bull Gamma 3",
+        "preview": false,
+        "text": "La Bull Gamma 3 estis unu el la ĉef-komputiloj de la frua epoko, kreita de franca kompanio. Ĝi estis programata per ŝaltilotablo, bazita sur termo-ionaj vakutuboj, ambaŭ videblaj kiam ĝi estas malfermita, kaj havis propran motoron por liveri la horloĝan ciklon kaj movi la kartojn. Ĉi tiu tipo de maŝino estis ĉefe uzata por statistikaj kalkuloj: jam ekde la unua duono de la 1900-aj jaroj Bull produktis elektrajn maŝinojn kiuj legas trukartojn kaj tabulas la rezultojn; por ili, la komputilo estis nur akcesoraĵo por pli sofistikaj kalkuloj.",
+        "description": "",
+        "annotations": [],
+        "duration": 37
+      },
+      {
         "key": "grafica-musica",
         "slug": "grafica-musica",
         "isRoom": false,
         "room": 1,
-        "number": "1.3",
+        "number": "1.4",
         "title": "Grafiko kaj Muziko",
         "preview": false,
         "artist": "Evans & Sutherland, Commodore, Silicon Graphics, Amstrad",
@@ -104,7 +117,7 @@
         "slug": "videogiochi",
         "isRoom": false,
         "room": 1,
-        "number": "1.4",
+        "number": "1.5",
         "title": "Videoludoj",
         "preview": false,
         "text": "'Spacewar!' estas ofte konsiderata la unua videoludo: evoluigita ĉe MIT sur PDP-1, ĝi montras du kosmoŝipojn de malsamaj formoj, kiuj moviĝas akcelante kaj rotaciante.\nĈi tiu ludo inspiris fondinton de Atari, Nolan Bushnell. Danke al tiu firmao, la ludbutikoj, kiuj ĝis tiam gastis nur elektromekanikajn ludojn, startigis la disvastigon de la ludo Pong, simulilo de ping-pongo.\nĜia stiligita grafiko postulis tiel simplan aparataron, ke ĝi naskiĝis kiel hejma ludkonzolo, la Magnavox Odyssey en 1972, kaj post la sukceso de la Atari-versio, generis maron da klonoj, inter kiuj la Sportron de Inno-Hit.\nLa naskiĝo de novaj mikroprocesoroj kondukis al ludoj kiel la elektronika ŝakmaŝino Chess Challenger kaj precipe la Atari 2600 en 1977: ĉi tiu programebla konzolo transformis videoludojn en reprodukteblan programaron, malfermante tutmondan merkatan ŝancon por kasedaj titoloj.\nEn 1985 alvenis en Usono japanaj konzoloj: Nintendo Entertainment System kaj Sega Master System.\nEn Eŭropo, la cifereca revolucio vojaĝis per hejmaj komputiloj, ignorante la merkatan parabolon de la konzoloj. Eĉ esencaj maŝinoj kiel TRS-80 de RadioShack, 1977, fariĝis ludplatformoj. Dominis en la 1980-aj jaroj furorvaroj kiel Commodore 64 kaj Sinclair ZX Spectrum, simboloj de epoko kie kreemo superis aparatarajn limojn.",
@@ -133,7 +146,7 @@
         "slug": "videoscrittura",
         "isRoom": false,
         "room": 1,
-        "number": "1.5",
+        "number": "1.6",
         "title": "Tekstoprilaborado",
         "preview": false,
         "description": "La tekaĵo enhavas plurajn Olivetti- kaj Underwood-skribmaŝinojn, kaj komputilojn de Olivetti, Apple kaj NeXT.",
@@ -243,19 +256,6 @@
         "text": "La historio de itala informatiko estas forte ligita al la historio de Olivetti, de kiu ni havas ampleksan kolekton. En ĉi tiu salono ni prezentas du el la grandaj ĉef-komputiloj produktitaj de ĉi tiu kompanio: du ekzempleroj de la ELEA-serio. ELEA akronimas por \"Elaboratore Elettronico Aritmetico\", sed la nomo estis elektita kiel referenco al antikva greka kolonio.\nLa esploro por konstruado de ĉi tiuj ĉef-komputiloj komenciĝis meze de la 1950-aj jaroj kun eta teamo de esploristoj gvidataj de Mario Tchou, kiu en 1957 realigis la Maŝinon Nulo, prototipon de la serio, samtempe kun la Reduktita maŝino de la Universitato de Pisa.\nEn 1959 Olivetti komencis luigi ekzemplerojn de la ELEA 9003, la tria modelo de la serio kaj la unua komerce disponebla, tute tranzistora maŝino. La ELEA 6001 estis pli malgranda versio por komercaj aŭ sciencaj aplikoj, en du versioj.\nKunlabore kun la Istituto delle Applicazioni del Calcolo en Romo, la kompanio komencis labori pri la modelo 9104 en 1964, sed neniam finis ĝin: pro malbonŝancoj, inkluzive de la fruaj mortoj de Adriano Olivetti kaj Mario Tchou, la elektronika divizio de Olivetti estis vendita al General Electric, internacia kompanio konkuranta kun IBM.\nTamen, Olivetti daŭrigis produktadon de siaj skribmaŝinoj, kalkuliloj kaj fine ankaŭ personaj komputiloj.",
         "annotations": [],
         "duration": 99
-      },
-      {
-        "key": "bull-gamma-3",
-        "slug": "bull-gamma-3",
-        "isRoom": false,
-        "room": 5,
-        "number": "5.1",
-        "title": "Bull Gamma 3",
-        "preview": false,
-        "text": "La Bull Gamma 3 estis unu el la ĉef-komputiloj de la frua epoko, kreita de franca kompanio. Ĝi estis programata per ŝaltilotablo, bazita sur termo-ionaj vakutuboj, ambaŭ videblaj kiam ĝi estas malfermita, kaj havis propran motoron por liveri la horloĝan ciklon kaj movi la kartojn. Ĉi tiu tipo de maŝino estis ĉefe uzata por statistikaj kalkuloj: jam ekde la unua duono de la 1900-aj jaroj Bull produktis elektrajn maŝinojn kiuj legas trukartojn kaj tabulas la rezultojn; por ili, la komputilo estis nur akcesoraĵo por pli sofistikaj kalkuloj.",
-        "description": "",
-        "annotations": [],
-        "duration": 37
       },
       {
         "key": "elea-9104",
