@@ -52,3 +52,6 @@ data/ULAN/raw/*
 *.swp
 *.swo
 log.txt
+
+.env
+dev.db

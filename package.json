@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
+    "@prisma/client": "^5.22.0",
     "@radix-ui/react-accessible-icon": "^1.0.1",
     "@radix-ui/react-accordion": "^1.1.0",
     "@radix-ui/react-alert-dialog": "^1.0.2",
@@ -44,6 +45,7 @@
     "clsx": "^1.2.1",
     "embla-carousel-react": "^7.0.9",
     "howler": "^2.2.3",
+    "isbot": "^5.1.36",
     "konva": "^9.3.20",
     "lodash.debounce": "^4.0.8",
     "lucide-react": "0.105.0-alpha.4",
@@ -51,6 +53,7 @@
     "next": "^15.3.2",
     "next-themes": "npm:@wits/next-themes@^0.2.16",
     "openseadragon": "^4.0.0",
+    "prisma": "^5.22.0",
     "react": "^18.3.1",
     "react-dom": "^18.2.0",
     "react-konva": "^18.2.10",

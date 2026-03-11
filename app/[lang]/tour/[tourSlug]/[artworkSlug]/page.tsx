@@ -8,6 +8,7 @@ import * as React from "react";
 import { ArtworkNarrationCard } from "@/components/artwork-narration/artwork-narration-card";
 import { ArtworkList } from '@/components/lists/artwork-list';
 import ImageGallery from '@/components/ui/imageGallery';
+import TrackVisit from '@/app/trackvisit';
 
 export async function generateMetadata({ params }): Promise<Metadata> {
 	const {lang, tourSlug, artworkSlug} = await params;
@@ -74,7 +75,8 @@ export default function Page({
 		);
 		let artwork = galleryTour.artworks[artworkNarrationIndex];
 		return (
-			<div>	
+			<div>
+				<TrackVisit lang={lang}/>
 				<ArtworkNarrationCard lang={lang} galleryTour={galleryTour} artworkNarrationIndex={artworkNarrationIndex}/>
 				{artwork.isRoom ? (
 				<ArtworkList

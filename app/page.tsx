@@ -1,42 +1,11 @@
 // app/page.tsx
 
-import { connectToDatabase } from '@/lib/mongo';
+import TrackedLink from '@/components/TrackedLink';
 import Image from 'next/image';
 import Link from 'next/link';
-import { headers } from 'next/headers';
+import TrackVisit from './trackvisit';
 
-export default async function RootPage() {	
-	// per avere il numero di visite.
-	const result = await connectToDatabase();
-	if (result != null) {
-		const { client } = await connectToDatabase();
-		const visitors = client.db("analytics").collection("visitors");
-		const d = new Date();
-		const headersList = await headers();
-		const locale = headersList.get('accept-language');
-		const userAgent = headersList.get('user-agent');
-		const referrer = headersList.get('referer') || null;
-		let admin = false;
-		if(userAgent != null && locale != null) {
-			const adminqualities = userAgent + locale;
-			console.log(adminqualities);
-			if((userAgent + locale)== "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0en-US,en;q=0.5"){
-				admin = true;
-			}
-		}
-		visitors.insertOne(
-			{
-				"time": d.toString(),
-				"locale": locale,
-				"device": userAgent,
-				"referrer": referrer,
-				"admin": admin
-			}
-		);
-		console.log("inserted yeah");
-		let risultato = await visitors.find().toArray();
-		console.log(risultato);
-	}
+export default async function RootPage() {
 	//const languages=["it", "en", "fr"];
 	const languages= {
 		"it": ["Italiano", "Museo degli Strumenti per il Calcolo"],
@@ -46,7 +15,7 @@ export default async function RootPage() {
 	}
 
 	return(
-    <section className="container grid max-w-[700px]  items-center gap-6 pb-8 pt-6 md:py-10">
+		<section className="container grid max-w-[700px]  items-center gap-6 pb-8 pt-6 md:py-10">
 			<div className="max-w-[800px] flex-col items-start gap-2">
 				<h1 className="mb-2 text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl"> Audioguide
 				</h1>
@@ -67,7 +36,10 @@ export default async function RootPage() {
 					fetchPriority="high"
 				/>
         {Object.keys(languages).map((locale) => (
-					<Link href={`/${locale}/tour/msc/storia-informatica`} key={locale} hrefLang={locale}>
+					<TrackedLink 
+						href={`/${locale}/tour/msc/storia-informatica`} 
+						key={locale} 
+						lang={locale}>
 						<div
 								className="rounded-lg p-3 hover:bg-neutral-800"
 								>
@@ -88,7 +60,7 @@ export default async function RootPage() {
 								}
 							</p>
 							</div>
-					</Link>
+					</TrackedLink>
         ))}
       </div>
 		</section>
