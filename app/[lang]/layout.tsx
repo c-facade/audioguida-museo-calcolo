@@ -2,9 +2,6 @@ import { SiteFooter } from '@/components/layout/site-footer';
 import * as React from "react";
 import { getDictionary } from './dictionaries';
 
-// TODO: dynamically set html lang with metadata
-// SiteFooter cannot be used as a JSX component
-
 export default async function Layout({
 	children,
 	params,
