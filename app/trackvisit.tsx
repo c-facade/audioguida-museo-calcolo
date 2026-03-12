@@ -13,7 +13,6 @@ export default function TrackVisit({ lang }) {
 				language: lang,
 				browserLang: navigator.language,
 				referrer: document.referrer,
-				selectedLang: null,
 			})
 		});
 	}, []);

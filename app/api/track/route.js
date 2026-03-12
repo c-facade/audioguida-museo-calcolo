@@ -44,7 +44,7 @@ export async function POST(req) {
 			path: body.path,
 			language: body.language || null,
 			browserLang: body.browserLang || null,
-			selectedLang: body.selectedLang || null,
+			selectedLang: null,
 			referrer: body.referrer || null,
 			isNew: isNewVisitor,
 			userAgent: ua

@@ -9,9 +9,8 @@ export default function TrackedLink({ href, lang, children }) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         event: 'language_selected',
-        selectedLang: lang,
 				path: href,
-				language: null,
+				language: lang,
 				browserLang: navigator.language,
 				referrer: document.referrer
       })
