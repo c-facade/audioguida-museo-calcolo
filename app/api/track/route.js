@@ -38,6 +38,9 @@ export async function POST(req) {
 		});
 	}
 
+	const now = new Date();
+	const day = now.toLocaleDateString("en-GB");
+
 	// per ora mettiamo valori fissi
 	await prisma.visit.create({
 		data: {
@@ -47,7 +50,8 @@ export async function POST(req) {
 			selectedLang: null,
 			referrer: body.referrer || null,
 			isNew: isNewVisitor,
-			userAgent: ua
+			userAgent: ua,
+			day: day
 		}
 	});
 

@@ -17,10 +17,10 @@ model Visit {
 	id	Int 						@id @default(autoincrement())
 	path	String
 	language	String?
-	browserLang	String?
 	selectedLang	String?
 	isNew	Boolean
 	referrer	String?
 	userAgent	String?
 	createdAt	DateTime @default(now())
+	day	String?
 }

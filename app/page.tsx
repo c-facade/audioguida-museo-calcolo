@@ -2,8 +2,6 @@
 
 import TrackedLink from '@/components/TrackedLink';
 import Image from 'next/image';
-import Link from 'next/link';
-import TrackVisit from './trackvisit';
 
 export default async function RootPage() {
 	//const languages=["it", "en", "fr"];
