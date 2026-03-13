@@ -17,7 +17,7 @@ model Visit {
 	id	Int 						@id @default(autoincrement())
 	path	String
 	language	String?
-	selectedLang	String?
+	browserLang String?
 	isNew	Boolean
 	referrer	String?
 	userAgent	String?
