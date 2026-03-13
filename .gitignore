@@ -56,3 +56,4 @@ log.txt
 .env
 dev.db
 dev.db-journal
+visit.csv
