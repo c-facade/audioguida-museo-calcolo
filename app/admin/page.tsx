@@ -43,7 +43,7 @@ export default async function AdminPage() {
 
 	return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
-      <h1 className="mt-2 text-xl font-extrabold" >Analisi degli accessi all'audioguida</h1>
+      <h1 className="mt-2 text-xl font-extrabold" >Analisi degli accessi all&apos;audioguida</h1>
 			<p>Accessi totali: {visits}</p>
       <div className="rounded-xl bg-neutral-900 p-6" >
         <h2 className="mb-4 text-xl">Accessi al giorno:</h2>
