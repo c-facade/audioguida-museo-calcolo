@@ -22,5 +22,5 @@ model Visit {
 	referrer	String?
 	userAgent	String?
 	createdAt	DateTime @default(now())
-	Day	String?
+	day	String?
 }
