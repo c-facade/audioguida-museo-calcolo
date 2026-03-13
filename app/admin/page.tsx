@@ -40,6 +40,19 @@ export default async function AdminPage() {
     count: l._count.id,
   }));
 	
+	// 3. New visitors by browser language
+  const Browserlang = await prisma.visit.groupBy({
+    by: ["browserLang"],
+    where: { isNew: true },
+		_count: { id: true },
+		orderBy: { browserLang:"desc"}
+  });
+
+  const browserData = Browserlang.map((l) => ({
+    language: l.browserLang,
+    count: l._count.id,
+  }));
+	
 
 	return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
@@ -48,10 +61,16 @@ export default async function AdminPage() {
       <div className="rounded-xl bg-neutral-900 p-6" >
         <h2 className="mb-4 text-xl">Accessi al giorno:</h2>
         <VisitorsLineChart data={lineData} />
-      </div>
-      <div className="rounded-xl bg-neutral-900 p-6" >
-        <h2 className="mb-4 text-xl">Lingue dei nuovi accessi:</h2>
-        <VisitorsPieChart data={pieData} />
+			</div>
+			<div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+				<div className="m-1 max-w-[600px] rounded-xl bg-neutral-900 p-6" >
+					<h2 className="mb-4 text-xl">Lingue dei nuovi accessi:</h2>
+					<VisitorsPieChart data={pieData} />
+				</div>
+				<div className="m-1 max-w-[600px] rounded-xl bg-neutral-900 p-6" >
+					<h2 className="mb-4 text-xl">Lingue Browser dei nuovi accessi:</h2>
+					<VisitorsPieChart data={browserData} />
+				</div>
 			</div>
 		</section>
   );

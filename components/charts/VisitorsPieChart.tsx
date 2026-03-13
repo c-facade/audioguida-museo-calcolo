@@ -17,11 +17,22 @@ const LANGUAGE_MAP = {
 	eo: "Esperanto"
 };
 
+function language(locale : string){
+	const arr = ["en", "it", "fr", "eo"];
+	if(arr.includes(locale)){
+		return LANGUAGE_MAP[locale];
+	}
+	else if(locale == null){
+		return "Altro";
+	}
+	return locale;
+}
+
 export default function NewVisitorsPieChart({ data }) {
   return (
     <Pie
       data={{
-        labels: data.map((d) => LANGUAGE_MAP[d.language]),
+				labels: data.map((d) => language(d.language)),
         datasets: [
           {
             data: data.map((d) => d.count),

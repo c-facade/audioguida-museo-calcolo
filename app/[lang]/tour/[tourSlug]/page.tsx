@@ -73,19 +73,19 @@ export default function Page({
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
 			<div className="max-w-[980px] gap-2">
-			<div className="flex justify-between">
-				<h2 className="text-xl font-extrabold text-neutral-600">
-					<Link href={`/${lang}`}>Audioguide</Link>	
-				</h2>
-				<LanguageSwitcher lang={lang} url={`/tour/${tourSlug}`}/>
-			</div>
-        <h1 className="my-2 text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
-          {galleryTour.name}
-        </h1>
-        <p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
-          {galleryTour.description}
-        </p>
-			</div>	
+				<div className="flex justify-between">
+					<h2 className="text-xl font-extrabold text-neutral-600">
+						<Link href={`/${lang}`}>Audioguide</Link>	
+					</h2>
+					<LanguageSwitcher lang={lang} url={`/tour/${tourSlug}`}/>
+				</div>
+				<h1 className="my-2 text-2xl font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl lg:text-4xl">
+						{galleryTour.name}
+				</h1>
+				<p className="max-w-[700px] text-lg text-neutral-700 dark:text-neutral-400 sm:text-xl">
+						{galleryTour.description}
+				</p>
+				</div>	
 			<ArtworkList 
 				lang={lang}
 				galleryTour={galleryTour}
