@@ -59,8 +59,15 @@ export default async function RootPage() {
 							</p>
 							</div>
 					</TrackedLink>
-        ))}
-      </div>
+				))}
+				<div className="font-extrabold text-neutral-500">
+					<a href={`/visit/cosa-vedere-pisa-museo-informatica`}
+						className=" block rounded-sm hover:text-white"
+					>Descrizione</a>
+				</div>
+			
+			</div>
+
 		</section>
 	);
 }

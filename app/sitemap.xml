@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
+
+	<url>
   <loc>https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica</loc>
 	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica"/>
 	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/storia-informatica"/>
