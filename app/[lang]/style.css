@@ -35,11 +35,19 @@
 	color: red
 }
 
+Link {
+	color: red
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-family-body);
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+p {
+	margin-bottom: 1px;
 }
 
 button,
