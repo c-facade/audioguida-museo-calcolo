@@ -1,1323 +1,764 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Made using SitemapGen - By Nalin Angrish -->
 <url>
-  <loc>https://audioguide.sma.unipi.it/</loc>
-  <lastmod>2026-16-03T17:07:56+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/visit/cosa-vedere-pisa-museo-informatica</loc>
-  <lastmod>2026-16-03T17:07:56+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/storia-informatica</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-	<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/storia-informatica</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/storia-informatica</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/storia-informatica</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/storia-informatica</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/storia-informatica"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/storia-informatica"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/storia-informatica</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/itt</"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/ent</"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/frt</"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eot</"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/itt</"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/visit/cosa-vedere-pisa-museo-informatica</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/about</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/about"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/about"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/about"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/about"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/about"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/feedback</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/feedback"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/feedback"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/feedback"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/feedback"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/feedback"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/itn</"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/enn</"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/frn</"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eon</"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/itn</"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/about</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/about"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/about"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/about"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/about"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/about"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/feedback</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/feedback"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/feedback"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/feedback"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/feedback"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/feedback"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/about</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/fr</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/itr</"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/enr</"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/frr</"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eor</"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/itr</"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/feedback</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/fr/about</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/about"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/about"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/about"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/about"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/about"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/feedback</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/feedback"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/feedback"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/feedback"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/feedback"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/feedback"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/en</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/eo</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/ito</"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/eno</"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fro</"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eoo</"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/ito</"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/eo/about</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/about"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/about"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/about"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/about"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/about"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/feedback</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/feedback"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/feedback"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/feedback"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/feedback"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/feedback"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/en/about</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/tau-2</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/tau-2"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/en/feedback</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/fr</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/non-solo-calcolo</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/tau-2</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/tau-2"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/calcolatrice-elettronica-pisana</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/fr/about</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/sala-4-olivetti</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/sala-calcolo-personale</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/fr/feedback</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/non-solo-calcolo</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/tau-2</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/tau-2"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/eo</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/calcolatrice-elettronica-pisana</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/sala-4-olivetti</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/sala-calcolo-personale</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/non-solo-calcolo</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/non-solo-calcolo"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/eo/about</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/tau-2</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/tau-2"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/tau-2"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/calcolatrice-elettronica-pisana</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calcolatrice-elettronica-pisana"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/eo/feedback</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/sala-4-olivetti</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/sala-4-olivetti"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/sala-calcolo-personale</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/sala-calcolo-personale"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/aritmometri</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/contabilita</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/contabilita"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/videogiochi</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/videogiochi"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/elea-9104</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/cep-console</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-console"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/personal-computer</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/elea-9104</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-9104"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/elea-6001</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-6001"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/msc/sala-4-olivetti</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/analog-digital</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/analog-digital"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/aritmometri</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/aritmometri"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/curta</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/curta"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/p101</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/p101</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/p101"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/videogiochi</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/personal-computer</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/personal-computer"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/calcolatrice-elettronica-pisana</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/contabilita</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/contabilita"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/mercedes-addelektra</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/bull-gamma-3</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/grafica-musica</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/videogiochi</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/videogiochi"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/videoscrittura</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/visit/www.msf.sma-unipi.it</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/cep-console</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-console"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/cep-memoria</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/visit/map.sma.unipi.it</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/cep-tamburo</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/cep-tecnologie</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/visit/sma.unipi.it</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/elea-9104</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-9104"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/elea-6001</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-6001"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/visit/audioguide.sma.unipi.it</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/analog-digital</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/analog-digital"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/aritmometri</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/aritmometri"/>
-
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/non-solo-calcolo</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
-<url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/calc-meccaniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche"/>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
-</url>
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/curta</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/curta"/>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/tau-2</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/sala-4-olivetti</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/calc-elettromeccaniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche"/>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/sala-calcolo-personale</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/non-solo-calcolo</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/p101</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/p101"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/tau-2</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/calcolatrice-elettronica-pisana</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/personal-computer</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/personal-computer"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/sala-4-olivetti</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/sala-calcolo-personale</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/en/tour/msc/calc-elettroniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/non-solo-calcolo</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/tau-2</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/contabilita</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/contabilita"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/calcolatrice-elettronica-pisana</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/sala-4-olivetti</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/mercedes-addelektra</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/sala-calcolo-personale</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/non-solo-calcolo</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/bull-gamma-3</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/tau-2</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/calcolatrice-elettronica-pisana</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/grafica-musica</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/sala-4-olivetti</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/sala-calcolo-personale</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/videogiochi</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/videogiochi"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/aritmometri</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/aritmometri</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/videoscrittura</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/aritmometri</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/calc-elettromeccaniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/cep-console</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-console"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettromeccaniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettromeccaniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/cep-memoria</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/bull-gamma-3</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/bull-gamma-3</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/cep-tamburo</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/bull-gamma-3</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/elea-9104</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/cep-tecnologie</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/elea-9104</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/elea-9104</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/elea-9104</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-9104"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/grafica-musica</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/grafica-musica</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/elea-6001</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/elea-6001"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-6001"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/grafica-musica</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/personal-computer</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/analog-digital</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/analog-digital"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/personal-computer</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/personal-computer</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/aritmometri</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/aritmometri"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/videoscrittura</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/videoscrittura</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/calc-meccaniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/videoscrittura</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/videogiochi</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/curta</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/curta"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/videogiochi</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/videogiochi</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettromeccaniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche"/>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/cep-console</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/p101</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/p101"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/cep-memoria</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/cep-memoria</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/personal-computer</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/personal-computer"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/cep-memoria</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/cep-tamburo</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettroniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/cep-tamburo</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/cep-tamburo</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/contabilita</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/contabilita"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/contabilita"/>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/contabilita</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/mercedes-addelektra</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/mercedes-addelektra"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/mercedes-addelektra"/>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/elea-6001</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/analog-digital</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/bull-gamma-3</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/bull-gamma-3"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/bull-gamma-3"/>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/curta</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/grafica-musica</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/grafica-musica"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/grafica-musica"/>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/programma-101</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/videogiochi</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/videogiochi"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/videogiochi"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/contabilita</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/mercedes-addelektra</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/videoscrittura</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/videoscrittura"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/videoscrittura"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/cep-console</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/cep-tecnologie</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/cep-console</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-console"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-console"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/elea-6001</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/analog-digital</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/cep-memoria</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-memoria"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-memoria"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/calc-meccaniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/curta</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/cep-tamburo</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-tamburo"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tamburo"/>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/programma-101</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/en/tour/msc/calc-elettroniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/cep-tecnologie</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/cep-tecnologie"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/cep-tecnologie"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/contabilita</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/mercedes-addelektra</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/elea-9104</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/elea-9104"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/elea-9104"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/cep-console</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/cep-tecnologie</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/analog-digital</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/analog-digital"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/analog-digital"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/elea-6001</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/analog-digital</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/aritmometri</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/aritmometri"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/aritmometri"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/calc-meccaniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/curta</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/calc-meccaniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-meccaniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-meccaniche"/>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/programma-101</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettroniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/curta</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/curta"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/curta"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/contabilita</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/mercedes-addelektra</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettromeccaniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettromeccaniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettromeccaniche"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/cep-console</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/cep-tecnologie</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/p101</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/p101"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/p101"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/analog-digital</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/calc-meccaniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/personal-computer</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/personal-computer"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/personal-computer"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/curta</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/programma-101</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
+
 <url>
-  <loc>https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettroniche</loc>
-	<xhtml:link rel="alternate" hreflang="it" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="en" href="https://audioguide.sma.unipi.it/en/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="fr" href="https://audioguide.sma.unipi.it/fr/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="eo" href="https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettroniche"/>
-	<xhtml:link rel="alternate" hreflang="x-default" href="https://audioguide.sma.unipi.it/it/tour/msc/calc-elettroniche"/>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/calc-elettroniche</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
+</url>
 
-  <changefreq>monthly</changefreq>
-  <lastmod>2026-03-08</lastmod>
+<url>
+<loc>https://audioguide.sma.unipi.it/eo/tour/msc/elea-6001</loc>
+<lastmod>2026-03-18</lastmod>
+<priority>1</priority>
 </url>
 </urlset>
