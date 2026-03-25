@@ -37,8 +37,13 @@ export default function NewVisitorsPieChart({ data }) {
           {
             data: data.map((d) => d.count),
             backgroundColor: [
-              "rgba(43, 209, 52, 0.7)",  // eo
-              "rgba(54, 162, 235, 0.7)",  // en
+							"#02C2D8", 
+							"#237AC4",
+							"#633091",
+							"#CE225F",
+							"#EF764A",
+							"#FAC747",
+								"rgba(54, 162, 235, 0.7)",  // en
               "rgba(255, 99, 132, 0.7)",  // it
               "rgba(255, 206, 86, 0.7)",  // fr
             ],
