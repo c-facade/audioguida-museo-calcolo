@@ -18,11 +18,7 @@ const LANGUAGE_MAP = {
 };
 
 function language(locale : string){
-	const arr = ["en", "it", "fr", "eo"];
-	if(arr.includes(locale)){
-		return LANGUAGE_MAP[locale];
-	}
-	else if(locale == null){
+	if(locale == null){
 		return "Altro";
 	}
 	return locale;
