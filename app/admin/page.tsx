@@ -3,6 +3,52 @@ import VisitorsLineChart from "@/components/charts/VisitorsLineChart";
 import VisitorsPieChart from '@/components/charts/VisitorsPieChart';
 import { prisma } from "@/lib/prisma";
 
+export type DailyLineEntry = {
+  day: string;        // e.g. "11/03/2026"
+  new: number;        // count of new visitors
+  returning: number;  // count of returning visitors
+};
+
+function buildLineData(dailyStats) {
+  const lineData : DailyLineEntry[] = [];
+
+  // 1. Group by day
+  const grouped = {};
+
+  for (const entry of dailyStats) {
+    if (!grouped[entry.day]) {
+      grouped[entry.day] = { new: 0, returning: 0 };
+    }
+
+    if (entry.isNew) {
+      grouped[entry.day].new = entry._count.id;
+    } else {
+      grouped[entry.day].returning = entry._count.id;
+    }
+  }
+
+  // 2. Determine date range
+  const [d, m, y] = dailyStats[0].day.split("/").map(Number);
+  let current = new Date(y, m - 1, d);
+	const today = new Date();
+
+  // 3. Fill all days from start to today
+  while (current <= today) {
+    const key = current.toLocaleDateString("it");
+
+    lineData.push({
+      day: key,
+      new: grouped[key]?.new ?? 0,
+      returning: grouped[key]?.returning ?? 0
+    });
+
+    current.setDate(current.getDate() + 1);
+  }
+
+  return lineData;
+}
+
+
 
 export default async function AdminPage() {
 	// just a count of total visits in database
@@ -13,19 +59,10 @@ export default async function AdminPage() {
 		_count: {id: true},
 		orderBy: { day : 'asc'}
 	});
+	
 
-	// adapting it to fit for chartjs
-
-	const lineData = Object.values(
-		dailyStats.reduce((acc, row) => {
-			if(!acc[row.day]) {
-				acc[row.day] = { day: row.day, new: 0, returning: 0 };
-      }
-      if (row.isNew) acc[row.day].new = row._count.id;
-      else acc[row.day].returning = row._count.id;
-      return acc;
-    }, {})
-	);
+	const lineData : DailyLineEntry[] = buildLineData(dailyStats);
+	console.log(lineData);	
 
 	// 2. New visitors by language
   const lang = await prisma.visit.groupBy({
