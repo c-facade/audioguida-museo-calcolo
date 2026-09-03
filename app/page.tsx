@@ -62,7 +62,7 @@ export default async function RootPage() {
 				))}
 				<div className="font-extrabold text-neutral-500">
 					<a href={`/visit/cosa-vedere-pisa-museo-informatica`}
-						className=" block rounded-sm hover:text-white"
+						className=" block rounded-xs hover:text-white"
 					>Descrizione</a>
 				</div>
 			

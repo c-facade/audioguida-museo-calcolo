@@ -8,7 +8,7 @@ export default async function Layout({
 }) {
 	return (
 		<>
-				<main className="h-dvh w-full max-w-screen-md flex-1">
+				<main className="h-dvh w-full max-w-(--breakpoint-md) flex-1">
 					{children}
 				</main>
 		</>

@@ -10,24 +10,24 @@ export function SiteFooter({lang, dict}){
 					<li>
 						<a 
 							href="https://www.msc.sma.unipi.it"
-							className=" block rounded-sm hover:text-white"
+							className=" block rounded-xs hover:text-white"
 						>{dict.footer.ilmuseo}</a>
 					</li>
 						<li>
 							<a href={`/${lang}`}
-							className=" block rounded-sm hover:text-white"
+							className=" block rounded-xs hover:text-white"
 							>{dict.footer.audioguide}</a>
 						</li>
 						<li>
 							<a href={`/${lang}/about`}
-							className=" block rounded-sm hover:text-white"
+							className=" block rounded-xs hover:text-white"
 							>About</a>
 						</li>
 					</ul>
 				</div>
 				<div className="font-extrabold text-neutral-500">
 					<a href={`/${lang}/feedback`}
-						className=" block rounded-sm hover:text-white"
+						className=" block rounded-xs hover:text-white"
 					>{dict.footer.feedback}</a>
 				</div>
 

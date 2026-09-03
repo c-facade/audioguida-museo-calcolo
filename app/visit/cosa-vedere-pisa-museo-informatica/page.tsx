@@ -161,7 +161,7 @@ Visitando il museo è possibile scoprire anche altri spazi espositivi della stes
 			</section>
 
 
-			<footer className="w-full max-w-screen-md">
+			<footer className="w-full max-w-(--breakpoint-md)">
 				<SiteFooter lang={lang} dict={dict} />
 			</footer>
 		</div>

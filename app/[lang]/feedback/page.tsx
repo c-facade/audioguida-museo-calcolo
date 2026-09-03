@@ -80,7 +80,7 @@ export default async function FeedbackForm({
 								{dict.feedback.spiegare}
 							</label>
 							<textarea
-								className="resize-y appearance-none rounded-md border-0 px-3 py-2 text-black outline-none ring-1 ring-inset ring-[--color-border-default] placeholder:text-[--color-text-muted] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-0 focus-visible:outline-[--color-highlight] focus-visible:ring-[1.5px] focus-visible:ring-inset focus-visible:ring-[--color-border-active]"
+								className="resize-y appearance-none rounded-md border-0 px-3 py-2 text-black outline-hidden ring-1 ring-inset ring-(--color-border-default) placeholder:text-(--color-text-muted) focus-visible:outline-solid focus-visible:outline-[3px] focus-visible:outline-offset-0 focus-visible:outline-(--color-highlight) focus-visible:ring-[1.5px] focus-visible:ring-inset focus-visible:ring-(--color-border-active)"
 								id="detailed-feedback"
 								name="Feedback dettagliato"
 								placeholder={dict.feedback.faccisapere}
@@ -89,24 +89,24 @@ export default async function FeedbackForm({
 						</div>
 						<div className="m-3 flex flex-col gap-y-1.5">
 							<label
-								className="block font-[family-name:--font-family-display] text-sm font-medium"
+								className="block font-(family-name:--font-family-display) text-sm font-medium"
 								htmlFor="email-address"
 							>
 								{dict.feedback.email}
 							</label>
 							<input
-								className="h-10 appearance-none rounded-md border-0 px-3 text-black outline-none ring-1 ring-inset ring-[--color-border-default] placeholder:text-[--color-text-muted] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-0 focus-visible:outline-[--color-highlight] focus-visible:ring-[1.5px] focus-visible:ring-inset focus-visible:ring-[--color-border-active]"
+								className="h-10 appearance-none rounded-md border-0 px-3 text-black outline-hidden ring-1 ring-inset ring-(--color-border-default) placeholder:text-(--color-text-muted) focus-visible:outline-solid focus-visible:outline-[3px] focus-visible:outline-offset-0 focus-visible:outline-(--color-highlight) focus-visible:ring-[1.5px] focus-visible:ring-inset focus-visible:ring-(--color-border-active)"
 								id="email-address"
 								name="Indirizzo email"
 							/>
-							<p className="block text-sm text-[--color-text-muted]">
+							<p className="block text-sm text-(--color-text-muted)">
 								{dict.feedback.emailspiega}
 							</p>
 						</div>
 					</fieldset>
 					<div className="flex flex-row-reverse gap-x-6">
 						<button
-							className="cursor-pointer rounded-md bg-neutral-800 px-8 py-4 text-sm font-medium leading-4 text-white transition-colors duration-200 hover:bg-[--color-primary-active] focus-visible:bg-[--color-primary-active] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-[--color-highlight]"
+							className="cursor-pointer rounded-md bg-neutral-800 px-8 py-4 text-sm font-medium leading-4 text-white transition-colors duration-200 hover:bg-(--color-primary-active) focus-visible:bg-(--color-primary-active) focus-visible:outline-solid focus-visible:outline-[3px] focus-visible:outline-(--color-highlight)"
 
 							type="submit"
 						>
