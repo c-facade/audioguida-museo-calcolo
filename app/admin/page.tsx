@@ -29,7 +29,7 @@ function buildLineData(dailyStats) {
 
   // 2. Determine date range
   const [d, m, y] = dailyStats[0].day.split("/").map(Number);
-  let current = new Date(y, m - 1, d);
+  const current = new Date(y, m - 1, d);
 	const today = new Date();
 
   // 3. Fill all days from start to today

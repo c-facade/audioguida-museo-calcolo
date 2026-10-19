@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import { SiteFooter } from '@/components/layout/site-footer';
-import * as React from "react";
 import { getDictionary } from '@/app/[lang]/dictionaries';
 import "../../[lang]/style.css";
 import Lnk from "@/components/ui/Lnk";
 
 
 export async function generateMetadata() : Promise<Metadata> {
-		let title : string, description : string;
-		title = "Museo dell&apos;informatica a Pisa: Museo degli Strumenti per il Calcolo";
-		description = "Scopri il Museo degli Strumenti per il Calcolo a Pisa, uno dei pochi musei italiani dedicati alla storia dell&apos;informatica. Computer storici, macchine Olivetti e la Calcolatrice Elettronica Pisana."; 
+		const title :string = "Museo dell&apos;informatica a Pisa: Museo degli Strumenti per il Calcolo";
+		const description :string = "Scopri il Museo degli Strumenti per il Calcolo a Pisa, uno dei pochi musei italiani dedicati alla storia dell&apos;informatica. Computer storici, macchine Olivetti e la Calcolatrice Elettronica Pisana."; 
 		return {
 			title: title,
 			description: description,
@@ -17,7 +15,7 @@ export async function generateMetadata() : Promise<Metadata> {
 }
 
 export default async function Page(){
-	let lang = 'it';
+	const lang = 'it';
 	const dict = await getDictionary(lang);
 	return(
 		<div>

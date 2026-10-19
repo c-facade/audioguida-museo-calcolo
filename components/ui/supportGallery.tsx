@@ -72,8 +72,8 @@ const images : Picture[] = [
 export default function SupportGallery() {
 	const [index, setIndex] = useState(-1);
 
-	let slides : Slide[] = [];
-	for(let image of images){
+	const slides : Slide[] = [];
+	for(const image of images){
 		slides.push(
 		{
 			src: `/supporto-guida/${image.name}`,

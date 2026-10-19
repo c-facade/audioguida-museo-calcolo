@@ -73,7 +73,7 @@ export default function Page({
 		artworkNarrationIndex = galleryTour.artworks.findIndex(
 			(artworkNarration) => artworkNarration.slug === artworkSlug
 		);
-		let artwork = galleryTour.artworks[artworkNarrationIndex];
+		const artwork = galleryTour.artworks[artworkNarrationIndex];
 		return (
 			<div>
 				<TrackVisit lang={lang}/>

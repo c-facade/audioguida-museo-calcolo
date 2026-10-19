@@ -14,7 +14,7 @@ export default function TrackVisit({ lang }) {
 				browserLang: navigator.language,
 				referrer: document.referrer,
 			})
-		});
+		}); // TODO if I want this function to be called every time a page is visited, I should add "lang" in the array below
 	}, []);
 
 	return null;

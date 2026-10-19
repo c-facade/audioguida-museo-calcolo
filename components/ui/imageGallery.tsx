@@ -26,8 +26,8 @@ export default function ImageGallery( {galleryTour, artwork}) {
 	}
 	
 
-	let slides : Slide[] = [];
-	for(let image of artwork.images){
+	const slides : Slide[] = [];
+	for(const image of artwork.images){
 		slides.push(
 		{
 			src: `/tours/${galleryTour.slug}/${artwork.slug}/${image.name}`,
